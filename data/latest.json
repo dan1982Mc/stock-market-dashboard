@@ -1,0 +1,31 @@
+{
+    "updated_at": "Not updated yet",
+    "data_through": null,
+
+    "overall": {
+        "label": "WAITING",
+        "emoji": "🟡",
+        "class": "yellow",
+        "score": 50,
+        "action": "RUN MARKET UPDATE",
+        "reason": "Run updater/update_market.py to generate current market data.",
+        "breakdown": {}
+    },
+
+    "indicators": [],
+
+    "snapshot": [],
+
+    "details": {
+        "valuation": "<p>Waiting for market data.</p>",
+        "risk": "<p>Waiting for market data.</p>"
+    },
+
+    "what_matters": [],
+
+    "watch": [],
+
+    "history": null,
+
+    "sources": ""
+}

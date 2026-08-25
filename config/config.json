@@ -1,0 +1,94 @@
+{
+    "benchmarks": {
+
+        "global": {
+            "name": "MSCI ACWI proxy",
+            "ticker": "ACWI"
+        },
+
+        "us": {
+            "name": "US equities",
+            "ticker": "SPY"
+        },
+
+        "europe": {
+            "name": "Europe",
+            "ticker": "VGK"
+        },
+
+        "emerging": {
+            "name": "Emerging Markets",
+            "ticker": "EEM"
+        },
+
+        "japan": {
+            "name": "Japan",
+            "ticker": "EWJ"
+        }
+    },
+
+
+    "volatility": {
+
+        "us": {
+            "name": "Cboe VIX",
+            "ticker": "^VIX"
+        },
+
+        "europe": {
+            "name": "STOXX VSTOXX",
+            "ticker": "^V2TX"
+        },
+
+        "developed_ex_us": {
+            "name": "Developed ex-US volatility",
+            "ticker": "^VXEFA"
+        },
+
+        "emerging": {
+            "name": "Emerging-market volatility",
+            "ticker": "^VXEM"
+        }
+    },
+
+
+    "rates": {
+
+        "us10y": {
+            "name": "US 10 Year Treasury",
+            "ticker": "^TNX"
+        },
+
+        "us3m": {
+            "name": "US 3 Month Treasury",
+            "ticker": "^IRX"
+        }
+    },
+
+
+    "scoring": {
+
+        "weights": {
+
+            "trend": 20,
+            "valuation": 20,
+            "volatility": 15,
+            "breadth": 15,
+            "rates": 15,
+            "drawdown": 10,
+            "sentiment": 5
+        }
+
+    },
+
+
+    "update": {
+
+        "price_history": "2y",
+
+        "market_days": 252,
+
+        "cape_frequency": "quarterly"
+
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "last_updated": "2026-06-30",
+
+    "source": {
+        "global": "Meb Faber / Idea Farm",
+        "us": "Robert Shiller",
+        "developed": "Meb Faber / Idea Farm",
+        "emerging": "Meb Faber / Idea Farm"
+    },
+
+    "global": null,
+    "us": null,
+    "developed": null,
+    "emerging": null,
+
+    "notes": [
+        "Update approximately quarterly.",
+        "Do not interpolate missing CAPE values.",
+        "CAPE is a long-term valuation indicator and should not be used as a short-term timing signal."
+    ]
+}
