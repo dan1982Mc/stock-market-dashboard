@@ -42,12 +42,17 @@ from config import (
 
 
 # =========================================================
-# HELPERS
+# PATHS
 # =========================================================
 
 ROOT = Path(__file__).resolve().parents[1]
+
 OUTPUT_PATH = ROOT / OUTPUT_FILE
 
+
+# =========================================================
+# HELPERS
+# =========================================================
 
 def clean_number(value, decimals=2):
     """Convert numpy/pandas numbers to JSON-safe numbers."""
@@ -68,6 +73,8 @@ def clean_number(value, decimals=2):
 
 
 def pct(value, decimals=1):
+    """Return a clean percentage value."""
+
     value = clean_number(value, decimals)
 
     if value is None:
@@ -77,6 +84,8 @@ def pct(value, decimals=1):
 
 
 def safe_last(series):
+    """Return the latest valid value from a pandas Series."""
+
     if series is None or len(series) == 0:
         return None
 
@@ -88,53 +97,8 @@ def safe_last(series):
     return float(series.iloc[-1])
 
 
-def classify(
-    value,
-    green_max=None,
-    yellow_max=None,
-    orange_max=None,
-):
-    """
-    Generic four-level classification.
-    """
-
-    if value is None:
-        return {
-            "status": "NO DATA",
-            "emoji": "⚪",
-            "class": "gray",
-        }
-
-    if green_max is not None and value <= green_max:
-        return {
-            "status": "CALM",
-            "emoji": "🟢",
-            "class": "green",
-        }
-
-    if yellow_max is not None and value <= yellow_max:
-        return {
-            "status": "NORMAL",
-            "emoji": "🟡",
-            "class": "yellow",
-        }
-
-    if orange_max is not None and value <= orange_max:
-        return {
-            "status": "ELEVATED",
-            "emoji": "🟠",
-            "class": "orange",
-        }
-
-    return {
-        "status": "STRESS",
-        "emoji": "🔴",
-        "class": "red",
-    }
-
-
 # =========================================================
-# DOWNLOAD
+# DOWNLOAD MARKET DATA
 # =========================================================
 
 def download_data():
@@ -180,6 +144,7 @@ def get_close(data, ticker):
 def calculate_trend(series):
 
     if len(series) < TREND_MA_LONG:
+
         return {
             "value": None,
             "ma50": None,
@@ -189,19 +154,34 @@ def calculate_trend(series):
 
     price = safe_last(series)
 
-    ma50 = series.rolling(TREND_MA_SHORT).mean().iloc[-1]
-    ma200 = series.rolling(TREND_MA_LONG).mean().iloc[-1]
+    ma50 = (
+        series
+        .rolling(TREND_MA_SHORT)
+        .mean()
+        .iloc[-1]
+    )
+
+    ma200 = (
+        series
+        .rolling(TREND_MA_LONG)
+        .mean()
+        .iloc[-1]
+    )
 
     if price > ma200 and ma50 > ma200:
+
         signal = "BULLISH"
 
     elif price > ma200:
+
         signal = "POSITIVE"
 
     elif price < ma200 and ma50 < ma200:
+
         signal = "BEARISH"
 
     else:
+
         signal = "MIXED"
 
     return {
@@ -223,13 +203,17 @@ def calculate_drawdown(series):
 
     running_max = series.cummax()
 
-    drawdown = (series / running_max - 1) * 100
+    drawdown = (
+        series / running_max - 1
+    ) * 100
 
-    return clean_number(drawdown.iloc[-1])
+    return clean_number(
+        drawdown.iloc[-1]
+    )
 
 
 # =========================================================
-# RETURN
+# WEEKLY RETURN
 # =========================================================
 
 def weekly_return(series):
@@ -238,13 +222,16 @@ def weekly_return(series):
         return None
 
     current = series.iloc[-1]
+
     previous = series.iloc[-6]
 
-    return clean_number((current / previous - 1) * 100)
+    return clean_number(
+        (current / previous - 1) * 100
+    )
 
 
 # =========================================================
-# VOLATILITY
+# VOLATILITY INDICATOR
 # =========================================================
 
 def build_volatility_indicator(
@@ -268,26 +255,31 @@ def build_volatility_indicator(
         }
 
     if value < calm:
+
         status = "CALM"
         emoji = "🟢"
         css = "green"
 
     elif value < normal:
+
         status = "NORMAL"
         emoji = "🟢"
         css = "green"
 
     elif value < elevated:
+
         status = "ELEVATED"
         emoji = "🟠"
         css = "orange"
 
     elif value < panic:
+
         status = "HIGH"
         emoji = "🔴"
         css = "red"
 
     else:
+
         status = "PANIC"
         emoji = "🔴"
         css = "red"
@@ -309,11 +301,11 @@ def build_volatility_indicator(
 def load_shiller_cape():
 
     """
-    Attempts to retrieve the latest US CAPE from the
-    Shiller data workbook.
+    Attempt to retrieve the latest US CAPE
+    from the Shiller/Yale dataset.
 
-    If unavailable, returns None rather than breaking
-    the entire market update.
+    If unavailable, return None instead of
+    breaking the entire dashboard update.
     """
 
     url = (
@@ -329,11 +321,13 @@ def load_shiller_cape():
             skiprows=7,
         )
 
-        # Search columns for CAPE.
         possible = [
-            c for c in df.columns
-            if "CAPE" in str(c).upper()
-            or "P/E10" in str(c).upper()
+            c
+            for c in df.columns
+            if (
+                "CAPE" in str(c).upper()
+                or "P/E10" in str(c).upper()
+            )
         ]
 
         if not possible:
@@ -349,11 +343,17 @@ def load_shiller_cape():
         if len(series) == 0:
             return None
 
-        return clean_number(series.iloc[-1], 1)
+        return clean_number(
+            series.iloc[-1],
+            1
+        )
 
     except Exception as exc:
 
-        print("CAPE unavailable:", exc)
+        print(
+            "CAPE unavailable:",
+            exc
+        )
 
         return None
 
@@ -374,120 +374,142 @@ def calculate_score(
 
     breakdown = {}
 
-    # ---------------------------------------------
-    # Trend
-    # ---------------------------------------------
+    # -----------------------------------------------------
+    # TREND
+    # -----------------------------------------------------
 
     if trend_signal == "BULLISH":
+
         score += 18
         breakdown["Trend"] = 18
 
     elif trend_signal == "POSITIVE":
+
         score += 10
         breakdown["Trend"] = 10
 
     elif trend_signal == "MIXED":
+
         score += 0
         breakdown["Trend"] = 10
 
     elif trend_signal == "BEARISH":
+
         score -= 18
         breakdown["Trend"] = 2
 
     else:
+
         breakdown["Trend"] = 10
 
 
-    # ---------------------------------------------
+    # -----------------------------------------------------
     # VIX
-    # ---------------------------------------------
+    # -----------------------------------------------------
 
     if vix is not None:
 
         if vix < VIX_NORMAL:
+
             score += 10
             breakdown["Volatility"] = 10
 
         elif vix < VIX_ELEVATED:
+
             score += 3
             breakdown["Volatility"] = 6
 
         else:
+
             score -= 12
             breakdown["Volatility"] = 1
 
     else:
+
         breakdown["Volatility"] = 5
 
 
-    # ---------------------------------------------
+    # -----------------------------------------------------
     # VSTOXX
-    # ---------------------------------------------
+    # -----------------------------------------------------
 
     if vstoxx is not None:
 
         if vstoxx < VSTOXX_NORMAL:
+
             score += 5
 
         elif vstoxx >= VSTOXX_ELEVATED:
+
             score -= 8
 
 
-    # ---------------------------------------------
-    # Drawdown
-    # ---------------------------------------------
+    # -----------------------------------------------------
+    # DRAWDOWN
+    # -----------------------------------------------------
 
     if drawdown is not None:
 
         if drawdown > DRAWDOWN_WARNING:
+
             score += 8
             breakdown["Drawdown"] = 8
 
         elif drawdown > DRAWDOWN_STRESS:
-            score += 0
+
             breakdown["Drawdown"] = 5
 
         else:
+
             score -= 10
             breakdown["Drawdown"] = 1
 
     else:
+
         breakdown["Drawdown"] = 5
 
 
-    # ---------------------------------------------
+    # -----------------------------------------------------
     # CAPE
-    # ---------------------------------------------
+    # -----------------------------------------------------
 
     if cape is not None:
 
         if cape < 20:
+
             score += 8
             breakdown["Valuation"] = 8
 
         elif cape < 28:
+
             score += 3
             breakdown["Valuation"] = 5
 
         elif cape < 35:
+
             score -= 4
             breakdown["Valuation"] = 3
 
         else:
+
             score -= 10
             breakdown["Valuation"] = 0
 
     else:
+
         breakdown["Valuation"] = 5
 
 
-    score = max(0, min(100, score))
+    score = max(
+        0,
+        min(100, score)
+    )
 
     return score, breakdown
 
 
 # =========================================================
-# REGIME
+# MARKET REGIME
 # =========================================================
 
 def determine_regime(score):
@@ -516,14 +538,20 @@ def determine_regime(score):
             "label": "CAUTIOUS",
             "emoji": "🟠",
             "class": "orange",
-            "action": "KEEP INVESTING — AVOID AGGRESSIVE BUYING",
+            "action": (
+                "KEEP INVESTING — "
+                "AVOID AGGRESSIVE BUYING"
+            ),
         }
 
     return {
         "label": "STRESS",
         "emoji": "🔴",
         "class": "red",
-        "action": "REDUCE RISK / REVIEW ALLOCATION",
+        "action": (
+            "REDUCE RISK / "
+            "REVIEW ALLOCATION"
+        ),
     }
 
 
@@ -533,55 +561,107 @@ def determine_regime(score):
 
 def main():
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(
+        timezone.utc
+    )
+
+    # -----------------------------------------------------
+    # DOWNLOAD
+    # -----------------------------------------------------
 
     data = download_data()
 
     # -----------------------------------------------------
-    # Series
+    # MARKET SERIES
     # -----------------------------------------------------
 
-    acwi = get_close(data, TICKERS["ACWI"])
-    europe = get_close(data, TICKERS["Europe"])
-    em = get_close(data, TICKERS["EM"])
-    sp500 = get_close(data, TICKERS["SP500"])
+    acwi = get_close(
+        data,
+        TICKERS["ACWI"]
+    )
 
-    vix_series = get_close(data, TICKERS["VIX"])
-    vstoxx_series = get_close(data, TICKERS["VSTOXX"])
-    us10y_series = get_close(data, TICKERS["US10Y"])
+    europe = get_close(
+        data,
+        TICKERS["Europe"]
+    )
+
+    em = get_close(
+        data,
+        TICKERS["EM"]
+    )
+
+    sp500 = get_close(
+        data,
+        TICKERS["SP500"]
+    )
+
+    vix_series = get_close(
+        data,
+        TICKERS["VIX"]
+    )
+
+    vstoxx_series = get_close(
+        data,
+        TICKERS["VSTOXX"]
+    )
+
+    us10y_series = get_close(
+        data,
+        TICKERS["US10Y"]
+    )
 
     # -----------------------------------------------------
-    # Current values
+    # CURRENT VALUES
     # -----------------------------------------------------
 
-    vix = safe_last(vix_series)
-    vstoxx = safe_last(vstoxx_series)
-    us10y = safe_last(us10y_series)
+    vix = safe_last(
+        vix_series
+    )
+
+    vstoxx = safe_last(
+        vstoxx_series
+    )
+
+    us10y = safe_last(
+        us10y_series
+    )
 
     cape = load_shiller_cape()
 
     # -----------------------------------------------------
-    # Trend
+    # TREND
     # -----------------------------------------------------
 
-    trend = calculate_trend(acwi)
+    trend = calculate_trend(
+        acwi
+    )
 
     # -----------------------------------------------------
-    # Drawdown
+    # DRAWDOWN
     # -----------------------------------------------------
 
-    drawdown = calculate_drawdown(acwi)
+    drawdown = calculate_drawdown(
+        acwi
+    )
 
     # -----------------------------------------------------
-    # Weekly returns
+    # WEEKLY RETURNS
     # -----------------------------------------------------
 
-    acwi_week = weekly_return(acwi)
-    europe_week = weekly_return(europe)
-    em_week = weekly_return(em)
+    acwi_week = weekly_return(
+        acwi
+    )
+
+    europe_week = weekly_return(
+        europe
+    )
+
+    em_week = weekly_return(
+        em
+    )
 
     # -----------------------------------------------------
-    # Score
+    # SCORE
     # -----------------------------------------------------
 
     score, breakdown = calculate_score(
@@ -592,216 +672,432 @@ def main():
         cape,
     )
 
-    regime = determine_regime(score)
+    regime = determine_regime(
+        score
+    )
 
     reason = (
-        f"Global trend is {trend['signal'].lower()}. "
-        f"Volatility and valuation are incorporated into the score. "
+        f"Global trend is "
+        f"{trend['signal'].lower()}. "
+        f"Volatility and valuation are "
+        f"incorporated into the score. "
         f"Current score: {score}/100."
     )
 
-    # -----------------------------------------------------
-    # Indicators
-    # -----------------------------------------------------
+    # =====================================================
+    # INDICATORS
+    # =====================================================
 
     indicators = []
 
-    # Trend
+    # -----------------------------------------------------
+    # GLOBAL TREND
+    # -----------------------------------------------------
+
     trend_css = {
-        "BULLISH": ("BULLISH", "🟢", "green"),
-        "POSITIVE": ("POSITIVE", "🟢", "green"),
-        "MIXED": ("MIXED", "🟡", "yellow"),
-        "BEARISH": ("BEARISH", "🔴", "red"),
+
+        "BULLISH": (
+            "BULLISH",
+            "🟢",
+            "green"
+        ),
+
+        "POSITIVE": (
+            "POSITIVE",
+            "🟢",
+            "green"
+        ),
+
+        "MIXED": (
+            "MIXED",
+            "🟡",
+            "yellow"
+        ),
+
+        "BEARISH": (
+            "BEARISH",
+            "🔴",
+            "red"
+        ),
     }
 
-    status, emoji, css = trend_css.get(
+    (
+        status,
+        emoji,
+        css
+    ) = trend_css.get(
         trend["signal"],
-        ("NO DATA", "⚪", "gray")
+        (
+            "NO DATA",
+            "⚪",
+            "gray"
+        )
     )
 
-    indicators.append({
-        "name": "🌍 Global Trend",
-        "status": status,
-        "emoji": emoji,
-        "class": css,
-        "value": (
+    if trend["value"] is not None:
+
+        trend_value = (
             f"ACWI {trend['value']:.2f}"
-            if trend["value"] is not None
-            else "—"
-        ),
-        "detail": (
+        )
+
+    else:
+
+        trend_value = "—"
+
+    if (
+        trend["ma50"] is not None
+        and trend["ma200"] is not None
+    ):
+
+        trend_detail = (
             f"50DMA {trend['ma50']:.2f} · "
             f"200DMA {trend['ma200']:.2f}"
-            if trend["ma50"] is not None
-            else "Insufficient data."
         )
+
+    else:
+
+        trend_detail = (
+            "Insufficient data."
+        )
+
+    indicators.append({
+
+        "name": "🌍 Global Trend",
+
+        "status": status,
+
+        "emoji": emoji,
+
+        "class": css,
+
+        "value": trend_value,
+
+        "detail": trend_detail,
+
     })
 
-    # Valuation
+    # -----------------------------------------------------
+    # VALUATION
+    # -----------------------------------------------------
+
     if cape is None:
 
         valuation_status = "NO DATA"
+
         valuation_emoji = "⚪"
+
         valuation_class = "gray"
-        valuation_value = "CAPE unavailable"
+
+        valuation_value = (
+            "CAPE unavailable"
+        )
 
     elif cape < 20:
 
         valuation_status = "ATTRACTIVE"
+
         valuation_emoji = "🟢"
+
         valuation_class = "green"
-        valuation_value = f"US CAPE {cape:.1f}"
+
+        valuation_value = (
+            f"US CAPE {cape:.1f}"
+        )
 
     elif cape < 28:
 
         valuation_status = "NORMAL"
+
         valuation_emoji = "🟡"
+
         valuation_class = "yellow"
-        valuation_value = f"US CAPE {cape:.1f}"
+
+        valuation_value = (
+            f"US CAPE {cape:.1f}"
+        )
 
     elif cape < 35:
 
         valuation_status = "ELEVATED"
+
         valuation_emoji = "🟠"
+
         valuation_class = "orange"
-        valuation_value = f"US CAPE {cape:.1f}"
+
+        valuation_value = (
+            f"US CAPE {cape:.1f}"
+        )
 
     else:
 
         valuation_status = "EXPENSIVE"
+
         valuation_emoji = "🔴"
+
         valuation_class = "red"
-        valuation_value = f"US CAPE {cape:.1f}"
+
+        valuation_value = (
+            f"US CAPE {cape:.1f}"
+        )
 
     indicators.append({
+
         "name": "💰 Valuation",
+
         "status": valuation_status,
+
         "emoji": valuation_emoji,
+
         "class": valuation_class,
+
         "value": valuation_value,
-        "detail": "US CAPE. Global valuation will be added in a later data-source upgrade."
+
+        "detail": (
+            "US CAPE. Global valuation will "
+            "be added in a later data-source "
+            "upgrade."
+        ),
+
     })
 
-    # VIX
+    # -----------------------------------------------------
+    # US VOLATILITY
+    # -----------------------------------------------------
+
     indicators.append(
+
         build_volatility_indicator(
+
             "😨 US Volatility",
+
             clean_number(vix),
+
             VIX_CALM,
+
             VIX_NORMAL,
+
             VIX_ELEVATED,
+
             VIX_PANIC,
+
         )
+
     )
 
-    # VSTOXX
+    # -----------------------------------------------------
+    # EUROPE VOLATILITY
+    # -----------------------------------------------------
+
     indicators.append(
+
         build_volatility_indicator(
+
             "🇪🇺 Europe Volatility",
+
             clean_number(vstoxx),
+
             VSTOXX_CALM,
+
             VSTOXX_NORMAL,
+
             VSTOXX_ELEVATED,
+
             VSTOXX_PANIC,
+
         )
+
     )
 
-    # Drawdown
+    # -----------------------------------------------------
+    # DRAWDOWN
+    # -----------------------------------------------------
+
     if drawdown is None:
 
         dd_status = "NO DATA"
+
         dd_emoji = "⚪"
+
         dd_class = "gray"
 
     elif drawdown > DRAWDOWN_WARNING:
 
         dd_status = "NORMAL"
+
         dd_emoji = "🟢"
+
         dd_class = "green"
 
     elif drawdown > DRAWDOWN_STRESS:
 
         dd_status = "CORRECTION"
+
         dd_emoji = "🟠"
+
         dd_class = "orange"
 
     else:
 
         dd_status = "BEAR MARKET"
+
         dd_emoji = "🔴"
+
         dd_class = "red"
 
     indicators.append({
+
         "name": "📉 Global Drawdown",
+
         "status": dd_status,
+
         "emoji": dd_emoji,
+
         "class": dd_class,
-        "value": f"{drawdown:.1f}%" if drawdown is not None else "—",
-        "detail": "ACWI drawdown from its recent high."
+
+        "value": (
+            f"{drawdown:.1f}%"
+            if drawdown is not None
+            else "—"
+        ),
+
+        "detail": (
+            "ACWI drawdown from "
+            "its recent high."
+        ),
+
     })
 
-    # Rates
+    # -----------------------------------------------------
+    # US 10Y
+    # -----------------------------------------------------
+
     indicators.append({
+
         "name": "💵 US 10Y Yield",
+
         "status": "MONITOR",
+
         "emoji": "🟡",
+
         "class": "yellow",
-        "value": f"{us10y:.2f}%" if us10y is not None else "—",
-        "detail": "Long-term interest rate proxy."
+
+        "value": (
+            f"{us10y:.2f}%"
+            if us10y is not None
+            else "—"
+        ),
+
+        "detail": (
+            "Long-term interest "
+            "rate proxy."
+        ),
+
     })
 
-    # -----------------------------------------------------
-    # Snapshot
-    # -----------------------------------------------------
+    # =====================================================
+    # SNAPSHOT
+    # =====================================================
 
     snapshot = [
+
         {
             "name": "ACWI",
-            "value": f"{acwi_week:+.1f}%"
-            if acwi_week is not None else "—"
+            "value": (
+                f"{acwi_week:+.1f}%"
+                if acwi_week is not None
+                else "—"
+            ),
         },
+
         {
             "name": "Europe",
-            "value": f"{europe_week:+.1f}%"
-            if europe_week is not None else "—"
+            "value": (
+                f"{europe_week:+.1f}%"
+                if europe_week is not None
+                else "—"
+            ),
         },
+
         {
             "name": "EM",
-            "value": f"{em_week:+.1f}%"
-            if em_week is not None else "—"
+            "value": (
+                f"{em_week:+.1f}%"
+                if em_week is not None
+                else "—"
+            ),
         },
+
         {
             "name": "VIX",
-            "value": f"{vix:.1f}"
-            if vix is not None else "—"
+            "value": (
+                f"{vix:.1f}"
+                if vix is not None
+                else "—"
+            ),
         },
+
         {
             "name": "VSTOXX",
-            "value": f"{vstoxx:.1f}"
-            if vstoxx is not None else "—"
+            "value": (
+                f"{vstoxx:.1f}"
+                if vstoxx is not None
+                else "—"
+            ),
         },
+
         {
             "name": "US10Y",
-            "value": f"{us10y:.2f}%"
-            if us10y is not None else "—"
+            "value": (
+                f"{us10y:.2f}%"
+                if us10y is not None
+                else "—"
+            ),
         },
+
         {
             "name": "US CAPE",
-            "value": f"{cape:.1f}"
-            if cape is not None else "—"
-        }
+            "value": (
+                f"{cape:.1f}"
+                if cape is not None
+                else "—"
+            ),
+        },
+
     ]
 
-    # -----------------------------------------------------
-    # Details
-    # -----------------------------------------------------
+    # =====================================================
+    # CORRECTED TEXT BLOCK
+    # =====================================================
+
+    cape_text = (
+        f"{cape:.1f}"
+        if cape is not None
+        else "Unavailable"
+    )
+
+    vix_text = (
+        f"{vix:.1f}"
+        if vix is not None
+        else "Unavailable"
+    )
+
+    vstoxx_text = (
+        f"{vstoxx:.1f}"
+        if vstoxx is not None
+        else "Unavailable"
+    )
+
+    drawdown_text = (
+        f"{drawdown:.1f}%"
+        if drawdown is not None
+        else "Unavailable"
+    )
 
     valuation_html = f"""
     <p>
-        <strong>US CAPE:</strong>
-        {cape:.1f}
-        if cape is not None else "Unavailable"
+        <strong>US CAPE:</strong> {cape_text}
     </p>
+
     <p>
         CAPE is a long-term valuation indicator.
         It should be used for expected-return context,
@@ -811,25 +1107,32 @@ def main():
 
     risk_html = f"""
     <p>
-        <strong>VIX:</strong>
-        {vix:.1f}
-        if vix is not None else "Unavailable"
+        <strong>VIX:</strong> {vix_text}
     </p>
+
     <p>
-        <strong>VSTOXX:</strong>
-        {vstoxx:.1f}
-        if vstoxx is not None else "Unavailable"
+        <strong>VSTOXX:</strong> {vstoxx_text}
     </p>
+
     <p>
-        <strong>ACWI drawdown:</strong>
-        {drawdown:.1f}%
-        if drawdown is not None else "Unavailable"
+        <strong>ACWI drawdown:</strong> {drawdown_text}
     </p>
     """
 
-    # -----------------------------------------------------
-    # Output
-    # -----------------------------------------------------
+    # =====================================================
+    # OUTPUT
+    # =====================================================
+
+    if len(acwi):
+
+        data_through = (
+            acwi.index[-1]
+            .strftime("%Y-%m-%d")
+        )
+
+    else:
+
+        data_through = None
 
     result = {
 
@@ -841,20 +1144,24 @@ def main():
             "%Y-%m-%d %H:%M UTC"
         ),
 
-        "data_through": (
-            acwi.index[-1].strftime("%Y-%m-%d")
-            if len(acwi)
-            else None
-        ),
+        "data_through": data_through,
 
         "overall": {
+
             "label": regime["label"],
+
             "emoji": regime["emoji"],
+
             "class": regime["class"],
+
             "score": score,
+
             "action": regime["action"],
+
             "reason": reason,
+
             "breakdown": breakdown,
+
         },
 
         "indicators": indicators,
@@ -862,47 +1169,73 @@ def main():
         "snapshot": snapshot,
 
         "details": {
-            "valuation": valuation_html,
-            "risk": risk_html,
+
+            "valuation":
+                valuation_html,
+
+            "risk":
+                risk_html,
+
         },
 
         "what_matters": [
-            f"Global trend: {trend['signal']}.",
+
+            f"Global trend: "
+            f"{trend['signal']}.",
+
             (
                 f"US CAPE: {cape:.1f}."
                 if cape is not None
                 else "US CAPE unavailable."
             ),
+
             (
                 f"VIX: {vix:.1f}."
                 if vix is not None
                 else "VIX unavailable."
             ),
+
             (
-                f"ACWI drawdown: {drawdown:.1f}%."
+                f"ACWI drawdown: "
+                f"{drawdown:.1f}%."
                 if drawdown is not None
                 else "ACWI drawdown unavailable."
             ),
+
         ],
 
         "watch": [
+
             "ACWI vs 200-day moving average",
+
             "US and European volatility",
+
             "Global drawdown",
+
             "US CAPE",
+
             "US 10-year yield",
+
         ],
 
         "history": {
+
             "acwi": [],
+
             "score": [],
+
         },
 
         "sources": (
             "Yahoo Finance via yfinance; "
             "Robert Shiller/Yale CAPE dataset."
         ),
+
     }
+
+    # -----------------------------------------------------
+    # WRITE JSON
+    # -----------------------------------------------------
 
     OUTPUT_PATH.parent.mkdir(
         parents=True,
@@ -922,19 +1255,42 @@ def main():
             ensure_ascii=False,
         )
 
+    # -----------------------------------------------------
+    # TERMINAL SUMMARY
+    # -----------------------------------------------------
+
     print()
     print("===================================")
     print(" MARKET UPDATE COMPLETE")
     print("===================================")
-    print(f"Score: {score}")
-    print(f"Regime: {regime['label']}")
-    print(f"ACWI: {trend['value']}")
-    print(f"VIX: {vix}")
-    print(f"VSTOXX: {vstoxx}")
-    print(f"CAPE: {cape}")
-    print(f"Output: {OUTPUT_PATH}")
+    print(
+        f"Score: {score}"
+    )
+    print(
+        f"Regime: {regime['label']}"
+    )
+    print(
+        f"ACWI: {trend['value']}"
+    )
+    print(
+        f"VIX: {vix}"
+    )
+    print(
+        f"VSTOXX: {vstoxx}"
+    )
+    print(
+        f"CAPE: {cape}"
+    )
+    print(
+        f"Output: {OUTPUT_PATH}"
+    )
     print("===================================")
 
 
+# =========================================================
+# RUN
+# =========================================================
+
 if __name__ == "__main__":
+
     main()
