@@ -1,114 +1,122 @@
 {
-  "updated_at": "Demo build",
+  "version": "1.1.0",
+  "mode": "LIVE",
+  "updated_at": "2026-08-25 17:54 UTC",
   "data_through": "2026-08-25",
-
   "overall": {
-    "label": "NEUTRAL",
-    "emoji": "🟡",
-    "class": "yellow",
-    "score": 58,
-    "action": "CONTINUE NORMAL DCA",
-    "reason": "Valuations are elevated, but there is currently no major global stress signal.",
+    "label": "BULLISH",
+    "emoji": "🟢",
+    "class": "green",
+    "score": 86,
+    "action": "MAINTAIN NORMAL INVESTING",
+    "reason": "Global trend is bullish. Volatility and valuation are incorporated into the score. Current score: 86/100.",
     "breakdown": {
-      "Trend": "17 / 20",
-      "Valuation": "6 / 20",
-      "Volatility": "13 / 15",
-      "Breadth": "8 / 15",
-      "Rates": "5 / 15",
-      "Drawdown": "6 / 10",
-      "Sentiment": "3 / 5"
+      "Trend": 18,
+      "Volatility": 10,
+      "Drawdown": 8,
+      "Valuation": 5
     }
   },
-
   "indicators": [
     {
       "name": "🌍 Global Trend",
       "status": "BULLISH",
       "emoji": "🟢",
       "class": "green",
-      "value": "ACWI above 200DMA",
-      "detail": "Trend remains positive."
+      "value": "ACWI 160.90",
+      "detail": "50DMA 157.58 · 200DMA 147.88"
     },
     {
       "name": "💰 Valuation",
-      "status": "EXPENSIVE",
-      "emoji": "🟠",
-      "class": "orange",
-      "value": "Global CAPE 20 • US CAPE 41",
-      "detail": "US remains historically expensive."
+      "status": "NO DATA",
+      "emoji": "⚪",
+      "class": "gray",
+      "value": "CAPE unavailable",
+      "detail": "US CAPE. Global valuation will be added in a later data-source upgrade."
     },
     {
-      "name": "😨 Volatility",
+      "name": "😨 US Volatility",
       "status": "NORMAL",
       "emoji": "🟢",
       "class": "green",
-      "value": "VIX 17 • VSTOXX 18",
-      "detail": "No panic signal."
+      "value": "15.6",
+      "detail": "😨 US Volatility current reading."
     },
     {
-      "name": "📊 Breadth",
-      "status": "MIXED",
-      "emoji": "🟡",
-      "class": "yellow",
-      "value": "67%",
-      "detail": "Regional benchmark proxy."
+      "name": "🇪🇺 Europe Volatility",
+      "status": "NO DATA",
+      "emoji": "⚪",
+      "class": "gray",
+      "value": "—",
+      "detail": "Data unavailable."
     },
     {
-      "name": "💵 Rates",
-      "status": "RESTRICTIVE",
-      "emoji": "🟠",
-      "class": "orange",
-      "value": "US10Y 4.2%",
-      "detail": "Rates remain a headwind."
-    },
-    {
-      "name": "📉 Drawdown",
+      "name": "📉 Global Drawdown",
       "status": "NORMAL",
       "emoji": "🟢",
       "class": "green",
-      "value": "-3.8%",
-      "detail": "Well above bear-market territory."
+      "value": "-1.0%",
+      "detail": "ACWI drawdown from its recent high."
     },
     {
-      "name": "🧠 Sentiment",
-      "status": "NEUTRAL",
+      "name": "💵 US 10Y Yield",
+      "status": "MONITOR",
       "emoji": "🟡",
       "class": "yellow",
-      "value": "Optimistic",
-      "detail": "Used as confirmation only."
+      "value": "4.64%",
+      "detail": "Long-term interest rate proxy."
     }
   ],
-
   "snapshot": [
-    { "name": "ACWI", "value": "+1.2%" },
-    { "name": "Europe", "value": "+0.8%" },
-    { "name": "EM", "value": "+1.7%" },
-    { "name": "VIX", "value": "17" },
-    { "name": "VSTOXX", "value": "18" },
-    { "name": "US10Y", "value": "4.2%" },
-    { "name": "Global CAPE", "value": "20" },
-    { "name": "US CAPE", "value": "41" }
+    {
+      "name": "ACWI",
+      "value": "+0.5%"
+    },
+    {
+      "name": "Europe",
+      "value": "+1.6%"
+    },
+    {
+      "name": "EM",
+      "value": "+2.7%"
+    },
+    {
+      "name": "VIX",
+      "value": "15.6"
+    },
+    {
+      "name": "VSTOXX",
+      "value": "—"
+    },
+    {
+      "name": "US10Y",
+      "value": "4.64%"
+    },
+    {
+      "name": "US CAPE",
+      "value": "—"
+    }
   ],
-
   "details": {
-    "valuation": "<p><strong>Global CAPE:</strong> 20 • <strong>US CAPE:</strong> 41 • Developed markets remain elevated while emerging markets are more attractive.</p>",
-    "risk": "<p><strong>Volatility:</strong> US 17 • Europe 18 • Emerging Markets 21 • Current drawdown -3.8%.</p>"
+    "valuation": "\n    <p>\n        <strong>US CAPE:</strong> Unavailable\n    </p>\n\n    <p>\n        CAPE is a long-term valuation indicator.\n        It should be used for expected-return context,\n        not short-term market timing.\n    </p>\n    ",
+    "risk": "\n    <p>\n        <strong>VIX:</strong> 15.6\n    </p>\n\n    <p>\n        <strong>VSTOXX:</strong> Unavailable\n    </p>\n\n    <p>\n        <strong>ACWI drawdown:</strong> -1.0%\n    </p>\n    "
   },
-
   "what_matters": [
-    "Global trend remains positive.",
-    "US valuations remain historically high.",
-    "Volatility remains low across major regions.",
-    "Breadth is mixed and worth monitoring."
+    "Global trend: BULLISH.",
+    "US CAPE unavailable.",
+    "VIX: 15.6.",
+    "ACWI drawdown: -1.0%."
   ],
-
   "watch": [
-    "ACWI vs 200DMA",
-    "Global breadth",
-    "VIX",
-    "Long-term yields",
-    "Next CAPE update"
+    "ACWI vs 200-day moving average",
+    "US and European volatility",
+    "Global drawdown",
+    "US CAPE",
+    "US 10-year yield"
   ],
-
-  "sources": "Demo dataset. Live updates will later come from GitHub Actions + yfinance."
+  "history": {
+    "acwi": [],
+    "score": []
+  },
+  "sources": "Yahoo Finance via yfinance; Robert Shiller/Yale CAPE dataset."
 }
