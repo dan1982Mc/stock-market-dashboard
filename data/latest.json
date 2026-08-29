@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
   "mode": "LIVE",
-  "updated_at": "2026-08-25 17:54 UTC",
-  "data_through": "2026-08-25",
+  "updated_at": "2026-08-29 01:41 UTC",
+  "data_through": "2026-08-28",
   "overall": {
     "label": "BULLISH",
     "emoji": "🟢",
@@ -23,8 +23,8 @@
       "status": "BULLISH",
       "emoji": "🟢",
       "class": "green",
-      "value": "ACWI 160.90",
-      "detail": "50DMA 157.58 · 200DMA 147.88"
+      "value": "ACWI 161.09",
+      "detail": "50DMA 157.83 · 200DMA 148.23"
     },
     {
       "name": "💰 Valuation",
@@ -36,10 +36,10 @@
     },
     {
       "name": "😨 US Volatility",
-      "status": "NORMAL",
+      "status": "CALM",
       "emoji": "🟢",
       "class": "green",
-      "value": "15.6",
+      "value": "14.4",
       "detail": "😨 US Volatility current reading."
     },
     {
@@ -55,7 +55,7 @@
       "status": "NORMAL",
       "emoji": "🟢",
       "class": "green",
-      "value": "-1.0%",
+      "value": "-0.9%",
       "detail": "ACWI drawdown from its recent high."
     },
     {
@@ -63,26 +63,26 @@
       "status": "MONITOR",
       "emoji": "🟡",
       "class": "yellow",
-      "value": "4.64%",
+      "value": "4.72%",
       "detail": "Long-term interest rate proxy."
     }
   ],
   "snapshot": [
     {
       "name": "ACWI",
-      "value": "+0.5%"
+      "value": "+0.2%"
     },
     {
       "name": "Europe",
-      "value": "+1.6%"
+      "value": "-0.8%"
     },
     {
       "name": "EM",
-      "value": "+2.7%"
+      "value": "+0.0%"
     },
     {
       "name": "VIX",
-      "value": "15.6"
+      "value": "14.4"
     },
     {
       "name": "VSTOXX",
@@ -90,7 +90,7 @@
     },
     {
       "name": "US10Y",
-      "value": "4.64%"
+      "value": "4.72%"
     },
     {
       "name": "US CAPE",
@@ -99,13 +99,13 @@
   ],
   "details": {
     "valuation": "\n    <p>\n        <strong>US CAPE:</strong> Unavailable\n    </p>\n\n    <p>\n        CAPE is a long-term valuation indicator.\n        It should be used for expected-return context,\n        not short-term market timing.\n    </p>\n    ",
-    "risk": "\n    <p>\n        <strong>VIX:</strong> 15.6\n    </p>\n\n    <p>\n        <strong>VSTOXX:</strong> Unavailable\n    </p>\n\n    <p>\n        <strong>ACWI drawdown:</strong> -1.0%\n    </p>\n    "
+    "risk": "\n    <p>\n        <strong>VIX:</strong> 14.4\n    </p>\n\n    <p>\n        <strong>VSTOXX:</strong> Unavailable\n    </p>\n\n    <p>\n        <strong>ACWI drawdown:</strong> -0.9%\n    </p>\n    "
   },
   "what_matters": [
     "Global trend: BULLISH.",
     "US CAPE unavailable.",
-    "VIX: 15.6.",
-    "ACWI drawdown: -1.0%."
+    "VIX: 14.4.",
+    "ACWI drawdown: -0.9%."
   ],
   "watch": [
     "ACWI vs 200-day moving average",
