@@ -1,159 +1,42 @@
-/* ============================================================
-   SIMPLE CANVAS CHART
-============================================================ */
+function drawACWIChart(history, period) {
+  const canvas = document.getElementById("acwiChart");
+  if (!canvas || !history?.acwi?.length) return;
+  const points = filterPeriod(history, period);
+  if (points.length < 2) return;
 
-function drawTrendChart(history) {
+  const rect = canvas.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  const width = Math.max(300, rect.width);
+  const height = rect.height || 290;
+  canvas.width = Math.round(width*dpr);
+  canvas.height = Math.round(height*dpr);
+  const ctx = canvas.getContext("2d");
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,width,height);
 
-    const canvas =
-        document.getElementById(
-            "trendChart"
-        );
+  const pad = {left:42,right:16,top:18,bottom:28};
+  const vals = points.map(p => p.value).filter(Number.isFinite);
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const range = max-min || 1;
+  const x = i => pad.left + i*(width-pad.left-pad.right)/(points.length-1);
+  const y = v => height-pad.bottom-(v-min)/range*(height-pad.top-pad.bottom);
 
-    if (!canvas || !history) {
-        return;
-    }
-
-    const ctx =
-        canvas.getContext("2d");
-
-    const width =
-        canvas.clientWidth;
-
-    const height = 300;
-
-    canvas.width =
-        width * window.devicePixelRatio;
-
-    canvas.height =
-        height * window.devicePixelRatio;
-
-    ctx.scale(
-        window.devicePixelRatio,
-        window.devicePixelRatio
-    );
-
-    const values =
-        history.values;
-
-    if (!values || values.length < 2) {
-        return;
-    }
-
-    const min =
-        Math.min(...values);
-
-    const max =
-        Math.max(...values);
-
-    const padding = 30;
-
-    function x(i) {
-
-        return padding +
-            i *
-            (
-                (width - padding * 2) /
-                (values.length - 1)
-            );
-
-    }
-
-    function y(value) {
-
-        return height -
-            padding -
-            (
-                (value - min) /
-                (max - min || 1)
-            )
-            *
-            (height - padding * 2);
-
-    }
-
-    ctx.clearRect(
-        0,
-        0,
-        width,
-        height
-    );
-
-
-    /*
-       Grid
-    */
-
-    ctx.strokeStyle =
-        "#243b4a";
-
-    ctx.lineWidth = 1;
-
-    for (
-        let i = 0;
-        i < 5;
-        i++
-    ) {
-
-        const yy =
-            padding +
-            i *
-            (
-                (height - padding * 2) /
-                4
-            );
-
-        ctx.beginPath();
-
-        ctx.moveTo(
-            padding,
-            yy
-        );
-
-        ctx.lineTo(
-            width - padding,
-            yy
-        );
-
-        ctx.stroke();
-
-    }
-
-
-    /*
-       Line
-    */
-
-    ctx.strokeStyle =
-        "#72b6ff";
-
-    ctx.lineWidth = 2;
-
-    ctx.beginPath();
-
-    values.forEach(
-        (value, i) => {
-
-            const xx = x(i);
-            const yy = y(value);
-
-            if (i === 0) {
-
-                ctx.moveTo(
-                    xx,
-                    yy
-                );
-
-            } else {
-
-                ctx.lineTo(
-                    xx,
-                    yy
-                );
-
-            }
-
-        }
-    );
-
-    ctx.stroke();
+  ctx.strokeStyle = "#223743"; ctx.lineWidth = 1;
+  for(let i=0;i<4;i++){
+    const yy=pad.top+i*(height-pad.top-pad.bottom)/3;
+    ctx.beginPath(); ctx.moveTo(pad.left,yy); ctx.lineTo(width-pad.right,yy); ctx.stroke();
+  }
+  ctx.strokeStyle = "#e85b5b"; ctx.lineWidth = 2.2; ctx.beginPath();
+  points.forEach((p,i)=>{ const xx=x(i), yy=y(p.value); i?ctx.lineTo(xx,yy):ctx.moveTo(xx,yy); }); ctx.stroke();
+  ctx.fillStyle="#8fa4b2"; ctx.font="10px system-ui,sans-serif";
+  ctx.fillText(points[0].date,pad.left,height-8); ctx.fillText(points[points.length-1].date,width-70,height-8);
+  ctx.fillText(max.toFixed(0),6,pad.top+4); ctx.fillText(min.toFixed(0),6,height-pad.bottom);
 }
+
+function filterPeriod(history, period){
+  const n={"1y":252,"3y":756,"5y":1260,"all":history.acwi.length}[period] || 252;
+  const start=Math.max(0,history.acwi.length-n);
+  return history.acwi.slice(start).map((value,i)=>({value,date:history.dates[start+i] || ""}));
+}
+
+window.addEventListener("resize",()=>{ if(window.historyDataForChart) drawACWIChart(window.historyDataForChart, document.querySelector(".period-button.active")?.dataset.period || "1y"); });
