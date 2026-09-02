@@ -33,13 +33,10 @@ jobs:
       - name: Finalize data quality
         run: python updater/finalize_data.py
 
-      - name: Update cached market news
-        run: python updater/fetch_news.py
-
       - name: Commit updated data
         run: |
           git config user.name "market-dashboard-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/latest.json data/history.json data/news.json
-          git diff --cached --quiet || git commit -m "Update V2 market data and news"
+          git add data/latest.json data/history.json
+          git diff --cached --quiet || git commit -m "Update V2 market data"
           git push
