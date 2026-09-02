@@ -52,3 +52,24 @@ def band(series, decimals=2):
         return None
     p05,p25,p50,p75,p95=np.percentile(values,[5,25,50,75,95])
     return {"p05":clean(p05,decimals),"p25":clean(p25,decimals),"p50":clean(p50,decimals),"p75":clean(p75,decimals),"p95":clean(p95,decimals),"p05_label":clean(p05,decimals),"p95_label":clean(p95,decimals)}
+
+
+def typical_range(name):
+    """Return meaningful reference limits independent of historical P25/P75."""
+    ranges = {
+        "ACWI": (-5.0, 10.0),
+        "US equities": (-5.0, 10.0),
+        "Europe": (-7.0, 10.0),
+        "Emerging markets": (-7.0, 12.0),
+        "US volatility (VIX)": (12.0, 20.0),
+        "Europe volatility (VSTOXX)": (15.0, 25.0),
+        "Emerging-market volatility (VXEEM)": (18.0, 28.0),
+        "ACWI drawdown": (-10.0, 0.0),
+        "US CAPE": (15.0, 25.0),
+        "US 10Y yield": (2.0, 4.5),
+        "Gold": (1500.0, 3000.0),
+    }
+    low_high = ranges.get(name)
+    if not low_high:
+        return None
+    return {"low": low_high[0], "high": low_high[1], "label": "Typical range"}
