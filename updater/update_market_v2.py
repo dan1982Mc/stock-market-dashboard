@@ -1,48 +1,64 @@
-"""Build current V2 market JSON from free public market data."""
+"""Build current V2 market JSON from free public market data.
+
+The updater is deliberately fault-tolerant: slow/unreachable specialist sources
+must never hold the complete dashboard update hostage.
+"""
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-import io, json, requests
+import io
+import json
+import time
+import warnings
+
 import pandas as pd
+import requests
 import yfinance as yf
-from config import TICKERS, HISTORY_PERIOD, MA_LONG, MA_SHORT, OUTPUT_FILE, HISTORY_FILE, CAPE_FILE, FRED_INFLATION, FRED_EM_VOL
+
+from config import (
+    TICKERS, HISTORY_PERIOD, MA_LONG, MA_SHORT, OUTPUT_FILE, HISTORY_FILE,
+    CAPE_FILE, FRED_INFLATION, FRED_EM_VOL,
+)
 from indicators import band, clean, trend_metrics, drawdown_series, current_drawdown, percentile
 from scoring_v2 import market_brief, rules_placeholder
 
 ROOT = Path(__file__).resolve().parents[1]
 HEADERS = {"User-Agent": "Mozilla/5.0 stock-market-dashboard/2.0"}
+HTTP_TIMEOUT = (5, 10)  # connect, read seconds
+SOURCE_WORKERS = 4
 
 
 def series_for(ticker):
     try:
-        df = yf.download(ticker, period=HISTORY_PERIOD, interval="1d", auto_adjust=True, progress=False, threads=False)
+        df = yf.download(
+            ticker, period=HISTORY_PERIOD, interval="1d", auto_adjust=True,
+            progress=False, threads=False, timeout=12,
+        )
         if df.empty:
+            print(f"Yahoo {ticker}: unavailable")
             return pd.Series(dtype=float)
         close = df["Close"]
         if isinstance(close, pd.DataFrame):
             close = close.iloc[:, 0]
-        return pd.to_numeric(close, errors="coerce").dropna()
+        s = pd.to_numeric(close, errors="coerce").dropna()
+        print(f"Yahoo {ticker}: {len(s)} observations")
+        return s
     except Exception as exc:
-        print(f"Data error {ticker}: {exc}")
+        print(f"Yahoo {ticker} failed: {exc}")
         return pd.Series(dtype=float)
 
 
-def _http_text(url, timeout=90, verify=True, retries=2):
-    last = None
-    for attempt in range(retries + 1):
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=timeout, verify=verify)
+def _http(url, verify=True):
+    try:
+        with requests.get(url, headers=HEADERS, timeout=HTTP_TIMEOUT, verify=verify) as r:
             r.raise_for_status()
-            return r.text
-        except Exception as exc:
-            last = exc
-            if attempt < retries:
-                import time
-                time.sleep(2 * (attempt + 1))
-    raise last
+            return r.content
+    except Exception as exc:
+        raise RuntimeError(f"{url}: {exc}") from exc
 
 
 def fred_series(series_id):
-    """Read a public FRED series, with a non-FRED mirror fallback for transient CI outages."""
+    """Fetch a FRED series with short bounded attempts and a CSV mirror."""
     urls = [
         f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}",
         f"https://fred.stlouisfed.org/data/{series_id}.csv",
@@ -52,18 +68,14 @@ def fred_series(series_id):
 
     for url in urls:
         try:
-            text = _http_text(url, timeout=90, verify=True, retries=2)
-            raw = pd.read_csv(io.StringIO(text))
+            raw = pd.read_csv(io.BytesIO(_http(url)))
             cols = {str(c).strip().lower(): c for c in raw.columns}
-            date_col = next((cols[c] for c in ("date", "observation_date") if c in cols), None)
-            if date_col is None:
-                # Mirror datasets may use lowercase date.
-                date_col = next((c for c in raw.columns if str(c).strip().lower() == "date"), None)
+            date_col = cols.get("date") or cols.get("observation_date")
             value_col = next((c for c in raw.columns if str(c).strip().upper() == series_id.upper()), None)
             if value_col is None and series_id == FRED_INFLATION:
                 value_col = next((c for c in raw.columns if "breakeven" in str(c).lower() or "inflation" in str(c).lower()), None)
-            if value_col is None and {"date", "value"}.issubset({str(c).strip().lower() for c in raw.columns}):
-                value_col = next(c for c in raw.columns if str(c).strip().lower() == "value")
+            if value_col is None:
+                value_col = next((c for c in raw.columns if str(c).strip().lower() == "value"), None)
             if date_col is None or value_col is None:
                 raise ValueError(f"unexpected columns: {list(raw.columns)}")
             d = pd.to_datetime(raw[date_col], errors="coerce")
@@ -75,70 +87,74 @@ def fred_series(series_id):
                 return s
         except Exception as exc:
             print(f"FRED source failed {url}: {exc}")
-    print(f"FRED {series_id} unavailable")
+    print(f"FRED {series_id}: unavailable")
     return pd.Series(dtype=float)
 
 
 def vstoxx_series():
-    """Official STOXX VSTOXX history file: Date;Symbol;Indexvalue."""
+    """Fetch official STOXX V2TX history. SSL verification fallback is bounded."""
     urls = [
         "https://www.stoxx.com/document/Indices/Current/HistoricalData/h_v2tx.txt",
         "https://www.stoxx.com/document/Indices/Current/HistoricalData/vstoxx.txt",
     ]
     for url in urls:
-        try:
-            # STOXX occasionally presents a certificate chain that Python's CA bundle rejects.
-            text = _http_text(url, timeout=90, verify=False, retries=2)
-            df = pd.read_csv(io.StringIO(text), sep=";", skip_blank_lines=True)
-            df.columns = [str(c).strip() for c in df.columns]
-            if not {"Date", "Indexvalue"}.issubset(df.columns):
-                df = pd.read_csv(io.StringIO(text), sep=";", skiprows=2)
+        for verify in (True, False):
+            try:
+                if not verify:
+                    warnings.filterwarnings("ignore", message="Unverified HTTPS request")
+                text = _http(url, verify=verify).decode("utf-8", errors="replace")
+                df = pd.read_csv(io.StringIO(text), sep=";", skip_blank_lines=True)
                 df.columns = [str(c).strip() for c in df.columns]
-            d = pd.to_datetime(df["Date"], format="%d.%m.%Y", errors="coerce")
-            v = pd.to_numeric(df["Indexvalue"], errors="coerce")
-            s = pd.Series(v.to_numpy(), index=d).dropna().sort_index()
-            s = s[~s.index.duplicated(keep="last")]
-            if len(s) >= 20:
-                print(f"VSTOXX: {len(s)} observations from STOXX")
-                return s
-        except Exception as exc:
-            print(f"VSTOXX source failed {url}: {exc}")
-    print("VSTOXX unavailable")
+                if not {"Date", "Indexvalue"}.issubset(df.columns):
+                    df = pd.read_csv(io.StringIO(text), sep=";", skiprows=2)
+                    df.columns = [str(c).strip() for c in df.columns]
+                d = pd.to_datetime(df["Date"], format="%d.%m.%Y", errors="coerce")
+                v = pd.to_numeric(df["Indexvalue"], errors="coerce")
+                s = pd.Series(v.to_numpy(), index=d).dropna().sort_index()
+                s = s[~s.index.duplicated(keep="last")]
+                if len(s) >= 20:
+                    print(f"VSTOXX: {len(s)} observations from STOXX")
+                    return s
+            except Exception as exc:
+                print(f"VSTOXX source failed {url} verify={verify}: {exc}")
+    print("VSTOXX: unavailable")
     return pd.Series(dtype=float)
 
 
 def load_cape():
-    """Load the Shiller CAPE history, preferring the official dataset with a GitHub mirror fallback."""
+    """Load monthly CAPE; prefer an updatable Shiller mirror over the stale Yale URL."""
     urls = [
-        "https://www.econ.yale.edu/~shiller/data/ie_data.xls",
+        "https://raw.githubusercontent.com/posix4e/shiller_wrapper_data/main/ie_data.xls",
         "https://raw.githubusercontent.com/WealthyFranklin/shiller-cape-analysis/main/ie_data.xls",
+        "https://www.econ.yale.edu/~shiller/data/ie_data.xls",
     ]
     for url in urls:
         try:
-            r = requests.get(url, headers=HEADERS, timeout=90)
-            r.raise_for_status()
-            raw = pd.read_excel(io.BytesIO(r.content), sheet_name="Data", header=None, skiprows=8)
+            content = _http(url)
+            raw = pd.read_excel(io.BytesIO(content), sheet_name="Data", header=None, skiprows=8)
             if raw.empty or raw.shape[1] < 13:
                 raise ValueError("unexpected Shiller workbook format")
             dates = pd.to_numeric(raw.iloc[:, 0], errors="coerce")
+            fraction = pd.to_numeric(raw.iloc[:, 1], errors="coerce")
             cape = pd.to_numeric(raw.iloc[:, 12], errors="coerce")
             valid = dates.notna() & cape.notna()
-            date_values = dates[valid]
-            years = date_values.astype(int)
-            months = ((date_values - years) * 100).round().astype(int).clip(1, 12)
+            years = dates[valid].astype(int)
+            # The Date Fraction column is the authoritative month field in the Shiller file.
+            months = (fraction[valid].sub(fraction[valid].astype(int)).mul(12).round().astype(int) + 1).clip(1, 12)
             idx = pd.to_datetime({"year": years, "month": months, "day": 1}, errors="coerce")
             s = pd.Series(cape[valid].to_numpy(), index=idx).dropna().sort_index()
             s = s[~s.index.duplicated(keep="last")]
             if len(s) >= 100:
                 print(f"CAPE: {len(s)} observations from {url}")
-                return float(s.iloc[-1]), s, "Robert Shiller official dataset"
+                return float(s.iloc[-1]), s, "Robert Shiller dataset"
         except Exception as exc:
-            print(f"Shiller CAPE source failed {url}: {exc}")
+            print(f"CAPE source failed {url}: {exc}")
 
     try:
         obj = json.loads((ROOT / CAPE_FILE).read_text(encoding="utf-8"))
         v = obj.get("us")
-        return v, pd.Series([v], dtype=float) if v is not None else pd.Series(dtype=float), obj.get("source", {}).get("us", "Manual CAPE file")
+        print("CAPE: using bundled fallback value")
+        return v, pd.Series([v], dtype=float) if v is not None else pd.Series(dtype=float), obj.get("source", {}).get("us", "Bundled fallback")
     except Exception:
         return None, pd.Series(dtype=float), "Unavailable"
 
@@ -158,14 +174,41 @@ def metric(name, current, display, detail, hist_series, decimals=2):
 
 
 def main():
+    started = time.monotonic()
     now = datetime.now(timezone.utc)
-    raw = {k: series_for(v) for k, v in TICKERS.items()}
 
-    raw["VSTOXX"] = vstoxx_series()
-    raw["EM_VIX"] = fred_series(FRED_EM_VOL)
-    inflation_hist = fred_series(FRED_INFLATION)
+    # Yahoo requests are independent; do them concurrently to keep total runtime low.
+    raw = {}
+    with ThreadPoolExecutor(max_workers=SOURCE_WORKERS) as pool:
+        futures = {pool.submit(series_for, ticker): key for key, ticker in TICKERS.items()}
+        for future in as_completed(futures):
+            key = futures[future]
+            try:
+                raw[key] = future.result()
+            except Exception as exc:
+                print(f"Yahoo task {key} failed: {exc}")
+                raw[key] = pd.Series(dtype=float)
+
+    # Specialist sources are also independent and bounded.
+    with ThreadPoolExecutor(max_workers=SOURCE_WORKERS) as pool:
+        tasks = {
+            pool.submit(vstoxx_series): "VSTOXX",
+            pool.submit(fred_series, FRED_EM_VOL): "EM_VIX",
+            pool.submit(fred_series, FRED_INFLATION): "INFLATION",
+            pool.submit(load_cape): "CAPE",
+        }
+        specialist = {}
+        for future in as_completed(tasks):
+            key = tasks[future]
+            try:
+                specialist[key] = future.result()
+            except Exception as exc:
+                print(f"Specialist task {key} failed: {exc}")
+    raw["VSTOXX"] = specialist.get("VSTOXX", pd.Series(dtype=float))
+    raw["EM_VIX"] = specialist.get("EM_VIX", pd.Series(dtype=float))
+    inflation_hist = specialist.get("INFLATION", pd.Series(dtype=float))
     inflation = float(inflation_hist.iloc[-1]) if len(inflation_hist) else None
-    cape, cape_hist, cape_source = load_cape()
+    cape, cape_hist, cape_source = specialist.get("CAPE", (None, pd.Series(dtype=float), "Unavailable"))
 
     trends = {k: trend_metrics(raw[k], MA_SHORT, MA_LONG) for k in ("ACWI", "US", "Europe", "EM")}
     trend_history = {k: (raw[k] / raw[k].rolling(MA_LONG).mean() - 1) * 100 for k in trends}
@@ -208,9 +251,11 @@ def main():
         {"name": "Equity valuation being paid", "display": f"CAPE {cape:.1f}" if cape is not None else "Unavailable", "explanation": "CAPE compares the S&P 500 price with ten years of inflation-adjusted earnings; a higher reading means investors are paying a higher historical earnings multiple."},
     ]
 
-    dates = [raw[k].index[-1] for k in raw if len(raw[k])] + ([inflation_hist.index[-1]] if len(inflation_hist) else []) + ([cape_hist.index[-1]] if len(cape_hist) else [])
+    dates = [raw[k].index[-1] for k in raw if len(raw[k])]
+    if len(inflation_hist): dates.append(inflation_hist.index[-1])
+    if len(cape_hist): dates.append(cape_hist.index[-1])
     latest = {
-        "version": "2.0.3",
+        "version": "2.0.4",
         "mode": "LIVE",
         "updated_at": now.strftime("%Y-%m-%d %H:%M UTC"),
         "data_through": max(dates).strftime("%Y-%m-%d") if dates else None,
@@ -221,14 +266,14 @@ def main():
         "cross_asset": cross,
         "priced_in": priced,
         "rules": rules_placeholder(),
-        "sources": ["Yahoo Finance / yfinance", "Cboe VIX / VXEEM via FRED", "STOXX VSTOXX official history", "FRED 10Y inflation breakeven", "Robert Shiller official CAPE dataset"],
+        "sources": ["Yahoo Finance / yfinance", "Cboe VIX / VXEEM via FRED", "STOXX VSTOXX official history", "FRED 10Y inflation breakeven", "Robert Shiller dataset"],
     }
 
     weekly = raw["ACWI"].resample("W-FRI").last().dropna()
     history = {"dates": [d.strftime("%Y-%m-%d") for d in weekly.index], "acwi": [clean(v, 2) for v in weekly.values]}
     (ROOT / OUTPUT_FILE).write_text(json.dumps(latest, indent=2), encoding="utf-8")
     (ROOT / HISTORY_FILE).write_text(json.dumps(history, indent=2), encoding="utf-8")
-    print(f"Wrote {OUTPUT_FILE} and {HISTORY_FILE}")
+    print(f"Wrote {OUTPUT_FILE} and {HISTORY_FILE} in {time.monotonic() - started:.1f}s")
 
 
 if __name__ == "__main__":
