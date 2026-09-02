@@ -1,7 +1,7 @@
 {
-  "version": "2.0.4",
+  "version": "2.0.5",
   "mode": "LIVE",
-  "updated_at": "2026-09-02 12:50 UTC",
+  "updated_at": "2026-09-02 12:55 UTC",
   "data_through": "2026-09-02",
   "brief": {
     "status": "GOOD",
@@ -84,8 +84,8 @@
       "current": 16.2,
       "display": "16.2",
       "detail": "30-day option-implied volatility index.",
-      "percentile": 43.0,
-      "percentile_label": "P43",
+      "percentile": 44.0,
+      "percentile_label": "P44",
       "band": {
         "p05": 10.71,
         "p25": 13.75,
@@ -143,19 +143,19 @@
   "valuation": [
     {
       "name": "US CAPE",
-      "current": 30.8,
-      "display": "30.8",
-      "detail": "Source: Robert Shiller dataset",
-      "percentile": 94.0,
-      "percentile_label": "P94",
+      "current": 41.2,
+      "display": "41.2",
+      "detail": "Source: Robert Shiller official dataset",
+      "percentile": 99.0,
+      "percentile_label": "P99",
       "band": {
         "p05": 7.96,
-        "p25": 11.91,
-        "p50": 16.5,
-        "p75": 21.14,
-        "p95": 31.29,
+        "p25": 12.01,
+        "p50": 16.61,
+        "p75": 21.52,
+        "p95": 32.99,
         "p05_label": 7.96,
-        "p95_label": 31.29
+        "p95_label": 32.99
       }
     }
   ],
@@ -179,8 +179,8 @@
     },
     {
       "name": "Gold",
-      "current": 4381.0,
-      "display": "$4,381",
+      "current": 4379.0,
+      "display": "$4,379",
       "detail": "Gold futures price proxy.",
       "percentile": 95.0,
       "percentile_label": "P95",
@@ -208,7 +208,7 @@
     },
     {
       "name": "Equity valuation being paid",
-      "display": "CAPE 30.8",
+      "display": "CAPE 41.2",
       "explanation": "CAPE compares the S&P 500 price with ten years of inflation-adjusted earnings; a higher reading means investors are paying a higher historical earnings multiple."
     }
   ],
