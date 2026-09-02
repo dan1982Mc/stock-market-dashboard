@@ -1,37 +1,210 @@
 {
   "version": "2.0.0",
-  "mode": "STALE",
-  "updated_at": "2026-08-29 01:41 UTC",
-  "data_through": "2026-08-28",
+  "mode": "LIVE",
+  "updated_at": "2026-09-02 11:53 UTC",
+  "data_through": "2026-09-02",
   "brief": {
     "status": "GOOD",
     "label": "GOOD / HEALTHY",
-    "reason": "Starter data from the previous build: global trend was positive, drawdown was small and US volatility was low. Run the V2 updater to populate current historical bands."
+    "reason": "Global trend is positive, drawdown is contained and market volatility is not unusually high."
   },
   "equities": [
-    {"name":"ACWI","current":8.7,"display":"+8.7% vs 200DMA","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null},
-    {"name":"US equities","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
-    {"name":"Europe","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
-    {"name":"Emerging markets","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null}
+    {
+      "name": "ACWI",
+      "current": 7.4,
+      "display": "+7.4% vs 200DMA",
+      "detail": "50DMA 157.9 \u00b7 200DMA 148.4",
+      "percentile": 59.0,
+      "percentile_label": "P59",
+      "band": {
+        "p05": -9.5,
+        "p25": 1.67,
+        "p50": 6.21,
+        "p75": 9.17,
+        "p95": 13.19,
+        "p05_label": -9.5,
+        "p95_label": 13.19
+      }
+    },
+    {
+      "name": "US equities",
+      "current": 7.1,
+      "display": "+7.1% vs 200DMA",
+      "detail": "50DMA 7570.7 \u00b7 200DMA 7126.8",
+      "percentile": 57.0,
+      "percentile_label": "P57",
+      "band": {
+        "p05": -8.25,
+        "p25": 2.04,
+        "p50": 6.3,
+        "p75": 9.68,
+        "p95": 13.33,
+        "p05_label": -8.25,
+        "p95_label": 13.33
+      }
+    },
+    {
+      "name": "Europe",
+      "current": 5.9,
+      "display": "+5.9% vs 200DMA",
+      "detail": "50DMA 90.1 \u00b7 200DMA 85.7",
+      "percentile": 54.0,
+      "percentile_label": "P54",
+      "band": {
+        "p05": -12.96,
+        "p25": -0.31,
+        "p50": 5.28,
+        "p75": 9.59,
+        "p95": 14.63,
+        "p05_label": -12.96,
+        "p95_label": 14.63
+      }
+    },
+    {
+      "name": "Emerging markets",
+      "current": 9.0,
+      "display": "+9.0% vs 200DMA",
+      "detail": "50DMA 65.8 \u00b7 200DMA 61.2",
+      "percentile": 72.0,
+      "percentile_label": "P72",
+      "band": {
+        "p05": -12.95,
+        "p25": -2.79,
+        "p50": 3.57,
+        "p75": 9.76,
+        "p95": 17.98,
+        "p05_label": -12.95,
+        "p95_label": 17.98
+      }
+    }
   ],
   "risk": [
-    {"name":"US volatility (VIX)","current":14.4,"display":"14.4","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null},
-    {"name":"Europe volatility (VSTOXX)","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
-    {"name":"Emerging-market volatility (VXEEM)","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
-    {"name":"ACWI drawdown","current":-0.9,"display":"-0.9%","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null}
+    {
+      "name": "US volatility (VIX)",
+      "current": 16.3,
+      "display": "16.3",
+      "detail": "Current option-implied volatility index.",
+      "percentile": 44.0,
+      "percentile_label": "P44",
+      "band": {
+        "p05": 10.71,
+        "p25": 13.75,
+        "p50": 16.93,
+        "p75": 21.5,
+        "p95": 30.98,
+        "p05_label": 10.71,
+        "p95_label": 30.98
+      }
+    },
+    {
+      "name": "Europe volatility (VSTOXX)",
+      "current": null,
+      "display": "\u2014",
+      "detail": "Current option-implied volatility index.",
+      "percentile": null,
+      "percentile_label": null,
+      "band": null
+    },
+    {
+      "name": "Emerging-market volatility (VXEEM)",
+      "current": 23.8,
+      "display": "23.8",
+      "detail": "Current option-implied volatility index.",
+      "percentile": 100.0,
+      "percentile_label": "P100",
+      "band": null
+    },
+    {
+      "name": "ACWI drawdown",
+      "current": -1.9,
+      "display": "-1.9%",
+      "detail": "Distance from the running ACWI high.",
+      "percentile": 52.0,
+      "percentile_label": "P52",
+      "band": {
+        "p05": -17.94,
+        "p25": -7.12,
+        "p50": -2.24,
+        "p75": -0.4,
+        "p95": 0.0,
+        "p05_label": -17.94,
+        "p95_label": 0.0
+      }
+    }
   ],
   "valuation": [
-    {"name":"US CAPE","current":null,"display":"Unavailable","detail":"Refresh will try Shiller/Yale and fall back to data/cape.json.","percentile":null,"percentile_label":null,"band":null}
+    {
+      "name": "US CAPE",
+      "current": null,
+      "display": "Unavailable",
+      "detail": "Source: Robert Shiller",
+      "percentile": null,
+      "percentile_label": null,
+      "band": null
+    }
   ],
   "cross_asset": [
-    {"name":"US 10Y yield","current":4.72,"display":"4.72%","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null},
-    {"name":"Gold","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null}
+    {
+      "name": "US 10Y yield",
+      "current": 0.48,
+      "display": "0.48%",
+      "detail": "Treasury market yield proxy.",
+      "percentile": 99.0,
+      "percentile_label": "P99",
+      "band": {
+        "p05": 0.07,
+        "p25": 0.18,
+        "p50": 0.28,
+        "p75": 0.41,
+        "p95": 0.45,
+        "p05_label": 0.07,
+        "p95_label": 0.45
+      }
+    },
+    {
+      "name": "Gold",
+      "current": 4372.0,
+      "display": "$4,372",
+      "detail": "Gold futures price proxy.",
+      "percentile": 95.0,
+      "percentile_label": "P95",
+      "band": {
+        "p05": 1218.78,
+        "p25": 1326.07,
+        "p50": 1805.65,
+        "p75": 2137.7,
+        "p95": 4362.61,
+        "p05_label": 1218.78,
+        "p95_label": 4362.61
+      }
+    }
   ],
   "priced_in": [
-    {"name":"Equity volatility already priced","display":"VIX 14.4","explanation":"Option prices embed a current 30-day US equity volatility level. The V2 refresh will add European and emerging-market context."},
-    {"name":"Inflation priced into bonds","display":"Unavailable","explanation":"V2 refresh will read the market-based 10-year inflation breakeven from FRED."},
-    {"name":"Equity valuation being paid","display":"CAPE unavailable","explanation":"A high valuation means investors are paying more for earnings. CAPE is long-term context, not a short-term timing signal."}
+    {
+      "name": "Equity volatility already priced",
+      "display": "US 16.3% implied",
+      "explanation": "Option prices embed near-term volatility. VSTOXX and VXEEM provide European and emerging-market context."
+    },
+    {
+      "name": "Inflation priced into bonds",
+      "display": "Unavailable",
+      "explanation": "Nominal Treasury yield minus the comparable inflation-protected Treasury yield is a market-implied inflation measure."
+    },
+    {
+      "name": "Equity valuation being paid",
+      "display": "Unavailable",
+      "explanation": "Valuation shows how much investors are paying for long-term earnings. Higher valuation means more optimism is already embedded in price."
+    }
   ],
-  "rules": {"action":"NORMAL DCA","detail":"The personal investing rules are intentionally separate from market scoring and will be added after the market dashboard is stable."},
-  "sources": ["Yahoo Finance / yfinance","Cboe volatility indices","STOXX VSTOXX","FRED inflation breakeven","Robert Shiller / Yale CAPE"]
+  "rules": {
+    "action": "NORMAL DCA",
+    "detail": "The personal investing rules are intentionally separate from market scoring and will be added later."
+  },
+  "sources": [
+    "Yahoo Finance / yfinance",
+    "Cboe volatility indices",
+    "STOXX VSTOXX",
+    "FRED inflation breakeven",
+    "Robert Shiller / Yale CAPE"
+  ]
 }
