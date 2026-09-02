@@ -1,7 +1,7 @@
 {
-  "version": "2.0.5",
+  "version": "2.0.6",
   "mode": "LIVE",
-  "updated_at": "2026-09-02 12:55 UTC",
+  "updated_at": "2026-09-02 12:58 UTC",
   "data_through": "2026-09-02",
   "brief": {
     "status": "GOOD",
@@ -11,11 +11,11 @@
   "equities": [
     {
       "name": "ACWI",
-      "current": 7.5,
-      "display": "+7.5% vs 200DMA",
-      "detail": "50DMA 157.8 \u00b7 200DMA 148.3",
-      "percentile": 60.0,
-      "percentile_label": "P60",
+      "current": 7.4,
+      "display": "+7.4% vs 200DMA",
+      "detail": "50DMA 157.9 \u00b7 200DMA 148.4",
+      "percentile": 59.0,
+      "percentile_label": "P59",
       "band": {
         "p05": -9.5,
         "p25": 1.67,
@@ -30,30 +30,30 @@
       "name": "US equities",
       "current": 7.1,
       "display": "+7.1% vs 200DMA",
-      "detail": "50DMA 7565.9 \u00b7 200DMA 7122.5",
+      "detail": "50DMA 7570.7 \u00b7 200DMA 7126.8",
       "percentile": 57.0,
       "percentile_label": "P57",
       "band": {
-        "p05": -8.26,
+        "p05": -8.25,
         "p25": 2.04,
         "p50": 6.3,
         "p75": 9.68,
         "p95": 13.33,
-        "p05_label": -8.26,
+        "p05_label": -8.25,
         "p95_label": 13.33
       }
     },
     {
       "name": "Europe",
-      "current": 6.0,
-      "display": "+6.0% vs 200DMA",
-      "detail": "50DMA 90.0 \u00b7 200DMA 85.6",
-      "percentile": 55.0,
-      "percentile_label": "P55",
+      "current": 5.9,
+      "display": "+5.9% vs 200DMA",
+      "detail": "50DMA 90.1 \u00b7 200DMA 85.7",
+      "percentile": 54.0,
+      "percentile_label": "P54",
       "band": {
         "p05": -12.96,
         "p25": -0.31,
-        "p50": 5.27,
+        "p50": 5.28,
         "p75": 9.59,
         "p95": 14.63,
         "p05_label": -12.96,
@@ -62,19 +62,19 @@
     },
     {
       "name": "Emerging markets",
-      "current": 9.1,
-      "display": "+9.1% vs 200DMA",
-      "detail": "50DMA 65.9 \u00b7 200DMA 61.2",
-      "percentile": 73.0,
-      "percentile_label": "P73",
+      "current": 9.0,
+      "display": "+9.0% vs 200DMA",
+      "detail": "50DMA 65.8 \u00b7 200DMA 61.2",
+      "percentile": 72.0,
+      "percentile_label": "P72",
       "band": {
         "p05": -12.95,
-        "p25": -2.81,
+        "p25": -2.79,
         "p50": 3.57,
-        "p75": 9.75,
-        "p95": 17.99,
+        "p75": 9.76,
+        "p95": 17.98,
         "p05_label": -12.95,
-        "p95_label": 17.99
+        "p95_label": 17.98
       }
     }
   ],
@@ -115,12 +115,20 @@
     },
     {
       "name": "Emerging-market volatility (VXEEM)",
-      "current": null,
-      "display": "\u2014",
-      "detail": "Data source unavailable.",
-      "percentile": null,
-      "percentile_label": null,
-      "band": null
+      "current": 23.8,
+      "display": "23.8",
+      "detail": "30-day option-implied volatility index.",
+      "percentile": 65.0,
+      "percentile_label": "P65",
+      "band": {
+        "p05": 15.58,
+        "p25": 18.17,
+        "p50": 21.44,
+        "p75": 25.64,
+        "p95": 37.05,
+        "p05_label": 15.58,
+        "p95_label": 37.05
+      }
     },
     {
       "name": "ACWI drawdown",
@@ -131,8 +139,8 @@
       "percentile_label": "P52",
       "band": {
         "p05": -17.94,
-        "p25": -7.13,
-        "p50": -2.25,
+        "p25": -7.12,
+        "p50": -2.24,
         "p75": -0.4,
         "p95": 0.0,
         "p05_label": -17.94,
@@ -145,7 +153,7 @@
       "name": "US CAPE",
       "current": 41.2,
       "display": "41.2",
-      "detail": "Source: Robert Shiller official dataset",
+      "detail": "Source: Robert Shiller dataset",
       "percentile": 99.0,
       "percentile_label": "P99",
       "band": {
@@ -179,8 +187,8 @@
     },
     {
       "name": "Gold",
-      "current": 4379.0,
-      "display": "$4,379",
+      "current": 4384.0,
+      "display": "$4,384",
       "detail": "Gold futures price proxy.",
       "percentile": 95.0,
       "percentile_label": "P95",
@@ -203,7 +211,7 @@
     },
     {
       "name": "Inflation priced into bonds",
-      "display": "10Y breakeven 2.35%",
+      "display": "Unavailable",
       "explanation": "10-year Treasury breakeven inflation is derived from nominal and inflation-indexed Treasury yields and is a market-implied inflation expectation."
     },
     {
@@ -218,7 +226,7 @@
   },
   "sources": [
     "Yahoo Finance / yfinance",
-    "Cboe VIX / VXEEM via FRED",
+    "Cboe VIX / VXEEM; FRED fallback",
     "STOXX VSTOXX official history",
     "FRED 10Y inflation breakeven",
     "Robert Shiller dataset"
