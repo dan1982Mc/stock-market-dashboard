@@ -11,6 +11,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -25,6 +26,8 @@ jobs:
 
       - name: Update market data
         working-directory: updater
+        env:
+          PYTHONUNBUFFERED: "1"
         run: python update_market_v2.py
 
       - name: Commit updated data
