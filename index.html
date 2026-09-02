@@ -15,9 +15,22 @@
       <div class="update-info"><span id="modeBadge" class="mode-badge">LOADING</span><div id="updatedAt">Updating…</div><div id="dataThrough">Market data through —</div></div>
     </header>
 
-    <section id="marketBrief" class="market-brief status-green" aria-live="polite">
-      <div><div class="eyebrow">GLOBAL MARKET</div><h2 id="briefLabel">Loading…</h2><p id="briefText">Reading current market conditions.</p></div>
-      <div class="brief-action"><div class="eyebrow">CURRENT PLAN</div><strong id="briefAction">—</strong></div>
+    <section class="header-insights">
+      <article id="globalMarketCard" class="insight-card insight-market" tabindex="0" role="button" aria-label="Open Global Market details">
+        <div class="insight-head"><div><div class="eyebrow">GLOBAL MARKET</div><h2 id="marketConclusion">Loading…</h2></div><span class="insight-more">DETAILS ↗</span></div>
+        <ul id="marketBullets" class="insight-list"><li>Reading current market conditions…</li></ul>
+      </article>
+
+      <article id="newsCard" class="insight-card insight-news" tabindex="0" role="button" aria-label="Open News details">
+        <div class="insight-head"><div><div class="eyebrow">NEWS</div><h2 id="newsTone">Loading…</h2></div><span class="insight-more">DETAILS ↗</span></div>
+        <p id="newsSummary" class="insight-copy">Reading latest macro headlines…</p>
+        <div id="newsHeadlines" class="news-preview"></div>
+      </article>
+
+      <article id="planCard" class="insight-card insight-plan" tabindex="0" role="button" aria-label="Open Current Plan details">
+        <div class="insight-head"><div><div class="eyebrow">CURRENT PLAN</div><h2 id="planAction">Loading…</h2></div><span class="insight-more">DETAILS ↗</span></div>
+        <ul id="planBullets" class="insight-list"><li>Preparing investor interpretation…</li></ul>
+      </article>
     </section>
 
     <section class="dashboard-panels">
