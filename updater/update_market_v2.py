@@ -26,25 +26,57 @@ def series_for(ticker):
         return pd.Series(dtype=float)
 
 
+def _http_text(url, timeout=90, verify=True, retries=2):
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=timeout, verify=verify)
+            r.raise_for_status()
+            return r.text
+        except Exception as exc:
+            last = exc
+            if attempt < retries:
+                import time
+                time.sleep(2 * (attempt + 1))
+    raise last
+
+
 def fred_series(series_id):
-    """Read a public FRED series and tolerate both DATE and observation_date formats."""
-    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        raw = pd.read_csv(io.StringIO(r.text))
-        date_col = next((c for c in raw.columns if str(c).strip().lower() in {"date", "observation_date"}), None)
-        value_col = series_id if series_id in raw.columns else next((c for c in raw.columns if str(c).strip().upper() == series_id.upper()), None)
-        if date_col is None or value_col is None:
-            raise ValueError(f"unexpected columns: {list(raw.columns)}")
-        d = pd.to_datetime(raw[date_col], errors="coerce")
-        v = pd.to_numeric(raw[value_col].replace(".", pd.NA), errors="coerce")
-        s = pd.Series(v.to_numpy(), index=d).dropna().sort_index()
-        s = s[~s.index.duplicated(keep="last")]
-        return s
-    except Exception as exc:
-        print(f"FRED {series_id} unavailable: {exc}")
-        return pd.Series(dtype=float)
+    """Read a public FRED series, with a non-FRED mirror fallback for transient CI outages."""
+    urls = [
+        f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}",
+        f"https://fred.stlouisfed.org/data/{series_id}.csv",
+    ]
+    if series_id == FRED_INFLATION:
+        urls.append("https://eco3min.fr/dataset/us-inflation-expectations-10y.csv")
+
+    for url in urls:
+        try:
+            text = _http_text(url, timeout=90, verify=True, retries=2)
+            raw = pd.read_csv(io.StringIO(text))
+            cols = {str(c).strip().lower(): c for c in raw.columns}
+            date_col = next((cols[c] for c in ("date", "observation_date") if c in cols), None)
+            if date_col is None:
+                # Mirror datasets may use lowercase date.
+                date_col = next((c for c in raw.columns if str(c).strip().lower() == "date"), None)
+            value_col = next((c for c in raw.columns if str(c).strip().upper() == series_id.upper()), None)
+            if value_col is None and series_id == FRED_INFLATION:
+                value_col = next((c for c in raw.columns if "breakeven" in str(c).lower() or "inflation" in str(c).lower()), None)
+            if value_col is None and {"date", "value"}.issubset({str(c).strip().lower() for c in raw.columns}):
+                value_col = next(c for c in raw.columns if str(c).strip().lower() == "value")
+            if date_col is None or value_col is None:
+                raise ValueError(f"unexpected columns: {list(raw.columns)}")
+            d = pd.to_datetime(raw[date_col], errors="coerce")
+            v = pd.to_numeric(raw[value_col].astype(str).str.strip().replace({".": None, "": None, "nan": None}), errors="coerce")
+            s = pd.Series(v.to_numpy(), index=d).dropna().sort_index()
+            s = s[~s.index.duplicated(keep="last")]
+            if len(s):
+                print(f"FRED {series_id}: {len(s)} observations from {url}")
+                return s
+        except Exception as exc:
+            print(f"FRED source failed {url}: {exc}")
+    print(f"FRED {series_id} unavailable")
+    return pd.Series(dtype=float)
 
 
 def vstoxx_series():
@@ -55,13 +87,12 @@ def vstoxx_series():
     ]
     for url in urls:
         try:
-            r = requests.get(url, headers=HEADERS, timeout=30)
-            r.raise_for_status()
-            df = pd.read_csv(io.StringIO(r.text), sep=";", skip_blank_lines=True)
+            # STOXX occasionally presents a certificate chain that Python's CA bundle rejects.
+            text = _http_text(url, timeout=90, verify=False, retries=2)
+            df = pd.read_csv(io.StringIO(text), sep=";", skip_blank_lines=True)
             df.columns = [str(c).strip() for c in df.columns]
             if not {"Date", "Indexvalue"}.issubset(df.columns):
-                # Some older files carry the header a few rows down.
-                df = pd.read_csv(io.StringIO(r.text), sep=";", skiprows=2)
+                df = pd.read_csv(io.StringIO(text), sep=";", skiprows=2)
                 df.columns = [str(c).strip() for c in df.columns]
             d = pd.to_datetime(df["Date"], format="%d.%m.%Y", errors="coerce")
             v = pd.to_numeric(df["Indexvalue"], errors="coerce")
@@ -77,36 +108,33 @@ def vstoxx_series():
 
 
 def load_cape():
-    """Load the Shiller CAPE history from the official monthly Excel file."""
+    """Load the Shiller CAPE history, preferring the official dataset with a GitHub mirror fallback."""
     urls = [
         "https://www.econ.yale.edu/~shiller/data/ie_data.xls",
-        "https://shillerdata.com/ie_data.xls",
+        "https://raw.githubusercontent.com/WealthyFranklin/shiller-cape-analysis/main/ie_data.xls",
     ]
     for url in urls:
         try:
-            r = requests.get(url, headers=HEADERS, timeout=30)
+            r = requests.get(url, headers=HEADERS, timeout=90)
             r.raise_for_status()
             raw = pd.read_excel(io.BytesIO(r.content), sheet_name="Data", header=None, skiprows=8)
             if raw.empty or raw.shape[1] < 13:
                 raise ValueError("unexpected Shiller workbook format")
-            # Shiller columns: Date, P, D, E, CPI, Fraction, Rate GS10, Real P, Real D,
-            # Real TR Price, Real Earnings, Real Earnings scaled, CAPE, TR CAPE.
             dates = pd.to_numeric(raw.iloc[:, 0], errors="coerce")
             cape = pd.to_numeric(raw.iloc[:, 12], errors="coerce")
             valid = dates.notna() & cape.notna()
-            years = dates[valid].astype(int)
-            months = ((dates[valid] - years) * 100).round().astype(int).clip(1, 12)
+            date_values = dates[valid]
+            years = date_values.astype(int)
+            months = ((date_values - years) * 100).round().astype(int).clip(1, 12)
             idx = pd.to_datetime({"year": years, "month": months, "day": 1}, errors="coerce")
             s = pd.Series(cape[valid].to_numpy(), index=idx).dropna().sort_index()
             s = s[~s.index.duplicated(keep="last")]
             if len(s) >= 100:
-                print(f"CAPE: {len(s)} observations from Shiller")
+                print(f"CAPE: {len(s)} observations from {url}")
                 return float(s.iloc[-1]), s, "Robert Shiller official dataset"
         except Exception as exc:
             print(f"Shiller CAPE source failed {url}: {exc}")
 
-    # Fallback to the already bundled local value only; this keeps the dashboard
-    # usable during a temporary source outage but does not create a fake history.
     try:
         obj = json.loads((ROOT / CAPE_FILE).read_text(encoding="utf-8"))
         v = obj.get("us")
@@ -133,7 +161,6 @@ def main():
     now = datetime.now(timezone.utc)
     raw = {k: series_for(v) for k, v in TICKERS.items()}
 
-    # Specialist sources.
     raw["VSTOXX"] = vstoxx_series()
     raw["EM_VIX"] = fred_series(FRED_EM_VOL)
     inflation_hist = fred_series(FRED_INFLATION)
@@ -148,14 +175,7 @@ def main():
     equities = []
     for k, label in (("ACWI", "ACWI"), ("US", "US equities"), ("Europe", "Europe"), ("EM", "Emerging markets")):
         t = trends[k]
-        equities.append(metric(
-            label,
-            t["current"] if t else None,
-            f"{t['current']:+.1f}% vs 200DMA" if t else "—",
-            f"50DMA {t['ma50']:.1f} · 200DMA {t['ma200']:.1f}" if t else "Insufficient history",
-            trend_history[k],
-            1,
-        ))
+        equities.append(metric(label, t["current"] if t else None, f"{t['current']:+.1f}% vs 200DMA" if t else "—", f"50DMA {t['ma50']:.1f} · 200DMA {t['ma200']:.1f}" if t else "Insufficient history", trend_history[k], 1))
 
     def vol(k, label):
         s = raw[k]
@@ -168,7 +188,6 @@ def main():
         vol("EM_VIX", "Emerging-market volatility (VXEEM)"),
         metric("ACWI drawdown", dd_now, f"{dd_now:.1f}%" if dd_now is not None else "—", "Distance from the running ACWI high.", dd, 1),
     ]
-
     valuation = [metric("US CAPE", cape, f"{cape:.1f}" if cape is not None else "Unavailable", f"Source: {cape_source}", cape_hist, 1)]
 
     us10 = raw["US10Y"]
@@ -183,28 +202,15 @@ def main():
     vix = float(raw["VIX"].iloc[-1]) if len(raw["VIX"]) else None
     vsto = float(raw["VSTOXX"].iloc[-1]) if len(raw["VSTOXX"]) else None
     emv = float(raw["EM_VIX"].iloc[-1]) if len(raw["EM_VIX"]) else None
-
     priced = [
-        {
-            "name": "Equity volatility already priced",
-            "display": f"US {vix:.1f} VIX" if vix is not None else "Unavailable",
-            "explanation": "Option prices embed near-term volatility; European and emerging-market volatility are shown alongside it.",
-        },
-        {
-            "name": "Inflation priced into bonds",
-            "display": f"10Y breakeven {inflation:.2f}%" if inflation is not None else "Unavailable",
-            "explanation": "10-year Treasury breakeven inflation is derived from nominal and inflation-indexed Treasury yields and is a market-implied inflation expectation.",
-        },
-        {
-            "name": "Equity valuation being paid",
-            "display": f"CAPE {cape:.1f}" if cape is not None else "Unavailable",
-            "explanation": "CAPE compares the S&P 500 price with ten years of inflation-adjusted earnings; a higher reading means investors are paying a higher historical earnings multiple.",
-        },
+        {"name": "Equity volatility already priced", "display": f"US {vix:.1f} VIX" if vix is not None else "Unavailable", "explanation": "Option prices embed near-term volatility; European and emerging-market volatility are shown alongside it."},
+        {"name": "Inflation priced into bonds", "display": f"10Y breakeven {inflation:.2f}%" if inflation is not None else "Unavailable", "explanation": "10-year Treasury breakeven inflation is derived from nominal and inflation-indexed Treasury yields and is a market-implied inflation expectation."},
+        {"name": "Equity valuation being paid", "display": f"CAPE {cape:.1f}" if cape is not None else "Unavailable", "explanation": "CAPE compares the S&P 500 price with ten years of inflation-adjusted earnings; a higher reading means investors are paying a higher historical earnings multiple."},
     ]
 
-    dates = [raw[k].index[-1] for k in raw if len(raw[k])] + ([inflation_hist.index[-1]] if len(inflation_hist) else [])
+    dates = [raw[k].index[-1] for k in raw if len(raw[k])] + ([inflation_hist.index[-1]] if len(inflation_hist) else []) + ([cape_hist.index[-1]] if len(cape_hist) else [])
     latest = {
-        "version": "2.0.2",
+        "version": "2.0.3",
         "mode": "LIVE",
         "updated_at": now.strftime("%Y-%m-%d %H:%M UTC"),
         "data_through": max(dates).strftime("%Y-%m-%d") if dates else None,
@@ -215,13 +221,7 @@ def main():
         "cross_asset": cross,
         "priced_in": priced,
         "rules": rules_placeholder(),
-        "sources": [
-            "Yahoo Finance / yfinance",
-            "Cboe VIX / VXEEM via FRED",
-            "STOXX VSTOXX official history",
-            "FRED 10Y inflation breakeven",
-            "Robert Shiller official CAPE dataset",
-        ],
+        "sources": ["Yahoo Finance / yfinance", "Cboe VIX / VXEEM via FRED", "STOXX VSTOXX official history", "FRED 10Y inflation breakeven", "Robert Shiller official CAPE dataset"],
     }
 
     weekly = raw["ACWI"].resample("W-FRI").last().dropna()
