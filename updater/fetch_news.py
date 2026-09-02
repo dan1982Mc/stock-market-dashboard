@@ -7,6 +7,7 @@ several independent risk signals.
 """
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 import json
 import re
@@ -15,8 +16,13 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "news.json"
 
+REUTERS_QUERY = (
+    "site:reuters.com (global markets OR stocks OR bonds OR central banks) "
+    "(oil OR inflation OR rates OR geopolitics)"
+)
+
 FEEDS = [
-    {"name": "Reuters", "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20(global%20markets%20OR%20stocks%20OR%20bonds%20OR%20central%20banks)%20(oil%20OR%20inflation%20OR%20rates%20OR%20geopolitics)%26hl=en-US%26gl=US%26ceid=US:en", "priority": 1.15},
+    {"name": "Reuters", "url": "https://news.google.com/rss/search?" + urlencode({"q": REUTERS_QUERY, "hl": "en-US", "gl": "US", "ceid": "US:en"}), "priority": 1.15},
     {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "priority": 1.00},
     {"name": "Financial Times", "url": "https://www.ft.com/markets?format=rss", "priority": 1.00},
 ]
