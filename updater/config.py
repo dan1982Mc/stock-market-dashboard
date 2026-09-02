@@ -1,88 +1,28 @@
-"""
-Configuration for the Global Stock Market Dashboard.
-
-Keep thresholds and ticker definitions here rather than scattering
-them throughout update_market.py. This makes future patches easier.
-"""
-
-# ---------------------------------------------------------
-# MARKET PROXIES
-# ---------------------------------------------------------
+"""Configuration for V2 global market dashboard."""
 
 TICKERS = {
-    # Global
     "ACWI": "ACWI",
-
-    # Developed Europe
+    "US": "^GSPC",
     "Europe": "VGK",
-
-    # Emerging markets
     "EM": "EEM",
-
-    # United States
-    "SP500": "^GSPC",
-
-    # Volatility
     "VIX": "^VIX",
     "VSTOXX": "^V2TX",
-
-    # Rates
+    "EM_VIX": "^VXEEM",
     "US10Y": "^TNX",
-
-    # Optional risk indicator
-    "USD": "DX-Y.NYB"
+    "GOLD": "GC=F",
 }
 
-
-# ---------------------------------------------------------
-# TREND
-# ---------------------------------------------------------
-
-TREND_MA_SHORT = 50
-TREND_MA_LONG = 200
-
-
-# ---------------------------------------------------------
-# DRAWDOWN
-# ---------------------------------------------------------
-
-DRAWDOWN_WARNING = -10
-DRAWDOWN_STRESS = -20
-
-
-# ---------------------------------------------------------
-# VIX
-# ---------------------------------------------------------
-
-VIX_CALM = 15
-VIX_NORMAL = 20
-VIX_ELEVATED = 30
-VIX_PANIC = 40
-
-
-# ---------------------------------------------------------
-# VSTOXX
-# ---------------------------------------------------------
-
-VSTOXX_CALM = 15
-VSTOXX_NORMAL = 20
-VSTOXX_ELEVATED = 30
-VSTOXX_PANIC = 40
-
-
-# ---------------------------------------------------------
-# SCORE
-# ---------------------------------------------------------
-
-SCORE_BULLISH = 70
-SCORE_NEUTRAL = 50
-SCORE_CAUTION = 35
-
-
-# ---------------------------------------------------------
-# DATA SETTINGS
-# ---------------------------------------------------------
-
-HISTORY_PERIOD = "2y"
-
+HISTORY_PERIOD = "10y"
+MA_SHORT = 50
+MA_LONG = 200
 OUTPUT_FILE = "data/latest.json"
+HISTORY_FILE = "data/history.json"
+CAPE_FILE = "data/cape.json"
+
+# Optional FRED series. No API key is required for fredgraph.csv.
+FRED_INFLATION = "T10YIE"
+
+# Top-level market brief rules. These are intentionally simple and are
+# not an investment recommendation engine yet.
+DRAWDOWN_WARNING = -10.0
+DRAWDOWN_MAJOR = -20.0
