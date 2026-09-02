@@ -1,122 +1,37 @@
 {
-  "version": "1.1.0",
-  "mode": "LIVE",
+  "version": "2.0.0",
+  "mode": "STALE",
   "updated_at": "2026-08-29 01:41 UTC",
   "data_through": "2026-08-28",
-  "overall": {
-    "label": "BULLISH",
-    "emoji": "🟢",
-    "class": "green",
-    "score": 86,
-    "action": "MAINTAIN NORMAL INVESTING",
-    "reason": "Global trend is bullish. Volatility and valuation are incorporated into the score. Current score: 86/100.",
-    "breakdown": {
-      "Trend": 18,
-      "Volatility": 10,
-      "Drawdown": 8,
-      "Valuation": 5
-    }
+  "brief": {
+    "status": "GOOD",
+    "label": "GOOD / HEALTHY",
+    "reason": "Starter data from the previous build: global trend was positive, drawdown was small and US volatility was low. Run the V2 updater to populate current historical bands."
   },
-  "indicators": [
-    {
-      "name": "🌍 Global Trend",
-      "status": "BULLISH",
-      "emoji": "🟢",
-      "class": "green",
-      "value": "ACWI 161.09",
-      "detail": "50DMA 157.83 · 200DMA 148.23"
-    },
-    {
-      "name": "💰 Valuation",
-      "status": "NO DATA",
-      "emoji": "⚪",
-      "class": "gray",
-      "value": "CAPE unavailable",
-      "detail": "US CAPE. Global valuation will be added in a later data-source upgrade."
-    },
-    {
-      "name": "😨 US Volatility",
-      "status": "CALM",
-      "emoji": "🟢",
-      "class": "green",
-      "value": "14.4",
-      "detail": "😨 US Volatility current reading."
-    },
-    {
-      "name": "🇪🇺 Europe Volatility",
-      "status": "NO DATA",
-      "emoji": "⚪",
-      "class": "gray",
-      "value": "—",
-      "detail": "Data unavailable."
-    },
-    {
-      "name": "📉 Global Drawdown",
-      "status": "NORMAL",
-      "emoji": "🟢",
-      "class": "green",
-      "value": "-0.9%",
-      "detail": "ACWI drawdown from its recent high."
-    },
-    {
-      "name": "💵 US 10Y Yield",
-      "status": "MONITOR",
-      "emoji": "🟡",
-      "class": "yellow",
-      "value": "4.72%",
-      "detail": "Long-term interest rate proxy."
-    }
+  "equities": [
+    {"name":"ACWI","current":8.7,"display":"+8.7% vs 200DMA","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null},
+    {"name":"US equities","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
+    {"name":"Europe","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
+    {"name":"Emerging markets","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null}
   ],
-  "snapshot": [
-    {
-      "name": "ACWI",
-      "value": "+0.2%"
-    },
-    {
-      "name": "Europe",
-      "value": "-0.8%"
-    },
-    {
-      "name": "EM",
-      "value": "+0.0%"
-    },
-    {
-      "name": "VIX",
-      "value": "14.4"
-    },
-    {
-      "name": "VSTOXX",
-      "value": "—"
-    },
-    {
-      "name": "US10Y",
-      "value": "4.72%"
-    },
-    {
-      "name": "US CAPE",
-      "value": "—"
-    }
+  "risk": [
+    {"name":"US volatility (VIX)","current":14.4,"display":"14.4","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null},
+    {"name":"Europe volatility (VSTOXX)","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
+    {"name":"Emerging-market volatility (VXEEM)","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null},
+    {"name":"ACWI drawdown","current":-0.9,"display":"-0.9%","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null}
   ],
-  "details": {
-    "valuation": "\n    <p>\n        <strong>US CAPE:</strong> Unavailable\n    </p>\n\n    <p>\n        CAPE is a long-term valuation indicator.\n        It should be used for expected-return context,\n        not short-term market timing.\n    </p>\n    ",
-    "risk": "\n    <p>\n        <strong>VIX:</strong> 14.4\n    </p>\n\n    <p>\n        <strong>VSTOXX:</strong> Unavailable\n    </p>\n\n    <p>\n        <strong>ACWI drawdown:</strong> -0.9%\n    </p>\n    "
-  },
-  "what_matters": [
-    "Global trend: BULLISH.",
-    "US CAPE unavailable.",
-    "VIX: 14.4.",
-    "ACWI drawdown: -0.9%."
+  "valuation": [
+    {"name":"US CAPE","current":null,"display":"Unavailable","detail":"Refresh will try Shiller/Yale and fall back to data/cape.json.","percentile":null,"percentile_label":null,"band":null}
   ],
-  "watch": [
-    "ACWI vs 200-day moving average",
-    "US and European volatility",
-    "Global drawdown",
-    "US CAPE",
-    "US 10-year yield"
+  "cross_asset": [
+    {"name":"US 10Y yield","current":4.72,"display":"4.72%","detail":"Starter value from previous build","percentile":null,"percentile_label":null,"band":null},
+    {"name":"Gold","current":null,"display":"—","detail":"V2 refresh required","percentile":null,"percentile_label":null,"band":null}
   ],
-  "history": {
-    "acwi": [],
-    "score": []
-  },
-  "sources": "Yahoo Finance via yfinance; Robert Shiller/Yale CAPE dataset."
+  "priced_in": [
+    {"name":"Equity volatility already priced","display":"VIX 14.4","explanation":"Option prices embed a current 30-day US equity volatility level. The V2 refresh will add European and emerging-market context."},
+    {"name":"Inflation priced into bonds","display":"Unavailable","explanation":"V2 refresh will read the market-based 10-year inflation breakeven from FRED."},
+    {"name":"Equity valuation being paid","display":"CAPE unavailable","explanation":"A high valuation means investors are paying more for earnings. CAPE is long-term context, not a short-term timing signal."}
+  ],
+  "rules": {"action":"NORMAL DCA","detail":"The personal investing rules are intentionally separate from market scoring and will be added after the market dashboard is stable."},
+  "sources": ["Yahoo Finance / yfinance","Cboe volatility indices","STOXX VSTOXX","FRED inflation breakeven","Robert Shiller / Yale CAPE"]
 }
