@@ -1,7 +1,7 @@
 {
   "version": "2.0.6",
   "mode": "LIVE",
-  "updated_at": "2026-09-02 12:58 UTC",
+  "updated_at": "2026-09-02 13:05 UTC",
   "data_through": "2026-09-02",
   "brief": {
     "status": "GOOD",
@@ -187,8 +187,8 @@
     },
     {
       "name": "Gold",
-      "current": 4384.0,
-      "display": "$4,384",
+      "current": 4381.0,
+      "display": "$4,381",
       "detail": "Gold futures price proxy.",
       "percentile": 95.0,
       "percentile_label": "P95",
@@ -211,8 +211,8 @@
     },
     {
       "name": "Inflation priced into bonds",
-      "display": "Unavailable",
-      "explanation": "10-year Treasury breakeven inflation is derived from nominal and inflation-indexed Treasury yields and is a market-implied inflation expectation."
+      "display": "10Y breakeven 2.35%",
+      "explanation": "10-year Treasury breakeven inflation is derived from nominal and inflation-indexed Treasury yields and is a market-implied inflation expectation. Live FRED unavailable; last verified observation: 2026-08-27."
     },
     {
       "name": "Equity valuation being paid",
@@ -230,5 +230,12 @@
     "STOXX VSTOXX official history",
     "FRED 10Y inflation breakeven",
     "Robert Shiller dataset"
-  ]
+  ],
+  "data_quality": {
+    "inflation_breakeven": {
+      "status": "LAST_KNOWN_GOOD",
+      "value": 2.35,
+      "observation_date": "2026-08-27"
+    }
+  }
 }
