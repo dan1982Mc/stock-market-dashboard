@@ -6,8 +6,6 @@ TICKERS = {
     "Europe": "VGK",
     "EM": "EEM",
     "VIX": "^VIX",
-    "VSTOXX": "^V2TX",
-    "EM_VIX": "^VXEEM",
     "US10Y": "^TNX",
     "GOLD": "GC=F",
 }
@@ -19,10 +17,9 @@ OUTPUT_FILE = "data/latest.json"
 HISTORY_FILE = "data/history.json"
 CAPE_FILE = "data/cape.json"
 
-# Optional FRED series. No API key is required for fredgraph.csv.
+# FRED public series (no API key required).
 FRED_INFLATION = "T10YIE"
+FRED_EM_VOL = "VXEEMCLS"
 
-# Top-level market brief rules. These are intentionally simple and are
-# not an investment recommendation engine yet.
 DRAWDOWN_WARNING = -10.0
 DRAWDOWN_MAJOR = -20.0
