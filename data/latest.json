@@ -1,7 +1,7 @@
 {
-  "version": "2.0.2",
+  "version": "2.0.4",
   "mode": "LIVE",
-  "updated_at": "2026-09-02 12:31 UTC",
+  "updated_at": "2026-09-02 12:50 UTC",
   "data_through": "2026-09-02",
   "brief": {
     "status": "GOOD",
@@ -81,11 +81,11 @@
   "risk": [
     {
       "name": "US volatility (VIX)",
-      "current": 16.0,
-      "display": "16.0",
+      "current": 16.2,
+      "display": "16.2",
       "detail": "30-day option-implied volatility index.",
-      "percentile": 42.0,
-      "percentile_label": "P42",
+      "percentile": 43.0,
+      "percentile_label": "P43",
       "band": {
         "p05": 10.71,
         "p25": 13.75,
@@ -98,12 +98,20 @@
     },
     {
       "name": "Europe volatility (VSTOXX)",
-      "current": null,
-      "display": "\u2014",
-      "detail": "Data source unavailable.",
-      "percentile": null,
-      "percentile_label": null,
-      "band": null
+      "current": 17.5,
+      "display": "17.5",
+      "detail": "30-day option-implied volatility index.",
+      "percentile": 29.0,
+      "percentile_label": "P29",
+      "band": {
+        "p05": 13.27,
+        "p25": 16.83,
+        "p50": 21.09,
+        "p75": 26.73,
+        "p95": 42.59,
+        "p05_label": 13.27,
+        "p95_label": 42.59
+      }
     },
     {
       "name": "Emerging-market volatility (VXEEM)",
@@ -135,19 +143,27 @@
   "valuation": [
     {
       "name": "US CAPE",
-      "current": null,
-      "display": "Unavailable",
-      "detail": "Source: Robert Shiller",
-      "percentile": null,
-      "percentile_label": null,
-      "band": null
+      "current": 30.8,
+      "display": "30.8",
+      "detail": "Source: Robert Shiller dataset",
+      "percentile": 94.0,
+      "percentile_label": "P94",
+      "band": {
+        "p05": 7.96,
+        "p25": 11.91,
+        "p50": 16.5,
+        "p75": 21.14,
+        "p95": 31.29,
+        "p05_label": 7.96,
+        "p95_label": 31.29
+      }
     }
   ],
   "cross_asset": [
     {
       "name": "US 10Y yield",
-      "current": 4.8,
-      "display": "4.80%",
+      "current": 4.78,
+      "display": "4.78%",
       "detail": "Treasury market yield proxy.",
       "percentile": 99.0,
       "percentile_label": "P99",
@@ -163,8 +179,8 @@
     },
     {
       "name": "Gold",
-      "current": 4384.0,
-      "display": "$4,384",
+      "current": 4381.0,
+      "display": "$4,381",
       "detail": "Gold futures price proxy.",
       "percentile": 95.0,
       "percentile_label": "P95",
@@ -182,17 +198,17 @@
   "priced_in": [
     {
       "name": "Equity volatility already priced",
-      "display": "US 16.0 VIX",
+      "display": "US 16.2 VIX",
       "explanation": "Option prices embed near-term volatility; European and emerging-market volatility are shown alongside it."
     },
     {
       "name": "Inflation priced into bonds",
-      "display": "Unavailable",
+      "display": "10Y breakeven 2.35%",
       "explanation": "10-year Treasury breakeven inflation is derived from nominal and inflation-indexed Treasury yields and is a market-implied inflation expectation."
     },
     {
       "name": "Equity valuation being paid",
-      "display": "Unavailable",
+      "display": "CAPE 30.8",
       "explanation": "CAPE compares the S&P 500 price with ten years of inflation-adjusted earnings; a higher reading means investors are paying a higher historical earnings multiple."
     }
   ],
@@ -205,6 +221,6 @@
     "Cboe VIX / VXEEM via FRED",
     "STOXX VSTOXX official history",
     "FRED 10Y inflation breakeven",
-    "Robert Shiller official CAPE dataset"
+    "Robert Shiller dataset"
   ]
 }
