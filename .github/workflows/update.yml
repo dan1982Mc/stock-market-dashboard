@@ -30,6 +30,9 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python update_market_v2.py
 
+      - name: Finalize data quality
+        run: python updater/finalize_data.py
+
       - name: Commit updated data
         run: |
           git config user.name "market-dashboard-bot"
