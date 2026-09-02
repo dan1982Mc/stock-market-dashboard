@@ -4,7 +4,44 @@ async function loadJson(path){const r=await fetch(`${path}?v=${Date.now()}`);if(
 function setMode(data){const b=document.getElementById("modeBadge"),m=data?.mode||"UNKNOWN";b.textContent=m;b.className=`mode-badge mode-${m.toLowerCase()}`}
 function briefClass(s){return s==="MAJOR RISK"?"status-red":s==="WARNING"?"status-yellow":"status-green"}
 function renderBrief(data){const b=data.brief||{},p=document.getElementById("marketBrief");p.className=`market-brief ${briefClass(b.status)}`;document.getElementById("briefLabel").textContent=b.label||"MARKET CONDITION";document.getElementById("briefText").textContent=b.reason||"No summary available.";document.getElementById("briefAction").textContent=data.rules?.action||"NORMAL DCA"}
-function bandHtml(item){if(item.current==null||!item.band)return '<div class="empty">No historical range available.</div>';const b=item.band,min=+b.p05,max=+b.p95,q1=+b.p25,q3=+b.p75,now=+item.current;if(![min,max,q1,q3,now].every(Number.isFinite)||max===min)return '<div class="empty">Historical range unavailable.</div>';const pos=Math.max(0,Math.min(100,(now-min)/(max-min)*100)),left=Math.max(0,Math.min(100,(q1-min)/(max-min)*100)),width=Math.max(0,Math.min(100-left,(q3-q1)/(max-min)*100));return `<div class="band-label-row"><span>P05 ${esc(b.p05_label)}</span><span>P25 ${esc(b.p25)}</span><span>P75 ${esc(b.p75)}</span><span>P95 ${esc(b.p95_label)}</span></div><div class="band"><div class="band-track"></div><div class="band-typical" style="left:${left}%;width:${width}%"></div><div class="band-now" style="left:${pos}%"></div></div><div class="band-caption"><span>Typical range: ${esc(b.p25)} – ${esc(b.p75)}</span><strong>${esc(item.percentile_label||`P${item.percentile}`)}</strong></div>`}
+
+// The P05/P95 values define the historical visual scale. The typical zone is
+// deliberately independent of P25/P75 and is defined per indicator.
+const TYPICAL_RANGES={
+  "ACWI":[-5,10],
+  "US equities":[-5,10],
+  "Europe":[-7,10],
+  "Emerging markets":[-7,12],
+  "US volatility (VIX)":[12,20],
+  "Europe volatility (VSTOXX)":[15,25],
+  "Emerging-market volatility (VXEEM)":[18,28],
+  "ACWI drawdown":[-10,0],
+  "US CAPE":[15,25],
+  "US 10Y yield":[2,4.5],
+  "Gold":[1500,3000]
+};
+
+function formatRangeValue(v,item){
+  if(!Number.isFinite(v))return "—";
+  if(item.name==="Gold")return `$${v.toLocaleString()}`;
+  if(item.name==="US 10Y yield")return `${v.toFixed(1)}%`;
+  if(["US CAPE","ACWI drawdown"].includes(item.name))return v.toFixed(1);
+  return Number.isInteger(v)?String(v):v.toFixed(1);
+}
+
+function bandHtml(item){
+  if(item.current==null||!item.band)return '<div class="empty">No historical range available.</div>';
+  const b=item.band,min=+b.p05,max=+b.p95,now=+item.current;
+  const range=TYPICAL_RANGES[item.name];
+  if(![min,max,now].every(Number.isFinite)||max===min)return '<div class="empty">Historical range unavailable.</div>';
+  if(!range)return '<div class="empty">Typical range unavailable.</div>';
+  const low=Math.min(range[0],range[1]),high=Math.max(range[0],range[1]);
+  const pos=Math.max(0,Math.min(100,(now-min)/(max-min)*100));
+  const left=Math.max(0,Math.min(100,(low-min)/(max-min)*100));
+  const right=Math.max(0,Math.min(100,(high-min)/(max-min)*100));
+  const width=Math.max(0,right-left);
+  return `<div class="band-label-row"><span>${esc(formatRangeValue(min,item))}</span><span>${esc(formatRangeValue(low,item))}</span><span>${esc(formatRangeValue(high,item))}</span><span>${esc(formatRangeValue(max,item))}</span></div><div class="band"><div class="band-track"></div><div class="band-typical" style="left:${left}%;width:${width}%"></div><div class="band-now" style="left:${pos}%"></div></div><div class="band-caption"><span>Typical range: ${esc(formatRangeValue(low,item))} – ${esc(formatRangeValue(high,item))}</span><strong>${esc(item.percentile_label||`P${item.percentile}`)}</strong></div>`;
+}
 function metricCard(item){return `<article class="metric-card"><div class="metric-top"><div class="metric-name">${esc(item.name)}</div></div><div class="metric-value">${esc(item.display)}</div><div class="metric-meta">${esc(item.detail)}</div>${bandHtml(item)}</article>`}
 function renderGrid(id,items){document.getElementById(id).innerHTML=(items||[]).map(metricCard).join("")||'<div class="empty">No data.</div>'}
 function renderInfo(id,items){document.getElementById(id).innerHTML=(items||[]).map(metricCard).join("")||'<div class="empty">No data.</div>'}
