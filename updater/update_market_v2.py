@@ -24,16 +24,14 @@ from scoring_v2 import market_brief, rules_placeholder
 
 ROOT = Path(__file__).resolve().parents[1]
 HEADERS = {"User-Agent": "Mozilla/5.0 stock-market-dashboard/2.0"}
-HTTP_TIMEOUT = (5, 10)  # connect, read seconds
+HTTP_TIMEOUT = (5, 10)
 SOURCE_WORKERS = 4
 
 
 def series_for(ticker):
     try:
-        df = yf.download(
-            ticker, period=HISTORY_PERIOD, interval="1d", auto_adjust=True,
-            progress=False, threads=False, timeout=12,
-        )
+        df = yf.download(ticker, period=HISTORY_PERIOD, interval="1d", auto_adjust=True,
+                         progress=False, threads=False, timeout=12)
         if df.empty:
             print(f"Yahoo {ticker}: unavailable")
             return pd.Series(dtype=float)
@@ -58,10 +56,10 @@ def _http(url, verify=True):
 
 
 def fred_series(series_id):
-    """Fetch a FRED series with short bounded attempts and a CSV mirror."""
+    """Fetch a FRED series and accept both SERIES-ID and DATE,VALUE exports."""
     urls = [
-        f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}",
         f"https://fred.stlouisfed.org/data/{series_id}.csv",
+        f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}",
     ]
     if series_id == FRED_INFLATION:
         urls.append("https://eco3min.fr/dataset/us-inflation-expectations-10y.csv")
@@ -72,10 +70,10 @@ def fred_series(series_id):
             cols = {str(c).strip().lower(): c for c in raw.columns}
             date_col = cols.get("date") or cols.get("observation_date")
             value_col = next((c for c in raw.columns if str(c).strip().upper() == series_id.upper()), None)
-            if value_col is None and series_id == FRED_INFLATION:
-                value_col = next((c for c in raw.columns if "breakeven" in str(c).lower() or "inflation" in str(c).lower()), None)
             if value_col is None:
                 value_col = next((c for c in raw.columns if str(c).strip().lower() == "value"), None)
+            if value_col is None and series_id == FRED_INFLATION:
+                value_col = next((c for c in raw.columns if "breakeven" in str(c).lower() or "inflation" in str(c).lower()), None)
             if date_col is None or value_col is None:
                 raise ValueError(f"unexpected columns: {list(raw.columns)}")
             d = pd.to_datetime(raw[date_col], errors="coerce")
@@ -92,7 +90,7 @@ def fred_series(series_id):
 
 
 def vstoxx_series():
-    """Fetch official STOXX V2TX history. SSL verification fallback is bounded."""
+    """Fetch official STOXX V2TX history with a bounded SSL fallback."""
     urls = [
         "https://www.stoxx.com/document/Indices/Current/HistoricalData/h_v2tx.txt",
         "https://www.stoxx.com/document/Indices/Current/HistoricalData/vstoxx.txt",
@@ -122,10 +120,9 @@ def vstoxx_series():
 
 
 def load_cape():
-    """Load monthly CAPE; prefer an updatable Shiller mirror over the stale Yale URL."""
+    """Load monthly CAPE from Robert Shiller's current official download."""
     urls = [
-        "https://raw.githubusercontent.com/posix4e/shiller_wrapper_data/main/ie_data.xls",
-        "https://raw.githubusercontent.com/WealthyFranklin/shiller-cape-analysis/main/ie_data.xls",
+        "https://img1.wsimg.com/blobby/go/e5e77e0b-59d1-44d9-ab25-4763ac982e53/downloads/e27e58c1-8ae0-488c-a976-a298708c7175/ie_data.xls",
         "https://www.econ.yale.edu/~shiller/data/ie_data.xls",
     ]
     for url in urls:
@@ -135,18 +132,17 @@ def load_cape():
             if raw.empty or raw.shape[1] < 13:
                 raise ValueError("unexpected Shiller workbook format")
             dates = pd.to_numeric(raw.iloc[:, 0], errors="coerce")
-            fraction = pd.to_numeric(raw.iloc[:, 1], errors="coerce")
             cape = pd.to_numeric(raw.iloc[:, 12], errors="coerce")
             valid = dates.notna() & cape.notna()
             years = dates[valid].astype(int)
-            # The Date Fraction column is the authoritative month field in the Shiller file.
-            months = (fraction[valid].sub(fraction[valid].astype(int)).mul(12).round().astype(int) + 1).clip(1, 12)
+            months = ((dates[valid] - years) * 100).round().astype(int).clip(1, 12)
             idx = pd.to_datetime({"year": years, "month": months, "day": 1}, errors="coerce")
             s = pd.Series(cape[valid].to_numpy(), index=idx).dropna().sort_index()
             s = s[~s.index.duplicated(keep="last")]
             if len(s) >= 100:
-                print(f"CAPE: {len(s)} observations from {url}")
-                return float(s.iloc[-1]), s, "Robert Shiller dataset"
+                current = float(s.iloc[-1])
+                print(f"CAPE: {len(s)} observations from Shiller, latest {current:.2f}")
+                return current, s, "Robert Shiller official dataset"
         except Exception as exc:
             print(f"CAPE source failed {url}: {exc}")
 
@@ -177,7 +173,6 @@ def main():
     started = time.monotonic()
     now = datetime.now(timezone.utc)
 
-    # Yahoo requests are independent; do them concurrently to keep total runtime low.
     raw = {}
     with ThreadPoolExecutor(max_workers=SOURCE_WORKERS) as pool:
         futures = {pool.submit(series_for, ticker): key for key, ticker in TICKERS.items()}
@@ -189,7 +184,6 @@ def main():
                 print(f"Yahoo task {key} failed: {exc}")
                 raw[key] = pd.Series(dtype=float)
 
-    # Specialist sources are also independent and bounded.
     with ThreadPoolExecutor(max_workers=SOURCE_WORKERS) as pool:
         tasks = {
             pool.submit(vstoxx_series): "VSTOXX",
@@ -204,6 +198,7 @@ def main():
                 specialist[key] = future.result()
             except Exception as exc:
                 print(f"Specialist task {key} failed: {exc}")
+
     raw["VSTOXX"] = specialist.get("VSTOXX", pd.Series(dtype=float))
     raw["EM_VIX"] = specialist.get("EM_VIX", pd.Series(dtype=float))
     inflation_hist = specialist.get("INFLATION", pd.Series(dtype=float))
@@ -255,7 +250,7 @@ def main():
     if len(inflation_hist): dates.append(inflation_hist.index[-1])
     if len(cape_hist): dates.append(cape_hist.index[-1])
     latest = {
-        "version": "2.0.4",
+        "version": "2.0.5",
         "mode": "LIVE",
         "updated_at": now.strftime("%Y-%m-%d %H:%M UTC"),
         "data_through": max(dates).strftime("%Y-%m-%d") if dates else None,
