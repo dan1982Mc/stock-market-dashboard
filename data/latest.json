@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "mode": "LIVE",
-  "updated_at": "2026-09-02 11:53 UTC",
+  "updated_at": "2026-09-02 12:14 UTC",
   "data_through": "2026-09-02",
   "brief": {
     "status": "GOOD",
@@ -30,30 +30,30 @@
       "name": "US equities",
       "current": 7.1,
       "display": "+7.1% vs 200DMA",
-      "detail": "50DMA 7570.7 \u00b7 200DMA 7126.8",
+      "detail": "50DMA 7565.9 \u00b7 200DMA 7122.5",
       "percentile": 57.0,
       "percentile_label": "P57",
       "band": {
-        "p05": -8.25,
+        "p05": -8.26,
         "p25": 2.04,
         "p50": 6.3,
         "p75": 9.68,
         "p95": 13.33,
-        "p05_label": -8.25,
+        "p05_label": -8.26,
         "p95_label": 13.33
       }
     },
     {
       "name": "Europe",
-      "current": 5.9,
-      "display": "+5.9% vs 200DMA",
-      "detail": "50DMA 90.1 \u00b7 200DMA 85.7",
-      "percentile": 54.0,
-      "percentile_label": "P54",
+      "current": 6.0,
+      "display": "+6.0% vs 200DMA",
+      "detail": "50DMA 90.0 \u00b7 200DMA 85.6",
+      "percentile": 55.0,
+      "percentile_label": "P55",
       "band": {
         "p05": -12.96,
         "p25": -0.31,
-        "p50": 5.28,
+        "p50": 5.27,
         "p75": 9.59,
         "p95": 14.63,
         "p05_label": -12.96,
@@ -62,28 +62,28 @@
     },
     {
       "name": "Emerging markets",
-      "current": 9.0,
-      "display": "+9.0% vs 200DMA",
-      "detail": "50DMA 65.8 \u00b7 200DMA 61.2",
-      "percentile": 72.0,
-      "percentile_label": "P72",
+      "current": 9.1,
+      "display": "+9.1% vs 200DMA",
+      "detail": "50DMA 65.9 \u00b7 200DMA 61.2",
+      "percentile": 73.0,
+      "percentile_label": "P73",
       "band": {
         "p05": -12.95,
-        "p25": -2.79,
+        "p25": -2.81,
         "p50": 3.57,
-        "p75": 9.76,
-        "p95": 17.98,
+        "p75": 9.75,
+        "p95": 17.99,
         "p05_label": -12.95,
-        "p95_label": 17.98
+        "p95_label": 17.99
       }
     }
   ],
   "risk": [
     {
       "name": "US volatility (VIX)",
-      "current": 16.3,
-      "display": "16.3",
-      "detail": "Current option-implied volatility index.",
+      "current": 16.2,
+      "display": "16.2",
+      "detail": "30-day option-implied volatility index.",
       "percentile": 44.0,
       "percentile_label": "P44",
       "band": {
@@ -100,18 +100,18 @@
       "name": "Europe volatility (VSTOXX)",
       "current": null,
       "display": "\u2014",
-      "detail": "Current option-implied volatility index.",
+      "detail": "Data source unavailable.",
       "percentile": null,
       "percentile_label": null,
       "band": null
     },
     {
       "name": "Emerging-market volatility (VXEEM)",
-      "current": 23.8,
-      "display": "23.8",
-      "detail": "Current option-implied volatility index.",
-      "percentile": 100.0,
-      "percentile_label": "P100",
+      "current": null,
+      "display": "\u2014",
+      "detail": "Data source unavailable.",
+      "percentile": null,
+      "percentile_label": null,
       "band": null
     },
     {
@@ -146,25 +146,25 @@
   "cross_asset": [
     {
       "name": "US 10Y yield",
-      "current": 0.48,
-      "display": "0.48%",
+      "current": 4.8,
+      "display": "4.80%",
       "detail": "Treasury market yield proxy.",
       "percentile": 99.0,
       "percentile_label": "P99",
       "band": {
-        "p05": 0.07,
-        "p25": 0.18,
-        "p50": 0.28,
-        "p75": 0.41,
-        "p95": 0.45,
-        "p05_label": 0.07,
-        "p95_label": 0.45
+        "p05": 0.74,
+        "p25": 1.8,
+        "p50": 2.84,
+        "p75": 4.11,
+        "p95": 4.54,
+        "p05_label": 0.74,
+        "p95_label": 4.54
       }
     },
     {
       "name": "Gold",
-      "current": 4372.0,
-      "display": "$4,372",
+      "current": 4380.0,
+      "display": "$4,380",
       "detail": "Gold futures price proxy.",
       "percentile": 95.0,
       "percentile_label": "P95",
@@ -182,18 +182,18 @@
   "priced_in": [
     {
       "name": "Equity volatility already priced",
-      "display": "US 16.3% implied",
-      "explanation": "Option prices embed near-term volatility. VSTOXX and VXEEM provide European and emerging-market context."
+      "display": "US 16.2 VIX",
+      "explanation": "Option prices embed near-term volatility; European and emerging-market volatility are shown alongside it."
     },
     {
       "name": "Inflation priced into bonds",
       "display": "Unavailable",
-      "explanation": "Nominal Treasury yield minus the comparable inflation-protected Treasury yield is a market-implied inflation measure."
+      "explanation": "Derived from nominal and inflation-indexed Treasury yields; this is a market-implied inflation expectation."
     },
     {
       "name": "Equity valuation being paid",
       "display": "Unavailable",
-      "explanation": "Valuation shows how much investors are paying for long-term earnings. Higher valuation means more optimism is already embedded in price."
+      "explanation": "CAPE compares the S&P 500 price with ten years of inflation-adjusted earnings; a high reading means a high multiple is being paid."
     }
   ],
   "rules": {
@@ -203,8 +203,8 @@
   "sources": [
     "Yahoo Finance / yfinance",
     "Cboe volatility indices",
-    "STOXX VSTOXX",
-    "FRED inflation breakeven",
-    "Robert Shiller / Yale CAPE"
+    "STOXX VSTOXX / Convex fallback",
+    "FRED 10Y inflation breakeven",
+    "Robert Shiller data via Multpl"
   ]
 }
