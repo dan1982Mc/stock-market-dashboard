@@ -1,7 +1,12 @@
-"""Fetch a small cached market-news snapshot for the dashboard.
+"""Fetch a diversified cached market-news snapshot for the dashboard.
 
-The browser reads data/news.json rather than calling a news service directly.
-GitHub Actions refreshes this file on the normal dashboard schedule.
+The browser reads data/news.json rather than calling news services directly.
+GitHub Actions refreshes this file several times per weekday.
+
+Reuters is the primary market source. AP and CNBC provide independent
+confirmation/context. Headlines are deduplicated before the dashboard tone
+is calculated so one event reported by several outlets does not count as
+several independent risk signals.
 """
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,49 +17,168 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "news.json"
-FEED = (
-    "https://news.google.com/rss/search?"
-    "q=site%3Areuters.com%20(global%20markets%20OR%20stocks%20OR%20bonds)%20"
-    "(oil%20OR%20inflation%20OR%20rates%20OR%20geopolitics)"
-    "&hl=en-US&gl=US&ceid=US:en"
-)
 
-RISK_WORDS = re.compile(r"oil|inflation|yield|bond|war|iran|tariff|sanction|recession|selloff|hawkish|tighten|risk", re.I)
-POS_WORDS = re.compile(r"earnings|growth|rally|strong|rebound|cooling inflation|dovish|rate cut|stimulus", re.I)
+FEEDS = [
+    {"name": "Reuters", "query": "site:reuters.com (global markets OR stocks OR bonds OR central banks) (oil OR inflation OR rates OR geopolitics)", "priority": 1.15},
+    {"name": "AP", "query": "site:apnews.com (markets OR economy OR business OR stocks OR bonds) (inflation OR rates OR oil OR geopolitics)", "priority": 1.00},
+    {"name": "CNBC", "query": "site:cnbc.com (markets OR stocks OR bonds OR economy) (inflation OR rates OR oil OR geopolitics)", "priority": 1.00},
+]
+
+RISK_WORDS = {
+    "war": 2, "attack": 2, "strike": 2, "conflict": 2, "iran": 2,
+    "tariff": 2, "sanction": 2, "recession": 2, "selloff": 2,
+    "sell-off": 2, "surge in yields": 2, "bond rout": 2,
+    "inflation": 1, "oil": 1, "yield": 1, "bond": 1, "hawkish": 1,
+    "rate hike": 1, "higher rates": 1, "deficit": 1, "downgrade": 1,
+    "fear": 1, "tension": 1, "uncertainty": 1,
+}
+POS_WORDS = {
+    "rally": 2, "rebound": 2, "rate cut": 1, "dovish": 1,
+    "cooling inflation": 2, "strong earnings": 2, "growth": 1,
+    "stimulus": 1, "recovery": 1, "gains": 1, "upgrade": 1,
+}
+STOPWORDS = {
+    "the", "and", "for", "with", "from", "that", "this", "into", "over",
+    "after", "amid", "while", "what", "why", "how", "are", "its", "new",
+    "global", "markets", "market", "stocks", "stock", "bonds", "bond",
+}
 
 
 def clean(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def fetch():
-    req = Request(FEED, headers={"User-Agent": "GlobalMarketDashboard/2.0"})
-    with urlopen(req, timeout=15) as r:
-        root = ET.fromstring(r.read())
+def google_feed(query):
+    encoded = query.replace(" ", "%20").replace(":", "%3A").replace("(", "%28").replace(")", "%29")
+    return f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
+
+
+def tokenize(title):
+    words = re.findall(r"[a-z0-9]+", title.lower())
+    return {w for w in words if len(w) > 3 and w not in STOPWORDS}
+
+
+def similar(a, b):
+    aa, bb = tokenize(a), tokenize(b)
+    if not aa or not bb:
+        return False
+    overlap = len(aa & bb) / max(1, min(len(aa), len(bb)))
+    return overlap >= 0.55
+
+
+def article_score(title):
+    text = title.lower()
+    risk = sum(weight for phrase, weight in RISK_WORDS.items() if phrase in text)
+    positive = sum(weight for phrase, weight in POS_WORDS.items() if phrase in text)
+    return max(-3, min(3, risk - positive)), risk, positive
+
+
+def fetch_source(source):
+    req = Request(google_feed(source["query"]), headers={"User-Agent": "GlobalMarketDashboard/2.0"})
+    with urlopen(req, timeout=15) as response:
+        root = ET.fromstring(response.read())
 
     articles = []
-    for item in root.findall(".//item")[:8]:
+    for item in root.findall(".//item")[:12]:
         title = clean(item.findtext("title"))
         link = clean(item.findtext("link"))
-        pub = clean(item.findtext("pubDate"))
-        source = clean(item.findtext("source")) or "Reuters"
+        published = clean(item.findtext("pubDate"))
+        reported_source = clean(item.findtext("source")) or source["name"]
         if not title:
             continue
-        articles.append({"title": title, "link": link, "published": pub, "source": source})
+        score, risk, positive = article_score(title)
+        articles.append({
+            "title": title, "link": link, "published": published,
+            "source": reported_source, "source_group": source["name"],
+            "priority": source["priority"], "score": score,
+            "risk": risk, "positive": positive,
+        })
+    return articles
 
-    if not articles:
-        raise RuntimeError("No news items returned")
 
-    risk = sum(bool(RISK_WORDS.search(a["title"])) for a in articles[:5])
-    positive = sum(bool(POS_WORDS.search(a["title"])) for a in articles[:5])
-    tone = "CAUTIOUS / RISK-OFF" if risk > positive else "MIXED" if risk == positive else "CAUTIOUS / RISK-ON"
+def select_articles(raw):
+    candidates = sorted(
+        raw,
+        key=lambda a: (abs(a["score"]) * a["priority"], a["priority"], a["published"]),
+        reverse=True,
+    )
+    selected = []
+    source_groups = set()
+    for article in candidates:
+        if any(similar(article["title"], existing["title"]) for existing in selected):
+            continue
+        if article["source_group"] not in source_groups or len(selected) >= 3:
+            selected.append(article)
+            source_groups.add(article["source_group"])
+        if len(selected) >= 5:
+            break
 
-    return {
+    if len(selected) < 5:
+        for article in candidates:
+            if article in selected or any(similar(article["title"], x["title"]) for x in selected):
+                continue
+            selected.append(article)
+            if len(selected) >= 5:
+                break
+    return selected
+
+
+def classify(selected):
+    if not selected:
+        return "UNAVAILABLE"
+    scores = [a["score"] for a in selected]
+    negative = sum(s >= 1 for s in scores)
+    positive = sum(s <= -1 for s in scores)
+    risk_sources = len({a["source_group"] for a in selected if a["score"] >= 1})
+    positive_sources = len({a["source_group"] for a in selected if a["score"] <= -1})
+    if negative >= 3 and risk_sources >= 2 and sum(scores) >= 4:
+        return "CAUTIOUS / RISK-OFF"
+    if positive >= 3 and positive_sources >= 2 and sum(scores) <= -4:
+        return "CAUTIOUS / RISK-ON"
+    return "MIXED"
+
+
+def build_summary(tone, selected):
+    sources = len({a["source_group"] for a in selected})
+    themes = len(selected)
+    if tone == "CAUTIOUS / RISK-OFF":
+        lead = "Multiple sources are highlighting meaningful macro or geopolitical risks."
+    elif tone == "CAUTIOUS / RISK-ON":
+        lead = "Multiple sources are highlighting improving growth, inflation or market conditions."
+    else:
+        lead = "News is mixed across the main market and macro themes."
+    return f"{lead} {themes} distinct headlines from {sources} source groups are used; market indicators remain the primary signal."
+
+
+def fetch():
+    raw = []
+    failures = []
+    for source in FEEDS:
+        try:
+            raw.extend(fetch_source(source))
+        except Exception as exc:
+            failures.append(f"{source['name']}: {exc}")
+            print(f"News source unavailable — {source['name']}: {exc}")
+
+    if not raw:
+        raise RuntimeError("All news sources unavailable")
+
+    selected = select_articles(raw)
+    tone = classify(selected)
+    articles = [
+        {k: a[k] for k in ("title", "link", "published", "source", "source_group")}
+        for a in selected
+    ]
+    payload = {
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "tone": tone,
-        "summary": "Headline context is used as a macro overlay; market indicators remain the primary signal.",
-        "articles": articles[:5],
+        "summary": build_summary(tone, selected),
+        "sources": sorted({a["source_group"] for a in selected}),
+        "articles": articles,
     }
+    if failures:
+        payload["source_warnings"] = failures
+    return payload
 
 
 def main():
@@ -68,6 +192,7 @@ def main():
             "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
             "tone": "UNAVAILABLE",
             "summary": "News feed unavailable; market indicators remain the primary signal.",
+            "sources": [],
             "articles": [],
         }
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
