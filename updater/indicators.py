@@ -1,243 +1,75 @@
-"""
-INDICATOR CALCULATIONS
+"""Pure indicator calculations for the V2 dashboard."""
 
-This file calculates raw indicators.
-
-It does NOT decide whether the market is
-good or bad. That belongs in scoring.py.
-"""
-
+import math
 import numpy as np
 
 
-def moving_average(
-    series,
-    days
-):
-
-    return series.rolling(
-        days
-    ).mean()
-
-
-def trend_score(
-    price,
-    days_50=50,
-    days_200=200
-):
-
-    if len(price) < days_200:
-
+def clean(value, decimals=2):
+    try:
+        value = float(value)
+        if not math.isfinite(value):
+            return None
+        return round(value, decimals)
+    except (TypeError, ValueError):
         return None
 
 
-    ma50 =
-        moving_average(
-            price,
-            days_50
-        )
-
-    ma200 =
-        moving_average(
-            price,
-            days_200
-        )
+def trend_metrics(series, ma_short=50, ma_long=200):
+    if series is None or len(series.dropna()) < ma_long:
+        return None
+    series = series.dropna()
+    price = float(series.iloc[-1])
+    ma50 = float(series.rolling(ma_short).mean().iloc[-1])
+    ma200 = float(series.rolling(ma_long).mean().iloc[-1])
+    distance = (price / ma200 - 1) * 100
+    return {"current": clean(distance, 1), "ma50": clean(ma50), "ma200": clean(ma200), "price": clean(price)}
 
 
-    current =
-        float(price.iloc[-1])
-
-    score = 0
-
-
-    # Price above 200DMA
-
-    if current > ma200.iloc[-1]:
-
-        score += 50
-
-
-    # 50DMA above 200DMA
-
-    if ma50.iloc[-1] > ma200.iloc[-1]:
-
-        score += 30
-
-
-    # 3-month momentum
-
-    if len(price) >= 64:
-
-        if current > price.iloc[-64]:
-
-            score += 20
-
-
-    return score
-
-
-def drawdown(series):
-
-    peak =
-        series.cummax()
-
-    return (
-        series / peak - 1
-    ) * 100
+def drawdown_series(series):
+    series = series.dropna()
+    if len(series) == 0:
+        return series
+    return (series / series.cummax() - 1) * 100
 
 
 def current_drawdown(series):
+    dd = drawdown_series(series)
+    return clean(dd.iloc[-1], 1) if len(dd) else None
 
-    dd =
-        drawdown(series)
 
-    if len(dd) == 0:
-
+def percentile(value, series):
+    series = np.asarray(series.dropna(), dtype=float)
+    series = series[np.isfinite(series)]
+    if len(series) == 0 or value is None:
         return None
-
-    return float(
-        dd.iloc[-1]
-    )
+    return clean((np.sum(series <= value) / len(series)) * 100, 0)
 
 
-def breadth_proxy(
-    regional_series
-):
-
-    """
-    This is deliberately called a PROXY.
-
-    It measures the percentage of selected
-    regional benchmark ETFs above their
-    200-day moving average.
-
-    It is NOT true all-stock global breadth.
-    """
-
-    values = []
-
-
-    for series in regional_series:
-
-        if len(series) < 200:
-
-            continue
-
-
-        ma200 =
-            series.rolling(
-                200
-            ).mean()
-
-
-        values.append(
-            series.iloc[-1]
-            >
-            ma200.iloc[-1]
-        )
-
-
-    if not values:
-
+def band(series, current=None, decimals=2):
+    series = np.asarray(series.dropna(), dtype=float)
+    series = series[np.isfinite(series)]
+    if len(series) < 20:
         return None
+    current = float(series[-1] if current is None else current)
+    qs = np.percentile(series, [5, 25, 50, 75, 95])
+    pct = percentile(current, type("S", (), {"dropna": lambda self: series})())
+    return {
+        "p05": clean(qs[0], decimals), "p25": clean(qs[1], decimals),
+        "p50": clean(qs[2], decimals), "p75": clean(qs[3], decimals), "p95": clean(qs[4], decimals),
+        "p05_label": clean(qs[0], decimals), "p95_label": clean(qs[4], decimals),
+        "percentile": pct
+    }
 
 
-    return (
-        sum(values)
-        /
-        len(values)
-        *
-        100
-    )
-
-
-def volatility_status(
-    value
-):
-
-    if value is None:
-
-        return "UNAVAILABLE"
-
-
-    if value < 20:
-
+def simple_status(current, warning=None, major=None, higher_is_bad=False):
+    if current is None:
+        return "NO DATA"
+    if warning is None or major is None:
+        return "WATCH"
+    if higher_is_bad:
+        if current >= major: return "MAJOR RISK"
+        if current >= warning: return "WARNING"
         return "NORMAL"
-
-    if value < 30:
-
-        return "ELEVATED"
-
-    if value < 40:
-
-        return "HIGH"
-
-    return "EXTREME"
-
-
-def drawdown_status(
-    value
-):
-
-    if value is None:
-
-        return "UNAVAILABLE"
-
-
-    if value > -5:
-
-        return "NORMAL"
-
-    if value > -10:
-
-        return "CORRECTION"
-
-    if value > -20:
-
-        return "MAJOR_CORRECTION"
-
-    return "BEAR_MARKET"
-
-
-def breadth_status(
-    value
-):
-
-    if value is None:
-
-        return "UNAVAILABLE"
-
-
-    if value >= 80:
-
-        return "HEALTHY"
-
-    if value >= 50:
-
-        return "MIXED"
-
-    return "WEAK"
-
-
-def cape_status(
-    value
-):
-
-    if value is None:
-
-        return "UNAVAILABLE"
-
-
-    if value < 15:
-
-        return "ATTRACTIVE"
-
-    if value < 22:
-
-        return "NORMAL"
-
-    if value < 30:
-
-        return "EXPENSIVE"
-
-    return "EXTREME"
+    if current <= major: return "MAJOR RISK"
+    if current <= warning: return "WARNING"
+    return "NORMAL"
