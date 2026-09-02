@@ -1,11 +1,8 @@
 """Fetch a diversified cached market-news snapshot for the dashboard.
 
-The browser reads data/news.json rather than calling news services directly.
-GitHub Actions refreshes this file several times per weekday.
-
-Reuters is the primary market source. AP and CNBC provide independent
-confirmation/context. Headlines are deduplicated before the dashboard tone
-is calculated so one event reported by several outlets does not count as
+Reuters is the primary wire source. Bloomberg Markets and Financial Times
+Markets add independent financial-market and macro context. Headlines are
+deduplicated so one event reported by several outlets does not count as
 several independent risk signals.
 """
 from datetime import datetime, timezone
@@ -19,9 +16,9 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "news.json"
 
 FEEDS = [
-    {"name": "Reuters", "query": "site:reuters.com (global markets OR stocks OR bonds OR central banks) (oil OR inflation OR rates OR geopolitics)", "priority": 1.15},
-    {"name": "AP", "query": "site:apnews.com (markets OR economy OR business OR stocks OR bonds) (inflation OR rates OR oil OR geopolitics)", "priority": 1.00},
-    {"name": "CNBC", "query": "site:cnbc.com (markets OR stocks OR bonds OR economy) (inflation OR rates OR oil OR geopolitics)", "priority": 1.00},
+    {"name": "Reuters", "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20(global%20markets%20OR%20stocks%20OR%20bonds%20OR%20central%20banks)%20(oil%20OR%20inflation%20OR%20rates%20OR%20geopolitics)%26hl=en-US%26gl=US%26ceid=US:en", "priority": 1.15},
+    {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "priority": 1.00},
+    {"name": "Financial Times", "url": "https://www.ft.com/markets?format=rss", "priority": 1.00},
 ]
 
 RISK_WORDS = {
@@ -48,11 +45,6 @@ def clean(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def google_feed(query):
-    encoded = query.replace(" ", "%20").replace(":", "%3A").replace("(", "%28").replace(")", "%29")
-    return f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
-
-
 def tokenize(title):
     words = re.findall(r"[a-z0-9]+", title.lower())
     return {w for w in words if len(w) > 3 and w not in STOPWORDS}
@@ -74,12 +66,12 @@ def article_score(title):
 
 
 def fetch_source(source):
-    req = Request(google_feed(source["query"]), headers={"User-Agent": "GlobalMarketDashboard/2.0"})
+    req = Request(source["url"], headers={"User-Agent": "GlobalMarketDashboard/2.0"})
     with urlopen(req, timeout=15) as response:
         root = ET.fromstring(response.read())
 
     articles = []
-    for item in root.findall(".//item")[:12]:
+    for item in root.findall(".//item")[:15]:
         title = clean(item.findtext("title"))
         link = clean(item.findtext("link"))
         published = clean(item.findtext("pubDate"))
@@ -88,10 +80,15 @@ def fetch_source(source):
             continue
         score, risk, positive = article_score(title)
         articles.append({
-            "title": title, "link": link, "published": published,
-            "source": reported_source, "source_group": source["name"],
-            "priority": source["priority"], "score": score,
-            "risk": risk, "positive": positive,
+            "title": title,
+            "link": link,
+            "published": published,
+            "source": reported_source,
+            "source_group": source["name"],
+            "priority": source["priority"],
+            "score": score,
+            "risk": risk,
+            "positive": positive,
         })
     return articles
 
@@ -104,12 +101,15 @@ def select_articles(raw):
     )
     selected = []
     source_groups = set()
+
     for article in candidates:
         if any(similar(article["title"], existing["title"]) for existing in selected):
             continue
-        if article["source_group"] not in source_groups or len(selected) >= 3:
-            selected.append(article)
-            source_groups.add(article["source_group"])
+        # Build the first three slots from different outlets where possible.
+        if article["source_group"] in source_groups and len(source_groups) < 3:
+            continue
+        selected.append(article)
+        source_groups.add(article["source_group"])
         if len(selected) >= 5:
             break
 
@@ -142,9 +142,9 @@ def build_summary(tone, selected):
     sources = len({a["source_group"] for a in selected})
     themes = len(selected)
     if tone == "CAUTIOUS / RISK-OFF":
-        lead = "Multiple sources are highlighting meaningful macro or geopolitical risks."
+        lead = "Multiple independent sources are highlighting meaningful macro or geopolitical risks."
     elif tone == "CAUTIOUS / RISK-ON":
-        lead = "Multiple sources are highlighting improving growth, inflation or market conditions."
+        lead = "Multiple independent sources are highlighting improving growth, inflation or market conditions."
     else:
         lead = "News is mixed across the main market and macro themes."
     return f"{lead} {themes} distinct headlines from {sources} source groups are used; market indicators remain the primary signal."
