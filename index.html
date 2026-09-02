@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#071018">
   <title>Global Market Dashboard</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/dashboard-v2.css">
+  <link rel="stylesheet" href="css/dashboard-v3.css">
 </head>
 <body>
   <main class="container">
@@ -14,12 +14,7 @@
       <div><div class="eyebrow">LONG-TERM INVESTOR VIEW</div><h1>Global Market Dashboard</h1><p class="subtitle">Worldwide equities · risk · valuation · bonds · gold</p></div>
       <div class="update-info"><span id="modeBadge" class="mode-badge">LOADING</span><div id="updatedAt">Updating…</div><div id="dataThrough">Market data through —</div></div>
     </header>
-
-    <section id="marketBrief" class="market-brief status-green" aria-live="polite">
-      <div><div class="eyebrow">GLOBAL MARKET</div><h2 id="briefLabel">Loading…</h2><p id="briefText">Reading current market conditions.</p></div>
-      <div class="brief-action"><div class="eyebrow">CURRENT PLAN</div><strong id="briefAction">—</strong></div>
-    </section>
-
+    <section id="marketBrief" class="market-brief status-green" aria-live="polite"><div><div class="eyebrow">GLOBAL MARKET</div><h2 id="briefLabel">Loading…</h2><p id="briefText">Reading current market conditions.</p></div><div class="brief-action"><div class="eyebrow">CURRENT PLAN</div><strong id="briefAction">—</strong></div></section>
     <section class="dashboard-panels">
       <div class="panel-card"><div class="section-heading compact"><div><div class="eyebrow">GLOBAL EQUITIES</div><h3>Major regions</h3></div><span class="section-note">10-year history</span></div><div id="equityGrid" class="metric-grid"></div></div>
       <div class="panel-card"><div class="section-heading compact"><div><div class="eyebrow">MARKET RISK</div><h3>Stress priced in</h3></div><span class="section-note">Option volatility</span></div><div id="riskGrid" class="metric-grid"></div></div>
@@ -28,7 +23,6 @@
       <div class="panel-card"><div class="section-heading compact"><div><div class="eyebrow">MARKET PRICING</div><h3>What is already reflected in prices?</h3></div></div><div class="priced-note">Market-derived signals only · not a forecast</div><div id="pricedInGrid" class="priced-grid"></div></div>
       <div class="panel-card"><div class="section-heading compact"><div><div class="eyebrow">GLOBAL EQUITY HISTORY</div><h3>ACWI</h3></div><div class="period-buttons" role="group" aria-label="Chart period"><button data-period="1y" class="period-button active">1Y</button><button data-period="3y" class="period-button">3Y</button><button data-period="5y" class="period-button">5Y</button><button data-period="all" class="period-button">10Y</button></div></div><div class="chart-card"><canvas id="acwiChart" aria-label="ACWI historical price chart"></canvas></div><div class="rules-inline"><div class="eyebrow">INVESTING RULES</div><div id="rulesSummary" class="rules-summary">Rules are not yet configured. The dashboard currently reports market conditions only.</div></div></div>
     </section>
-
     <footer id="sources" class="footer"></footer>
   </main>
   <script src="js/charts.js"></script>
