@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02 15:49 UTC",
+  "updated_at": "2026-09-02 21:37 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,9 +9,9 @@
   ],
   "articles": [
     {
-      "title": "COMMENTARY: The 'real' deal — world bonds grind towards higher neutral rates - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEk0Q09CTi14SmVKc3c5d3dSclpzM21pYkRoRXROd3g3MHgwWWxzaUFzV1VNTi10MG5xWXdycUJoTEdwTF81enZYZnl6azdoZHJVT3E1NEFXQ1NlUVBBOUVvRENSWGFOd05sYTdvZ3Q5eEU1emlaTWdlX1FXbXpSUE1Rdm9GVHJUS0ZJNjlTdEROMVpEV3lSdFdrc043S2xNX2hhXy12QUo0YU5GNUFBb1pBYkpkcTFEXzBNZmdZWEtqQVlWSTVHbXVtQzEwUDY0OEE?oc=5",
-      "published": "Wed, 02 Sep 2026 06:00:00 GMT",
+      "title": "European shares hit by rising bond yields, energy-driven inflation concerns - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPME1pdGN2bXZCdHkxUDdIazdHeHpCM0FrbVNIa2lHOVNOWnA5Ulk2UVpUdGhSWGJpNEE4ckFqeXFVZjhTV2FscDhPNG83RWRxMnVEZDF1TDNUT3ZuSnlYR05PbHVTWTlYUFhnNjhmM3hqR1dZcFJsV25FWmh4cXV1ZkN2RjNQMDcxeDJRMVVoRTE3dEJ4LXJubmdHQ1FjUkowbEFPQmc4SE9mYl9jY0hXeGZnNUJoSU1VU0RQVEN1VHdqeFE4WTc1WA?oc=5",
+      "published": "Wed, 02 Sep 2026 16:39:46 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
@@ -23,25 +23,25 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Warsh's Data Dashboard for Reading the US Economy",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-02/warsh-s-data-dashboard-for-reading-the-us-economy-video",
-      "published": "Wed, 02 Sep 2026 14:49:05 GMT",
+      "title": "Stocks Rebound as Oil Prices Stay Elevated | Closing Bell",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-02/stocks-rebound-oil-prices-stay-elevated-closing-bell-video",
+      "published": "Wed, 02 Sep 2026 20:27:12 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Russia secretly helping Iran develop supersonic missiles",
-      "link": "https://www.ft.com/content/8812dfb4-8bae-4459-8de5-016d919c43ff?syn-25a6b1a6=1",
-      "published": "Wed, 02 Sep 2026 04:00:00 GMT",
+      "title": "Energy price surge hits bond markets as European gas reaches three-year high",
+      "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1",
+      "published": "Wed, 02 Sep 2026 16:50:34 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Warsh and peace",
-      "link": "https://www.ft.com/content/88733fca-fcbe-4b0b-89f0-9785476f4e3a?syn-25a6b1a6=1",
-      "published": "Tue, 01 Sep 2026 20:00:00 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/s-p-500-steadies-after-three-day-skid-as-oil-prices-halt-advance",
+      "published": "Wed, 02 Sep 2026 14:08:37 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
