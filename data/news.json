@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02 21:37 UTC",
+  "updated_at": "2026-09-03 11:51 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "What Japan’s bond sell-off means for global markets",
-      "link": "https://www.ft.com/content/f394d4ca-d035-4753-b7a0-f21eefa08252?syn-25a6b1a6=1",
-      "published": "Wed, 02 Sep 2026 12:03:13 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Stocks Rebound as Oil Prices Stay Elevated | Closing Bell",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-02/stocks-rebound-oil-prices-stay-elevated-closing-bell-video",
-      "published": "Wed, 02 Sep 2026 20:27:12 GMT",
+      "title": "Lloyd’s Insurance Market Sees £1.4 Billion Loss From US-Iran War",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-03/lloyd-s-insurance-market-sees-1-4-billion-loss-from-us-iran-war",
+      "published": "Thu, 03 Sep 2026 11:21:17 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Energy price surge hits bond markets as European gas reaches three-year high",
-      "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1",
-      "published": "Wed, 02 Sep 2026 16:50:34 GMT",
+      "title": "KPMG warned Guggenheim unit over deficiencies in internal controls",
+      "link": "https://www.ft.com/content/70e8e4e6-def9-4683-9aa3-4bf7351474e4?syn-25a6b1a6=1",
+      "published": "Thu, 03 Sep 2026 04:00:22 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "S&P 500 Rises to Snap Three-Day Skid as Oil Prices Halt Advance",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/s-p-500-steadies-after-three-day-skid-as-oil-prices-halt-advance",
-      "published": "Wed, 02 Sep 2026 14:08:37 GMT",
+      "title": "Yen Rallies as Intervention, BOJ Rate Risk Weigh on Wary Traders",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-03/yen-traders-brace-for-holiday-intervention-risk-around-boj",
+      "published": "Thu, 03 Sep 2026 02:44:13 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "World’s Unusually High Dollar Exposure Risks Fueling Selloff",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-03/world-s-unusually-high-dollar-exposure-risks-fueling-selloff",
+      "published": "Thu, 03 Sep 2026 00:00:01 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
