@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 11:54 UTC",
+  "updated_at": "2026-09-04 14:41 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
+      "title": "US Sanctions Small Turkish Investment Bank Over Iran Links",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/us-sanctions-small-turkish-investment-bank-over-iran-links",
+      "published": "Fri, 04 Sep 2026 14:28:50 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "EQT strikes $2bn deal for insurance broker McGill",
+      "link": "https://www.ft.com/content/29655cf5-bf44-4e99-8f26-208f4c44af84?syn-25a6b1a6=1",
+      "published": "Fri, 04 Sep 2026 11:05:53 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Fear not the bond market skinny dippers",
+      "link": "https://www.ft.com/content/3a232341-a470-4270-84a7-5c0e5782db3b?syn-25a6b1a6=1",
+      "published": "Fri, 04 Sep 2026 11:00:11 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
       "title": "Why the US and Iran keep escalating",
       "link": "https://www.ft.com/content/f8b2e4ad-6af2-4cf5-aae2-d1d359b31fa4?syn-25a6b1a6=1",
       "published": "Fri, 04 Sep 2026 04:00:19 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "Cocoa Trims Weekly Loss as Deficit Risks Cloud Supply Outlook",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/cocoa-trims-weekly-loss-as-deficit-risks-cloud-supply-outlook",
-      "published": "Fri, 04 Sep 2026 11:41:05 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Soaring Jet Fuel Prices Cool Investor Appetite for Airline Bonds",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/soaring-jet-fuel-prices-cool-investor-appetite-for-airline-bonds",
-      "published": "Fri, 04 Sep 2026 11:30:00 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "US Yield Swings Abate Before Jobs Data After Volatile Week",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/us-yield-swings-abate-before-jobs-data-after-volatile-week",
-      "published": "Fri, 04 Sep 2026 11:14:17 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     }
   ]
 }
