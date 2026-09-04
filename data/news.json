@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03 21:35 UTC",
+  "updated_at": "2026-09-04 11:54 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "UBS's Panseri on Global Bond Yields, ECB Hike Expectations",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-03/panseri-on-global-bond-yields-ecb-hike-expectations-video",
-      "published": "Thu, 03 Sep 2026 19:56:57 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "How US oil companies are expanding as Trump reshapes global energy",
-      "link": "https://www.ft.com/content/59b1a168-7636-4a23-84e5-b31439b6018d?syn-25a6b1a6=1",
-      "published": "Thu, 03 Sep 2026 11:00:02 GMT",
+      "title": "Why the US and Iran keep escalating",
+      "link": "https://www.ft.com/content/f8b2e4ad-6af2-4cf5-aae2-d1d359b31fa4?syn-25a6b1a6=1",
+      "published": "Fri, 04 Sep 2026 04:00:19 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Yen Rises as Intervention, BOJ Rate Hike Risks Jolt Traders",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-03/yen-traders-brace-for-holiday-intervention-risk-around-boj",
-      "published": "Thu, 03 Sep 2026 02:44:13 GMT",
+      "title": "Cocoa Trims Weekly Loss as Deficit Risks Cloud Supply Outlook",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/cocoa-trims-weekly-loss-as-deficit-risks-cloud-supply-outlook",
+      "published": "Fri, 04 Sep 2026 11:41:05 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks climb and US yields ease; yen jumps against dollar - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
-      "published": "Wed, 02 Sep 2026 22:01:50 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Soaring Jet Fuel Prices Cool Investor Appetite for Airline Bonds",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/soaring-jet-fuel-prices-cool-investor-appetite-for-airline-bonds",
+      "published": "Fri, 04 Sep 2026 11:30:00 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "US Yield Swings Abate Before Jobs Data After Volatile Week",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/us-yield-swings-abate-before-jobs-data-after-volatile-week",
+      "published": "Fri, 04 Sep 2026 11:14:17 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
