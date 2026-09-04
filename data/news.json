@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 17:55 UTC",
+  "updated_at": "2026-09-04 21:16 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "US Sanctions Small Turkish Investment Bank Over Iran Links",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/us-sanctions-small-turkish-investment-bank-over-iran-links",
-      "published": "Fri, 04 Sep 2026 14:28:50 GMT",
+      "title": "Hedge Funds Hike Bullish Oil Bets to May High as Iran War Flares",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/hedge-funds-hike-bullish-oil-bets-to-may-high-as-iran-war-flares",
+      "published": "Fri, 04 Sep 2026 20:38:47 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "EQT strikes $2bn deal for insurance broker McGill",
-      "link": "https://www.ft.com/content/29655cf5-bf44-4e99-8f26-208f4c44af84?syn-25a6b1a6=1",
-      "published": "Fri, 04 Sep 2026 11:05:53 GMT",
+      "title": "Trump’s Iran war sends US diesel prices to record high",
+      "link": "https://www.ft.com/content/aa71ca9a-b64f-41b6-8e6f-00ce03a47553?syn-25a6b1a6=1",
+      "published": "Fri, 04 Sep 2026 11:08:59 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Fear not the bond market skinny dippers",
-      "link": "https://www.ft.com/content/3a232341-a470-4270-84a7-5c0e5782db3b?syn-25a6b1a6=1",
-      "published": "Fri, 04 Sep 2026 11:00:11 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
+      "published": "Tue, 01 Sep 2026 22:26:55 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Why the US and Iran keep escalating",
-      "link": "https://www.ft.com/content/f8b2e4ad-6af2-4cf5-aae2-d1d359b31fa4?syn-25a6b1a6=1",
-      "published": "Fri, 04 Sep 2026 04:00:19 GMT",
+      "title": "Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO",
+      "link": "https://www.ft.com/content/3c9d0a82-643b-44ef-96a0-74a00e3c72ba?syn-25a6b1a6=1",
+      "published": "Fri, 04 Sep 2026 19:46:21 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
