@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 21:16 UTC",
+  "updated_at": "2026-09-07 13:09 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,16 +16,23 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Hedge Funds Hike Bullish Oil Bets to May High as Iran War Flares",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/hedge-funds-hike-bullish-oil-bets-to-may-high-as-iran-war-flares",
-      "published": "Fri, 04 Sep 2026 20:38:47 GMT",
+      "title": "Stocks Slip as Rising Oil Prices Lift Bond Yields: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-06/stock-market-today-dow-s-p-live-updates",
+      "published": "Sun, 06 Sep 2026 22:15:34 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Trump’s Iran war sends US diesel prices to record high",
-      "link": "https://www.ft.com/content/aa71ca9a-b64f-41b6-8e6f-00ce03a47553?syn-25a6b1a6=1",
-      "published": "Fri, 04 Sep 2026 11:08:59 GMT",
+      "title": "Saudi Aramco oil facilities hit in new strikes",
+      "link": "https://www.ft.com/content/9ffb0fb3-51f6-4aa8-9270-a949196bf441?syn-25a6b1a6=1",
+      "published": "Mon, 07 Sep 2026 10:52:14 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Iran to raise petrol prices as US war triggers shortages",
+      "link": "https://www.ft.com/content/15d59180-ea46-4441-9c45-d6be584ae911?syn-25a6b1a6=1",
+      "published": "Mon, 07 Sep 2026 08:34:56 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
@@ -35,13 +42,6 @@
       "published": "Tue, 01 Sep 2026 22:26:55 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
-    },
-    {
-      "title": "Anthropic close to awarding Morgan Stanley and Goldman top roles in $2tn IPO",
-      "link": "https://www.ft.com/content/3c9d0a82-643b-44ef-96a0-74a00e3c72ba?syn-25a6b1a6=1",
-      "published": "Fri, 04 Sep 2026 19:46:21 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
     }
   ]
 }
