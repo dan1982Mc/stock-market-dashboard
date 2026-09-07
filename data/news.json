@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07 18:56 UTC",
+  "updated_at": "2026-09-07 21:55 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,9 +16,9 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Copper Hits All-Time High Amid Tariff Turmoil, Mine Struggles",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-07/copper-surges-to-all-time-high-as-tariff-turmoil-rocks-market",
-      "published": "Mon, 07 Sep 2026 15:08:36 GMT",
+      "title": "Sapporo Breweries CSO on Tariffs, Iran War",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-07/sapporo-breweries-cso-on-tariffs-iran-war-video",
+      "published": "Mon, 07 Sep 2026 21:00:56 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
