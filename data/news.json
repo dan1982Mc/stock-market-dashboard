@@ -1,47 +1,49 @@
 {
-  "updated_at": "2026-09-07 21:55 UTC",
+  "updated_at": "2026-09-08 11:53 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 2 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
-    "Financial Times",
-    "Reuters"
+    "Financial Times"
   ],
   "articles": [
     {
-      "title": "European shares hit by rising bond yields, energy-driven inflation concerns - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPME1pdGN2bXZCdHkxUDdIazdHeHpCM0FrbVNIa2lHOVNOWnA5Ulk2UVpUdGhSWGJpNEE4ckFqeXFVZjhTV2FscDhPNG83RWRxMnVEZDF1TDNUT3ZuSnlYR05PbHVTWTlYUFhnNjhmM3hqR1dZcFJsV25FWmh4cXV1ZkN2RjNQMDcxeDJRMVVoRTE3dEJ4LXJubmdHQ1FjUkowbEFPQmc4SE9mYl9jY0hXeGZnNUJoSU1VU0RQVEN1VHdqeFE4WTc1WA?oc=5",
-      "published": "Wed, 02 Sep 2026 16:39:46 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
-    },
-    {
-      "title": "Sapporo Breweries CSO on Tariffs, Iran War",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-07/sapporo-breweries-cso-on-tariffs-iran-war-video",
-      "published": "Mon, 07 Sep 2026 21:00:56 GMT",
+      "title": "Oil Rally Fuels Inflation Fears; Canada's US Tariffs Kick In",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-08/bloomberg-brief-09-08-2026-video",
+      "published": "Tue, 08 Sep 2026 11:30:59 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Saudi Aramco oil facilities hit in new strikes",
-      "link": "https://www.ft.com/content/9ffb0fb3-51f6-4aa8-9270-a949196bf441?syn-25a6b1a6=1",
-      "published": "Mon, 07 Sep 2026 10:52:14 GMT",
+      "title": "Saudi energy facilities hit by wave of Houthi strikes",
+      "link": "https://www.ft.com/content/d9bc67e2-97f4-47ef-8de5-1ae48d841018?syn-25a6b1a6=1",
+      "published": "Tue, 08 Sep 2026 08:48:44 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Iran to raise petrol prices as US war triggers shortages",
-      "link": "https://www.ft.com/content/15d59180-ea46-4441-9c45-d6be584ae911?syn-25a6b1a6=1",
-      "published": "Mon, 07 Sep 2026 08:34:56 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Emerging Markets Pause Rally as Crude Price Closes In on $100",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-08/emerging-markets-pause-rally-as-crude-price-closes-in-on-100",
+      "published": "Tue, 08 Sep 2026 10:53:18 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
-      "published": "Tue, 01 Sep 2026 22:26:55 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Attacks Halt Saudi Energy Sites, Novartis Drops Most in 6 Years | The Opening Trade 9/8/2026",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-08/the-opening-trade-9-8-2026-video",
+      "published": "Tue, 08 Sep 2026 10:34:08 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Saudi Arabia Halts Energy Sites as Houthis Claim New Attacks",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-08/saudi-arabia-says-several-energy-sites-halted-after-attacks",
+      "published": "Tue, 08 Sep 2026 06:41:45 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
+  ],
+  "source_warnings": [
+    "Reuters: HTTP Error 503: Service Unavailable"
   ]
 }
