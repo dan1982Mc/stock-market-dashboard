@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 12:03 UTC",
+  "updated_at": "2026-09-09 14:58 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,18 +9,11 @@
   ],
   "articles": [
     {
-      "title": "Oil tops $100, European stocks drop on fresh Gulf attacks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3luYTZkUFBsUEhrV1ByVUg5eTcwT0c4ODVwXzJZTHNvVzlhR1hwNVpLSzJ5MmVCT3VqV2wzMTdXb0ZZM00wY194Z3VCV2R2TUNxcGpVNVJrSk9JSS1XMllpQ0hrbEtFTFhaazN6NzFEaGxELW1NUnFFUFVvR1NjWkRrbw?oc=5",
-      "published": "Wed, 09 Sep 2026 09:57:36 GMT",
+      "title": "European shares hit by rising bond yields, energy-driven inflation concerns - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPME1pdGN2bXZCdHkxUDdIazdHeHpCM0FrbVNIa2lHOVNOWnA5Ulk2UVpUdGhSWGJpNEE4ckFqeXFVZjhTV2FscDhPNG83RWRxMnVEZDF1TDNUT3ZuSnlYR05PbHVTWTlYUFhnNjhmM3hqR1dZcFJsV25FWmh4cXV1ZkN2RjNQMDcxeDJRMVVoRTE3dEJ4LXJubmdHQ1FjUkowbEFPQmc4SE9mYl9jY0hXeGZnNUJoSU1VU0RQVEN1VHdqeFE4WTc1WA?oc=5",
+      "published": "Wed, 02 Sep 2026 16:39:46 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
-    },
-    {
-      "title": "Brent Oil Hits $100 as US-Iran War Shows Little Sign of Abating | The Opening Trade 9/9/2026",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-09/the-opening-trade-9-9-2026-video",
-      "published": "Wed, 09 Sep 2026 10:59:51 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     },
     {
       "title": "Oil nears $100 as US launches new strikes on Iranian tankers",
@@ -30,18 +23,25 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Wall Street down, oil up as inflation, Middle East worries persist - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
-      "published": "Tue, 08 Sep 2026 01:48:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Brent Hits $100, US Slaps Bans, New Tariffs on Canada, Trump to Speak at RNC",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-09/bloomberg-brief-09-09-2026-video",
+      "published": "Wed, 09 Sep 2026 12:27:46 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
-      "published": "Tue, 01 Sep 2026 22:26:55 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "FirstFT: Oil hits $100 as fears rise over global supplies",
+      "link": "https://www.ft.com/content/0715a142-311f-422f-a9dd-9e31bc3d7d61?syn-25a6b1a6=1",
+      "published": "Wed, 09 Sep 2026 10:28:11 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Silver Lake to merge French software groups in €10bn deal",
+      "link": "https://www.ft.com/content/2cc88608-04b2-4dcb-8c89-698f251de170?syn-25a6b1a6=1",
+      "published": "Wed, 09 Sep 2026 10:00:09 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
