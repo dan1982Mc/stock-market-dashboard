@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 14:58 UTC",
+  "updated_at": "2026-09-09 18:12 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,6 +16,13 @@
       "source_group": "Reuters"
     },
     {
+      "title": "Crude Hits $100 as US-Iran War Escalates With Tankers Targeted",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-09/crude-hits-100-as-us-iran-war-escalates-video",
+      "published": "Wed, 09 Sep 2026 16:51:13 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "Oil nears $100 as US launches new strikes on Iranian tankers",
       "link": "https://www.ft.com/content/b460b828-6183-4914-9140-5dfb6d61312c?syn-25a6b1a6=1",
       "published": "Wed, 09 Sep 2026 07:13:50 GMT",
@@ -23,25 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Brent Hits $100, US Slaps Bans, New Tariffs on Canada, Trump to Speak at RNC",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-09/bloomberg-brief-09-09-2026-video",
-      "published": "Wed, 09 Sep 2026 12:27:46 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Oil, Treasury yields turn higher as stocks falter - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3luYTZkUFBsUEhrV1ByVUg5eTcwT0c4ODVwXzJZTHNvVzlhR1hwNVpLSzJ5MmVCT3VqV2wzMTdXb0ZZM00wY194Z3VCV2R2TUNxcGpVNVJrSk9JSS1XMllpQ0hrbEtFTFhaazN6NzFEaGxELW1NUnFFUFVvR1NjWkRrbw?oc=5",
+      "published": "Wed, 09 Sep 2026 02:27:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "FirstFT: Oil hits $100 as fears rise over global supplies",
-      "link": "https://www.ft.com/content/0715a142-311f-422f-a9dd-9e31bc3d7d61?syn-25a6b1a6=1",
-      "published": "Wed, 09 Sep 2026 10:28:11 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Silver Lake to merge French software groups in €10bn deal",
-      "link": "https://www.ft.com/content/2cc88608-04b2-4dcb-8c89-698f251de170?syn-25a6b1a6=1",
-      "published": "Wed, 09 Sep 2026 10:00:09 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Wall Street down, oil up as inflation, Middle East worries persist - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
+      "published": "Tue, 08 Sep 2026 01:48:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
