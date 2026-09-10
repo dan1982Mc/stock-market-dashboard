@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 21:31 UTC",
+  "updated_at": "2026-09-10 11:58 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "European shares hit by rising bond yields, energy-driven inflation concerns - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPME1pdGN2bXZCdHkxUDdIazdHeHpCM0FrbVNIa2lHOVNOWnA5Ulk2UVpUdGhSWGJpNEE4ckFqeXFVZjhTV2FscDhPNG83RWRxMnVEZDF1TDNUT3ZuSnlYR05PbHVTWTlYUFhnNjhmM3hqR1dZcFJsV25FWmh4cXV1ZkN2RjNQMDcxeDJRMVVoRTE3dEJ4LXJubmdHQ1FjUkowbEFPQmc4SE9mYl9jY0hXeGZnNUJoSU1VU0RQVEN1VHdqeFE4WTc1WA?oc=5",
-      "published": "Wed, 02 Sep 2026 16:39:46 GMT",
-      "source": "Reuters",
+      "title": "ECB to hike rates as Iran war fuels fresh inflation fears - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzZJOUlHUzJVTF9DZ2dQc2ZUMHlVckE0OFR5Rks1a1lMYUNfRUpEOXFObkp2VEFtTk1veHdKWHZrVTJBMlVBT2xucWZUVnVXVTZPMm4xbzdyX0QzN1RsM2x2WEhJcGt5UTRseDZBdTdZaVFzdWI1d2xlXzR5MVhrNWlQNnRDd1NOZTlxM2tDd0Nob0NfWDJkWk1FeDdUdmpCdzExdQ?oc=5",
+      "published": "Wed, 09 Sep 2026 22:02:00 GMT",
+      "source": "reuters.com",
       "source_group": "Reuters"
     },
     {
-      "title": "Oil nears $100 as US launches new strikes on Iranian tankers",
-      "link": "https://www.ft.com/content/b460b828-6183-4914-9140-5dfb6d61312c?syn-25a6b1a6=1",
-      "published": "Wed, 09 Sep 2026 07:13:50 GMT",
+      "title": "Prediction markets ‘rife with insider trading’, warns EU watchdog",
+      "link": "https://www.ft.com/content/58e9a70f-29c2-4f44-8531-00fc399ebbe0?syn-25a6b1a6=1",
+      "published": "Thu, 10 Sep 2026 09:00:09 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Reflecting on 25 Years Since 9/11 Attacks",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-09/reflecting-on-25-years-since-9-11-attacks-video",
-      "published": "Wed, 09 Sep 2026 21:10:21 GMT",
+      "title": "US Economy Can Withstand Two Rate Hikes, Says UBS’s Reiman",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-10/us-can-withstand-two-rate-hikes-says-ubs-s-reiman-video",
+      "published": "Thu, 10 Sep 2026 11:45:03 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "FirstFT: Oil hits $100 as fears rise over global supplies",
-      "link": "https://www.ft.com/content/0715a142-311f-422f-a9dd-9e31bc3d7d61?syn-25a6b1a6=1",
-      "published": "Wed, 09 Sep 2026 10:28:11 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Oil Buyers Question Whether China Will Take Action to Restrain Prices Again",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-10/oil-buyers-question-whether-china-will-take-action-to-restrain-prices-again",
+      "published": "Thu, 10 Sep 2026 11:30:15 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Silver Lake to merge French software groups in €10bn deal",
-      "link": "https://www.ft.com/content/2cc88608-04b2-4dcb-8c89-698f251de170?syn-25a6b1a6=1",
-      "published": "Wed, 09 Sep 2026 10:00:09 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Iraq Tendering for Two Oil Supertankers to Go Through Hormuz",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/iraq-tendering-for-two-oil-supertankers-to-go-through-hormuz",
+      "published": "Thu, 10 Sep 2026 11:12:33 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
