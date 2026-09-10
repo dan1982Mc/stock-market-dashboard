@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 11:58 UTC",
+  "updated_at": "2026-09-10 14:43 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "ECB to hike rates as Iran war fuels fresh inflation fears - reuters.com",
+      "title": "ECB to hike rates as Iran war fuels fresh inflation fears - Reuters",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzZJOUlHUzJVTF9DZ2dQc2ZUMHlVckE0OFR5Rks1a1lMYUNfRUpEOXFObkp2VEFtTk1veHdKWHZrVTJBMlVBT2xucWZUVnVXVTZPMm4xbzdyX0QzN1RsM2x2WEhJcGt5UTRseDZBdTdZaVFzdWI1d2xlXzR5MVhrNWlQNnRDd1NOZTlxM2tDd0Nob0NfWDJkWk1FeDdUdmpCdzExdQ?oc=5",
       "published": "Wed, 09 Sep 2026 22:02:00 GMT",
-      "source": "reuters.com",
+      "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Prediction markets ‘rife with insider trading’, warns EU watchdog",
-      "link": "https://www.ft.com/content/58e9a70f-29c2-4f44-8531-00fc399ebbe0?syn-25a6b1a6=1",
-      "published": "Thu, 10 Sep 2026 09:00:09 GMT",
+      "title": "European Bond Selloff Deepens as ECB Flags Inflation Risks",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/european-bond-selloff-deepens-as-ecb-flags-inflationary-risks",
+      "published": "Thu, 10 Sep 2026 14:06:37 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Global bond sell-off reignites as oil jumps above $105",
+      "link": "https://www.ft.com/content/49e8c693-0064-4ef9-917f-5f2be97458fc?syn-25a6b1a6=1",
+      "published": "Thu, 10 Sep 2026 13:44:53 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "US Economy Can Withstand Two Rate Hikes, Says UBS’s Reiman",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-10/us-can-withstand-two-rate-hikes-says-ubs-s-reiman-video",
-      "published": "Thu, 10 Sep 2026 11:45:03 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Wall Street down, oil up as inflation, Middle East worries persist - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
+      "published": "Wed, 09 Sep 2026 05:27:09 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Oil Buyers Question Whether China Will Take Action to Restrain Prices Again",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-10/oil-buyers-question-whether-china-will-take-action-to-restrain-prices-again",
-      "published": "Thu, 10 Sep 2026 11:30:15 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Iraq Tendering for Two Oil Supertankers to Go Through Hormuz",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/iraq-tendering-for-two-oil-supertankers-to-go-through-hormuz",
-      "published": "Thu, 10 Sep 2026 11:12:33 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
+      "published": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
