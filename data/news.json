@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 17:57 UTC",
+  "updated_at": "2026-09-10 21:27 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,16 +16,23 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Global bond sell-off reignites as oil jumps to $107",
+      "title": "Global bond sell-off reignites as oil jumps to $108",
       "link": "https://www.ft.com/content/49e8c693-0064-4ef9-917f-5f2be97458fc?syn-25a6b1a6=1",
-      "published": "Thu, 10 Sep 2026 17:47:18 GMT",
+      "published": "Thu, 10 Sep 2026 20:18:08 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
+      "title": "Stocks, Bonds Drop as Oil Spike Boosts Fed Wagers: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-09-09/stock-market-today-dow-s-p-live-updates",
       "published": "Wed, 09 Sep 2026 22:13:56 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Municipal Bond Yields Soar to Highest Since 2011 in Rout",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/muni-bond-yields-climb-to-highest-since-april-2025-tariff-rout",
+      "published": "Thu, 10 Sep 2026 17:51:19 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -35,13 +42,6 @@
       "published": "Thu, 10 Sep 2026 11:31:26 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
-    },
-    {
-      "title": "Prediction markets ‘rife with insider trading’, warns EU watchdog",
-      "link": "https://www.ft.com/content/58e9a70f-29c2-4f44-8531-00fc399ebbe0?syn-25a6b1a6=1",
-      "published": "Thu, 10 Sep 2026 09:00:09 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
     }
   ]
 }
