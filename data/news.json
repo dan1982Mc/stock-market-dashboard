@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 11:57 UTC",
+  "updated_at": "2026-09-11 14:47 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,37 +9,37 @@
   ],
   "articles": [
     {
-      "title": "Major central banks strike a more hawkish tone as energy costs jump - Reuters",
+      "title": "Major central banks strike a more hawkish tone as energy costs jump - reuters.com",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNk1nNlUtaThXZUlNUFQ2R19vM20wZFhrT0pZYXM2b3lrU19sSGZzLUZOd2VWdkp3MW1ZajAxSExEUUd4UGhkY2Z5RDcxZkxCVHlDWEI5UlNDb2NYX0ZfS2dVR05mYmE0bWE1V2tfSzU2VHl1RmV2STBVWFZhVnBBSGo3Q01GUUYtZ3g3cklPSFNLQmk3Tmc?oc=5",
       "published": "Thu, 10 Sep 2026 14:20:00 GMT",
-      "source": "Reuters",
+      "source": "reuters.com",
       "source_group": "Reuters"
     },
     {
-      "title": "Oil Markets Feel the Pain of a Protracted War",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-11/oil-markets-feel-the-pain-of-a-protracted-war",
-      "published": "Fri, 11 Sep 2026 11:36:06 GMT",
+      "title": "Warsh under mounting pressure to raise rates as US inflation persists",
+      "link": "https://www.ft.com/content/24646e74-9506-4718-b1be-789208db86d9?syn-25a6b1a6=1",
+      "published": "Fri, 11 Sep 2026 14:44:33 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Gold Rises as Dollar and Yields Whipsaw After US Inflation Print",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/gold-holds-drop-as-rising-oil-inflation-bolster-rate-hike-bets",
+      "published": "Thu, 10 Sep 2026 23:34:43 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Bond markets stabilise after global sell-off",
-      "link": "https://www.ft.com/content/2c9ce5b0-32ae-4460-aa89-9c80eb05ee41?syn-25a6b1a6=1",
-      "published": "Fri, 11 Sep 2026 11:34:05 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Stocks, Bonds Rise as Oil Drop Outweighs CPI Data: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/stock-market-today-dow-s-p-live-updates",
+      "published": "Thu, 10 Sep 2026 22:15:53 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "IEA warns of ‘lost period’ in global oil demand",
-      "link": "https://www.ft.com/content/ab6f6433-1f23-4153-a02b-7984d14734c6?syn-25a6b1a6=1",
-      "published": "Fri, 11 Sep 2026 09:46:49 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "IEA Slashes Oil Demand View on War, Warns of Further Slump",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-11/iea-warns-oil-demand-may-have-to-fall-further-as-iran-war-drags",
-      "published": "Fri, 11 Sep 2026 08:00:00 GMT",
+      "title": "Canada Trade Can Help US Cool Inflation, Poilievre Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-11/canada-trade-can-help-us-cool-inflation-poilievre-says-video",
+      "published": "Fri, 11 Sep 2026 14:14:36 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
