@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 21:27 UTC",
+  "updated_at": "2026-09-11 11:57 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -11,35 +11,35 @@
     {
       "title": "Major central banks strike a more hawkish tone as energy costs jump - Reuters",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNk1nNlUtaThXZUlNUFQ2R19vM20wZFhrT0pZYXM2b3lrU19sSGZzLUZOd2VWdkp3MW1ZajAxSExEUUd4UGhkY2Z5RDcxZkxCVHlDWEI5UlNDb2NYX0ZfS2dVR05mYmE0bWE1V2tfSzU2VHl1RmV2STBVWFZhVnBBSGo3Q01GUUYtZ3g3cklPSFNLQmk3Tmc?oc=5",
-      "published": "Thu, 10 Sep 2026 16:48:05 GMT",
+      "published": "Thu, 10 Sep 2026 14:20:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Global bond sell-off reignites as oil jumps to $108",
-      "link": "https://www.ft.com/content/49e8c693-0064-4ef9-917f-5f2be97458fc?syn-25a6b1a6=1",
-      "published": "Thu, 10 Sep 2026 20:18:08 GMT",
+      "title": "Oil Markets Feel the Pain of a Protracted War",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-11/oil-markets-feel-the-pain-of-a-protracted-war",
+      "published": "Fri, 11 Sep 2026 11:36:06 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Bond markets stabilise after global sell-off",
+      "link": "https://www.ft.com/content/2c9ce5b0-32ae-4460-aa89-9c80eb05ee41?syn-25a6b1a6=1",
+      "published": "Fri, 11 Sep 2026 11:34:05 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Stocks, Bonds Drop as Oil Spike Boosts Fed Wagers: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/stock-market-today-dow-s-p-live-updates",
-      "published": "Wed, 09 Sep 2026 22:13:56 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "IEA warns of ‘lost period’ in global oil demand",
+      "link": "https://www.ft.com/content/ab6f6433-1f23-4153-a02b-7984d14734c6?syn-25a6b1a6=1",
+      "published": "Fri, 11 Sep 2026 09:46:49 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Municipal Bond Yields Soar to Highest Since 2011 in Rout",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/muni-bond-yields-climb-to-highest-since-april-2025-tariff-rout",
-      "published": "Thu, 10 Sep 2026 17:51:19 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "S&P 500 Slides Fourth Straight Day as Oil Prices, Yields Surge",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/futures-muted-ahead-of-ppi-data-oracle-s-ai-signaling-results",
-      "published": "Thu, 10 Sep 2026 11:31:26 GMT",
+      "title": "IEA Slashes Oil Demand View on War, Warns of Further Slump",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/iea-warns-oil-demand-may-have-to-fall-further-as-iran-war-drags",
+      "published": "Fri, 11 Sep 2026 08:00:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
