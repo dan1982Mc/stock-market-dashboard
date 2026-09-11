@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 18:02 UTC",
+  "updated_at": "2026-09-11 21:33 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,25 +23,25 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "South East Water to Regroup on Debt Plan After Bond Talks Stall",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-11/south-east-water-to-regroup-on-debt-plan-after-bond-talks-stall",
-      "published": "Fri, 11 Sep 2026 17:32:26 GMT",
+      "title": "CFTC Clears Faster Payouts for Tipster Awards Under $5 Million",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/cftc-clears-faster-payouts-for-tipster-awards-under-5-million",
+      "published": "Fri, 11 Sep 2026 20:17:29 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Scott Bessent fails to break ‘fever’ in US bond market",
-      "link": "https://www.ft.com/content/dd4cc4a0-844e-486a-b99c-b379d457019b?syn-25a6b1a6=1",
-      "published": "Fri, 11 Sep 2026 16:56:38 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Saudi East-West Pipeline Shut Down as Precaution After Attack",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-11/saudi-east-west-pipeline-shut-as-precaution-after-attack-video",
+      "published": "Fri, 11 Sep 2026 20:07:41 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "UK regulators launch probe into KPMG over audits for collapsed oil group",
-      "link": "https://www.ft.com/content/7aa19beb-db39-46dd-8979-0c32c51ed53b?syn-25a6b1a6=1",
-      "published": "Fri, 11 Sep 2026 10:00:53 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Another rate hike, just for insurance: Five questions for the ECB - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUFuUFh6VTdaUzh1amJOYk43S256U1ZCVzJ1aXhBTE9UdkN4TTJLTG1LcUZKYURQd0RLRThKNzBzQkFaOE5pdmRZbUpLRWEwa09lX2xDLTlGNlJvVk1PSDA3dG15SUg1Qk5aejlNSGp2dmxYemRzeFZFdXQ0WjIyakFRYkUzT2kwcHR2a3BBZXNCRzFKUFRVN2FybzVmSFB4bEI5VWJLcw?oc=5",
+      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
