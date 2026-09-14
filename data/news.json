@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 19:41 UTC",
+  "updated_at": "2026-09-14 22:17 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,18 @@
   ],
   "articles": [
     {
-      "title": "Major central banks strike a more hawkish tone as energy costs jump - reuters.com",
+      "title": "Major central banks strike a more hawkish tone as energy costs jump - Reuters",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNk1nNlUtaThXZUlNUFQ2R19vM20wZFhrT0pZYXM2b3lrU19sSGZzLUZOd2VWdkp3MW1ZajAxSExEUUd4UGhkY2Z5RDcxZkxCVHlDWEI5UlNDb2NYX0ZfS2dVR05mYmE0bWE1V2tfSzU2VHl1RmV2STBVWFZhVnBBSGo3Q01GUUYtZ3g3cklPSFNLQmk3Tmc?oc=5",
       "published": "Thu, 10 Sep 2026 14:20:00 GMT",
-      "source": "reuters.com",
+      "source": "Reuters",
       "source_group": "Reuters"
+    },
+    {
+      "title": "Apollo’s Michaels Uses $101 Million of Tariff Refund to Cut Debt",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/apollo-s-michaels-uses-101-million-of-tariff-refund-to-cut-debt",
+      "published": "Mon, 14 Sep 2026 21:08:34 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "A spreading war threatens Trump and MBS",
@@ -23,25 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Sept. 14",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
-      "published": "Sun, 13 Sep 2026 22:01:52 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Ten-year Treasury yield hits 5% for first time since 2023",
-      "link": "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1",
-      "published": "Mon, 14 Sep 2026 18:08:18 GMT",
+      "title": "Essar strikes deal to buy 118 UK petrol stations",
+      "link": "https://www.ft.com/content/130f45b6-ee45-4fa0-83eb-5ea8f9bc4680?syn-25a6b1a6=1",
+      "published": "Mon, 14 Sep 2026 04:00:21 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
-      "link": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
-      "published": "Mon, 14 Sep 2026 16:31:56 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "COMMENTARY: Trading Day: Inflation palpitations - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONlRySVVwZW84bGFtUDkxRXpNY3QwckJXZVNYWW1iWjdMXzB0YlNCRnZGODA5c0lzYk96V2dSWjV1VlpyMk5KdmlveXA3ZGwwMG9ZQ1p5VVgwRDMyZVhKR1hGZGxBQUNxQXlQejlIa0F1dURjQmJoLThTZGdEQ0pxS2ZQYzNqMERfNGFmVDBzaUtMQnEweXFCaG91QUR4RENVdjFQYW5R?oc=5",
+      "published": "Thu, 10 Sep 2026 21:05:16 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
