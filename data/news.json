@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 16:44 UTC",
+  "updated_at": "2026-09-14 19:41 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,18 +9,11 @@
   ],
   "articles": [
     {
-      "title": "Major central banks strike a more hawkish tone as energy costs jump - Reuters",
+      "title": "Major central banks strike a more hawkish tone as energy costs jump - reuters.com",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNk1nNlUtaThXZUlNUFQ2R19vM20wZFhrT0pZYXM2b3lrU19sSGZzLUZOd2VWdkp3MW1ZajAxSExEUUd4UGhkY2Z5RDcxZkxCVHlDWEI5UlNDb2NYX0ZfS2dVR05mYmE0bWE1V2tfSzU2VHl1RmV2STBVWFZhVnBBSGo3Q01GUUYtZ3g3cklPSFNLQmk3Tmc?oc=5",
       "published": "Thu, 10 Sep 2026 14:20:00 GMT",
-      "source": "Reuters",
+      "source": "reuters.com",
       "source_group": "Reuters"
-    },
-    {
-      "title": "Saudis Seek to Boost Hormuz Oil Exports as Key Pipeline Attacked",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/saudis-seek-to-boost-hormuz-oil-exports-as-key-pipeline-attacked",
-      "published": "Mon, 14 Sep 2026 16:16:01 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     },
     {
       "title": "A spreading war threatens Trump and MBS",
@@ -30,16 +23,23 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Essar strikes deal to buy 118 UK petrol stations",
-      "link": "https://www.ft.com/content/130f45b6-ee45-4fa0-83eb-5ea8f9bc4680?syn-25a6b1a6=1",
-      "published": "Mon, 14 Sep 2026 04:00:21 GMT",
+      "title": "Latest Oil Market News and Analysis for Sept. 14",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
+      "published": "Sun, 13 Sep 2026 22:01:52 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Ten-year Treasury yield hits 5% for first time since 2023",
+      "link": "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1",
+      "published": "Mon, 14 Sep 2026 18:08:18 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Cyber criminals use AI to supercharge scams, watchdog warns",
-      "link": "https://www.ft.com/content/d545bae1-d770-46f3-9913-07e85d4ae34c?syn-25a6b1a6=1",
-      "published": "Mon, 14 Sep 2026 04:00:12 GMT",
+      "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
+      "link": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
+      "published": "Mon, 14 Sep 2026 16:31:56 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
