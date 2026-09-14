@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 13:30 UTC",
+  "updated_at": "2026-09-14 16:44 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,9 +16,9 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks Fall as AI Slowdown Fears, Oil Jitters Hit Sentiment",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-14/stocks-fall-as-ai-slowdown-fears-oil-jitters-hit-sentiment",
-      "published": "Mon, 14 Sep 2026 13:02:31 GMT",
+      "title": "Saudis Seek to Boost Hormuz Oil Exports as Key Pipeline Attacked",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/saudis-seek-to-boost-hormuz-oil-exports-as-key-pipeline-attacked",
+      "published": "Mon, 14 Sep 2026 16:16:01 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
