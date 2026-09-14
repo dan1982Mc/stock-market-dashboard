@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 21:33 UTC",
+  "updated_at": "2026-09-14 13:30 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Warsh under mounting pressure to raise rates as US inflation persists",
-      "link": "https://www.ft.com/content/24646e74-9506-4718-b1be-789208db86d9?syn-25a6b1a6=1",
-      "published": "Fri, 11 Sep 2026 14:44:33 GMT",
+      "title": "Stocks Fall as AI Slowdown Fears, Oil Jitters Hit Sentiment",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-14/stocks-fall-as-ai-slowdown-fears-oil-jitters-hit-sentiment",
+      "published": "Mon, 14 Sep 2026 13:02:31 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "A spreading war threatens Trump and MBS",
+      "link": "https://www.ft.com/content/f2a472e6-352a-4067-b9e5-56596a8ba215?syn-25a6b1a6=1",
+      "published": "Mon, 14 Sep 2026 11:48:33 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "CFTC Clears Faster Payouts for Tipster Awards Under $5 Million",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-11/cftc-clears-faster-payouts-for-tipster-awards-under-5-million",
-      "published": "Fri, 11 Sep 2026 20:17:29 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Essar strikes deal to buy 118 UK petrol stations",
+      "link": "https://www.ft.com/content/130f45b6-ee45-4fa0-83eb-5ea8f9bc4680?syn-25a6b1a6=1",
+      "published": "Mon, 14 Sep 2026 04:00:21 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Saudi East-West Pipeline Shut Down as Precaution After Attack",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-11/saudi-east-west-pipeline-shut-as-precaution-after-attack-video",
-      "published": "Fri, 11 Sep 2026 20:07:41 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Another rate hike, just for insurance: Five questions for the ECB - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUUFuUFh6VTdaUzh1amJOYk43S256U1ZCVzJ1aXhBTE9UdkN4TTJLTG1LcUZKYURQd0RLRThKNzBzQkFaOE5pdmRZbUpLRWEwa09lX2xDLTlGNlJvVk1PSDA3dG15SUg1Qk5aejlNSGp2dmxYemRzeFZFdXQ0WjIyakFRYkUzT2kwcHR2a3BBZXNCRzFKUFRVN2FybzVmSFB4bEI5VWJLcw?oc=5",
-      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Cyber criminals use AI to supercharge scams, watchdog warns",
+      "link": "https://www.ft.com/content/d545bae1-d770-46f3-9913-07e85d4ae34c?syn-25a6b1a6=1",
+      "published": "Mon, 14 Sep 2026 04:00:12 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
