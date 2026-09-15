@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 15:23 UTC",
+  "updated_at": "2026-09-15 18:37 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,28 +16,28 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Dutch to Propose Capital Gains Tax in Reform of Levies on Wealth",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/dutch-to-propose-capital-gains-tax-in-reform-of-levies-on-wealth",
-      "published": "Tue, 15 Sep 2026 14:27:28 GMT",
+      "title": "US says Chinese groups used Binance to launder $61mn from Iranian oil deals",
+      "link": "https://www.ft.com/content/a3830162-2f40-46b7-8259-0db45fe2acef?syn-25a6b1a6=1",
+      "published": "Tue, 15 Sep 2026 16:52:55 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "History Won’t Help Us Understand Kevin Warsh",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-15/history-won-t-help-us-understand-kevin-warsh",
+      "published": "Tue, 15 Sep 2026 17:39:10 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Ten-year Treasury yield hits highest level since 2007",
-      "link": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
-      "published": "Tue, 15 Sep 2026 13:43:03 GMT",
+      "title": "Saudi leader visits Egypt as war with Houthis intensifies",
+      "link": "https://www.ft.com/content/08ddd08c-97b2-46a0-a4ed-b3b4ff5ebfd9?syn-25a6b1a6=1",
+      "published": "Tue, 15 Sep 2026 15:27:55 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Trump’s Venezuela oil deal: deeply flawed or too big to fail?",
-      "link": "https://www.ft.com/content/2104f2c8-ba9b-4716-bc26-a69c7c46a450?syn-25a6b1a6=1",
-      "published": "Tue, 15 Sep 2026 11:00:09 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Emerging-Market Assets Slide for Fourth Day as 5% US Yield Bites",
+      "title": "Emerging Assets Extend Four-Day Slide as Oil, 5% US Yield Bite",
       "link": "https://www.bloomberg.com/news/articles/2026-09-15/emerging-currencies-extend-losses-as-bond-market-stress-builds",
       "published": "Tue, 15 Sep 2026 10:57:03 GMT",
       "source": "Bloomberg",
