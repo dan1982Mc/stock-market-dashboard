@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 18:37 UTC",
+  "updated_at": "2026-09-15 21:56 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,10 +9,10 @@
   ],
   "articles": [
     {
-      "title": "European shares slip as banks drag, oil-driven inflation fears weigh - Reuters",
+      "title": "European shares slip as banks drag, oil-driven inflation fears weigh - reuters.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSkxiZ002M0JSRVRUejBnMGxhRFA4OG9KRWxHWWxuaEtSclhHOTg3MDVMTm5SZEY4YUtuQ1ZtZGYyQWR6d1FRSmtLV093c1hsVy1pS09POEt1Zk40WmRjc0xFcnlwZHZPUzQ0d25hZWVYZnRmLXpXZzFGVzBoYS1jbWRQWVR2RmF4d2NvRjBUc09qclgybW9NbDRDdjE4a2NZZjRTR29sYnJXZ0RMajNlUTBFQQ?oc=5",
       "published": "Tue, 15 Sep 2026 10:01:54 GMT",
-      "source": "Reuters",
+      "source": "reuters.com",
       "source_group": "Reuters"
     },
     {
@@ -23,9 +23,9 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "History Won’t Help Us Understand Kevin Warsh",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-15/history-won-t-help-us-understand-kevin-warsh",
-      "published": "Tue, 15 Sep 2026 17:39:10 GMT",
+      "title": "Bond Market’s ‘Extreme’ Short Counts on Fed to Deliver Rate Hike",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-15/bond-market-s-extreme-short-counts-on-fed-to-deliver-rate-hike",
+      "published": "Tue, 15 Sep 2026 20:30:09 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
