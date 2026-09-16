@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16 12:19 UTC",
+  "updated_at": "2026-09-16 15:17 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,18 +16,18 @@
       "source_group": "Reuters"
     },
     {
+      "title": "Chinese oil prices hit record highs after attacks on Saudi pipeline",
+      "link": "https://www.ft.com/content/3a88d016-9575-4c11-bd34-14606964a867?syn-25a6b1a6=1",
+      "published": "Wed, 16 Sep 2026 13:24:01 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
       "title": "European Stocks Advance as Bond Yields and Oil Ease Ahead of Fed",
       "link": "https://www.bloomberg.com/news/articles/2026-09-16/european-stocks-advance-as-bond-selloff-eases-ahead-of-fed",
       "published": "Wed, 16 Sep 2026 07:21:15 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
-    },
-    {
-      "title": "US says Chinese groups used Binance to launder $61mn from Iranian oil deals",
-      "link": "https://www.ft.com/content/a3830162-2f40-46b7-8259-0db45fe2acef?syn-25a6b1a6=1",
-      "published": "Tue, 15 Sep 2026 16:52:55 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
     },
     {
       "title": "Stocks rise as oil falls, bonds steady ahead of Fed decision - Reuters",
