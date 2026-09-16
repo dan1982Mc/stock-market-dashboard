@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16 18:34 UTC",
+  "updated_at": "2026-09-16 21:55 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,16 +9,16 @@
   ],
   "articles": [
     {
-      "title": "Stocks fall as oil and bond yields rise - Reuters",
+      "title": "Stocks fall as oil and bond yields rise - reuters.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOXzFkaEptQk9Gc2REWUZ3MHpYU1ZjbFpqSVp2cFV6b21TMU9pSUNnRWlqajdrYnAwN2FZTzRvNzJvUVlSTkYzcWxDMFlVZ1Ftb2V6OVhURC1haHFyS0NLcnRZUHhpSFRCb3VuQUt4SFFGTHJnVEg4eW0wSHgxcVlmR0JoRQ?oc=5",
       "published": "Mon, 14 Sep 2026 23:33:41 GMT",
-      "source": "Reuters",
+      "source": "reuters.com",
       "source_group": "Reuters"
     },
     {
-      "title": "Fed Raises Rates as Warsh Bucks Trump to Contain Inflation",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-16/fed-raises-rates-as-warsh-bucks-trump-to-contain-inflation",
-      "published": "Wed, 16 Sep 2026 18:00:01 GMT",
+      "title": "Hawkish Warsh Lifts Dollar as Traders Bet on More Rate Increases",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-16/dollar-jumps-after-fed-raises-rates-sends-hawkish-signal",
+      "published": "Wed, 16 Sep 2026 18:28:26 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -30,17 +30,17 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Wall Street dips as $100 oil, inflation worries weigh on investors - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3luYTZkUFBsUEhrV1ByVUg5eTcwT0c4ODVwXzJZTHNvVzlhR1hwNVpLSzJ5MmVCT3VqV2wzMTdXb0ZZM00wY194Z3VCV2R2TUNxcGpVNVJrSk9JSS1XMllpQ0hrbEtFTFhaazN6NzFEaGxELW1NUnFFUFVvR1NjWkRrbw?oc=5",
-      "published": "Wed, 09 Sep 2026 02:30:47 GMT",
-      "source": "Reuters",
+      "title": "Stocks fall as Fed delivers hawkish rate hike - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
+      "published": "Wed, 16 Sep 2026 01:23:00 GMT",
+      "source": "reuters.com",
       "source_group": "Reuters"
     },
     {
-      "title": "European shares hit three-month low as oil spike revives inflation and rate worries - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSkxiZ002M0JSRVRUejBnMGxhRFA4OG9KRWxHWWxuaEtSclhHOTg3MDVMTm5SZEY4YUtuQ1ZtZGYyQWR6d1FRSmtLV093c1hsVy1pS09POEt1Zk40WmRjc0xFcnlwZHZPUzQ0d25hZWVYZnRmLXpXZzFGVzBoYS1jbWRQWVR2RmF4d2NvRjBUc09qclgybW9NbDRDdjE4a2NZZjRTR29sYnJXZ0RMajNlUTBFQQ?oc=5",
-      "published": "Tue, 15 Sep 2026 16:30:36 GMT",
-      "source": "Reuters",
+      "title": "Wall Street dips as $100 oil, inflation worries weigh on investors - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3luYTZkUFBsUEhrV1ByVUg5eTcwT0c4ODVwXzJZTHNvVzlhR1hwNVpLSzJ5MmVCT3VqV2wzMTdXb0ZZM00wY194Z3VCV2R2TUNxcGpVNVJrSk9JSS1XMllpQ0hrbEtFTFhaazN6NzFEaGxELW1NUnFFUFVvR1NjWkRrbw?oc=5",
+      "published": "Wed, 09 Sep 2026 02:30:47 GMT",
+      "source": "reuters.com",
       "source_group": "Reuters"
     }
   ]
