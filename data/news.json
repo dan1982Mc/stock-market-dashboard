@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 12:19 UTC",
+  "updated_at": "2026-09-17 15:24 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,9 +16,9 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Trump Floats EU Tariffs on Canada Invite, Warsh’s Inflation Fight Calms Market",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-17/the-opening-trade-9-17-2026-video",
-      "published": "Thu, 17 Sep 2026 11:30:34 GMT",
+      "title": "Stocks, Bonds Rise After Fed-Day Drop as Oil Falls: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 16 Sep 2026 22:06:59 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -30,16 +30,16 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "BOJ set to raise interest rates to 31-year high as inflation risks loom - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT2gzTmlOM3dwbmZReUZFbk5zM09VcUc2Vk1URnFMeDI4QXVFc1Vtb0RBUnNQaU9GbGlMc2pPcklWSVk2ME41M3NCV1pTZ0stbVpBS3ZZdnNQWEIyMlA4bUZMU2k2WGFrazFVVUF2RHg4T3J2Rk0wbHJkVldNMmpJUDhEbG9hUG0wZl9fNDFjdHJocTc3RUlRZWhhWkZndEFiTmFiTTI3LWV6UjJiNEFHWmpXWGNSTy1r?oc=5",
-      "published": "Wed, 16 Sep 2026 02:31:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Treasuries Gain as Growing Confidence in Warsh Calms Market",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-17/global-bonds-recover-as-warsh-s-inflation-fight-calms-market",
+      "published": "Thu, 17 Sep 2026 02:15:47 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks wobble but no sign of panic as yields surge - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2RZa2F0OUhoZzVSRFpnTkhtd2RyYW5XZ0NFbmIzTloxbmhITmdFdGFYWEIxbHQ5SE8taHJtSExodHBDcUZHWWNKVU0ybTV2bXVJZXNCNmx2bFM1XzkydUY1aExvYTVGb1BxQjJ5U0FSZ2QtV3dxOGF1RXU4Z3g0Z0J0bFdVX3hsS29zeVMyNU1YR3c0WmRSbw?oc=5",
-      "published": "Tue, 15 Sep 2026 09:52:00 GMT",
+      "title": "BOJ set to raise interest rates to 31-year high as inflation risks loom - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT2gzTmlOM3dwbmZReUZFbk5zM09VcUc2Vk1URnFMeDI4QXVFc1Vtb0RBUnNQaU9GbGlMc2pPcklWSVk2ME41M3NCV1pTZ0stbVpBS3ZZdnNQWEIyMlA4bUZMU2k2WGFrazFVVUF2RHg4T3J2Rk0wbHJkVldNMmpJUDhEbG9hUG0wZl9fNDFjdHJocTc3RUlRZWhhWkZndEFiTmFiTTI3LWV6UjJiNEFHWmpXWGNSTy1r?oc=5",
+      "published": "Wed, 16 Sep 2026 02:49:34 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
