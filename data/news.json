@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18 17:59 UTC",
+  "updated_at": "2026-09-18 21:26 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks Fall as Fed-Hike Bets Boost Treasury Yields: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 17 Sep 2026 22:14:33 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "France calls G7 summit on releasing more oil reserves",
-      "link": "https://www.ft.com/content/31c53c3c-5cc1-4248-98dc-68fc8956e8cc?syn-25a6b1a6=1",
-      "published": "Fri, 18 Sep 2026 15:51:04 GMT",
+      "title": "White House attacks Fed official after review of Silicon Valley Bank collapse",
+      "link": "https://www.ft.com/content/98c6db91-44c7-487e-a733-331a58766ba1?syn-25a6b1a6=1",
+      "published": "Fri, 18 Sep 2026 19:48:35 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Saudis Give European Oil Buyers No Supplies for Next Month",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/saudis-tell-european-refiners-they-ll-get-no-crude-next-month",
-      "published": "Fri, 18 Sep 2026 11:06:34 GMT",
+      "title": "Oil Remains Primary Risk Driving Higher Rates Says Haworth",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-18/oil-remains-primary-risk-driving-higher-rates-haworth-video",
+      "published": "Fri, 18 Sep 2026 18:55:18 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Major central banks on tightening path amid energy price shock - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcEdtMHJJc3lOTzl3bW1rVS05MDRSTm56b3I4S2RYc1RNLXhfcHVGYlBPVmJnSGpoUzhHaldqaG5SVVBkMDZYbVRCVW1nemJBMTREYUwzbW1HMkI4cWZFelhBYUlyazdUNlE4LUdnbXk1X2JleDRuN0xycTZRNUFqbEE2VGlnaTh2NEItQ1NZN0loUmQtMnc?oc=5",
-      "published": "Thu, 17 Sep 2026 12:54:00 GMT",
+      "title": "Bond market woes likely a factor for Fed, but intervention seen as unlikely - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWHQzSC11Z3EtOUFVMG9sQnYwOHhnZkJGM2VoVWtFNWp1Y0ZlM2lIMEhoSnkzaExSQlZ4SzVFRkk0aHR3S0NUWC1ZdWQ0MXdJNmxoYWdxdGJJcmtDWENDa0JvNE9fQjFCTFhqTVZZR0NuQmNDNE03dHVEcUVmZDdpaUhXUTFWdzdmeXJUVkxGdThDaG8wNGRWSXl3V09DZVNDN1BzbllrN0tSZw?oc=5",
+      "published": "Wed, 16 Sep 2026 18:23:33 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
+      "published": "Thu, 17 Sep 2026 02:05:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
