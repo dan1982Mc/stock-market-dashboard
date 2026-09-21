@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 13:29 UTC",
+  "updated_at": "2026-09-21 16:44 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,6 +16,13 @@
       "source_group": "Reuters"
     },
     {
+      "title": "Stocks, Bonds Climb as Oil Falls on US-Iran Hopes: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
+      "published": "Sun, 20 Sep 2026 22:14:48 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "Rising bond yields should prompt central banks to tighten further",
       "link": "https://www.ft.com/content/984d32cd-184a-4334-8b40-93608c8c0fbc",
       "published": "Mon, 21 Sep 2026 08:47:13 GMT",
@@ -23,25 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Stocks Rise in Upbeat Start to Week as Oil Drops: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
-      "published": "Sun, 20 Sep 2026 22:14:48 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
+      "published": "Thu, 17 Sep 2026 13:30:25 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Sept. 21",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-20/latest-oil-market-news-and-analysis-for-sept-21",
-      "published": "Sun, 20 Sep 2026 22:05:05 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Satellite Snapshot Points to Increase in Saudis’ Gulf Oil Flows",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-21/satellite-snapshot-points-to-increase-in-saudis-gulf-oil-flows",
-      "published": "Mon, 21 Sep 2026 12:42:20 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Global shares edge higher as central banks double down on inflation fight - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
+      "published": "Sat, 19 Sep 2026 01:55:34 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
