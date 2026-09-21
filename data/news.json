@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 19:49 UTC",
+  "updated_at": "2026-09-21 22:28 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,9 +16,9 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks Get Tech Lift as Oil Falls on US-Iran Hopes: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
-      "published": "Sun, 20 Sep 2026 22:14:48 GMT",
+      "title": "US Plans $5 Billion Middle East Reconstruction Fund for Iran War",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-21/us-plans-5-billion-middle-east-reconstruction-fund-for-iran-war",
+      "published": "Mon, 21 Sep 2026 22:13:10 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -30,16 +30,16 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Copper Climbs Toward Record High on Signs of Near-Term Tightness",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-21/copper-holds-gain-as-traders-weigh-signs-of-near-term-tightness",
-      "published": "Mon, 21 Sep 2026 04:56:15 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions - Reuters",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "published": "Thu, 17 Sep 2026 13:30:25 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "Global shares edge higher as central banks double down on inflation fight - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
+      "published": "Sat, 19 Sep 2026 01:55:34 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
