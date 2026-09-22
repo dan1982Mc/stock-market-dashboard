@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22 18:25 UTC",
-  "tone": "MIXED",
-  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-09-22 21:49 UTC",
+  "tone": "CAUTIOUS / RISK-OFF",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Fed’s Barkin Warns Inflation Pressures May Take Time to Pass",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/fed-s-barkin-warns-inflation-pressures-will-take-time-to-pass",
-      "published": "Tue, 22 Sep 2026 16:53:09 GMT",
+      "title": "Copper Rises Toward Record on Signs of Tight Supplies in China",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/copper-rises-for-a-sixth-day-toward-record-on-china-tightness",
+      "published": "Tue, 22 Sep 2026 03:53:05 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Saudi Arabia signals East-West pipeline reopening",
-      "link": "https://www.ft.com/content/5b4f8738-3b93-40c8-88d6-08c8ea684e83?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 15:18:53 GMT",
+      "title": "Top UK graft prosecutors joined Trump’s Venezuela oil baron during Swiss probe",
+      "link": "https://www.ft.com/content/f2f37449-f9c7-4556-9f97-4cca735980e4?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 20:00:05 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "AI Drives Tech Up, Financials Sells Off as Nasdaq Nears Record",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/us-stock-futures-drift-after-ai-driven-rally-oil-prices-slip",
-      "published": "Tue, 22 Sep 2026 12:29:15 GMT",
+      "title": "US government and Gulf billionaires back Todd Boehly bid for Lukoil assets",
+      "link": "https://www.ft.com/content/152aa77b-977f-4607-8a09-77291f85d2a0?syn-25a6b1a6=1",
+      "published": "Tue, 22 Sep 2026 20:00:05 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Sysco Draws Blowout Demand for $17 Billion Global Bond Offering",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/sysco-kicks-off-cross-border-debt-sale-with-euro-hybrid-bond",
+      "published": "Tue, 22 Sep 2026 07:43:38 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
-    },
-    {
-      "title": "Pick a stock, just not any stock",
-      "link": "https://www.ft.com/content/193a14eb-5650-48a8-8ead-eb8184fc50f5",
-      "published": "Tue, 22 Sep 2026 12:08:58 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
     }
   ]
 }
