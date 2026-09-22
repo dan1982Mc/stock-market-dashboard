@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 15:20 UTC",
+  "updated_at": "2026-09-22 18:25 UTC",
   "tone": "MIXED",
   "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,16 +9,16 @@
   ],
   "articles": [
     {
-      "title": "Dollar falters after Iran's offer to reopen Hormuz sends oil lower - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUFUzRjA0NWVBcXQ2Z1Z3WGVOdGQ0XzNQbll4OGRTbnd4T1dxRnFXSzB1d19zNDM1dWFKdE9JTHRDZzlVYlpWT3FpUFFqNUVWVlFmMDM5eXE0UGZXUnpmWjh3SnpWMzJaSTEtUmJMNmZzTGpMODNYNUFlQm5pMXR1VU9fVlZNUEZQOUpMUEVzc2pVcXA0bEQ5amdQUUEzT2VLWXc?oc=5",
-      "published": "Tue, 22 Sep 2026 00:53:00 GMT",
+      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
+      "published": "Thu, 17 Sep 2026 22:06:51 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Russian Oil Flows Dip as US Sanctions, Saudi Supplies Loom",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/russian-oil-flows-dip-as-us-sanctions-saudi-supplies-loom",
-      "published": "Tue, 22 Sep 2026 15:03:13 GMT",
+      "title": "Fed’s Barkin Warns Inflation Pressures May Take Time to Pass",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/fed-s-barkin-warns-inflation-pressures-will-take-time-to-pass",
+      "published": "Tue, 22 Sep 2026 16:53:09 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -30,18 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Fed's Williams Says Shift to Central Clearing Ahead of Schedule",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-22/fed-s-williams-treasuries-clearing-ahead-of-schedule-video",
-      "published": "Tue, 22 Sep 2026 15:08:29 GMT",
+      "title": "AI Drives Tech Up, Financials Sells Off as Nasdaq Nears Record",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/us-stock-futures-drift-after-ai-driven-rally-oil-prices-slip",
+      "published": "Tue, 22 Sep 2026 12:29:15 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Oaktree’s Marks Says US Displays Total Lack of Fiscal Discipline",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/oaktree-s-marks-says-us-displays-total-lack-of-fiscal-discipline",
-      "published": "Tue, 22 Sep 2026 14:59:30 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Pick a stock, just not any stock",
+      "link": "https://www.ft.com/content/193a14eb-5650-48a8-8ead-eb8184fc50f5",
+      "published": "Tue, 22 Sep 2026 12:08:58 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
