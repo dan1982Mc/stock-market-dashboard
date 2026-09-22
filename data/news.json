@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22 12:13 UTC",
-  "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-09-22 15:20 UTC",
+  "tone": "MIXED",
+  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,37 +9,37 @@
   ],
   "articles": [
     {
-      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
-      "published": "Thu, 17 Sep 2026 22:06:51 GMT",
+      "title": "Dollar falters after Iran's offer to reopen Hormuz sends oil lower - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUFUzRjA0NWVBcXQ2Z1Z3WGVOdGQ0XzNQbll4OGRTbnd4T1dxRnFXSzB1d19zNDM1dWFKdE9JTHRDZzlVYlpWT3FpUFFqNUVWVlFmMDM5eXE0UGZXUnpmWjh3SnpWMzJaSTEtUmJMNmZzTGpMODNYNUFlQm5pMXR1VU9fVlZNUEZQOUpMUEVzc2pVcXA0bEQ5amdQUUEzT2VLWXc?oc=5",
+      "published": "Tue, 22 Sep 2026 00:53:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Yields Can Fall on Good Oil News, Bad Eco Data, JPM’s Berro Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-22/yields-can-fall-on-good-oil-news-bad-eco-data-jpmorgan-video",
-      "published": "Tue, 22 Sep 2026 10:50:04 GMT",
+      "title": "Russian Oil Flows Dip as US Sanctions, Saudi Supplies Loom",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/russian-oil-flows-dip-as-us-sanctions-saudi-supplies-loom",
+      "published": "Tue, 22 Sep 2026 15:03:13 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Oil falls to $98 as Saudi Arabia signals East-West pipeline reopening",
+      "title": "Saudi Arabia signals East-West pipeline reopening",
       "link": "https://www.ft.com/content/5b4f8738-3b93-40c8-88d6-08c8ea684e83?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 12:08:07 GMT",
+      "published": "Tue, 22 Sep 2026 15:18:53 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Record Oil Supertanker Rates Make Waves for the Whole Fleet",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-22/record-oil-supertanker-rates-make-waves-for-the-whole-fleet",
-      "published": "Tue, 22 Sep 2026 11:57:02 GMT",
+      "title": "Fed's Williams Says Shift to Central Clearing Ahead of Schedule",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-22/fed-s-williams-treasuries-clearing-ahead-of-schedule-video",
+      "published": "Tue, 22 Sep 2026 15:08:29 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Tech Rally Loses Steam In Europe as Oil Rises",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-22/the-opening-trade-9-22-2026-video",
-      "published": "Tue, 22 Sep 2026 11:31:26 GMT",
+      "title": "Oaktree’s Marks Says US Displays Total Lack of Fiscal Discipline",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/oaktree-s-marks-says-us-displays-total-lack-of-fiscal-discipline",
+      "published": "Tue, 22 Sep 2026 14:59:30 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
