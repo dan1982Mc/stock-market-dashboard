@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23 18:44 UTC",
+  "updated_at": "2026-09-23 22:05 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -18,9 +18,16 @@
     {
       "title": "US Treasury yields soar most since ‘liberation day’ tariffs shook markets",
       "link": "https://www.ft.com/content/5b11b598-7c77-4bdf-82bf-a763adf71a72?syn-25a6b1a6=1",
-      "published": "Wed, 23 Sep 2026 17:44:25 GMT",
+      "published": "Wed, 23 Sep 2026 20:32:00 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Gold Falls as Inflation Fears Revive Fed Interest-Rate Hike Bets",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/gold-steadies-as-iran-talks-temper-concerns-over-fed-rate-path",
+      "published": "Tue, 22 Sep 2026 23:56:43 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Stocks Fall as Inflation Jitters Boost Bond Yields: Markets Wrap",
@@ -30,16 +37,9 @@
       "source_group": "Bloomberg"
     },
     {
-      "title": "US Bond-Market Slide Deepens, Pushing Yields to Two-Decade Highs",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/us-treasury-five-year-yields-breach-5-for-first-time-since-2007",
-      "published": "Wed, 23 Sep 2026 17:08:50 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Stocks, Bonds Slip as Oil Jump Fuels Fed-Hike Bets",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-23/stocks-bonds-slip-as-oil-jump-fuels-fed-hike-bets-video",
-      "published": "Wed, 23 Sep 2026 16:30:01 GMT",
+      "title": "IAEA Director on Nuclear Material Left in Iran",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-23/iaea-director-on-nuclear-material-left-in-iran-video",
+      "published": "Wed, 23 Sep 2026 21:58:39 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
