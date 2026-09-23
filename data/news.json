@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 21:49 UTC",
+  "updated_at": "2026-09-23 12:26 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Copper Rises Toward Record on Signs of Tight Supplies in China",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/copper-rises-for-a-sixth-day-toward-record-on-china-tightness",
-      "published": "Tue, 22 Sep 2026 03:53:05 GMT",
+      "title": "Oil tanker costs hit record $1.2mn a day as Iran war disrupts shipping",
+      "link": "https://www.ft.com/content/f95db340-8c8f-435f-957d-4623255ac29e?syn-25a6b1a6=1",
+      "published": "Wed, 23 Sep 2026 04:00:29 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Trump Hails Iran Talks, Swiss Lawmakers Reject UBS Capital Compromise",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-23/the-opening-trade-9-23-2026-video",
+      "published": "Wed, 23 Sep 2026 11:42:06 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Top UK graft prosecutors joined Trump’s Venezuela oil baron during Swiss probe",
-      "link": "https://www.ft.com/content/f2f37449-f9c7-4556-9f97-4cca735980e4?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 20:00:05 GMT",
+      "title": "OECD sounds alarm on surging government bond yields",
+      "link": "https://www.ft.com/content/6c13ada9-f325-428b-b91e-bffcf92eddad?syn-25a6b1a6=1",
+      "published": "Wed, 23 Sep 2026 08:00:08 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "US government and Gulf billionaires back Todd Boehly bid for Lukoil assets",
-      "link": "https://www.ft.com/content/152aa77b-977f-4607-8a09-77291f85d2a0?syn-25a6b1a6=1",
-      "published": "Tue, 22 Sep 2026 20:00:05 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Sysco Draws Blowout Demand for $17 Billion Global Bond Offering",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/sysco-kicks-off-cross-border-debt-sale-with-euro-hybrid-bond",
-      "published": "Tue, 22 Sep 2026 07:43:38 GMT",
+      "title": "Stocks and Bonds Slip as Oil Ends Run of Losses: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/stock-market-today-dow-s-p-live-updates",
+      "published": "Tue, 22 Sep 2026 22:15:07 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
