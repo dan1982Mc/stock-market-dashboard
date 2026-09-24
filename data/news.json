@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 15:40 UTC",
+  "updated_at": "2026-09-24 18:45 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Bond market sell-off rumbles on ahead of Trump and XI talks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
-      "published": "Thu, 24 Sep 2026 01:48:00 GMT",
+      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
+      "published": "Thu, 17 Sep 2026 22:06:51 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "US Treasury yields soar most since ‘liberation day’ tariffs shook markets",
-      "link": "https://www.ft.com/content/5b11b598-7c77-4bdf-82bf-a763adf71a72?syn-25a6b1a6=1",
-      "published": "Wed, 23 Sep 2026 20:32:00 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Fighting Spreads in Ethiopia as Risk of Renewed Conflict Rises",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/fighting-spreads-in-ethiopia-as-risk-of-renewed-conflict-rises",
-      "published": "Thu, 24 Sep 2026 14:18:04 GMT",
+      "title": "Global Bond Rout Brings Highest US 30-Year Yield Since 2004",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-24/global-bond-rout-brings-highest-30-year-yield-since-2004-video",
+      "published": "Thu, 24 Sep 2026 16:51:14 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Dollar jumps to near two-month high on Fed outlook, inflation concern - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
-      "published": "Wed, 23 Sep 2026 01:43:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "SoftBank raises $11bn in record junk bond offering to fund OpenAI bet",
+      "link": "https://www.ft.com/content/17b09993-8fed-47d1-9c04-e2d29ca75615?syn-25a6b1a6=1",
+      "published": "Thu, 24 Sep 2026 08:07:55 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "BOJ set to raise interest rates to 31-year high as inflation risks loom - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT2gzTmlOM3dwbmZReUZFbk5zM09VcUc2Vk1URnFMeDI4QXVFc1Vtb0RBUnNQaU9GbGlMc2pPcklWSVk2ME41M3NCV1pTZ0stbVpBS3ZZdnNQWEIyMlA4bUZMU2k2WGFrazFVVUF2RHg4T3J2Rk0wbHJkVldNMmpJUDhEbG9hUG0wZl9fNDFjdHJocTc3RUlRZWhhWkZndEFiTmFiTTI3LWV6UjJiNEFHWmpXWGNSTy1r?oc=5",
-      "published": "Wed, 16 Sep 2026 02:49:34 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Are Big Tech bonds crowding out the US Treasury?",
+      "link": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac",
+      "published": "Thu, 24 Sep 2026 05:00:01 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Exxon accused of ‘smear campaign’ by oil magnate Scott Sheffield",
+      "link": "https://www.ft.com/content/ad6d56fa-6a6e-43bd-8f12-205a3f94ac0e?syn-25a6b1a6=1",
+      "published": "Thu, 24 Sep 2026 04:00:21 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
