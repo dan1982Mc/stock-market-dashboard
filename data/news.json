@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23 22:05 UTC",
+  "updated_at": "2026-09-24 12:25 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,10 +9,10 @@
   ],
   "articles": [
     {
-      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
-      "published": "Thu, 17 Sep 2026 22:06:51 GMT",
-      "source": "Reuters",
+      "title": "Bond market selloff rumbles on ahead of Trump and XI talks - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
+      "published": "Thu, 24 Sep 2026 01:48:00 GMT",
+      "source": "reuters.com",
       "source_group": "Reuters"
     },
     {
@@ -23,23 +23,23 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Gold Falls as Inflation Fears Revive Fed Interest-Rate Hike Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/gold-steadies-as-iran-talks-temper-concerns-over-fed-rate-path",
-      "published": "Tue, 22 Sep 2026 23:56:43 GMT",
+      "title": "Global Bond Selloff Deepens; US, China Extend Trade Truce; Trump-Xi Summit",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-24/bloomberg-brief-09-24-2026-video",
+      "published": "Thu, 24 Sep 2026 11:57:08 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks Fall as Inflation Jitters Boost Bond Yields: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 22 Sep 2026 22:15:07 GMT",
+      "title": "Iran Flights to UAE Halted as US Sanctions Bite Tehran’s Network",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/iran-flights-to-uae-halted-as-us-sanctions-bite-tehran-s-network",
+      "published": "Thu, 24 Sep 2026 11:31:16 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "IAEA Director on Nuclear Material Left in Iran",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-23/iaea-director-on-nuclear-material-left-in-iran-video",
-      "published": "Wed, 23 Sep 2026 21:58:39 GMT",
+      "title": "Move in Bond Yield Nearing End: BCA's Papic",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-24/move-in-bond-yield-nearing-end-bca-s-papic-video",
+      "published": "Thu, 24 Sep 2026 11:46:38 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
