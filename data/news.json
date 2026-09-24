@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 18:45 UTC",
+  "updated_at": "2026-09-24 22:01 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,37 +9,37 @@
   ],
   "articles": [
     {
-      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
-      "published": "Thu, 17 Sep 2026 22:06:51 GMT",
-      "source": "Reuters",
+      "title": "WRAPUP2 Global rate-hiking cycle reaches Scandinavia as war fuels inflation - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQW45OFZ3N1pORXhqcVZYWk1rTlU3amU2RGhiajRXQkp5cXpYOVZ6RENHUUxqLUxJXzRXd0FxUWQzUjVwSmV2NWR5ZkktdmpOZldfOFZZb3I5UUMwT2JHQWtGZk12LTBJb2RQYXlyREU3SzVUUGJlUmRWZFNOaXhQWkoyRHd0TjR2Z184SGVpbDhSUHVwZ016ZG50VTA5NjFVN2NlTEYyUXBTVHFFNGpIOHVDbmFyakpHdlRmUlI0SUZYaEU?oc=5",
+      "published": "Thu, 24 Sep 2026 14:07:30 GMT",
+      "source": "reuters.com",
       "source_group": "Reuters"
     },
     {
-      "title": "Global Bond Rout Brings Highest US 30-Year Yield Since 2004",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-24/global-bond-rout-brings-highest-30-year-yield-since-2004-video",
-      "published": "Thu, 24 Sep 2026 16:51:14 GMT",
+      "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-24/real-yield-9-24-2026-video",
+      "published": "Thu, 24 Sep 2026 21:06:47 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "SoftBank raises $11bn in record junk bond offering to fund OpenAI bet",
-      "link": "https://www.ft.com/content/17b09993-8fed-47d1-9c04-e2d29ca75615?syn-25a6b1a6=1",
-      "published": "Thu, 24 Sep 2026 08:07:55 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Are Big Tech bonds crowding out the US Treasury?",
-      "link": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac",
-      "published": "Thu, 24 Sep 2026 05:00:01 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Exxon accused of ‘smear campaign’ by oil magnate Scott Sheffield",
+      "title": "Shale oil magnate says Exxon chief ‘threw me under the bus’ after $60bn takeover",
       "link": "https://www.ft.com/content/ad6d56fa-6a6e-43bd-8f12-205a3f94ac0e?syn-25a6b1a6=1",
-      "published": "Thu, 24 Sep 2026 04:00:21 GMT",
+      "published": "Thu, 24 Sep 2026 21:57:36 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Half Of US Public Schools Report Operating Deficits: S&P Global",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-24/half-of-us-public-schools-have-deficits-s-p-global-video",
+      "published": "Thu, 24 Sep 2026 20:20:23 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "SoftBank pays steep price for record bond sale to fund OpenAI bet",
+      "link": "https://www.ft.com/content/17b09993-8fed-47d1-9c04-e2d29ca75615?syn-25a6b1a6=1",
+      "published": "Thu, 24 Sep 2026 19:39:43 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
