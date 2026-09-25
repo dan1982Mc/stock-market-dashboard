@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 12:25 UTC",
+  "updated_at": "2026-09-25 15:42 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,18 +16,18 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Bond Selloff Fades as Oil Cools, Lifting Stocks: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 24 Sep 2026 22:13:37 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Global bond sell-off eases as oil prices retreat from recent highs",
+      "title": "US bond sell-off pushes long-term yields to new post-2004 high",
       "link": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
-      "published": "Fri, 25 Sep 2026 07:41:48 GMT",
+      "published": "Fri, 25 Sep 2026 15:37:02 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Bond Selloff Fades as Oil Cools, Lifting Stocks",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-25/bond-selloff-fades-as-oil-cools-lifting-stocks-video",
+      "published": "Fri, 25 Sep 2026 15:34:36 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Oilman Scott Sheffield: ‘We’re warming. I see it here in this ranch’",
