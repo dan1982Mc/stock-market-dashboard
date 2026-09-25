@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 22:01 UTC",
+  "updated_at": "2026-09-25 12:25 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "WRAPUP2 Global rate-hiking cycle reaches Scandinavia as war fuels inflation - reuters.com",
+      "title": "WRAPUP2 Global rate-hiking cycle reaches Scandinavia as war fuels inflation - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQW45OFZ3N1pORXhqcVZYWk1rTlU3amU2RGhiajRXQkp5cXpYOVZ6RENHUUxqLUxJXzRXd0FxUWQzUjVwSmV2NWR5ZkktdmpOZldfOFZZb3I5UUMwT2JHQWtGZk12LTBJb2RQYXlyREU3SzVUUGJlUmRWZFNOaXhQWkoyRHd0TjR2Z184SGVpbDhSUHVwZ016ZG50VTA5NjFVN2NlTEYyUXBTVHFFNGpIOHVDbmFyakpHdlRmUlI0SUZYaEU?oc=5",
       "published": "Thu, 24 Sep 2026 14:07:30 GMT",
-      "source": "reuters.com",
+      "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Bond Yields Soar, Spiking Fed Rate Hike Bets",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-24/real-yield-9-24-2026-video",
-      "published": "Thu, 24 Sep 2026 21:06:47 GMT",
+      "title": "Bond Selloff Fades as Oil Cools, Lifting Stocks: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/stock-market-today-dow-s-p-live-updates",
+      "published": "Thu, 24 Sep 2026 22:13:37 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Shale oil magnate says Exxon chief ‘threw me under the bus’ after $60bn takeover",
-      "link": "https://www.ft.com/content/ad6d56fa-6a6e-43bd-8f12-205a3f94ac0e?syn-25a6b1a6=1",
-      "published": "Thu, 24 Sep 2026 21:57:36 GMT",
+      "title": "Global bond sell-off eases as oil prices retreat from recent highs",
+      "link": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
+      "published": "Fri, 25 Sep 2026 07:41:48 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Half Of US Public Schools Report Operating Deficits: S&P Global",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-24/half-of-us-public-schools-have-deficits-s-p-global-video",
-      "published": "Thu, 24 Sep 2026 20:20:23 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "SoftBank pays steep price for record bond sale to fund OpenAI bet",
-      "link": "https://www.ft.com/content/17b09993-8fed-47d1-9c04-e2d29ca75615?syn-25a6b1a6=1",
-      "published": "Thu, 24 Sep 2026 19:39:43 GMT",
+      "title": "Oilman Scott Sheffield: ‘We’re warming. I see it here in this ranch’",
+      "link": "https://www.ft.com/content/4bbac5c4-07ef-45af-a263-59a55a819713?syn-25a6b1a6=1",
+      "published": "Fri, 25 Sep 2026 04:00:21 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
+      "published": "Wed, 23 Sep 2026 23:20:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
