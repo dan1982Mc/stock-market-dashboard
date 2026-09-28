@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 20:57 UTC",
+  "updated_at": "2026-09-28 23:45 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,32 +9,25 @@
   ],
   "articles": [
     {
-      "title": "WRAPUP2 Global rate-hiking cycle reaches Scandinavia as war fuels inflation - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQW45OFZ3N1pORXhqcVZYWk1rTlU3amU2RGhiajRXQkp5cXpYOVZ6RENHUUxqLUxJXzRXd0FxUWQzUjVwSmV2NWR5ZkktdmpOZldfOFZZb3I5UUMwT2JHQWtGZk12LTBJb2RQYXlyREU3SzVUUGJlUmRWZFNOaXhQWkoyRHd0TjR2Z184SGVpbDhSUHVwZ016ZG50VTA5NjFVN2NlTEYyUXBTVHFFNGpIOHVDbmFyakpHdlRmUlI0SUZYaEU?oc=5",
-      "published": "Thu, 24 Sep 2026 14:07:30 GMT",
+      "title": "Indian rupee, bonds vulnerable to oil pangs on waning Iran diplomacy hopes - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWtCazQtV0cybUx3VUktREJ0Y202T2loTzhCNEUxMnZqZ24tWGdYZHVsamNJN0wtMEdXcllFazZhaTNkbThPelVQdVZLTkItT2NyR19vbnVIYUgydHJCeWZjM2w4UGxPQWNISHdVWUlUMzhJTkQ3WktSWlhpV1g3YTRYM3lkMG9sQ3dqbGpZaURtNURrRkNrRWVyLUlOV056cFpTOFd6N2RVc2puVjNZUlp6UmxSUQ?oc=5",
+      "published": "Mon, 28 Sep 2026 01:31:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks Fall as US-Iran Standoff Boosts Bond Yields: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
-      "published": "Sun, 27 Sep 2026 22:15:52 GMT",
+      "title": "Asian Bonds Drop After Treasuries Selloff Deepens: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 28 Sep 2026 22:11:04 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Bond sell-off deepens as oil prices rise",
+      "title": "Bond sell-off deepens and oil rises as Iran-US deal hopes fade",
       "link": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
-      "published": "Mon, 28 Sep 2026 19:41:05 GMT",
+      "published": "Mon, 28 Sep 2026 21:38:05 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "Stocks Tumble as US-Iran Stalemate Stokes Inflation Concerns",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/us-stocks-decline-as-middle-east-stalemate-pushes-oil-higher",
-      "published": "Mon, 28 Sep 2026 11:15:52 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     },
     {
       "title": "Treasuries Selloff Deepens as Trump Spurns Iran’s Latest Offer",
@@ -42,6 +35,13 @@
       "published": "Mon, 28 Sep 2026 01:50:20 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
+    },
+    {
+      "title": "Bank of England rate setters warn of 'sparks in the tinderbox' - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3I0VVk5djJ3X1JiN2xxaHJyeENPbTdqWTN6MWdTUlQxRktzVm9PejdBTDIyTDl4OG90elFWbDVpSHJBcUJxeG5lVEZrVzlOejdrQnlheE1iMkVUSmY3UWNtbXQ1R3MtTnYwNEFoUU1aeDFuQXQ2b0dCbU1YYjdzRmVUaTc2Snp5M3NXNEpzSDA1ZTRlQ2xj?oc=5",
+      "published": "Thu, 24 Sep 2026 16:19:18 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
