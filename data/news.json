@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 18:20 UTC",
+  "updated_at": "2026-09-28 20:57 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -25,21 +25,21 @@
     {
       "title": "Bond sell-off deepens as oil prices rise",
       "link": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
-      "published": "Mon, 28 Sep 2026 16:37:44 GMT",
+      "published": "Mon, 28 Sep 2026 19:41:05 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "US Stocks Pare Declines as Trump Open to Iran Sanctions Relief",
+      "title": "Stocks Tumble as US-Iran Stalemate Stokes Inflation Concerns",
       "link": "https://www.bloomberg.com/news/articles/2026-09-28/us-stocks-decline-as-middle-east-stalemate-pushes-oil-higher",
       "published": "Mon, 28 Sep 2026 11:15:52 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "EM Bonds Face Worst Month Since Iran War as US Yields Climb",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/emerging-stocks-slide-as-oil-gains-on-renewed-mideast-tensions",
-      "published": "Mon, 28 Sep 2026 04:14:36 GMT",
+      "title": "Treasuries Selloff Deepens as Trump Spurns Iran’s Latest Offer",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/bond-selloff-resumes-as-oil-rises-after-trump-spurns-iran-offer",
+      "published": "Mon, 28 Sep 2026 01:50:20 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
