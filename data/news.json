@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 14:43 UTC",
+  "updated_at": "2026-09-28 18:20 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,7 +16,7 @@
       "source_group": "Reuters"
     },
     {
-      "title": "S&P 500 Falls as Inflation Worry Lifts Bond Yields: Markets Wrap",
+      "title": "Stocks Fall as US-Iran Standoff Boosts Bond Yields: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
       "published": "Sun, 27 Sep 2026 22:15:52 GMT",
       "source": "Bloomberg",
@@ -25,23 +25,23 @@
     {
       "title": "Bond sell-off deepens as oil prices rise",
       "link": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
-      "published": "Mon, 28 Sep 2026 14:40:01 GMT",
+      "published": "Mon, 28 Sep 2026 16:37:44 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Morgan Stanley Says Bond Selloff 'Nowhere Near Problematic'",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-28/morgan-stanley-says-bond-selloff-nowhere-near-problematic",
-      "published": "Mon, 28 Sep 2026 08:37:13 GMT",
+      "title": "US Stocks Pare Declines as Trump Open to Iran Sanctions Relief",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/us-stocks-decline-as-middle-east-stalemate-pushes-oil-higher",
+      "published": "Mon, 28 Sep 2026 11:15:52 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
-      "published": "Wed, 23 Sep 2026 23:20:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "EM Bonds Face Worst Month Since Iran War as US Yields Climb",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/emerging-stocks-slide-as-oil-gains-on-renewed-mideast-tensions",
+      "published": "Mon, 28 Sep 2026 04:14:36 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
