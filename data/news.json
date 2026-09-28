@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 22:00 UTC",
+  "updated_at": "2026-09-28 14:43 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,25 +16,25 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks Climb as Oil Retreats on US-Iran Deal Hopes: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 24 Sep 2026 22:13:37 GMT",
+      "title": "S&P 500 Falls as Inflation Worry Lifts Bond Yields: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
+      "published": "Sun, 27 Sep 2026 22:15:52 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "US bond sell-off pushes long-term yields to highest since 2004",
-      "link": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6=1",
-      "published": "Fri, 25 Sep 2026 20:24:38 GMT",
+      "title": "Bond sell-off deepens as oil prices rise",
+      "link": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
+      "published": "Mon, 28 Sep 2026 14:40:01 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Oilman Scott Sheffield: ‘We’re warming. I see it here in this ranch’",
-      "link": "https://www.ft.com/content/4bbac5c4-07ef-45af-a263-59a55a819713?syn-25a6b1a6=1",
-      "published": "Fri, 25 Sep 2026 04:00:21 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Morgan Stanley Says Bond Selloff 'Nowhere Near Problematic'",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-28/morgan-stanley-says-bond-selloff-nowhere-near-problematic",
+      "published": "Mon, 28 Sep 2026 08:37:13 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
