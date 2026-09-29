@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 23:45 UTC",
+  "updated_at": "2026-09-29 13:33 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Indian rupee, bonds vulnerable to oil pangs on waning Iran diplomacy hopes - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWtCazQtV0cybUx3VUktREJ0Y202T2loTzhCNEUxMnZqZ24tWGdYZHVsamNJN0wtMEdXcllFazZhaTNkbThPelVQdVZLTkItT2NyR19vbnVIYUgydHJCeWZjM2w4UGxPQWNISHdVWUlUMzhJTkQ3WktSWlhpV1g3YTRYM3lkMG9sQ3dqbGpZaURtNURrRkNrRWVyLUlOV056cFpTOFd6N2RVc2puVjNZUlp6UmxSUQ?oc=5",
-      "published": "Mon, 28 Sep 2026 01:31:00 GMT",
+      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
+      "published": "Fri, 18 Sep 2026 07:00:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Asian Bonds Drop After Treasuries Selloff Deepens: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 28 Sep 2026 22:11:04 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Bond sell-off deepens and oil rises as Iran-US deal hopes fade",
-      "link": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
-      "published": "Mon, 28 Sep 2026 21:38:05 GMT",
+      "title": "Bond investors become oil traders as Iran war drives yields",
+      "link": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
+      "published": "Tue, 29 Sep 2026 04:00:23 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Treasuries Selloff Deepens as Trump Spurns Iran’s Latest Offer",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/bond-selloff-resumes-as-oil-rises-after-trump-spurns-iran-offer",
-      "published": "Mon, 28 Sep 2026 01:50:20 GMT",
+      "title": "Hungary’s Kurali Urges Sticking to Path Toward Euro Accession",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/hungary-s-kurali-urges-sticking-to-path-toward-euro-accession",
+      "published": "Tue, 29 Sep 2026 13:01:04 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Bank of England rate setters warn of 'sparks in the tinderbox' - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3I0VVk5djJ3X1JiN2xxaHJyeENPbTdqWTN6MWdTUlQxRktzVm9PejdBTDIyTDl4OG90elFWbDVpSHJBcUJxeG5lVEZrVzlOejdrQnlheE1iMkVUSmY3UWNtbXQ1R3MtTnYwNEFoUU1aeDFuQXQ2b0dCbU1YYjdzRmVUaTc2Snp5M3NXNEpzSDA1ZTRlQ2xj?oc=5",
-      "published": "Thu, 24 Sep 2026 16:19:18 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Anthropic warns of ‘existential risks to humanity’ in IPO prospectus",
+      "link": "https://www.ft.com/content/c7685a7e-7745-4cbc-8053-4958d0ea449b?syn-25a6b1a6=1",
+      "published": "Tue, 29 Sep 2026 02:28:18 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Stocks and Bonds Find Relief as Oil Prices Ease: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 28 Sep 2026 22:11:04 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
