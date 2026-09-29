@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 16:43 UTC",
+  "updated_at": "2026-09-29 19:43 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,18 +16,11 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Bond investors become oil traders as Iran war drives yields",
-      "link": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
-      "published": "Tue, 29 Sep 2026 04:00:23 GMT",
+      "title": "Middle Eastern oil exports rise to highest level since Iran war began",
+      "link": "https://www.ft.com/content/26c54c8c-931c-4d84-9cf3-fd3e9b5e215d?syn-25a6b1a6=1",
+      "published": "Tue, 29 Sep 2026 16:46:57 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "Bulgaria Sells €2.25 Billion in Bonds to Plug Budget Deficit",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/bulgaria-selling-2-25-billion-in-bonds-to-plug-budget-deficit",
-      "published": "Tue, 29 Sep 2026 15:20:32 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     },
     {
       "title": "Demand Boost for US Crops Still Unclear After China Tariff Cuts",
@@ -40,6 +33,13 @@
       "title": "Nasdaq sets record high, oil dips on improved crude flows - Reuters",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYNkdDWExac0tiSmtsc3Exd0ZHOTVDZFJCbTRtZW9jM3hTLU84b3JWbHQ1WmZsUE5pSmUzTHBFUXQzaHBnb01UQXV5ZUljTFl2cS1fbHhFMUtDblA3NHRjeXRzbEpYMjNZempPSmRPbEpIajV0T1BuRDl1SQ?oc=5",
       "published": "Wed, 23 Sep 2026 03:29:04 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "'G force' driving world markets may need Fed and bond brake - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUnpCZlg4eTdTc3B0ZkdodjdjNVZYLTdHcGFqMG9tWkhRVHVjMUhJamN2T2tDNlpENVhNTlRhRnhyQnBRS3dmMFJlemc4dW1MbTdXTm5kSGtJM0hsRUhkODN3eGJHeWhXX3VPb3RZellvYWY0SXJTZ2NfVXhqYVJlaVdlZThBcjRSeUZCeXBnZkkwV1JKT1UxaEJsYm5fTWhOeDdaN1FSOXJPVUw4N1pKLUZOUkxnUEtNMGNVNGhEbw?oc=5",
+      "published": "Tue, 29 Sep 2026 06:00:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
