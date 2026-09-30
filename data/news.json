@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 22:51 UTC",
+  "updated_at": "2026-09-30 13:11 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Middle Eastern oil exports rise to highest level since Iran war began",
-      "link": "https://www.ft.com/content/26c54c8c-931c-4d84-9cf3-fd3e9b5e215d?syn-25a6b1a6=1",
-      "published": "Tue, 29 Sep 2026 16:46:57 GMT",
+      "title": "Vanguard warns France is ‘degrading credit’ as borrowing costs surge",
+      "link": "https://www.ft.com/content/7820a84f-338e-4b91-a9b6-241a9bf81539?syn-25a6b1a6=1",
+      "published": "Wed, 30 Sep 2026 08:42:21 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Asian Stocks Set for Rebound as Oil Prices Ease: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 29 Sep 2026 22:12:50 GMT",
+      "title": "Stocks Waver Ahead of PCE, Micron; Mideast Oil Flows Rebound; Trump Backs Outside AI Audits",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/bloomberg-brief-09-30-2026-video",
+      "published": "Wed, 30 Sep 2026 12:23:35 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Brinker Intl CEO on Growth While Delivering Value",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-29/brinker-intl-ceo-on-growth-while-delivering-value-video",
-      "published": "Tue, 29 Sep 2026 22:08:57 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Bond investors 💔 OATs",
+      "link": "https://www.ft.com/content/e7c044f0-5448-4d90-9b86-9786ffafbc7b",
+      "published": "Wed, 30 Sep 2026 12:08:17 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Sept. 30",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-29/latest-oil-market-news-and-analysis-for-sept-30",
-      "published": "Tue, 29 Sep 2026 22:02:03 GMT",
+      "title": "Gabon Returns to Bond Markets With Target to Raise $580 Million",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/gabon-returns-to-bond-markets-with-target-to-raise-580-million",
+      "published": "Wed, 30 Sep 2026 11:51:35 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
