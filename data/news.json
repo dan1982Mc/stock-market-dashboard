@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 16:36 UTC",
+  "updated_at": "2026-09-30 19:45 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5",
-      "published": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "title": "Stocks rise, 2-year US bond yield eases after soft US inflation data - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkhETkh2bThQM2VXdlJQZHdqOHVHRTFNX2dRMVZVMGhhMzczY0xIYkRfdmVldzNlVFdEbWZTVC1aYW1fekVfOW9Db28yd0czQVk5MURaaWVfNjdTVFVGeE1Dcy16dk9vQmNZb3c2bklRd3l0cTNwQXBqemxxbWxwS3RaYw?oc=5",
+      "published": "Wed, 30 Sep 2026 01:58:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Bond markets steady after sell-off despite strong US data",
+      "title": "Bond markets resume sell-off after strong US data",
       "link": "https://www.ft.com/content/cd22d20a-3b65-4534-ac04-f5008810e10a?syn-25a6b1a6=1",
-      "published": "Wed, 30 Sep 2026 14:52:34 GMT",
+      "published": "Wed, 30 Sep 2026 17:25:04 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Treasury 30-Year Yield's Continuous Rise Reveals Inflation Worry",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-30/30-year-yield-s-continuous-rise-fuels-inflation-worry-video",
-      "published": "Wed, 30 Sep 2026 15:20:31 GMT",
+      "title": "Muni Managers Tout Equity-Like Returns After Historic Selloff",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/muni-managers-tout-equity-like-returns-after-historic-selloff",
+      "published": "Wed, 30 Sep 2026 19:31:15 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "AI debt surge raises risk of sharp market correction, warns Bank of England",
-      "link": "https://www.ft.com/content/5c1ccafc-c3e6-49c1-8cdc-b9ed73627749?syn-25a6b1a6=1",
-      "published": "Wed, 30 Sep 2026 14:02:33 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "“We Are In an Era of Warped Entrepreneurship,” Says Makunda",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/-we-are-in-an-era-of-warped-entrepreneurship-makunda-video",
+      "published": "Wed, 30 Sep 2026 18:33:06 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "KKR warns of growing credit market risks from AI borrowing spree",
-      "link": "https://www.ft.com/content/33449ea5-428b-4080-bdf6-ff5843bbd3cd?syn-25a6b1a6=1",
-      "published": "Wed, 30 Sep 2026 13:03:52 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Ford’s 45% Rally Wiped Out as Hopes for an AI Windfall Fizzle",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/ford-s-45-rally-wiped-out-as-hopes-for-an-ai-windfall-fizzle",
+      "published": "Wed, 30 Sep 2026 18:05:32 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
