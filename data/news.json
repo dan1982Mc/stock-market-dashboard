@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 19:45 UTC",
+  "updated_at": "2026-09-30 22:49 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,25 +23,25 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Muni Managers Tout Equity-Like Returns After Historic Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/muni-managers-tout-equity-like-returns-after-historic-selloff",
-      "published": "Wed, 30 Sep 2026 19:31:15 GMT",
+      "title": "Paramount Wraps Up $52 Billion Debt Sale to Fund Warner Buyout",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/paramount-cuts-pricing-on-30-billion-high-grade-bond-sale",
+      "published": "Wed, 30 Sep 2026 14:09:01 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "“We Are In an Era of Warped Entrepreneurship,” Says Makunda",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-30/-we-are-in-an-era-of-warped-entrepreneurship-makunda-video",
-      "published": "Wed, 30 Sep 2026 18:33:06 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "AI debt surge raises risk of sharp market correction, warns Bank of England",
+      "link": "https://www.ft.com/content/5c1ccafc-c3e6-49c1-8cdc-b9ed73627749?syn-25a6b1a6=1",
+      "published": "Wed, 30 Sep 2026 14:02:33 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Ford’s 45% Rally Wiped Out as Hopes for an AI Windfall Fizzle",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/ford-s-45-rally-wiped-out-as-hopes-for-an-ai-windfall-fizzle",
-      "published": "Wed, 30 Sep 2026 18:05:32 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "KKR warns of growing credit market risks from AI borrowing spree",
+      "link": "https://www.ft.com/content/33449ea5-428b-4080-bdf6-ff5843bbd3cd?syn-25a6b1a6=1",
+      "published": "Wed, 30 Sep 2026 13:03:52 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
