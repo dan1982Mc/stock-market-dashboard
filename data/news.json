@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01 14:01 UTC",
+  "updated_at": "2026-10-01 17:13 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,6 +9,13 @@
   ],
   "articles": [
     {
+      "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
+      "published": "Thu, 01 Oct 2026 16:15:32 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
       "title": "Bond markets resume sell-off after strong US data",
       "link": "https://www.ft.com/content/cd22d20a-3b65-4534-ac04-f5008810e10a?syn-25a6b1a6=1",
       "published": "Wed, 30 Sep 2026 17:25:04 GMT",
@@ -16,32 +23,25 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Wei Li on AI Scarcity, Bond Selloff, Energy Price Shock",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-01/wei-li-on-ai-scarcity-bond-selloff-energy-price-shock-video",
-      "published": "Thu, 01 Oct 2026 12:17:12 GMT",
+      "title": "S&P 500 Trims Drop as Treasury Selloff Eases: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 30 Sep 2026 22:19:53 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "India benchmark shares log worst month since March as oil, global rate hikes spark outflows - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRTNmakVIbE1QRkJkd0VLTm03TjkxX29LaTgtekt5UmxjUVBzckppYmctZVc5V0JWNUNtR2dOaVRpU1F1eTd4M2YybFJ1TC1ncEZzZERrd0ptTGlKSHVZVnRxcHhnUldJVDlLdUhIM0ZYS3IxNzk4TWctZVdVbFMyUTEtbWd6MjYwMWs4RFE4b3ZERVZlLUdNYWF3d0xHX2pNbEVNdll3?oc=5",
-      "published": "Wed, 30 Sep 2026 02:24:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Paramount stumps up high borrowing costs to fund Warner Bros deal",
+      "link": "https://www.ft.com/content/188ab0ab-e39d-4221-9730-0610fbc22ee9?syn-25a6b1a6=1",
+      "published": "Wed, 30 Sep 2026 21:37:36 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "FTSE 100 hits three-month low as surging bond yields hit risk appetite - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY2YtZi1zNkQ4VE9vXzljNkNySC0zdmhSRjJ6My1hbTI5ODltQUo0X2RMd0xVdVFKM1M3ajI0VFJoaTBuV2Jwd0xubGRWR2VVMnNncWZ0QmxoemZCdFF5ZnpFeUt1dWh1S2l3ZkJCenA4bW1XQmhwOWNFRmw1eGNIdk96clcwQVZ6VTc3algxYzh6cXlyQUMxZ1F5cUVvcGRLMWI3ZHc3amhsSTJtcGdNSWFn?oc=5",
-      "published": "Thu, 01 Oct 2026 10:39:43 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
-    },
-    {
-      "title": "VIEW Bond markets take a drubbing again, 10-year Treasury yields highest since 2002. - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTmFGbFF2aHRBRzZrcjZKTVN5clpFRHM3ekNTNnlSQjl0M0R0dmJpdzVjYlRHeC1IN3FnTGcxSWg0ZVFyZy1IcU83LXhmLW5idk00R1JJc281ZzUwSDhRY01PSVdoY21JNHByRmtpclFKMVdsVFZ5NkpPc0RONjl1Tk5vek1KMTFSb1k1dTNZOWt4R2h1eUF1WUhRX0NIOWZHc3VVc2xVaHdoRGNoYXpmdzNEdlJlZHhZdEVjaDhwTWd5YkEtOFFqaw?oc=5",
-      "published": "Thu, 01 Oct 2026 09:15:44 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Four potential positives from higher bond yields",
+      "link": "https://www.ft.com/content/96e004e0-43ab-46e6-9116-fabfc7251496?syn-25a6b1a6=1",
+      "published": "Thu, 01 Oct 2026 08:37:57 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
