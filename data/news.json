@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 16:27 UTC",
+  "updated_at": "2026-10-02 19:41 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,25 @@
   ],
   "articles": [
     {
-      "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - reuters.com",
+      "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
       "published": "Thu, 01 Oct 2026 06:25:00 GMT",
-      "source": "reuters.com",
+      "source": "Reuters",
       "source_group": "Reuters"
+    },
+    {
+      "title": "Bond Market Selloff in ‘New Chapter,’ JPM’s Berro Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-01/bond-market-selloff-in-new-chapter-jpm-s-berro-says-video",
+      "published": "Thu, 01 Oct 2026 11:14:39 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Global bond market steadies after sharp sell-off",
+      "link": "https://www.ft.com/content/4f2ad4c1-22b0-497b-88c8-197d7f301f79?syn-25a6b1a6=1",
+      "published": "Fri, 02 Oct 2026 16:45:26 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
       "title": "Investors seek refuge from bond rout in haven German debt",
@@ -23,23 +37,9 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Rebecca Patterson Warns On Fragile Bond Markets",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/rebecca-patterson-warns-on-fragile-bond-markets-video",
-      "published": "Fri, 02 Oct 2026 14:45:43 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "US sanctions Kremlin-backed fintech A7 for allegedly assisting Iran",
       "link": "https://www.ft.com/content/29e2d078-4476-41f2-a180-faf0b2001068?syn-25a6b1a6=1",
       "published": "Fri, 02 Oct 2026 12:19:10 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Global bond market steadies after sharp sell-off",
-      "link": "https://www.ft.com/content/4f2ad4c1-22b0-497b-88c8-197d7f301f79?syn-25a6b1a6=1",
-      "published": "Fri, 02 Oct 2026 10:40:47 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
