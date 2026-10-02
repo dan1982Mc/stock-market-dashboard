@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 19:41 UTC",
+  "updated_at": "2026-10-02 22:49 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,13 +16,6 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Bond Market Selloff in ‘New Chapter,’ JPM’s Berro Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-01/bond-market-selloff-in-new-chapter-jpm-s-berro-says-video",
-      "published": "Thu, 01 Oct 2026 11:14:39 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Global bond market steadies after sharp sell-off",
       "link": "https://www.ft.com/content/4f2ad4c1-22b0-497b-88c8-197d7f301f79?syn-25a6b1a6=1",
       "published": "Fri, 02 Oct 2026 16:45:26 GMT",
@@ -30,18 +23,25 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Investors seek refuge from bond rout in haven German debt",
-      "link": "https://www.ft.com/content/93028839-5f0e-43c4-8ee7-44990115ea57?syn-25a6b1a6=1",
-      "published": "Fri, 02 Oct 2026 16:09:02 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Former CEA Chair on Jobs Report, GDP Growth",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-02/former-cea-chair-on-jobs-report-gdp-growth-video",
+      "published": "Fri, 02 Oct 2026 22:17:57 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "US sanctions Kremlin-backed fintech A7 for allegedly assisting Iran",
-      "link": "https://www.ft.com/content/29e2d078-4476-41f2-a180-faf0b2001068?syn-25a6b1a6=1",
-      "published": "Fri, 02 Oct 2026 12:19:10 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Pam Bondi’s Secret DOJ Email Address Revealed",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-02/pam-bondi-s-secret-doj-email-address-revealed-video",
+      "published": "Fri, 02 Oct 2026 21:47:42 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "EM Assets Find Relief as US Jobs Data Eases Rate Fears",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-02/em-assets-find-relief-as-us-jobs-data-eases-rate-fears-video",
+      "published": "Fri, 02 Oct 2026 21:42:53 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
