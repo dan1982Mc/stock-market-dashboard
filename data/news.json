@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 22:49 UTC",
+  "updated_at": "2026-10-05 15:24 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
-      "published": "Thu, 01 Oct 2026 06:25:00 GMT",
+      "title": "Global bond selloff boosts dollar, pressures euro - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlN4RHI0V0tISVZ4QVQ5RDhyaWFvOG9XT3ptSFJ5TlNseGZjZUVJM0hjcHFjbUZKUHhPZ3hLNEZRdXV6UUJZWU9ralAxSnJBVldmVkp6R0swZ0haWjhOeE1wZnhtVWtNUXJSWkZ0V2I0dEk2Rkx1cU5BUnAyR3ZMeUFYOTVvUQ?oc=5",
+      "published": "Thu, 01 Oct 2026 17:55:58 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Global bond market steadies after sharp sell-off",
-      "link": "https://www.ft.com/content/4f2ad4c1-22b0-497b-88c8-197d7f301f79?syn-25a6b1a6=1",
-      "published": "Fri, 02 Oct 2026 16:45:26 GMT",
+      "title": "Kuwait Oil Output at 75% of Prewar as Hormuz Transits Rise",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-05/kuwait-is-pumping-oil-at-about-75-of-prewar-rate-kpc-ceo-says",
+      "published": "Mon, 05 Oct 2026 12:20:48 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Submit a question: What is driving the global bond sell-off?",
+      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
+      "published": "Mon, 05 Oct 2026 11:41:39 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Former CEA Chair on Jobs Report, GDP Growth",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/former-cea-chair-on-jobs-report-gdp-growth-video",
-      "published": "Fri, 02 Oct 2026 22:17:57 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Saudi Aramco chief warns world’s oil stockpiles are ‘scarily thin’",
+      "link": "https://www.ft.com/content/53e88a8d-65b5-445e-82ee-aee253a32094?syn-25a6b1a6=1",
+      "published": "Mon, 05 Oct 2026 08:21:07 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Pam Bondi’s Secret DOJ Email Address Revealed",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/pam-bondi-s-secret-doj-email-address-revealed-video",
-      "published": "Fri, 02 Oct 2026 21:47:42 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "EM Assets Find Relief as US Jobs Data Eases Rate Fears",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/em-assets-find-relief-as-us-jobs-data-eases-rate-fears-video",
-      "published": "Fri, 02 Oct 2026 21:42:53 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Quant hedge funds win big from bond sell-off",
+      "link": "https://www.ft.com/content/61e4b54a-53f7-43a9-a5dc-d5a6359ba4b0?syn-25a6b1a6=1",
+      "published": "Mon, 05 Oct 2026 05:00:03 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
