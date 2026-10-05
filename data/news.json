@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05 15:24 UTC",
+  "updated_at": "2026-10-05 19:28 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,13 +16,6 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Kuwait Oil Output at 75% of Prewar as Hormuz Transits Rise",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-05/kuwait-is-pumping-oil-at-about-75-of-prewar-rate-kpc-ceo-says",
-      "published": "Mon, 05 Oct 2026 12:20:48 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Submit a question: What is driving the global bond sell-off?",
       "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
       "published": "Mon, 05 Oct 2026 11:41:39 GMT",
@@ -30,16 +23,23 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Saudi Aramco chief warns world’s oil stockpiles are ‘scarily thin’",
-      "link": "https://www.ft.com/content/53e88a8d-65b5-445e-82ee-aee253a32094?syn-25a6b1a6=1",
-      "published": "Mon, 05 Oct 2026 08:21:07 GMT",
+      "title": "High Yields Force Muni Bond Borrowers to Delay Refinancing Deals",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-05/high-yields-force-muni-bond-borrowers-to-delay-refinancing-deals",
+      "published": "Mon, 05 Oct 2026 18:35:37 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "French central bank head warns country at risk of being ‘strangled by interest rates’",
+      "link": "https://www.ft.com/content/74c3cc77-1593-4c49-90f9-0d92fa3a2418?syn-25a6b1a6=1",
+      "published": "Mon, 05 Oct 2026 16:56:54 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Quant hedge funds win big from bond sell-off",
-      "link": "https://www.ft.com/content/61e4b54a-53f7-43a9-a5dc-d5a6359ba4b0?syn-25a6b1a6=1",
-      "published": "Mon, 05 Oct 2026 05:00:03 GMT",
+      "title": "Citi to speed up promotion path for junior bankers as hiring war heats up",
+      "link": "https://www.ft.com/content/41b567dc-50e9-4c41-95bb-e295caaf2340?syn-25a6b1a6=1",
+      "published": "Mon, 05 Oct 2026 15:49:40 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
