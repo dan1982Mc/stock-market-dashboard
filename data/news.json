@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05 19:28 UTC",
+  "updated_at": "2026-10-05 21:44 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -18,14 +18,14 @@
     {
       "title": "Submit a question: What is driving the global bond sell-off?",
       "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
-      "published": "Mon, 05 Oct 2026 11:41:39 GMT",
+      "published": "Mon, 05 Oct 2026 20:05:55 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "High Yields Force Muni Bond Borrowers to Delay Refinancing Deals",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-05/high-yields-force-muni-bond-borrowers-to-delay-refinancing-deals",
-      "published": "Mon, 05 Oct 2026 18:35:37 GMT",
+      "title": "Could High US Bond Yields Spark A Crisis in Europe?",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-05/could-high-us-bond-yields-spark-a-crisis-in-europe-video",
+      "published": "Mon, 05 Oct 2026 21:00:02 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
