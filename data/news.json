@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 13:47 UTC",
+  "updated_at": "2026-10-06 17:01 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,25 @@
   ],
   "articles": [
     {
-      "title": "Global bond selloff boosts dollar, pressures euro - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlN4RHI0V0tISVZ4QVQ5RDhyaWFvOG9XT3ptSFJ5TlNseGZjZUVJM0hjcHFjbUZKUHhPZ3hLNEZRdXV6UUJZWU9ralAxSnJBVldmVkp6R0swZ0haWjhOeE1wZnhtVWtNUXJSWkZ0V2I0dEk2Rkx1cU5BUnAyR3ZMeUFYOTVvUQ?oc=5",
-      "published": "Thu, 01 Oct 2026 17:55:58 GMT",
+      "title": "Global bond rout deepens, pushes US Treasury yields to 24-year peak - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
+      "published": "Thu, 01 Oct 2026 16:56:02 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
+    },
+    {
+      "title": "Iran Ramps Up Ship Attacks in Hormuz as Oil and Gas Flows Climb",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-06/iran-ramps-up-ship-attacks-in-hormuz-as-oil-and-gas-flows-climb",
+      "published": "Tue, 06 Oct 2026 16:18:10 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Vitol chief warns of tanker shortage and risk of $200-a-barrel oil",
+      "link": "https://www.ft.com/content/95db1fbd-4e1f-45cf-b678-c40635f59197?syn-25a6b1a6=1",
+      "published": "Tue, 06 Oct 2026 13:39:08 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
       "title": "Submit a question: What is driving the global bond sell-off?",
@@ -23,25 +37,11 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Man Group Disputes View That High Inflation Is Bad for US Bonds",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/man-group-disputes-view-that-high-inflation-is-bad-for-us-bonds",
-      "published": "Tue, 06 Oct 2026 12:31:11 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Investor Pushes Snap to Raise Capital for Eyeware Business Specs",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/investor-pushes-snap-to-raise-capital-for-eyeware-business-specs",
-      "published": "Tue, 06 Oct 2026 12:30:39 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Canada Exports to US Surged in August Ahead of New Tariffs",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/canada-exports-to-us-surged-in-august-ahead-of-new-tariffs",
-      "published": "Tue, 06 Oct 2026 12:30:06 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "The bond sell-off comes for corporate America",
+      "link": "https://www.ft.com/content/016e204f-d6d0-4e31-a359-fb23bcb9cf3a?syn-25a6b1a6=1",
+      "published": "Tue, 06 Oct 2026 04:00:00 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
