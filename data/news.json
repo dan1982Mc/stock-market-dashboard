@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 17:01 UTC",
+  "updated_at": "2026-10-06 19:55 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,13 +16,6 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Iran Ramps Up Ship Attacks in Hormuz as Oil and Gas Flows Climb",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/iran-ramps-up-ship-attacks-in-hormuz-as-oil-and-gas-flows-climb",
-      "published": "Tue, 06 Oct 2026 16:18:10 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Vitol chief warns of tanker shortage and risk of $200-a-barrel oil",
       "link": "https://www.ft.com/content/95db1fbd-4e1f-45cf-b678-c40635f59197?syn-25a6b1a6=1",
       "published": "Tue, 06 Oct 2026 13:39:08 GMT",
@@ -30,16 +23,23 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Submit a question: What is driving the global bond sell-off?",
-      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
-      "published": "Tue, 06 Oct 2026 11:57:41 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Texas Governor to Skip San Antonio Trump Rally Amid Tight Race",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-06/texas-governor-in-tight-race-to-skip-trump-rally-in-san-antonio",
+      "published": "Tue, 06 Oct 2026 19:01:03 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "The bond sell-off comes for corporate America",
-      "link": "https://www.ft.com/content/016e204f-d6d0-4e31-a359-fb23bcb9cf3a?syn-25a6b1a6=1",
-      "published": "Tue, 06 Oct 2026 04:00:00 GMT",
+      "title": "Walter’s Insurance CEO Told DOJ He Was Unaware of Boss’s Loans",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-06/walter-s-insurance-ceo-told-doj-he-was-unaware-of-boss-s-loans",
+      "published": "Tue, 06 Oct 2026 18:34:41 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "McKesson and CD&R strike $5.8bn deal to buy infusion services provider",
+      "link": "https://www.ft.com/content/0bc54eaf-d545-4591-bb7c-ec3cbc1cb89a?syn-25a6b1a6=1",
+      "published": "Tue, 06 Oct 2026 13:52:19 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
