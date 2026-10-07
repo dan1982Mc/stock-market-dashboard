@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 20:21 UTC",
+  "updated_at": "2026-10-07 23:27 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,9 +23,9 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Fed Minutes Show Hawkish Unity Behind September Rate Hike",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-07/fed-minutes-show-hawkish-unity-behind-sept-rate-hike-video",
-      "published": "Wed, 07 Oct 2026 19:53:48 GMT",
+      "title": "Asian Stocks to Dip as Oil Fuels Inflation Worries: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 07 Oct 2026 22:03:17 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -37,11 +37,11 @@
       "source_group": "Bloomberg"
     },
     {
-      "title": "How US mortgage bonds can trigger a ‘vicious loop’ for Treasury yields",
-      "link": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c",
-      "published": "Wed, 07 Oct 2026 10:20:56 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Oasis Urges Nidec to Seek a Buyout, Warns of Delisting Risk",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/oasis-urges-nidec-to-explore-privatization-on-delisting-risk",
+      "published": "Wed, 07 Oct 2026 10:22:59 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
