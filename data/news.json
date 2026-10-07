@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 17:37 UTC",
+  "updated_at": "2026-10-07 20:21 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Global bond sell-off resumes as 30-year Treasury yield hits highest since 2002",
-      "link": "https://www.ft.com/content/33c67aa0-bfdb-457b-84bb-960b4fed94b6?syn-25a6b1a6=1",
-      "published": "Wed, 07 Oct 2026 16:25:16 GMT",
+      "title": "Submit a question: What is driving the global bond sell-off?",
+      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
+      "published": "Wed, 07 Oct 2026 11:26:26 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "McDonald’s Franchisees Balk at Costly Bill to Upgrade Stores",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-07/mcdonald-s-franchisees-balk-at-bill-to-upgrade-stores-video",
-      "published": "Wed, 07 Oct 2026 16:53:23 GMT",
+      "title": "Fed Minutes Show Hawkish Unity Behind September Rate Hike",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-07/fed-minutes-show-hawkish-unity-behind-sept-rate-hike-video",
+      "published": "Wed, 07 Oct 2026 19:53:48 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "US oil trader takes $2bn gamble on tankers as carriers steer clear of Hormuz",
-      "link": "https://www.ft.com/content/ff76eda4-0c63-4fcd-a5a1-2729fbbffccc?syn-25a6b1a6=1",
-      "published": "Wed, 07 Oct 2026 15:00:05 GMT",
+      "title": "SEC Warns Activist Investors After Climate Push at Exxon",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/sec-warns-activist-investors-after-climate-push-at-exxon-mobil",
+      "published": "Wed, 07 Oct 2026 17:39:04 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "How US mortgage bonds can trigger a ‘vicious loop’ for Treasury yields",
+      "link": "https://www.ft.com/content/a04ef3b4-2fcf-48f9-ab34-2c40c39d9a0c",
+      "published": "Wed, 07 Oct 2026 10:20:56 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "Syria Eyes Doubling Oil Output in a Year as Investors Return",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/syria-plans-to-double-oil-output-in-a-year-as-investors-return",
-      "published": "Wed, 07 Oct 2026 14:02:18 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     }
   ]
 }
