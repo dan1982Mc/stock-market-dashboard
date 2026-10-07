@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 22:55 UTC",
+  "updated_at": "2026-10-07 14:03 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Vitol chief warns of tanker shortage and risk of $200-a-barrel oil",
-      "link": "https://www.ft.com/content/95db1fbd-4e1f-45cf-b678-c40635f59197?syn-25a6b1a6=1",
-      "published": "Tue, 06 Oct 2026 13:39:08 GMT",
+      "title": "Global bond sell-off resumes as 30-year Treasury yield hits highest since 2002",
+      "link": "https://www.ft.com/content/33c67aa0-bfdb-457b-84bb-960b4fed94b6?syn-25a6b1a6=1",
+      "published": "Wed, 07 Oct 2026 13:38:16 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Traders Reload Bets on Ever Higher Bond Yields After Brief Jolt",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/bonds-traders-revive-treasury-short-bets-after-fleeting-shakeout",
-      "published": "Tue, 06 Oct 2026 20:30:00 GMT",
+      "title": "European Bank Stocks Sink Toward Lowest Since July as Bonds Fall",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall",
+      "published": "Wed, 07 Oct 2026 13:32:32 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Greg Abbott to Skip San Antonio Trump Rally Amid Tight Race",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/texas-governor-in-tight-race-to-skip-trump-rally-in-san-antonio",
-      "published": "Tue, 06 Oct 2026 19:01:03 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "McKesson and CD&R strike $5.8bn deal to buy infusion services provider",
-      "link": "https://www.ft.com/content/0bc54eaf-d545-4591-bb7c-ec3cbc1cb89a?syn-25a6b1a6=1",
-      "published": "Tue, 06 Oct 2026 13:52:19 GMT",
+      "title": "Submit a question: What is driving the global bond sell-off?",
+      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
+      "published": "Wed, 07 Oct 2026 11:26:26 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Stocks, Bonds Fall on Inflation Worry as Oil Rises: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-06/stock-market-today-dow-s-p-live-updates",
+      "published": "Tue, 06 Oct 2026 22:12:38 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
