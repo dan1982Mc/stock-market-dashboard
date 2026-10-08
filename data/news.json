@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 23:27 UTC",
+  "updated_at": "2026-10-08 14:12 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Banks lead FTSE 100 decline as bond yields, oil surge - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQkw0Nm9BQmtob3l3a3h6Vm0zRVl6dDhqbzVDWmttaUlfaEUwWDZURC1oNkx2bGZUdVJWNjl0Xzh2T0lVMlVUYVVSMUEwckgyakNPYzdQdlJDU2NJMlU5YnM0amRoVDlDSGhVN2FVWUV6bHNOYzZCcTZYcFp0cDRKZmROT2NGZjVUX2gxYWtuSmUyS2g2SUZiNVMtWktWNnluLVhzblFCazJadw?oc=5",
-      "published": "Wed, 07 Oct 2026 16:33:23 GMT",
+      "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
+      "published": "Wed, 07 Oct 2026 20:05:34 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Submit a question: What is driving the global bond sell-off?",
-      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
-      "published": "Wed, 07 Oct 2026 11:26:26 GMT",
+      "title": "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
+      "link": "https://www.ft.com/content/ec860f96-5a2b-461a-a897-a957860c3dba?syn-25a6b1a6=1",
+      "published": "Thu, 08 Oct 2026 14:01:10 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Asian Stocks to Dip as Oil Fuels Inflation Worries: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates",
-      "published": "Wed, 07 Oct 2026 22:03:17 GMT",
+      "title": "What’s the TPI? How ECB Can Respond to French Bond Turmoil",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-08/what-s-the-tpi-how-ecb-can-respond-to-french-bond-turmoil",
+      "published": "Thu, 08 Oct 2026 13:24:21 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "SEC Warns Activist Investors After Climate Push at Exxon",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/sec-warns-activist-investors-after-climate-push-at-exxon-mobil",
-      "published": "Wed, 07 Oct 2026 17:39:04 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "US critical minerals stockpile risks driving up prices, defence groups warn",
+      "link": "https://www.ft.com/content/dbd6e14c-2d47-4f6b-9981-98a42e172097?syn-25a6b1a6=1",
+      "published": "Thu, 08 Oct 2026 09:00:00 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Oasis Urges Nidec to Seek a Buyout, Warns of Delisting Risk",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/oasis-urges-nidec-to-explore-privatization-on-delisting-risk",
-      "published": "Wed, 07 Oct 2026 10:22:59 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Kenya central bank holds key rate, sees inflation within target despite recent rise - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSnMtTjdfYUFybUUwb1FGTEFwVG0tdDlSRlIxMlVKNXNuaE5yNUpQdkFaS1QzNmxmN1pFcnIzWmUyOXJRbkFySktQS2NaQ2hUSFpTalB0T1U0Rm5BVVBGZllhS2E0dlhDRTBCUmNzeVhpeWNxWDhrMGYtWXpOMFZDWW9adVIxXzl4THhlOFNPVldGV3FKSnh5QW9sRk1IZ1d0ZS1B?oc=5",
+      "published": "Wed, 07 Oct 2026 14:56:35 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
