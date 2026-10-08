@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 20:24 UTC",
+  "updated_at": "2026-10-08 23:39 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,6 +16,13 @@
       "source_group": "Reuters"
     },
     {
+      "title": "Gold Rises After Trump Says US Won’t Attack Iran Before Midterms",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-07/gold-near-nine-week-low-on-prospects-for-rate-hike-by-year-end",
+      "published": "Wed, 07 Oct 2026 23:37:27 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "Trump says US ‘will not be attacking Iran’ before midterm elections",
       "link": "https://www.ft.com/content/e0cc2789-0e71-401d-8096-d58303970a37?syn-25a6b1a6=1",
       "published": "Thu, 08 Oct 2026 20:08:27 GMT",
@@ -23,25 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Treasury’s Tax Warning Leaves Key ETF Maneuvers Untouched",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-08/treasury-s-tax-warning-leaves-key-etf-maneuvers-untouched",
-      "published": "Thu, 08 Oct 2026 19:12:22 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "US critical minerals stockpile risks driving up prices, defence groups warn",
-      "link": "https://www.ft.com/content/dbd6e14c-2d47-4f6b-9981-98a42e172097?syn-25a6b1a6=1",
-      "published": "Thu, 08 Oct 2026 09:00:00 GMT",
+      "title": "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
+      "link": "https://www.ft.com/content/ec860f96-5a2b-461a-a897-a957860c3dba?syn-25a6b1a6=1",
+      "published": "Thu, 08 Oct 2026 18:51:06 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Kenya central bank holds key rate, sees inflation within target despite recent rise - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSnMtTjdfYUFybUUwb1FGTEFwVG0tdDlSRlIxMlVKNXNuaE5yNUpQdkFaS1QzNmxmN1pFcnIzWmUyOXJRbkFySktQS2NaQ2hUSFpTalB0T1U0Rm5BVVBGZllhS2E0dlhDRTBCUmNzeVhpeWNxWDhrMGYtWXpOMFZDWW9adVIxXzl4THhlOFNPVldGV3FKSnh5QW9sRk1IZ1d0ZS1B?oc=5",
-      "published": "Wed, 07 Oct 2026 14:56:35 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "French bond sell-off prompts ‘bottom fishing’ across Europe",
+      "link": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
+      "published": "Thu, 08 Oct 2026 16:06:57 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
