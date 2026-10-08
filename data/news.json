@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 17:40 UTC",
+  "updated_at": "2026-10-08 20:24 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
-      "published": "Wed, 07 Oct 2026 20:05:34 GMT",
+      "title": "Banks lead FTSE 100 decline as bond yields, oil surge - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQkw0Nm9BQmtob3l3a3h6Vm0zRVl6dDhqbzVDWmttaUlfaEUwWDZURC1oNkx2bGZUdVJWNjl0Xzh2T0lVMlVUYVVSMUEwckgyakNPYzdQdlJDU2NJMlU5YnM0amRoVDlDSGhVN2FVWUV6bHNOYzZCcTZYcFp0cDRKZmROT2NGZjVUX2gxYWtuSmUyS2g2SUZiNVMtWktWNnluLVhzblFCazJadw?oc=5",
+      "published": "Wed, 07 Oct 2026 16:33:23 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "French bond sell-off prompts ‘bottom fishing’ across Europe",
-      "link": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
-      "published": "Thu, 08 Oct 2026 16:06:57 GMT",
+      "title": "Trump says US ‘will not be attacking Iran’ before midterm elections",
+      "link": "https://www.ft.com/content/e0cc2789-0e71-401d-8096-d58303970a37?syn-25a6b1a6=1",
+      "published": "Thu, 08 Oct 2026 20:08:27 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Tech Stocks Drop as OpenAI Revenue Warning Deepens Bubble Fears",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-08/us-stock-futures-slip-on-mounting-energy-shock-ai-bubble-fears",
-      "published": "Thu, 08 Oct 2026 12:08:23 GMT",
+      "title": "Treasury’s Tax Warning Leaves Key ETF Maneuvers Untouched",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-10-08/treasury-s-tax-warning-leaves-key-etf-maneuvers-untouched",
+      "published": "Thu, 08 Oct 2026 19:12:22 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "What is driving the global bond sell-off? You asked, we answered",
-      "link": "https://www.ft.com/content/d51a78a8-67d8-45bd-b32c-1eafe39a0794?syn-25a6b1a6=1",
-      "published": "Thu, 08 Oct 2026 12:01:14 GMT",
+      "title": "US critical minerals stockpile risks driving up prices, defence groups warn",
+      "link": "https://www.ft.com/content/dbd6e14c-2d47-4f6b-9981-98a42e172097?syn-25a6b1a6=1",
+      "published": "Thu, 08 Oct 2026 09:00:00 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Oil majors target Middle East despite war disruption",
-      "link": "https://www.ft.com/content/3534cf93-be7b-49ec-bf58-cea84e73cb28?syn-25a6b1a6=1",
-      "published": "Thu, 08 Oct 2026 04:00:26 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Kenya central bank holds key rate, sees inflation within target despite recent rise - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSnMtTjdfYUFybUUwb1FGTEFwVG0tdDlSRlIxMlVKNXNuaE5yNUpQdkFaS1QzNmxmN1pFcnIzWmUyOXJRbkFySktQS2NaQ2hUSFpTalB0T1U0Rm5BVVBGZllhS2E0dlhDRTBCUmNzeVhpeWNxWDhrMGYtWXpOMFZDWW9adVIxXzl4THhlOFNPVldGV3FKSnh5QW9sRk1IZ1d0ZS1B?oc=5",
+      "published": "Wed, 07 Oct 2026 14:56:35 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
