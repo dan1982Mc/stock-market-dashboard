@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 19:56 UTC",
+  "updated_at": "2026-10-09 23:03 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,13 +16,6 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Wall Street Sees an Ominous Sign in Bond Market’s Latest Selloff",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-09/wall-street-sees-an-ominous-sign-in-bond-market-selloff-video",
-      "published": "Fri, 09 Oct 2026 19:38:24 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
       "link": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
       "published": "Fri, 09 Oct 2026 18:38:06 GMT",
@@ -30,16 +23,23 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Oil Industry Contends With Hormuz Attacks, Hurricane Risk",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-09/oil-markets-contend-with-hormuz-attacks-hurricane-risk-video",
-      "published": "Fri, 09 Oct 2026 18:34:48 GMT",
+      "title": "Surveillance Pricing, Orszag's Retirement Warning, Suburb Discount Dwindles",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-09/bloomberg-money-10-9-2026-video",
+      "published": "Fri, 09 Oct 2026 21:23:40 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Iran attacks tankers beyond Strait of Hormuz",
-      "link": "https://www.ft.com/content/83b817d5-df71-41a6-bef5-3db55a3a89cf?syn-25a6b1a6=1",
-      "published": "Fri, 09 Oct 2026 15:10:55 GMT",
+      "title": "Wall Street’s Rate Shock Spreads Beneath AI-Fueled Market Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-09/wall-street-s-rate-shock-spreads-beneath-ai-fueled-market-rally",
+      "published": "Fri, 09 Oct 2026 20:34:41 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "The ECB will sit on the sidelines during France’s debt sell-off",
+      "link": "https://www.ft.com/content/084bf164-ee7b-4744-a869-4dea488459f8",
+      "published": "Fri, 09 Oct 2026 12:39:39 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
