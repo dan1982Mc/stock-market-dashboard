@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 17:16 UTC",
+  "updated_at": "2026-10-09 19:56 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Iran attacks tankers beyond Strait of Hormuz",
-      "link": "https://www.ft.com/content/83b817d5-df71-41a6-bef5-3db55a3a89cf?syn-25a6b1a6=1",
-      "published": "Fri, 09 Oct 2026 15:10:55 GMT",
+      "title": "Wall Street Sees an Ominous Sign in Bond Market’s Latest Selloff",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-09/wall-street-sees-an-ominous-sign-in-bond-market-selloff-video",
+      "published": "Fri, 09 Oct 2026 19:38:24 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
+      "link": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
+      "published": "Fri, 09 Oct 2026 18:38:06 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Liberty Meetings Draw Crowd in London as Virgin Media Bonds Sink",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-09/liberty-meetings-draw-crowd-in-london-as-virgin-media-bonds-sink",
-      "published": "Fri, 09 Oct 2026 16:56:30 GMT",
+      "title": "Oil Industry Contends With Hormuz Attacks, Hurricane Risk",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-09/oil-markets-contend-with-hormuz-attacks-hurricane-risk-video",
+      "published": "Fri, 09 Oct 2026 18:34:48 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "China’s Oil Imports Look Set to Rise as Supertanker Fleet Swells",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-09/china-s-oil-imports-look-set-to-rise-as-supertanker-fleet-swells",
-      "published": "Fri, 09 Oct 2026 16:00:23 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "The energy crisis is changing what investors want from oil majors",
-      "link": "https://www.ft.com/content/7b354a5d-9702-407a-a4bc-8703c6ba7b72?syn-25a6b1a6=1",
-      "published": "Fri, 09 Oct 2026 04:00:32 GMT",
+      "title": "Iran attacks tankers beyond Strait of Hormuz",
+      "link": "https://www.ft.com/content/83b817d5-df71-41a6-bef5-3db55a3a89cf?syn-25a6b1a6=1",
+      "published": "Fri, 09 Oct 2026 15:10:55 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
