@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 23:39 UTC",
+  "updated_at": "2026-10-09 13:59 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Gold Rises After Trump Says US Won’t Attack Iran Before Midterms",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-07/gold-near-nine-week-low-on-prospects-for-rate-hike-by-year-end",
-      "published": "Wed, 07 Oct 2026 23:37:27 GMT",
+      "title": "Stocks Rise as AI Concerns Ease; Dollar Rally Persists",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-09/bloomberg-brief-10-09-2026-video",
+      "published": "Fri, 09 Oct 2026 12:43:24 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Trump says US ‘will not be attacking Iran’ before midterm elections",
-      "link": "https://www.ft.com/content/e0cc2789-0e71-401d-8096-d58303970a37?syn-25a6b1a6=1",
-      "published": "Thu, 08 Oct 2026 20:08:27 GMT",
+      "title": "Most countries unprepared for bank failures, watchdog warns",
+      "link": "https://www.ft.com/content/ca31d01f-d5a0-4bd4-bcc2-4aaa68f4ca22?syn-25a6b1a6=1",
+      "published": "Fri, 09 Oct 2026 06:00:01 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
-      "link": "https://www.ft.com/content/ec860f96-5a2b-461a-a897-a957860c3dba?syn-25a6b1a6=1",
-      "published": "Thu, 08 Oct 2026 18:51:06 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "World shares, euro slide as high oil prices, fiscal worries linger - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZW5YUkkzdjhfTWJXY25aWkVLeExISGkybXo1YmFoS256Qk5DclZaVVc4ODRnejkzYlBYOTBVWWp5YTVHRDVyMmtBUDVZWHlFclVhYUtIU2d0Tm1GWmRzMnhQNlg4aVVfWEZjb21nQ0tTUzc0WjQ5bEhmWVJuNzFwX25Bdw?oc=5",
+      "published": "Wed, 07 Oct 2026 16:34:59 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "French bond sell-off prompts ‘bottom fishing’ across Europe",
-      "link": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
-      "published": "Thu, 08 Oct 2026 16:06:57 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "IMF chief warns energy shock, growing debt and AI risks threaten global growth - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRWc5YTdRc1hIb1hBUXdiRFY1YlZVQ2lOYTN1RVFIMUhBNDh3Q3M4NnJoRWI1Tzhxc255OHpHeS1TcjJSX1ZoTnNaWEo5VTBNQlJ5Q1pEWnFkSnhWSTlnYUtESFhJcnNZNVV0VkgycHZocFZFOU5hcVg1anpIUWtVckNscjJYeURiVmpIX293bTVteUFQNElQczlwcEJDOUZVbnFEc1p4eVQyVFJFWUZhbUc1ODlhSlViODdFTkJqTUNSbzkySGNR?oc=5",
+      "published": "Wed, 07 Oct 2026 09:14:58 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
