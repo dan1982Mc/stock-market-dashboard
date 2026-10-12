@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12 20:04 UTC",
+  "updated_at": "2026-10-12 22:19 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,16 +9,16 @@
   ],
   "articles": [
     {
-      "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
-      "published": "Wed, 07 Oct 2026 20:05:34 GMT",
+      "title": "Shares slip as oil jumps and bond yields stay high - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYWJkYkZhMHpnb0pNVlAyTTZGOEYtSno1YTJGRV9GYWRPSDg1WGxXNlFKUVY4VGVzc0RMLVVVVFFlamgzd3ROTjBXTndhYm5Ia0hwbDhaSXBCQWIzZDhQSGxGUWdoZndaZHV3YUgyd2NUb0FsTkNlYWRYYUFyN0tSWFlYbw?oc=5",
+      "published": "Thu, 08 Oct 2026 22:01:47 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Houthi Attacks Part of Wider Escalating Conflict, Says Natasha Hall",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-12/houthi-attack-part-of-escalating-conflict-natasha-hall-video",
-      "published": "Mon, 12 Oct 2026 19:10:40 GMT",
+      "title": "Asian Stocks to Fall After US Chipmaker Selloff: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 12 Oct 2026 22:04:35 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -30,16 +30,16 @@
       "source_group": "Financial Times"
     },
     {
+      "title": "Latest Oil Market News and Analysis for Oct. 13",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-12/latest-oil-market-news-and-analysis-for-oct-13",
+      "published": "Mon, 12 Oct 2026 22:01:55 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "Goldman goes long stocks — and bonds*",
       "link": "https://www.ft.com/content/2af1eb34-f7f4-445f-81a3-42e6fd448971",
       "published": "Mon, 12 Oct 2026 16:02:19 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Oil prices rise as Trump’s ‘energy ceasefire’ frays",
-      "link": "https://www.ft.com/content/a663781e-2709-41f2-99df-4fb5a6162e6b?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 15:46:25 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
