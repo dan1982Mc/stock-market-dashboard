@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13 01:08 UTC",
-  "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-10-13 14:41 UTC",
+  "tone": "MIXED",
+  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Shares slip as oil jumps and bond yields stay high - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYWJkYkZhMHpnb0pNVlAyTTZGOEYtSno1YTJGRV9GYWRPSDg1WGxXNlFKUVY4VGVzc0RMLVVVVFFlamgzd3ROTjBXTndhYm5Ia0hwbDhaSXBCQWIzZDhQSGxGUWdoZndaZHV3YUgyd2NUb0FsTkNlYWRYYUFyN0tSWFlYbw?oc=5",
-      "published": "Thu, 08 Oct 2026 22:01:47 GMT",
+      "title": "European gas hits Iran wartime high",
+      "link": "https://www.ft.com/content/787acc7e-f0d3-4552-a369-4b4c967e4ca5?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 13:32:27 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Central bank measures, intervention spark rupee's sharpest rally in six months - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3Q4Z3VQUzhKYUZNaXdCaXk2YWRvbFA5dVRuYVc4ZGx0YWo1UzlaM2Q5SkxPQXRsR0ZJNFFZT0huXzhEa29iNEd0ajM5cXVoM0ZfaVJ1bjFfcTRqM3NRRGJtSXo2Q1hiZ0NQVk1oZmtkbVJZbFpZWFhobnBhendjaEVIMTBLOHJ1ZUtOcExpaHJwUWVQRVdRN3NuWi1QVDllbGo2Y2xZa2VTYWhWNDN3SEY3Mi1ZRWxxTFB0RnkybkxxMVFq?oc=5",
+      "published": "Mon, 12 Oct 2026 10:18:51 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Gold Holds Drop as Middle East Fighting Stokes Inflation Fears",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-12/gold-holds-drop-as-middle-east-fighting-stokes-inflation-fears",
-      "published": "Mon, 12 Oct 2026 23:54:56 GMT",
+      "title": "Microsoft Eyes First Record in Nearly a Year as AI Rally Builds",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/microsoft-eyes-first-record-in-nearly-a-year-as-ai-rally-builds",
+      "published": "Tue, 13 Oct 2026 13:56:44 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "US hits commercial tanker in Gulf of Oman as tensions flare",
-      "link": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
-      "published": "Sun, 11 Oct 2026 19:53:56 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Latest Oil Market News and Analysis for Oct. 13",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-12/latest-oil-market-news-and-analysis-for-oct-13",
-      "published": "Mon, 12 Oct 2026 22:01:55 GMT",
+      "title": "India Software Stocks Jump Most in 17 Months as AI Trade Falters",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/indian-it-stocks-set-for-best-day-in-17-months-on-ai-selloff",
+      "published": "Tue, 13 Oct 2026 08:23:17 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Goldman goes long stocks — and bonds*",
-      "link": "https://www.ft.com/content/2af1eb34-f7f4-445f-81a3-42e6fd448971",
-      "published": "Mon, 12 Oct 2026 16:02:19 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Long-Term Treasuries Hold Gains as Oil Snaps Three-Day Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/treasuries-gain-on-haven-demand-as-trading-resumes-after-holiday",
+      "published": "Tue, 13 Oct 2026 02:22:28 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
