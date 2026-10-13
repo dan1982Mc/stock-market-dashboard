@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 17:53 UTC",
+  "updated_at": "2026-10-13 20:27 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,16 +9,9 @@
   ],
   "articles": [
     {
-      "title": "Bassman Warns of ‘Nightmare Scenario’ Amplifying US Bond Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/bassman-warns-of-nightmare-scenario-amplifying-us-bond-selloff",
-      "published": "Tue, 13 Oct 2026 17:34:03 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "European gas hits Iran wartime high",
-      "link": "https://www.ft.com/content/787acc7e-f0d3-4552-a369-4b4c967e4ca5?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 13:32:27 GMT",
+      "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+      "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 20:25:29 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
@@ -30,16 +23,23 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Central bank measures, intervention spark rupee's sharpest rally in six months - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3Q4Z3VQUzhKYUZNaXdCaXk2YWRvbFA5dVRuYVc4ZGx0YWo1UzlaM2Q5SkxPQXRsR0ZJNFFZT0huXzhEa29iNEd0ajM5cXVoM0ZfaVJ1bjFfcTRqM3NRRGJtSXo2Q1hiZ0NQVk1oZmtkbVJZbFpZWFhobnBhendjaEVIMTBLOHJ1ZUtOcExpaHJwUWVQRVdRN3NuWi1QVDllbGo2Y2xZa2VTYWhWNDN3SEY3Mi1ZRWxxTFB0RnkybkxxMVFq?oc=5",
-      "published": "Mon, 12 Oct 2026 03:54:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Microsoft Hits First Record in a Year After $1.4 Trillion Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/microsoft-eyes-first-record-in-nearly-a-year-as-ai-rally-builds",
+      "published": "Tue, 13 Oct 2026 13:56:44 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
-      "published": "Fri, 09 Oct 2026 19:19:05 GMT",
+      "title": "Copper Slips as AI Selloff Saps Appetite for Risk Across Markets",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/copper-and-aluminum-drop-as-ai-selloff-saps-appetite-for-risk",
+      "published": "Tue, 13 Oct 2026 03:27:21 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "JPMorgan posts rare profit miss as dealmaking, bond trading lose momentum - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkpHWW54ak0tS25QWlJYZDQxbUdyaWdmcjU0bnFaUU12R0YtSDhmcmpwZ0FEVVZRUHhUa2pueVVRNVdaUlVPU0VmaU5IMHFoNWNjbF9EMDh5TkpobENoQzR2d2t6eUtTeW5PckM5QkNQakhyNFo0MlpFbnlGdldqTk1zUi1vbnNmVHlVNnp3NmJIdGh1dDdPTF9FVHJ6bUtwOVR0N2NiUEo3YVF4SldvVg?oc=5",
+      "published": "Tue, 13 Oct 2026 16:13:09 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
