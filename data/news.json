@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14 19:05 UTC",
+  "updated_at": "2026-10-14 22:04 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,18 +9,25 @@
   ],
   "articles": [
     {
-      "title": "Inflation Jolt Raises Stakes for Warsh’s Final Word in Bangkok",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-warsh-to-get-final-word-in-bangkok-as-inflation-roars-back",
-      "published": "Wed, 14 Oct 2026 17:43:06 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Central bank measures, intervention spark rupee's sharpest rally in six months - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3Q4Z3VQUzhKYUZNaXdCaXk2YWRvbFA5dVRuYVc4ZGx0YWo1UzlaM2Q5SkxPQXRsR0ZJNFFZT0huXzhEa29iNEd0ajM5cXVoM0ZfaVJ1bjFfcTRqM3NRRGJtSXo2Q1hiZ0NQVk1oZmtkbVJZbFpZWFhobnBhendjaEVIMTBLOHJ1ZUtOcExpaHJwUWVQRVdRN3NuWi1QVDllbGo2Y2xZa2VTYWhWNDN3SEY3Mi1ZRWxxTFB0RnkybkxxMVFq?oc=5",
-      "published": "Mon, 12 Oct 2026 10:18:51 GMT",
+      "title": "Iran's central bank governor dismisses claims of economic collapse amid US blockade - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY09JZzRxS3I5eWpRNnAyUlFPU21LTlRFQkJPc1NUVGNBeE5hZzI3al9VUlRpU3lvQTN5a2t1bjNmTWozZVJSM0lTWEJnR05NSmlNRmRfQ2txcjY4RFVCWGpRT2d5WlNiZjRpVXdsUm1MY1pReG5Wb0dRb0xUandmMmRSNGY0aHI1bWprNFc0bEwwcDV2Tkd3V1BHYml1U3VWcUdHSFJqUVFxdGctc1A0TXZaYlhNcndIbWVjN0xCQzlNYVhpdV9hYm42Nl9jdw?oc=5",
+      "published": "Wed, 14 Oct 2026 11:26:01 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
+    },
+    {
+      "title": "US chip stocks slide as inflation and AI debt fears unsettle investors",
+      "link": "https://www.ft.com/content/fb258413-e88d-47fe-98c8-f645adaea1e1?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 20:36:40 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Container Ship Sinks in Strait of Hormuz as Attacks Ramp Up",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/cargo-ship-sinks-in-strait-of-hormuz-after-strike-triggers-fire",
+      "published": "Wed, 14 Oct 2026 18:38:29 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Houthis attack Saudi Aramco headquarters",
@@ -33,13 +40,6 @@
       "title": "Global diesel prices set to rise again, warns IEA",
       "link": "https://www.ft.com/content/b06d00da-9df7-405b-9410-b5485c267397?syn-25a6b1a6=1",
       "published": "Wed, 14 Oct 2026 12:25:57 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Patrick Drahi’s creditors strike back",
-      "link": "https://www.ft.com/content/cd8b1aaf-abd8-4c75-afb2-11683c675016?syn-25a6b1a6=1",
-      "published": "Wed, 14 Oct 2026 04:00:30 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
