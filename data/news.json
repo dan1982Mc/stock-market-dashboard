@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14 12:34 UTC",
+  "updated_at": "2026-10-14 15:40 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,37 +9,37 @@
   ],
   "articles": [
     {
-      "title": "Stocks stabilise after chip selloff; US inflation data up next - Reuters",
+      "title": "Dollar jumps, stocks and bonds dented by hot US inflation data - Reuters",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE96RkhyZDBlQ2VWRERNYlZtdm5FaVdQSXF2M3ZtR3JIOU05UExLWnZ3dmFBY1NZcndTRlozR29sdmxWaExXUmIycmZPZGk3UXI1amRxTDR6WHpSQl82ckhxZ016SnZYdGtPdC14TnZVWlpjeHl4SW5pUnJKbjl2M0pzcw?oc=5",
       "published": "Wed, 14 Oct 2026 01:53:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
+      "title": "Washington Lifts Sanctions on Venezuela’s Top Lawmaker",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/us-lifts-sanctions-on-venezuela-s-top-lawmaker-as-relations-thaw",
+      "published": "Wed, 14 Oct 2026 14:20:42 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "Houthis attack Saudi Aramco headquarters",
       "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-      "published": "Wed, 14 Oct 2026 09:03:41 GMT",
+      "published": "Wed, 14 Oct 2026 13:25:00 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Natixis Economist Sees One More Fed Rate Hike",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-14/natixis-economist-sees-one-more-fed-rate-hike-video",
-      "published": "Wed, 14 Oct 2026 12:14:16 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Global diesel prices set to rise again, warns IEA",
+      "link": "https://www.ft.com/content/b06d00da-9df7-405b-9410-b5485c267397?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 12:25:57 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Soaring Oil Freight Is Becoming a Risk to Fuel Supply",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-14/soaring-oil-freight-is-becoming-a-risk-to-fuel-supply",
-      "published": "Wed, 14 Oct 2026 11:57:55 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "European oil refineries’ margins collapse as input costs soar",
-      "link": "https://www.ft.com/content/c69ef2f5-0644-4ec3-accb-cbc8d633e008?syn-25a6b1a6=1",
-      "published": "Wed, 14 Oct 2026 08:32:10 GMT",
+      "title": "Patrick Drahi’s creditors strike back",
+      "link": "https://www.ft.com/content/cd8b1aaf-abd8-4c75-afb2-11683c675016?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 04:00:30 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
