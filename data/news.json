@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 23:11 UTC",
+  "updated_at": "2026-10-14 12:34 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "KKR Sees Bond Rout as Opening to Lock in High-Grade Asian Credit",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/kkr-sees-bond-rout-as-opening-to-lock-in-high-grade-asian-credit",
-      "published": "Tue, 13 Oct 2026 22:28:13 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Stocks stabilise after chip selloff; US inflation data up next - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE96RkhyZDBlQ2VWRERNYlZtdm5FaVdQSXF2M3ZtR3JIOU05UExLWnZ3dmFBY1NZcndTRlozR29sdmxWaExXUmIycmZPZGk3UXI1amRxTDR6WHpSQl82ckhxZ016SnZYdGtPdC14TnZVWlpjeHl4SW5pUnJKbjl2M0pzcw?oc=5",
+      "published": "Wed, 14 Oct 2026 01:53:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+      "title": "Houthis attack Saudi Aramco headquarters",
       "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 22:00:20 GMT",
+      "published": "Wed, 14 Oct 2026 09:03:41 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "European stocks hit one-week high on easing oil, yields; LVMH drags luxury stocks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkFQLVNEd0ZIdnhVT3Z4U3lsNEQtSExMbU9XZDV5UzRBT01oWHBoQ1drSTIzekVuaWNpeUlwYnhTT2xSNTlDRkFmTkdHUlR4aTl2bmFkOTBpYW5qNzlXY1VmUkNpRS13ZlRJMnlTM1N3dlFScnJWQUEyaFZ0UFNIemZodlhwZHc1N2hneXZSeTBmMTlGeTBTdl8tUThQdHY4MEo3RVNBSVVmQzhXUURJ?oc=5",
-      "published": "Tue, 13 Oct 2026 09:16:17 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Natixis Economist Sees One More Fed Rate Hike",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/natixis-economist-sees-one-more-fed-rate-hike-video",
+      "published": "Wed, 14 Oct 2026 12:14:16 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Central bank measures, intervention spark rupee's sharpest rally in six months - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3Q4Z3VQUzhKYUZNaXdCaXk2YWRvbFA5dVRuYVc4ZGx0YWo1UzlaM2Q5SkxPQXRsR0ZJNFFZT0huXzhEa29iNEd0ajM5cXVoM0ZfaVJ1bjFfcTRqM3NRRGJtSXo2Q1hiZ0NQVk1oZmtkbVJZbFpZWFhobnBhendjaEVIMTBLOHJ1ZUtOcExpaHJwUWVQRVdRN3NuWi1QVDllbGo2Y2xZa2VTYWhWNDN3SEY3Mi1ZRWxxTFB0RnkybkxxMVFq?oc=5",
-      "published": "Mon, 12 Oct 2026 03:54:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Soaring Oil Freight Is Becoming a Risk to Fuel Supply",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-10-14/soaring-oil-freight-is-becoming-a-risk-to-fuel-supply",
+      "published": "Wed, 14 Oct 2026 11:57:55 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks advance ahead of earnings, navigating still-high Treasury yields and oil prices - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
-      "published": "Fri, 09 Oct 2026 19:19:05 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "European oil refineries’ margins collapse as input costs soar",
+      "link": "https://www.ft.com/content/c69ef2f5-0644-4ec3-accb-cbc8d633e008?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 08:32:10 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
