@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 18:32 UTC",
+  "updated_at": "2026-10-16 21:56 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,6 +16,13 @@
       "source_group": "Reuters"
     },
     {
+      "title": "Gold Steady as Rate-Hike Bets Ease, Oil Pushes Yields Higher",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/gold-holds-gains-with-haven-demand-and-lower-yields-in-focus",
+      "published": "Thu, 15 Oct 2026 23:51:46 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "Trump weighs easing restrictions on Russian and Iranian ‘shadow fleet’",
       "link": "https://www.ft.com/content/6dfa9879-589a-4af3-9374-b546a945a219?syn-25a6b1a6=1",
       "published": "Thu, 15 Oct 2026 21:10:51 GMT",
@@ -23,25 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Mortgage Bond Sales Put on Hold as Investors Demand More Yield",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield",
-      "published": "Fri, 16 Oct 2026 17:33:58 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Trump’s ‘Mother Of All Bombs’ Threat Unlikely to Hit Iran’s Buried Nuclear Sites",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/trump-s-moab-threat-vs-iran-would-miss-buried-nuclear-sites",
-      "published": "Fri, 16 Oct 2026 17:27:07 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Treasuries head for big weekly gains as AI jitters halt bond rout",
-      "link": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
-      "published": "Fri, 16 Oct 2026 16:55:10 GMT",
+      "title": "Treasuries rally as investors seek shelter from AI turbulence",
+      "link": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
+      "published": "Thu, 15 Oct 2026 20:20:36 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/long-term-treasuries-fall-as-dealer-survey-offers-little-signal",
+      "published": "Fri, 16 Oct 2026 16:31:16 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
