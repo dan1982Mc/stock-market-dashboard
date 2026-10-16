@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 15:06 UTC",
+  "updated_at": "2026-10-16 18:32 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,20 +9,6 @@
   ],
   "articles": [
     {
-      "title": "Treasuries head for best week since February as AI jitters halt bond rout",
-      "link": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
-      "published": "Fri, 16 Oct 2026 14:13:05 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Treasuries Stall as Global Stocks Recovery Clips Haven Rally",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/treasuries-slide-as-global-stocks-recovery-clips-haven-rally",
-      "published": "Fri, 16 Oct 2026 09:10:06 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "IMF flags risks to global economy from AI market correction, war and debt - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXc4YzNuVFU1U2dtSjE1SG9xRUIxZTRtMU1xdXNodDkxMTRGaE9yQTJIVVVoeVJjdnFsbi0yeUJ6a09ZbGJ0Z3N5V1NiV1RGZlVDekptcUVqcTVtNGRsdDNpZkd1akEyN2hybUx5aFlXM05pZENOVFdfTXI3XzBxaGRMZ0NVcFFRVXZRbHlZYUNleHhiTTJ1UTN0dXJ6U0h2V3ZoWGdqOWp5SmdCMjFab1doZw?oc=5",
       "published": "Tue, 13 Oct 2026 16:15:03 GMT",
@@ -30,18 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Market selloff, rising rates test AI data centre deal boom - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5",
-      "published": "Thu, 15 Oct 2026 12:43:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Trump weighs easing restrictions on Russian and Iranian ‘shadow fleet’",
+      "link": "https://www.ft.com/content/6dfa9879-589a-4af3-9374-b546a945a219?syn-25a6b1a6=1",
+      "published": "Thu, 15 Oct 2026 21:10:51 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "IMF warns of slowing Asian growth, spillover from rising yields - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVzQtNy1yR0xkemd2ellCSWZBS1ZmVjBuZHAxTXZwZXFIb1preWk1d0hLNVN6V3REbUh1TkpNbFJqRzZvTXh5eGo4TkNsQzFkNzZDNzJsNWYtZ0pIZHR6NWFfX0hzY2ZkdldJTUFRLVRTcVAwV0hjVklONGVfOVMwZ2dQM1pFUURuSlhwV0JSYzVESVpEYkpIZmJ0VE9sNUhJdE9tUQ?oc=5",
-      "published": "Thu, 15 Oct 2026 02:04:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Mortgage Bond Sales Put on Hold as Investors Demand More Yield",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/mortgage-bond-sales-put-on-hold-as-investors-demand-more-yield",
+      "published": "Fri, 16 Oct 2026 17:33:58 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Trump’s ‘Mother Of All Bombs’ Threat Unlikely to Hit Iran’s Buried Nuclear Sites",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/trump-s-moab-threat-vs-iran-would-miss-buried-nuclear-sites",
+      "published": "Fri, 16 Oct 2026 17:27:07 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Treasuries head for big weekly gains as AI jitters halt bond rout",
+      "link": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+      "published": "Fri, 16 Oct 2026 16:55:10 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
