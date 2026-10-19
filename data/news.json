@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 17:17 UTC",
+  "updated_at": "2026-10-19 20:18 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,13 +9,6 @@
   ],
   "articles": [
     {
-      "title": "ECB's Lagarde says bond selloff will slow inflation - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORnNpbWFQTVJFZTQ1NDEzNVA1QlMyNThGdl8tR19Bd0UtQTAyVnBGRFBldDVOMFFnRHR0WkRHaS1CODVMSUFvSTZJdzN5a2NSbHFLbHA2bnZ0ZVBXYUprYS1oeGN6eF9lakVpVmRTSVB6VkpwUzlOVXZCME5ldGVmNmZPTUtuSGVnRTZzbENrQ1pGcFlScVZ1Sl9rQ1pHWUo1c1l4VUJn?oc=5",
-      "published": "Sat, 17 Oct 2026 08:01:43 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
-    },
-    {
       "title": "Gold Declines as Bond Yields Stay Elevated Despite Oil Drop",
       "link": "https://www.bloomberg.com/news/articles/2026-10-18/gold-edges-higher-as-traders-ease-rate-hike-bets-on-warsh-speech",
       "published": "Sun, 18 Oct 2026 23:47:43 GMT",
@@ -23,25 +16,32 @@
       "source_group": "Bloomberg"
     },
     {
-      "title": "Indonesia expels tightly held companies from Jakarta index in bid to avoid MSCI downgrade",
-      "link": "https://www.ft.com/content/472ad6cf-438f-4d62-a41c-8725cbf53383?syn-25a6b1a6=1",
-      "published": "Mon, 19 Oct 2026 15:59:35 GMT",
+      "title": "IMF warns of slowing Asian growth, spillover from rising yields - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVzQtNy1yR0xkemd2ellCSWZBS1ZmVjBuZHAxTXZwZXFIb1preWk1d0hLNVN6V3REbUh1TkpNbFJqRzZvTXh5eGo4TkNsQzFkNzZDNzJsNWYtZ0pIZHR6NWFfX0hzY2ZkdldJTUFRLVRTcVAwV0hjVklONGVfOVMwZ2dQM1pFUURuSlhwV0JSYzVESVpEYkpIZmJ0VE9sNUhJdE9tUQ?oc=5",
+      "published": "Thu, 15 Oct 2026 02:04:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "US stocks recover after AI sell-off",
+      "link": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 20:08:32 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "BOC Surveys Show Higher Inflation Expectations, Passthrough",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-19/boc-surveys-show-higher-inflation-expectations-passthrough",
-      "published": "Mon, 19 Oct 2026 15:30:00 GMT",
+      "title": "Treasuries Fall as Tech Shares Rebound, Denting Haven Demand",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-19/treasuries-fall-as-tech-shares-rebound-weakening-haven-demand",
+      "published": "Mon, 19 Oct 2026 16:34:56 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "North Sea oil producer threatens to stop investing if UK blocks Rosebank oilfield",
-      "link": "https://www.ft.com/content/2ad6e5dd-b8c2-4186-a6e2-ba27f222e1f0?syn-25a6b1a6=1",
-      "published": "Mon, 19 Oct 2026 13:37:50 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
+      "published": "Wed, 14 Oct 2026 23:33:39 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
