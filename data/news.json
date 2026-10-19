@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 21:56 UTC",
+  "updated_at": "2026-10-19 14:10 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "IMF flags risks to global economy from AI market correction, war and debt - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXc4YzNuVFU1U2dtSjE1SG9xRUIxZTRtMU1xdXNodDkxMTRGaE9yQTJIVVVoeVJjdnFsbi0yeUJ6a09ZbGJ0Z3N5V1NiV1RGZlVDekptcUVqcTVtNGRsdDNpZkd1akEyN2hybUx5aFlXM05pZENOVFdfTXI3XzBxaGRMZ0NVcFFRVXZRbHlZYUNleHhiTTJ1UTN0dXJ6U0h2V3ZoWGdqOWp5SmdCMjFab1doZw?oc=5",
-      "published": "Tue, 13 Oct 2026 16:15:03 GMT",
+      "title": "ECB's Lagarde says bond selloff will slow inflation - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORnNpbWFQTVJFZTQ1NDEzNVA1QlMyNThGdl8tR19Bd0UtQTAyVnBGRFBldDVOMFFnRHR0WkRHaS1CODVMSUFvSTZJdzN5a2NSbHFLbHA2bnZ0ZVBXYUprYS1oeGN6eF9lakVpVmRTSVB6VkpwUzlOVXZCME5ldGVmNmZPTUtuSGVnRTZzbENrQ1pGcFlScVZ1Sl9rQ1pHWUo1c1l4VUJn?oc=5",
+      "published": "Sat, 17 Oct 2026 08:01:43 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Gold Steady as Rate-Hike Bets Ease, Oil Pushes Yields Higher",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/gold-holds-gains-with-haven-demand-and-lower-yields-in-focus",
-      "published": "Thu, 15 Oct 2026 23:51:46 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Trump weighs easing restrictions on Russian and Iranian ‘shadow fleet’",
-      "link": "https://www.ft.com/content/6dfa9879-589a-4af3-9374-b546a945a219?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 21:10:51 GMT",
+      "title": "FTSE 100 newcomer Ithaca warns of halt to investment if Rosebank blocked",
+      "link": "https://www.ft.com/content/2ad6e5dd-b8c2-4186-a6e2-ba27f222e1f0?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 13:37:50 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Treasuries rally as investors seek shelter from AI turbulence",
-      "link": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 20:20:36 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/long-term-treasuries-fall-as-dealer-survey-offers-little-signal",
-      "published": "Fri, 16 Oct 2026 16:31:16 GMT",
+      "title": "Warren Buffett’s $150 Billion Legacy Falls to His Children",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-19/buffett-s-150-billion-legacy-falls-to-his-children-video",
+      "published": "Mon, 19 Oct 2026 12:21:15 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
+    },
+    {
+      "title": "Dubai Sweetens First IPO Since War With $592 Million Payout",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-19/dubai-sweetens-first-ipo-since-war-with-592-million-dividend",
+      "published": "Mon, 19 Oct 2026 06:42:47 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
+      "published": "Wed, 14 Oct 2026 23:33:39 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
