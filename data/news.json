@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 14:10 UTC",
+  "updated_at": "2026-10-19 17:17 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "FTSE 100 newcomer Ithaca warns of halt to investment if Rosebank blocked",
-      "link": "https://www.ft.com/content/2ad6e5dd-b8c2-4186-a6e2-ba27f222e1f0?syn-25a6b1a6=1",
-      "published": "Mon, 19 Oct 2026 13:37:50 GMT",
+      "title": "Gold Declines as Bond Yields Stay Elevated Despite Oil Drop",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-18/gold-edges-higher-as-traders-ease-rate-hike-bets-on-warsh-speech",
+      "published": "Sun, 18 Oct 2026 23:47:43 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Indonesia expels tightly held companies from Jakarta index in bid to avoid MSCI downgrade",
+      "link": "https://www.ft.com/content/472ad6cf-438f-4d62-a41c-8725cbf53383?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 15:59:35 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Warren Buffett’s $150 Billion Legacy Falls to His Children",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-19/buffett-s-150-billion-legacy-falls-to-his-children-video",
-      "published": "Mon, 19 Oct 2026 12:21:15 GMT",
+      "title": "BOC Surveys Show Higher Inflation Expectations, Passthrough",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-19/boc-surveys-show-higher-inflation-expectations-passthrough",
+      "published": "Mon, 19 Oct 2026 15:30:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Dubai Sweetens First IPO Since War With $592 Million Payout",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-19/dubai-sweetens-first-ipo-since-war-with-592-million-dividend",
-      "published": "Mon, 19 Oct 2026 06:42:47 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
-      "published": "Wed, 14 Oct 2026 23:33:39 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "North Sea oil producer threatens to stop investing if UK blocks Rosebank oilfield",
+      "link": "https://www.ft.com/content/2ad6e5dd-b8c2-4186-a6e2-ba27f222e1f0?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 13:37:50 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
