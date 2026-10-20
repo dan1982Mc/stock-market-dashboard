@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20 18:50 UTC",
+  "updated_at": "2026-10-20 22:08 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "The unlikely winners from Trump’s Iran war",
-      "link": "https://www.ft.com/content/cfa976d5-e320-4ee8-8c86-84733471a4a1?syn-25a6b1a6=1",
-      "published": "Tue, 20 Oct 2026 04:00:19 GMT",
+      "title": "Russian Satellite Raises Space Warfare Fears",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-20/russian-satellite-raises-space-warfare-fears-video",
+      "published": "Tue, 20 Oct 2026 20:01:03 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Indonesia expels key stocks in bid to fend off MSCI downgrade",
+      "link": "https://www.ft.com/content/472ad6cf-438f-4d62-a41c-8725cbf53383?syn-25a6b1a6=1",
+      "published": "Tue, 20 Oct 2026 08:34:36 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "GM Slides as CEO Barra Warns of ‘Intensifying’ Challenges",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-20/gm-slides-as-ceo-barra-warns-of-intensifying-challenges-video",
-      "published": "Tue, 20 Oct 2026 16:47:26 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "What has actually battered the bond market?",
+      "link": "https://www.ft.com/content/e5585991-c884-4b22-867e-5d70efbb0a87",
+      "published": "Tue, 20 Oct 2026 05:00:09 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Gold Wavers as Traders Weigh US-Iran Talks, Fed Rate Path",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-19/gold-holds-decline-as-energy-led-inflation-weighs-on-rate-path",
-      "published": "Mon, 19 Oct 2026 23:55:45 GMT",
+      "title": "Latest Oil Market News and Analysis for Oct. 20",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20",
+      "published": "Mon, 19 Oct 2026 22:04:11 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
-    },
-    {
-      "title": "How safe havens stack up as tech, energy and France fears grip markets - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHQwSENyS3lkNi05UkRqMGdnZVg3dUlBWC1KdE8wemZkNmthdFBhSG9MSXB5VV9Yd3ExSWI1ZDBFVEdpY1JKSl92RzlOOHhfbHpqeEdmUWlwa09IdlVqb0pyNDAzTzVGZjJDd05xMHlRazVZTUQ0eWxZWm8wZEFSRlllNkg5Mml6MFNBNEJ1OXdnTHlE?oc=5",
-      "published": "Tue, 20 Oct 2026 04:06:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
     }
   ]
 }
