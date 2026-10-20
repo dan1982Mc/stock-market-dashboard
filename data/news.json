@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20 12:23 UTC",
+  "updated_at": "2026-10-20 15:31 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,18 +16,18 @@
       "source_group": "Reuters"
     },
     {
-      "title": "French Bond Risk Climbs Again With Investors Wary on Outlook",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-20/french-bond-risk-gauge-hits-150-basis-points-after-protests",
-      "published": "Tue, 20 Oct 2026 08:49:59 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Iran war tilts balance of global oil power towards Americas",
       "link": "https://www.ft.com/content/cfa976d5-e320-4ee8-8c86-84733471a4a1?syn-25a6b1a6=1",
       "published": "Tue, 20 Oct 2026 04:00:19 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Stocks Rise as US-Iran Hopes Trigger Oil Decline: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 19 Oct 2026 22:09:31 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Oil, foreign flows in focus for rupee; bond traders eye rate-hike bets - Reuters",
