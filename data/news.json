@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21 15:47 UTC",
+  "updated_at": "2026-10-21 19:03 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
+      "title": "Argentina’s Bond Selloff Blindsides Bulls as Election Fears Grow",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-21/argentina-s-bond-selloff-blindsides-bulls-as-election-fears-grow",
+      "published": "Wed, 21 Oct 2026 17:28:46 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "Middle East oil exports climb back to prewar levels",
       "link": "https://www.ft.com/content/509c0ecf-625e-4473-96cf-e249edb7c86e?syn-25a6b1a6=1",
-      "published": "Wed, 21 Oct 2026 14:44:57 GMT",
+      "published": "Wed, 21 Oct 2026 16:24:28 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "French Bond Risk Hits 15-Year High as Risk Gauge Climbs",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-21/french-bond-risk-hits-15-year-high-as-risk-gauge-climbs-video",
-      "published": "Wed, 21 Oct 2026 15:15:18 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Iran war sparks heating crisis in US north-east as winter approaches",
+      "link": "https://www.ft.com/content/162c6dd8-5501-46f4-8f7c-b456a4e29539?syn-25a6b1a6=1",
+      "published": "Wed, 21 Oct 2026 10:00:06 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "BofA’s Cabana Asks Fed on Rate Hikes ‘Why Wait Now?’",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-21/bofa-s-cabana-asks-fed-on-rate-hikes-why-wait-now-video",
-      "published": "Wed, 21 Oct 2026 14:21:12 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Netflix Eyes Sports to Drive Growth",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-21/netflix-eyes-sports-to-drive-growth-video",
-      "published": "Wed, 21 Oct 2026 14:16:05 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Oil, foreign flows in focus for rupee; bond traders eye rate-hike bets - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVZOMUNTX2d1WHkyZTJ5TVZBNFBVQjAySjAwOXFyS2tIQ0lZbFlPdmhqLU5GcEpQUFZ3N241Q245MzBtUlk2QUZDbHRjSE9HQ3R4NlctbjdWajRZNHg3dV80S2lPMUQ0N2l5NVdVdXJHaVZhVTAzY09QNkNOeDlFc0VEY1EzV2NhaEVZb01pdjh6b2ZWSGY2cFBQTS14TTRJS0J2MGhJZzBucFdqLUE?oc=5",
+      "published": "Mon, 19 Oct 2026 01:33:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
