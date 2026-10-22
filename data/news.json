@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 12:37 UTC",
+  "updated_at": "2026-10-22 15:45 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Oil Climbs as Houthi Attacks on Saudi Arabia Continue",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-22/oil-climbs-as-houthi-attacks-on-saudi-arabia-continue-video",
-      "published": "Thu, 22 Oct 2026 10:50:24 GMT",
+      "title": "Gold Falls as Higher Oil Fuels Inflation Fears Ahead of Fed Meet",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-21/gold-edges-lower-as-traders-weigh-mideast-signals-fed-rate-path",
+      "published": "Wed, 21 Oct 2026 23:56:16 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Europe’s bracing reality on US bond yields",
-      "link": "https://www.ft.com/content/92e1700d-7990-4c6a-bd3f-63685df2fdf6?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 10:07:31 GMT",
+      "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
+      "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+      "published": "Thu, 22 Oct 2026 14:58:27 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Australian iron ore miner warns of production slowdown without China deal",
-      "link": "https://www.ft.com/content/835e37e2-d4a4-4428-ab96-583640cf42bd?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 02:18:25 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Oil, foreign flows in focus for rupee; bond traders eye rate-hike bets - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVZOMUNTX2d1WHkyZTJ5TVZBNFBVQjAySjAwOXFyS2tIQ0lZbFlPdmhqLU5GcEpQUFZ3N241Q245MzBtUlk2QUZDbHRjSE9HQ3R4NlctbjdWajRZNHg3dV80S2lPMUQ0N2l5NVdVdXJHaVZhVTAzY09QNkNOeDlFc0VEY1EzV2NhaEVZb01pdjh6b2ZWSGY2cFBQTS14TTRJS0J2MGhJZzBucFdqLUE?oc=5",
+      "published": "Mon, 19 Oct 2026 01:33:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "New Zealand third-quarter inflation slows to 3.7% but expectations remain of a hike next week - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmNQWHdjLTZPMlVicExwRHVtbUh3VlhRLVQwdW9sSFJyRG5Ga2pfMG1jelljOFkwSWNVQU10d2ZFLWtyQUxlRWt3NVpLNm55ekd6WGZ5SEYwYzNEQ2trZ2s3U3E2bEtsUmdHd0JXOFQwYkNMVDc0aVljUFRSRWhYampBXzVvaFZabjJkSjZncjVGeDFDYW1FbUZYYmc4aFhFZUpTLVdnSmM?oc=5",
-      "published": "Wed, 21 Oct 2026 23:08:01 GMT",
+      "title": "Market selloff, rising rates test AI data centre deal boom - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5",
+      "published": "Fri, 16 Oct 2026 09:33:44 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
