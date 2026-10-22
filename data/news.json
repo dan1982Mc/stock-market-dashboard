@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 15:45 UTC",
+  "updated_at": "2026-10-22 18:58 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,18 +16,18 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Gold Falls as Higher Oil Fuels Inflation Fears Ahead of Fed Meet",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-21/gold-edges-lower-as-traders-weigh-mideast-signals-fed-rate-path",
-      "published": "Wed, 21 Oct 2026 23:56:16 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
       "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 14:58:27 GMT",
+      "published": "Thu, 22 Oct 2026 18:15:32 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Traders’ Cost of Hedging Against Big Treasuries Rally Is Soaring",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-22/traders-cost-of-hedging-against-big-treasuries-rally-is-soaring-mvjv24q7",
+      "published": "Thu, 22 Oct 2026 18:14:46 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Oil, foreign flows in focus for rupee; bond traders eye rate-hike bets - Reuters",
@@ -37,11 +37,11 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Market selloff, rising rates test AI data centre deal boom - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv?oc=5",
-      "published": "Fri, 16 Oct 2026 09:33:44 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Russia Looking to Escalate War, Not End it, Romanian Leader Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-22/russia-looking-to-escalate-war-romanian-leader-says-video",
+      "published": "Thu, 22 Oct 2026 18:35:01 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
