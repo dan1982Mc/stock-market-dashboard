@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 18:58 UTC",
+  "updated_at": "2026-10-22 22:08 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
-      "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 18:15:32 GMT",
+      "title": "Affirm, Sam’s Club Strike Exclusive Buy Now, Pay Later Deal",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-22/affirm-sam-s-club-strike-exclusive-bnpl-deal-video",
+      "published": "Thu, 22 Oct 2026 21:53:37 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Europe’s bracing reality on US bond yields",
+      "link": "https://www.ft.com/content/92e1700d-7990-4c6a-bd3f-63685df2fdf6?syn-25a6b1a6=1",
+      "published": "Thu, 22 Oct 2026 10:07:31 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Traders’ Cost of Hedging Against Big Treasuries Rally Is Soaring",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-22/traders-cost-of-hedging-against-big-treasuries-rally-is-soaring-mvjv24q7",
-      "published": "Thu, 22 Oct 2026 18:14:46 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Oil, foreign flows in focus for rupee; bond traders eye rate-hike bets - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVZOMUNTX2d1WHkyZTJ5TVZBNFBVQjAySjAwOXFyS2tIQ0lZbFlPdmhqLU5GcEpQUFZ3N241Q245MzBtUlk2QUZDbHRjSE9HQ3R4NlctbjdWajRZNHg3dV80S2lPMUQ0N2l5NVdVdXJHaVZhVTAzY09QNkNOeDlFc0VEY1EzV2NhaEVZb01pdjh6b2ZWSGY2cFBQTS14TTRJS0J2MGhJZzBucFdqLUE?oc=5",
-      "published": "Mon, 19 Oct 2026 01:33:00 GMT",
+      "title": "New Zealand third-quarter inflation slows to 3.7% but expectations remain of a hike next week - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmNQWHdjLTZPMlVicExwRHVtbUh3VlhRLVQwdW9sSFJyRG5Ga2pfMG1jelljOFkwSWNVQU10d2ZFLWtyQUxlRWt3NVpLNm55ekd6WGZ5SEYwYzNEQ2trZ2s3U3E2bEtsUmdHd0JXOFQwYkNMVDc0aVljUFRSRWhYampBXzVvaFZabjJkSjZncjVGeDFDYW1FbUZYYmc4aFhFZUpTLVdnSmM?oc=5",
+      "published": "Wed, 21 Oct 2026 23:08:01 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Russia Looking to Escalate War, Not End it, Romanian Leader Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-22/russia-looking-to-escalate-war-romanian-leader-says-video",
-      "published": "Thu, 22 Oct 2026 18:35:01 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "From groceries to home loans, high oil prices permeate daily life - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPam52bzA3TTBVZjZQOC1ISHZJal8xZmcyc3hYZVJEYXpTZ1VUWHBvUVBQZDlKUUlwSFIwWFYtMUxucy1lS1ZRRDZEaW0tZmd5WndsSnNDNVUycTJVYWUyaFVVNDJIZnlfb0tMNGY5dW9BNkU1R0lVOWY0czhfN3pxcUhzejl5SUdLaGlMWFpjWnhWekJ4TWxzM3E2YXo3VVZzbGdCdi1CblkyTzRP?oc=5",
+      "published": "Wed, 21 Oct 2026 23:04:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
