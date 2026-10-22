@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21 22:09 UTC",
+  "updated_at": "2026-10-22 12:37 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Middle East oil exports climb back to prewar levels",
-      "link": "https://www.ft.com/content/509c0ecf-625e-4473-96cf-e249edb7c86e?syn-25a6b1a6=1",
-      "published": "Wed, 21 Oct 2026 16:24:28 GMT",
+      "title": "Oil Climbs as Houthi Attacks on Saudi Arabia Continue",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-22/oil-climbs-as-houthi-attacks-on-saudi-arabia-continue-video",
+      "published": "Thu, 22 Oct 2026 10:50:24 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Europe’s bracing reality on US bond yields",
+      "link": "https://www.ft.com/content/92e1700d-7990-4c6a-bd3f-63685df2fdf6?syn-25a6b1a6=1",
+      "published": "Thu, 22 Oct 2026 10:07:31 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "US Orders Some Diplomats Out of Saudi Arabia Amid Houthi Attacks",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-21/us-orders-some-diplomats-out-of-saudi-arabia-amid-houthi-attacks",
-      "published": "Wed, 21 Oct 2026 20:08:04 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Australian iron ore miner warns of production slowdown without China deal",
+      "link": "https://www.ft.com/content/835e37e2-d4a4-4428-ab96-583640cf42bd?syn-25a6b1a6=1",
+      "published": "Thu, 22 Oct 2026 02:18:25 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Ex-Brevan Howard Trader Sued by Quant Who Joined New Fund",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-21/ex-brevan-howard-trader-sued-by-quant-who-joined-his-new-fund",
-      "published": "Wed, 21 Oct 2026 18:30:09 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Top Indian non-bank lenders flag early signs of stress in loans against gold - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY1VZSVJ6R0FvVE50S015ZzYtYnJhWjJ3OFdQNWFQYkxrLUF3SFJ1RmJ5TGMtSFl4LXZKUVJ4RjZRUHdLdU1YWE05RjV2YUNIc0Z4OGVHNmptSEtrTm5obVBlY2JTd01tRzIxWGVHQzVlaUFGU0tHT2NkbmhnMzNPRG8tYXRhc2hlOWpudEVqZHJ6RFY2SC0wX2pndmlSNHZIaHFXM2FDX2JRcDBXcnc?oc=5",
-      "published": "Wed, 21 Oct 2026 04:55:00 GMT",
+      "title": "New Zealand third-quarter inflation slows to 3.7% but expectations remain of a hike next week - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmNQWHdjLTZPMlVicExwRHVtbUh3VlhRLVQwdW9sSFJyRG5Ga2pfMG1jelljOFkwSWNVQU10d2ZFLWtyQUxlRWt3NVpLNm55ekd6WGZ5SEYwYzNEQ2trZ2s3U3E2bEtsUmdHd0JXOFQwYkNMVDc0aVljUFRSRWhYampBXzVvaFZabjJkSjZncjVGeDFDYW1FbUZYYmc4aFhFZUpTLVdnSmM?oc=5",
+      "published": "Wed, 21 Oct 2026 23:08:01 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
