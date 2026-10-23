@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 15:35 UTC",
+  "updated_at": "2026-10-23 18:48 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,37 +9,37 @@
   ],
   "articles": [
     {
-      "title": "Tech selloff relents, oil at five-month high - Reuters",
+      "title": "Stocks mixed, day after AI-related selloff; oil prices rise again - Reuters",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
       "published": "Fri, 23 Oct 2026 01:50:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Oil hits $116 for first time since April as global stocks knocked by AI fears",
+      "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
       "link": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 14:42:14 GMT",
+      "published": "Fri, 23 Oct 2026 17:01:00 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 23",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-22/latest-oil-market-news-and-analysis-for-oct-23",
-      "published": "Thu, 22 Oct 2026 22:08:52 GMT",
+      "title": "GM Shares Eye Worst Week Since 2023 Amid Wider Autos Selloff",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-23/gm-analysts-say-buy-the-dip-as-stock-eyes-worst-week-since-2025",
+      "published": "Fri, 23 Oct 2026 12:30:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks Fall as Oil Rally Keeps a Lid on Treasuries: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-22/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 22 Oct 2026 22:05:06 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Anthropic strikes deal to launch European consultancy",
+      "link": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 09:04:09 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
-      "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 20:05:42 GMT",
+      "title": "Beware Bessent’s tilt towards short-term debt",
+      "link": "https://www.ft.com/content/bf959a1a-1cd8-41e2-8767-03aa1ac3ed48?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 04:00:28 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
