@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-26 13:44 UTC",
-  "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-10-26 17:05 UTC",
+  "tone": "MIXED",
+  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Oil price falls back as traders remain focused on Middle East conflict",
+      "title": "Metals Rally Faces a Reality Check",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-26/metals-rally-faces-a-reality-check-video",
+      "published": "Mon, 26 Oct 2026 15:46:48 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "French bonds rally after Moody’s rating reprieve",
       "link": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
-      "published": "Mon, 26 Oct 2026 07:28:34 GMT",
+      "published": "Mon, 26 Oct 2026 16:32:54 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 26",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
-      "published": "Sun, 25 Oct 2026 22:04:00 GMT",
+      "title": "Sahm Warns Fed Against Waiting",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-26/sahm-warns-fed-against-waiting-video",
+      "published": "Mon, 26 Oct 2026 15:49:25 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Mercuria Says Rival Fears Made Baltic Keep Disputed Tanker Rate",
+      "title": "Mercuria Says Rival Fears Drove Disputed Baltic Tanker Rate",
       "link": "https://www.bloomberg.com/news/articles/2026-10-26/mercuria-says-rival-fears-made-baltic-keep-disputed-tanker-rate",
       "published": "Mon, 26 Oct 2026 13:36:32 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Colombia to Sell New Dollar Bonds Amid Fiscal Pressures",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/colombia-to-sell-new-dollar-bonds-amid-fiscal-pressures",
-      "published": "Mon, 26 Oct 2026 13:31:11 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
