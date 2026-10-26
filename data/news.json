@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 21:52 UTC",
+  "updated_at": "2026-10-26 13:44 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Stocks mixed, day after AI-related selloff; oil prices rise again - Reuters",
+      "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months - Reuters",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
-      "published": "Fri, 23 Oct 2026 01:50:00 GMT",
+      "published": "Fri, 23 Oct 2026 22:52:51 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
-      "link": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 20:13:21 GMT",
+      "title": "Oil price falls back as traders remain focused on Middle East conflict",
+      "link": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
+      "published": "Mon, 26 Oct 2026 07:28:34 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "GM Shares Suffer Worst Week Since 2023 Amid Wider Autos Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-23/gm-analysts-say-buy-the-dip-as-stock-eyes-worst-week-since-2025",
-      "published": "Fri, 23 Oct 2026 12:30:00 GMT",
+      "title": "Latest Oil Market News and Analysis for Oct. 26",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
+      "published": "Sun, 25 Oct 2026 22:04:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Anthropic strikes deal to launch European consultancy",
-      "link": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 09:04:09 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Mercuria Says Rival Fears Made Baltic Keep Disputed Tanker Rate",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/mercuria-says-rival-fears-made-baltic-keep-disputed-tanker-rate",
+      "published": "Mon, 26 Oct 2026 13:36:32 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Beware Bessent’s tilt towards short-term debt",
-      "link": "https://www.ft.com/content/bf959a1a-1cd8-41e2-8767-03aa1ac3ed48?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 04:00:28 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Colombia to Sell New Dollar Bonds Amid Fiscal Pressures",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/colombia-to-sell-new-dollar-bonds-amid-fiscal-pressures",
+      "published": "Mon, 26 Oct 2026 13:31:11 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
