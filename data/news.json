@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-26 17:05 UTC",
-  "tone": "MIXED",
-  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-10-26 20:14 UTC",
+  "tone": "CAUTIOUS / RISK-OFF",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Metals Rally Faces a Reality Check",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-26/metals-rally-faces-a-reality-check-video",
-      "published": "Mon, 26 Oct 2026 15:46:48 GMT",
+      "title": "Gold Edges Higher After AI-Driven Selloff as Focus Shifts to Fed",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/gold-steadies-after-weekly-drop-as-focus-shifts-to-fed-meeting",
+      "published": "Sun, 25 Oct 2026 23:23:38 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
       "title": "French bonds rally after Moody’s rating reprieve",
       "link": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
-      "published": "Mon, 26 Oct 2026 16:32:54 GMT",
+      "published": "Mon, 26 Oct 2026 17:14:34 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Sahm Warns Fed Against Waiting",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-26/sahm-warns-fed-against-waiting-video",
-      "published": "Mon, 26 Oct 2026 15:49:25 GMT",
+      "title": "Colombia Launches Record Dollar Bond Sale Amid Fiscal Strain",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/colombia-to-sell-new-dollar-bonds-amid-fiscal-pressures",
+      "published": "Mon, 26 Oct 2026 13:31:11 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Mercuria Says Rival Fears Drove Disputed Baltic Tanker Rate",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/mercuria-says-rival-fears-made-baltic-keep-disputed-tanker-rate",
-      "published": "Mon, 26 Oct 2026 13:36:32 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Singapore to store Saudi Arabian oil in caverns",
+      "link": "https://www.ft.com/content/1baa5eb0-d6e3-4989-beb0-1b29879ff606?syn-25a6b1a6=1",
+      "published": "Mon, 26 Oct 2026 06:57:54 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
