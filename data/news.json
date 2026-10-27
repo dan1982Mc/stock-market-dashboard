@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 23:02 UTC",
+  "updated_at": "2026-10-27 12:51 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Anthropic Mum on Investment Grade as It Warns of More Debt",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-remains-mum-on-investment-grade-as-it-flags-more-debt",
-      "published": "Mon, 26 Oct 2026 20:56:09 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "French bonds rally after Moody’s rating reprieve",
-      "link": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
-      "published": "Mon, 26 Oct 2026 17:14:34 GMT",
+      "title": "Three Russian diesel tankers steam for US — including two under sanctions",
+      "link": "https://www.ft.com/content/d847744f-cfa5-4dc5-bdd2-faeee0b584f7?syn-25a6b1a6=1",
+      "published": "Tue, 27 Oct 2026 12:05:32 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Colombia Sells $5.2 Billion in New Bonds Amid Fiscal Strain",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/colombia-to-sell-new-dollar-bonds-amid-fiscal-pressures",
-      "published": "Mon, 26 Oct 2026 13:31:11 GMT",
+      "title": "Bond-Market Doubts Grow Over Gridlock as Cure for Deficit Angst",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/bond-market-doubts-grow-over-gridlock-as-cure-for-deficit-angst",
+      "published": "Tue, 27 Oct 2026 11:45:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Singapore to store Saudi Arabian oil in caverns",
-      "link": "https://www.ft.com/content/1baa5eb0-d6e3-4989-beb0-1b29879ff606?syn-25a6b1a6=1",
-      "published": "Mon, 26 Oct 2026 06:57:54 GMT",
+      "title": "Tech stocks rally as AI trade revives",
+      "link": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
+      "published": "Tue, 27 Oct 2026 10:23:40 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Insurers bullish on private markets even as government bond yields rise",
+      "link": "https://www.ft.com/content/26aea932-a70f-4d6a-bb41-b37079658652?syn-25a6b1a6=1",
+      "published": "Tue, 27 Oct 2026 05:00:28 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
