@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 12:51 UTC",
+  "updated_at": "2026-10-27 16:09 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,23 +16,23 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Three Russian diesel tankers steam for US — including two under sanctions",
-      "link": "https://www.ft.com/content/d847744f-cfa5-4dc5-bdd2-faeee0b584f7?syn-25a6b1a6=1",
-      "published": "Tue, 27 Oct 2026 12:05:32 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Bond-Market Doubts Grow Over Gridlock as Cure for Deficit Angst",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/bond-market-doubts-grow-over-gridlock-as-cure-for-deficit-angst",
-      "published": "Tue, 27 Oct 2026 11:45:00 GMT",
+      "title": "EU’s SEC-Lite Plan Hinges on Governance, Outgoing Chief Warns",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/eu-s-sec-lite-plan-hinges-on-governance-outgoing-chief-warns",
+      "published": "Tue, 27 Oct 2026 15:41:47 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Tech stocks rally as AI trade revives",
-      "link": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
-      "published": "Tue, 27 Oct 2026 10:23:40 GMT",
+      "title": "Iran threatens South Korean shipping group over Hormuz transits",
+      "link": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1",
+      "published": "Tue, 27 Oct 2026 15:01:24 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Three Russian diesel tankers steam for US — including two under sanctions",
+      "link": "https://www.ft.com/content/d847744f-cfa5-4dc5-bdd2-faeee0b584f7?syn-25a6b1a6=1",
+      "published": "Tue, 27 Oct 2026 12:05:32 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
