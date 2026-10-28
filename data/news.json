@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 16:56 UTC",
+  "updated_at": "2026-10-28 19:59 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -18,14 +18,14 @@
     {
       "title": "European gas prices jump above €100 on fears of Iran war escalation",
       "link": "https://www.ft.com/content/afe6e244-8433-4371-a26f-7aacbc9b8dcd?syn-25a6b1a6=1",
-      "published": "Wed, 28 Oct 2026 14:53:27 GMT",
+      "published": "Wed, 28 Oct 2026 17:00:05 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Baltic Pushed Brokers to Submit Rates During War, Court Told",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-28/baltic-pushed-brokers-to-submit-rates-during-war-court-told",
-      "published": "Wed, 28 Oct 2026 16:01:01 GMT",
+      "title": "Fed's Warsh Says Monetary 'Medicine' Starting to Work",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-28/fed-s-warsh-says-monetary-medicine-starting-to-work-video",
+      "published": "Wed, 28 Oct 2026 18:57:02 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -37,11 +37,11 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Sandoz Warns EU May Scrap Antibiotic Protection, Harm Plant",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-28/sandoz-warns-eu-may-scrap-antibiotic-protection-risking-plant",
-      "published": "Wed, 28 Oct 2026 09:34:29 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Indian central bank likely intervenes to support rupee as oil prices weigh, traders say - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaWx4YzZNbFJVcnZQUE43NDdSQUI2ekFvSTdTbFUwZmNIRjNrNFIwVGJkdkp5RzRid2J6eWZPaG5iZkVLNEc1cWNEc3E0RWZ3V0FVUzlQRWNDa1NvaE14N3pyZkl3ZUdXZGFXbFRIR2gzMU1ZR3AtcUJ6ZFZJbTRQeDBCdDRtbXd5TWdmWWl2YjFDcTRKOVpkOG1QdnctNkxxN2p6dm5FY0hSZG1sNVQ0aHNPUVAwYlRraU9WN3RKVWY1WF91TWZJ?oc=5",
+      "published": "Wed, 28 Oct 2026 03:43:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
