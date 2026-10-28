@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 13:40 UTC",
+  "updated_at": "2026-10-28 16:56 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Saudi Arabia’s Oil Exports Are Booming Despite Wave of Attacks",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-28/saudi-oil-exports-near-wartime-high-as-houthis-mount-attacks",
-      "published": "Wed, 28 Oct 2026 11:44:36 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Iranians face energy squeeze from war as natural gas runs short",
-      "link": "https://www.ft.com/content/77e4e4a5-a041-4d59-9d8c-0a7af9ef6d25",
-      "published": "Wed, 28 Oct 2026 11:00:06 GMT",
+      "title": "European gas prices jump above €100 on fears of Iran war escalation",
+      "link": "https://www.ft.com/content/afe6e244-8433-4371-a26f-7aacbc9b8dcd?syn-25a6b1a6=1",
+      "published": "Wed, 28 Oct 2026 14:53:27 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Hold or sell? High Treasury yields spur US banks to rethink bond portfolios - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZlRoclI1cWxjMnVMUDNDMU1HYXoyOWRGTjlpOGs1ejBTNzRxNGtJQVJ5NVYxM2d2cjlXOThnX3dvQ0Nld2JGVWdmRmZpTjhmLTlUVlVoU0FnNENXb1pydXVQNlpaZy0zZjVfdXlOSWtwbW9KZlAybzRfNlBsNVc4VmVhSFhBajIzcTl6Y0QwR0pvWEtVbjNxTTJPdHNWcFNwakFOZE05Tk4wSTJOa2JOTWpobXFNR01WUHlqVEViaS1selhWTWc?oc=5",
-      "published": "Tue, 27 Oct 2026 10:11:08 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Baltic Pushed Brokers to Submit Rates During War, Court Told",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/baltic-pushed-brokers-to-submit-rates-during-war-court-told",
+      "published": "Wed, 28 Oct 2026 16:01:01 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Asia-focused banks face capital squeeze due to inflation, bond turbulence - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ3c0Nl9IZUxGNGlIRFlNSW0xRUIzUTkxZlZJYVhtWjI5NXlGNFVJcm1IMnNMNVFWZVV4c0toYkxQYjB5Z3VXanB2ZE5ycUxERkRObDhkYUw3RGlrbFlzMVM3OXpyRVZhLTNnMkZhMkhHRU9oeGpuOHBDUWtkNkprSkZuQWVlSWtxYllmX1NlWkdqOHVWZzlubGs0WExDR29iVl95S1paMEhzOEFob1JkQWxpeTlGcnZO?oc=5",
-      "published": "Mon, 26 Oct 2026 10:26:27 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Iran threatens South Korean shipping group over Hormuz transits",
+      "link": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1",
+      "published": "Wed, 28 Oct 2026 11:51:33 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Sandoz Warns EU May Scrap Antibiotic Protection, Harm Plant",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/sandoz-warns-eu-may-scrap-antibiotic-protection-risking-plant",
+      "published": "Wed, 28 Oct 2026 09:34:29 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
