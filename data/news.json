@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 19:59 UTC",
+  "updated_at": "2026-10-28 22:57 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,18 @@
   ],
   "articles": [
     {
-      "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
-      "published": "Fri, 23 Oct 2026 22:52:51 GMT",
+      "title": "Gold slips on higher oil; markets assess Warsh comments after Fed holds rates steady - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRUczTDEtcklEQks1UTM3TlZhanpWZ19RUUVMTnkzQTFXWHpmeEF0YWVST0gzamNJNG5KVFJIcUZMOUxnZnBRMkhXYjBkaGdER1Vkc2hQWmplZmluYkQ4YWNsbkwwY0N5ZzFDQldCTDJucHRZY3lOVHdPWEt0RnJmQVprXzBoQnFEZHM3OS13cGNrRFp6MjBuMXJrVTRpcGs3UkpN?oc=5",
+      "published": "Wed, 28 Oct 2026 06:16:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
+    },
+    {
+      "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/oil-declines-as-traders-parse-signs-of-fresh-diplomacy-on-iran",
+      "published": "Wed, 28 Oct 2026 22:05:01 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "European gas prices jump above €100 on fears of Iran war escalation",
@@ -23,23 +30,16 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Fed's Warsh Says Monetary 'Medicine' Starting to Work",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-28/fed-s-warsh-says-monetary-medicine-starting-to-work-video",
-      "published": "Wed, 28 Oct 2026 18:57:02 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Iran threatens South Korean shipping group over Hormuz transits",
-      "link": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1",
-      "published": "Wed, 28 Oct 2026 11:51:33 GMT",
+      "title": "Iranians face energy squeeze from war as natural gas runs short",
+      "link": "https://www.ft.com/content/77e4e4a5-a041-4d59-9d8c-0a7af9ef6d25",
+      "published": "Wed, 28 Oct 2026 11:00:06 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Indian central bank likely intervenes to support rupee as oil prices weigh, traders say - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaWx4YzZNbFJVcnZQUE43NDdSQUI2ekFvSTdTbFUwZmNIRjNrNFIwVGJkdkp5RzRid2J6eWZPaG5iZkVLNEc1cWNEc3E0RWZ3V0FVUzlQRWNDa1NvaE14N3pyZkl3ZUdXZGFXbFRIR2gzMU1ZR3AtcUJ6ZFZJbTRQeDBCdDRtbXd5TWdmWWl2YjFDcTRKOVpkOG1QdnctNkxxN2p6dm5FY0hSZG1sNVQ0aHNPUVAwYlRraU9WN3RKVWY1WF91TWZJ?oc=5",
-      "published": "Wed, 28 Oct 2026 03:43:00 GMT",
+      "title": "Global stocks hold steady ahead of Fed decision, earnings from AI stalwarts - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZl9HX1lrU1RCazV4ZHJxc1o3YkwyUXcyWmtXUVZwUjE1X2ZWQ0tCY3hkckptWlRUbVJ5RVB4ZUd3bUtxdktMVXpsSnU2MDlzVmQ0TDhWU0ZyeE1FN1dDSzBFckpNbm1OZVJjWHRZeE1mN1RPOUJXME1UcFNpQVhmSkVRbw?oc=5",
+      "published": "Wed, 28 Oct 2026 01:40:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
