@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 17:15 UTC",
+  "updated_at": "2026-10-29 19:58 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,6 +16,13 @@
       "source_group": "Reuters"
     },
     {
+      "title": "Oil Slides as Traders Weigh Signs of Tentative Iran Diplomacy",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/oil-declines-as-traders-parse-signs-of-fresh-diplomacy-on-iran",
+      "published": "Wed, 28 Oct 2026 22:05:01 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
       "title": "European oil majors lift buybacks as Iran war drives bumper profits",
       "link": "https://www.ft.com/content/5ded8d57-46f5-406c-a4ce-e58415b8d4ad?syn-25a6b1a6=1",
       "published": "Thu, 29 Oct 2026 11:40:47 GMT",
@@ -23,25 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "The Fearsome Rise of the Haunted Attraction",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-29/the-fearsome-rise-of-the-haunted-attraction",
-      "published": "Thu, 29 Oct 2026 16:42:20 GMT",
+      "title": "Amazon’s Ailing Stock Needs Booming Cloud Growth to Revive Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-29/amazon-s-ailing-stock-needs-booming-cloud-growth-to-revive-rally",
+      "published": "Thu, 29 Oct 2026 11:30:01 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Two fears will decide the fate of Anthropic’s giant IPO",
-      "link": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
-      "published": "Thu, 29 Oct 2026 14:41:41 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Tech Stocks Slide as Alphabet’s Record Plunge Revives AI Fears",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-29/us-stock-futures-fall-as-alphabet-sales-miss-revives-ai-fears",
-      "published": "Thu, 29 Oct 2026 11:09:59 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Hold or sell? High Treasury yields spur US banks to rethink bond portfolios - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZlRoclI1cWxjMnVMUDNDMU1HYXoyOWRGTjlpOGs1ejBTNzRxNGtJQVJ5NVYxM2d2cjlXOThnX3dvQ0Nld2JGVWdmRmZpTjhmLTlUVlVoU0FnNENXb1pydXVQNlpaZy0zZjVfdXlOSWtwbW9KZlAybzRfNlBsNVc4VmVhSFhBajIzcTl6Y0QwR0pvWEtVbjNxTTJPdHNWcFNwakFOZE05Tk4wSTJOa2JOTWpobXFNR01WUHlqVEViaS1selhWTWc?oc=5",
+      "published": "Tue, 27 Oct 2026 10:11:08 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
