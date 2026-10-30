@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 19:47 UTC",
+  "updated_at": "2026-10-30 22:48 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,23 +16,16 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Nasdaq 100 tumbles into correction territory as AI sell-off intensifies",
-      "link": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
-      "published": "Fri, 30 Oct 2026 19:02:14 GMT",
+      "title": "ExxonMobil and Chevron post bumper profits and warn on diesel supplies",
+      "link": "https://www.ft.com/content/e934d2dd-9d6c-4099-95a5-1c300ed28cbb?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 10:37:17 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 30",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-29/latest-oil-market-news-and-analysis-for-oct-30",
-      "published": "Thu, 29 Oct 2026 22:02:17 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Chile Signals Slow Copper Recovery From Historic Output Slump",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-30/chile-copper-mines-deliver-worst-quarter-in-at-least-two-decades",
-      "published": "Fri, 30 Oct 2026 13:54:30 GMT",
+      "title": "Wall Street Boom to Cut New York State Budget Deficit in Half",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-30/wall-street-boom-to-cut-new-york-state-budget-deficit-in-half",
+      "published": "Fri, 30 Oct 2026 20:55:32 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -42,6 +35,13 @@
       "published": "Fri, 30 Oct 2026 10:44:18 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Stocks rise ahead of tech earnings, Fed decision - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5",
+      "published": "Wed, 28 Oct 2026 21:19:39 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
