@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 16:41 UTC",
+  "updated_at": "2026-11-02 20:36 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,30 +16,30 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks, Bonds Rise as Oil Tumbles on US-Iran Hopes: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
-      "published": "Sun, 01 Nov 2026 21:28:04 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "What the increasingly awkward data centre construction delays mean for investors",
-      "link": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8",
-      "published": "Mon, 02 Nov 2026 06:00:08 GMT",
+      "title": "Oil tumbles on hopes for US-Iran talks",
+      "link": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
+      "published": "Mon, 02 Nov 2026 17:20:40 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY2N0dGg4Q1VsMUJXaTJYb1J4cjJiQjRGYS16djR0Nnh5VGVsQmFRZXctU0w3UUpfclljaFp4ZW5DVFZTLVYzTUlSWDY5Q0JsQ0JLYjF5aFJoVDBpOGhrWnkxdEZKdUtpQzNPc1kxRGdGRkdTZENtM25LLUNYNTdlMjNnMHdUcU52VVlFTkNXRUJKMDFhWEhFalptcGZvQ0FZeUl1UHF5T3Z2UmpWOUR6ekJmMnlHblRWQU1MUzFUaXZiUzA?oc=5",
-      "published": "Tue, 27 Oct 2026 13:30:00 GMT",
+      "title": "US Natural Gas Falls With Oil as Hope for Iran Talks Reemerges",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/us-natural-gas-rises-on-lower-appalachian-output-cooler-weather",
+      "published": "Mon, 02 Nov 2026 15:08:00 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPalhUUG9VTkRaNkpZM1BUTlpIYVM0WmJMU3UxZHpaSm5KRUhDdmNNTUVNbEJncFYyS1RqUVZmd2RaMUh3eUVINWt6Wm9WeGgzZmFoR2U1TzlnZ3dkUFVkdjJIclFHaEc2X2NWYnlLRnZGREs3RDg0WWdZbEJWc3d1RERMZHZESnhDb05HQXVlMjRCbnNxNVM4TFpvdzVPQ1hDMVlXVGpNMmx0Q0gzbXVFZGl3UERXYjllcmx5MUEyeGVHUQ?oc=5",
+      "published": "Mon, 02 Nov 2026 17:46:02 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Oil's pullback, solid data fuel bounce in global stocks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbXpaWVRrQUkzYThuc1E5TnFCUXBTSTV2bHNaR1FhUmdEYnhjSHVneFdpbGhjeENwWlE2WVE1c3FCUV9qeGZzRGNoNFEzdERMblBDb005a2NBV3B2YzdfNF95dGtrVmxiNlJrNFU3UC1BTnZHcVh4a3hna25vdEFkSEtMUQ?oc=5",
-      "published": "Mon, 02 Nov 2026 00:41:00 GMT",
+      "title": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeUlVMFZxeTRfY0dKczFKaFBkU1pEbWZqMTBlcFQ0OTRqcXRzUkFIWk5QcW9VTXgyV0ltVS1rck9lUktWODNDNTRYcUNhUEYtSGZKb1cyRzJ4STczazRDemJkblFEck11VC1iXzBqTkplTW1WS1YzYVZlNXhyQjlMUHh4a0FQNm5pVG05S2NEMHVmNFc3Yko5SlA0SlZjWlNaRUNYMlNwMFdoNjB1a3VwUGFLSmhrT1FwZ3BTbDd5UGE?oc=5",
+      "published": "Fri, 30 Oct 2026 14:51:43 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
