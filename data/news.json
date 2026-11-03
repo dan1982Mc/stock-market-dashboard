@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 22:57 UTC",
+  "updated_at": "2026-11-03 01:27 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,13 +16,6 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 02 Nov 2026 22:25:14 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Oil tumbles on hopes for US-Iran talks",
       "link": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
       "published": "Mon, 02 Nov 2026 21:13:04 GMT",
@@ -30,18 +23,25 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Gold’s Faded Haven Allure Hinges on Deficit, Inflation Fears",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-02/gold-investors-rocked-by-wipeout-seek-firmer-footing-after-vote",
-      "published": "Mon, 02 Nov 2026 15:06:23 GMT",
+      "title": "Offshore Yuan Weakens After PBOC Moves to Cool Currency Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-03/offshore-yuan-weakens-after-pboc-moves-to-cool-currency-rally",
+      "published": "Tue, 03 Nov 2026 01:06:15 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPalhUUG9VTkRaNkpZM1BUTlpIYVM0WmJMU3UxZHpaSm5KRUhDdmNNTUVNbEJncFYyS1RqUVZmd2RaMUh3eUVINWt6Wm9WeGgzZmFoR2U1TzlnZ3dkUFVkdjJIclFHaEc2X2NWYnlLRnZGREs3RDg0WWdZbEJWc3d1RERMZHZESnhDb05HQXVlMjRCbnNxNVM4TFpvdzVPQ1hDMVlXVGpNMmx0Q0gzbXVFZGl3UERXYjllcmx5MUEyeGVHUQ?oc=5",
-      "published": "Mon, 02 Nov 2026 17:46:02 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Pakistan’s Rebound Masks Deeper Problems Weighing on Economy",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-03/pakistan-s-rebound-masks-deeper-problems-weighing-on-economy",
+      "published": "Tue, 03 Nov 2026 01:00:00 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Gold Holds Biggest Jump in Two Months on Iran Peace-Deal Hopes",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-03/gold-holds-biggest-jump-in-two-months-on-iran-peace-deal-hopes",
+      "published": "Tue, 03 Nov 2026 00:20:16 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
