@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 18:11 UTC",
+  "updated_at": "2026-11-03 20:43 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,9 +9,9 @@
   ],
   "articles": [
     {
-      "title": "Dollar Rises With US Yields as Focus on Iran Outweighs Election",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-03/dollar-rises-with-us-yields-as-focus-on-iran-outweighs-election",
-      "published": "Tue, 03 Nov 2026 17:49:16 GMT",
+      "title": "Chip Rally Powers Stock Gains on US Election Day: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 02 Nov 2026 22:25:14 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -30,18 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "WGC lowers outlook for gold investment demand growth as bar buying slows - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXNhd2d5cnZVajh5dGZkbnVvc3daNEtvT3NWekFmajVxZ0FfWFRlUGVFb0Z3UWsyWFpVYmN4YmNNdXFkM3gtV0FxcFNjUGtHYVFrNFBoUV9JZl83REU3SmlRTU54bXVSS2NubW1nOEJCVXpyVjdCcnNTUmRmNV9YX05UMDVSTG5zaFA2XzRIMDFZU1kyUVlxVzBfeG9MQjhWdUU5ZEI4bkRUbjEwS3QwTXVGNA?oc=5",
-      "published": "Tue, 03 Nov 2026 06:06:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Copper Falls as Traders Assess AI Trade, US-Iran Diplomacy Hopes",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-03/copper-tin-fall-with-base-metals-on-renewed-ai-stocks-selloff",
+      "published": "Tue, 03 Nov 2026 02:55:16 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks erase losses, oil tumbles after Trump says US will end $4 billion funding to Israel - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxcWNjUUxuZ2lvM29QWUdBcWpkZGdCaUpLSkJRT3pXbzNUcTh6ajFTN0d1NmpHTlN6d2p0TlNfRElGZV9ZTnR2SHdabGNxQ3FqUkMtN2N1LXppRmlxNGRlTHozQ0YxY3BqNnNNRGtaYUppX1ZyMjJVdkhiYw?oc=5",
-      "published": "Tue, 03 Nov 2026 02:24:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Gold Declines as Traders Weigh US-Iran Diplomacy Prospects",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-03/gold-holds-biggest-jump-in-two-months-on-iran-peace-deal-hopes",
+      "published": "Tue, 03 Nov 2026 00:20:16 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
