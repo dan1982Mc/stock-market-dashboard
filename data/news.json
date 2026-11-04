@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 23:52 UTC",
+  "updated_at": "2026-11-04 14:57 UTC",
   "tone": "MIXED",
   "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,32 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "US Stock Futures Climb on AI Rally as US Votes: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 03 Nov 2026 22:20:22 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "In the shadow of war, Silicon Valley sprinkles stardust",
-      "link": "https://www.ft.com/content/050d5ed2-83e7-4ebb-a781-0daa3874797c?syn-25a6b1a6=1",
-      "published": "Tue, 03 Nov 2026 12:00:06 GMT",
+      "title": "Stocks rebound after Democrats’ sweep",
+      "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+      "published": "Wed, 04 Nov 2026 14:35:52 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "WGC lowers outlook for gold investment demand growth as bar buying slows - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXNhd2d5cnZVajh5dGZkbnVvc3daNEtvT3NWekFmajVxZ0FfWFRlUGVFb0Z3UWsyWFpVYmN4YmNNdXFkM3gtV0FxcFNjUGtHYVFrNFBoUV9JZl83REU3SmlRTU54bXVSS2NubW1nOEJCVXpyVjdCcnNTUmRmNV9YX05UMDVSTG5zaFA2XzRIMDFZU1kyUVlxVzBfeG9MQjhWdUU5ZEI4bkRUbjEwS3QwTXVGNA?oc=5",
-      "published": "Tue, 03 Nov 2026 06:06:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "UAE Mulls Third Crude Oil Pipeline to Avoid Strait of Hormuz",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/uae-mulls-third-crude-oil-pipeline-to-avoid-strait-of-hormuz",
+      "published": "Wed, 04 Nov 2026 14:26:15 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Tokyo core inflation exceeds BOJ target in October - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUVJOQjlQV2RMWlM5UDhDcTIxN1RCOFVwYWxOOElaZGxWRTRJajZ2YzNLM2wzeGlBNW9KYkxiVW1LZUNrbjlpNUdFeGJQQmYxdnhDZXR0TTRSWkpGUGdxdFA4RUtOdWJMUmdQR0lmd1RIQVAxa2FaMURNaVVkZEZzTkg3X0pnY1d0MEhLOVhDVkxzS2p1VWpkbjkxTjcxSG1VYW90cg?oc=5",
-      "published": "Thu, 29 Oct 2026 23:52:39 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Stock-Market Gains Are Weakest After Midterm Results Like These",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-gains-are-weakest-after-midterm-results-like-these",
+      "published": "Wed, 04 Nov 2026 13:50:25 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Bonds Rise on Democrat Sweep as Treasury Tweaks Issuance Guide",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/treasuries-advance-as-traders-eye-us-votes-refinancing-plans",
+      "published": "Wed, 04 Nov 2026 01:00:49 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
