@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 20:59 UTC",
+  "updated_at": "2026-11-05 00:11 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -8,6 +8,13 @@
     "Reuters"
   ],
   "articles": [
+    {
+      "title": "Asian Markets React as Trump Cools Iran Fears",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-04/asian-markets-react-as-trump-cools-iran-fears-video",
+      "published": "Wed, 04 Nov 2026 23:31:57 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
     {
       "title": "ECB rate hike looks nearly certain after inflation rises to three-year high - Reuters",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnlWVjhZeXhCME9sTHdmcC1RWTdrNUVIbUhhbE1td2t3Z2VDbzh1SW1kSmJJdWU5aVRSeW8tQ3hweVJwTDdVMGR0XzdtM0UtSGhkRnY1NWN6ZUkxR05xb2NadnJuNjEza3d4cDNOcTRnWXJBT2MzYnJjY2hkbjdHUmxoWjVsWGE0UE5NOUx0QQ?oc=5",
@@ -23,25 +30,18 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Dollar Slides Toward Worst Day in Two Months After US Midterms",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
-      "published": "Wed, 04 Nov 2026 03:11:23 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Solvay strikes rare earths deal that will reduce global dependence on China",
+      "link": "https://www.ft.com/content/7479802b-7071-4ab7-a7a0-bbebc20010e3?syn-25a6b1a6=1",
+      "published": "Wed, 04 Nov 2026 13:05:30 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Stocks, Bonds Climb After US Election as Oil Sinks: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 03 Nov 2026 22:20:22 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "WGC lowers outlook for gold investment demand growth as bar buying slows - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXNhd2d5cnZVajh5dGZkbnVvc3daNEtvT3NWekFmajVxZ0FfWFRlUGVFb0Z3UWsyWFpVYmN4YmNNdXFkM3gtV0FxcFNjUGtHYVFrNFBoUV9JZl83REU3SmlRTU54bXVSS2NubW1nOEJCVXpyVjdCcnNTUmRmNV9YX05UMDVSTG5zaFA2XzRIMDFZU1kyUVlxVzBfeG9MQjhWdUU5ZEI4bkRUbjEwS3QwTXVGNA?oc=5",
-      "published": "Tue, 03 Nov 2026 06:06:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Copper and conflict trigger profit surge for Buffett-backed Japanese commodity traders",
+      "link": "https://www.ft.com/content/656f10c4-26ec-430e-adfa-dcadf0dd61ff?syn-25a6b1a6=1",
+      "published": "Wed, 04 Nov 2026 09:42:01 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
