@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 00:11 UTC",
+  "updated_at": "2026-11-05 15:02 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,11 @@
   ],
   "articles": [
     {
-      "title": "Asian Markets React as Trump Cools Iran Fears",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-04/asian-markets-react-as-trump-cools-iran-fears-video",
-      "published": "Wed, 04 Nov 2026 23:31:57 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Crude awakening: how oil has fuelled 150 years of conflict",
+      "link": "https://www.ft.com/content/9c6a400c-2207-4b68-8fda-080f1cc30260",
+      "published": "Thu, 05 Nov 2026 13:12:42 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
       "title": "ECB rate hike looks nearly certain after inflation rises to three-year high - Reuters",
@@ -23,23 +23,23 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Blue wave sweeps markets back towards normality",
-      "link": "https://www.ft.com/content/fc404189-8dde-4dfe-8da7-0df8e92effd2?syn-25a6b1a6=1",
-      "published": "Wed, 04 Nov 2026 14:03:10 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Nasdaq 100 Falls 3.5% as Chipmaker Selloff Deepens: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 04 Nov 2026 22:15:04 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Solvay strikes rare earths deal that will reduce global dependence on China",
-      "link": "https://www.ft.com/content/7479802b-7071-4ab7-a7a0-bbebc20010e3?syn-25a6b1a6=1",
-      "published": "Wed, 04 Nov 2026 13:05:30 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Five Credit Portfolio Managers Leave Hedge Fund Brevan Howard",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-05/five-credit-portfolio-managers-leave-hedge-fund-brevan-howard",
+      "published": "Thu, 05 Nov 2026 14:17:31 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Copper and conflict trigger profit surge for Buffett-backed Japanese commodity traders",
-      "link": "https://www.ft.com/content/656f10c4-26ec-430e-adfa-dcadf0dd61ff?syn-25a6b1a6=1",
-      "published": "Wed, 04 Nov 2026 09:42:01 GMT",
+      "title": "Battle-tested European drone maker takes step towards €7bn IPO",
+      "link": "https://www.ft.com/content/58106ce0-31ec-4814-b1b4-bba34778e9e7?syn-25a6b1a6=1",
+      "published": "Thu, 05 Nov 2026 12:59:10 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
