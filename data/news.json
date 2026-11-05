@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 15:02 UTC",
+  "updated_at": "2026-11-05 18:27 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,16 +23,16 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Nasdaq 100 Falls 3.5% as Chipmaker Selloff Deepens: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
-      "published": "Wed, 04 Nov 2026 22:15:04 GMT",
+      "title": "Post-Election Rally Cools on Growing Pressure for AI Buildout",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-05/bloomberg-surveillance-11-5-2026-video",
+      "published": "Thu, 05 Nov 2026 16:43:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Five Credit Portfolio Managers Leave Hedge Fund Brevan Howard",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-05/five-credit-portfolio-managers-leave-hedge-fund-brevan-howard",
-      "published": "Thu, 05 Nov 2026 14:17:31 GMT",
+      "title": "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-extend-advance-as-technology-shares-resume-slide",
+      "published": "Thu, 05 Nov 2026 15:54:44 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
