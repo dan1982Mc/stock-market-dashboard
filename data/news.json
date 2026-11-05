@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 21:17 UTC",
+  "updated_at": "2026-11-05 23:56 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -8,6 +8,13 @@
     "Reuters"
   ],
   "articles": [
+    {
+      "title": "Equity Volatility Jumps Most Since April 2025 Tariff Turmoil",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-05/equity-volatility-jumps-most-since-april-2025-tariff-turmoil",
+      "published": "Thu, 05 Nov 2026 22:45:18 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
     {
       "title": "Crude awakening: how oil has fuelled 150 years of conflict",
       "link": "https://www.ft.com/content/9c6a400c-2207-4b68-8fda-080f1cc30260",
@@ -23,25 +30,18 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Nasdaq 100 Wipes Out $2.3 Trillion in AI Selloff: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
-      "published": "Wed, 04 Nov 2026 22:15:04 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Bank of England raises rates for first time since 2023, warns more likely - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEhfdUpzSlRCb2JiYmFYMjdxaEZySFE1cEJFcVlEWG1qajB4V2VGTXNmcGhRNHdBSF9Wa3FKcFpwMUpVVEc5NnQtaEhnQy0xUHpBc1lpZWp3TlZoUEhMQ1NHcFplMndKcmJJNEJrYlg2VnhoZlVJSkxnUDZzRzh2N0FuSlRHcl9JQTZ0LUhVMmxOaS1NWV9uWE15X19TN3pDMHFUeWNIdkRVQlYtemNsTQ?oc=5",
+      "published": "Thu, 05 Nov 2026 17:11:41 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-extend-advance-as-technology-shares-resume-slide",
-      "published": "Thu, 05 Nov 2026 15:54:44 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Battle-tested European drone maker takes step towards €7bn IPO",
-      "link": "https://www.ft.com/content/58106ce0-31ec-4814-b1b4-bba34778e9e7?syn-25a6b1a6=1",
-      "published": "Thu, 05 Nov 2026 12:59:10 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1NmeDl4ZndpQkllbEZoTmVYQzFUSXpCeFNTRnByV05HcVlaYXl0RkY4b0htT1dYTkhQZG9DNldqcmtna1gyNVhkdTZwWmR3NTBZb0gtUm9kWnlfQzVhMWJCTzVYSGhpLXkxS085ZGpwVUVEbWlTWmItbElUTzFqTEwydEJTSUVheFJsTGNjdnlfRW1RaURzWm5KOGs5Rmx1bUV4SUxpTWNaMlNhWGxPU2lnNkt0cXc?oc=5",
+      "published": "Thu, 05 Nov 2026 12:58:29 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
