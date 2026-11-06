@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 14:42 UTC",
+  "updated_at": "2026-11-06 17:46 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,9 +9,9 @@
   ],
   "articles": [
     {
-      "title": "Kyiv Hits Sixth Russian Oil Plant in Week as Strikes Pick Up",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-06/kyiv-hits-sixth-russian-oil-plant-in-a-week-as-campaign-picks-up",
-      "published": "Fri, 06 Nov 2026 10:44:00 GMT",
+      "title": "Oil Swings as Traders Assess Iran War De-Escalation Prospects",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-06/oil-declines-on-signs-of-moves-toward-gulf-war-de-escalation",
+      "published": "Fri, 06 Nov 2026 08:38:49 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -21,6 +21,13 @@
       "published": "Thu, 05 Nov 2026 17:11:41 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
+    },
+    {
+      "title": "US stocks rebound after tech rout",
+      "link": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 15:45:52 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
       "title": "UK retail investors buy the dip after bruising tech sell-off",
@@ -35,13 +42,6 @@
       "published": "Fri, 06 Nov 2026 06:30:04 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "Moody’s Warns Senegal Debt Revamp Likely Constitutes Default",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-06/moody-s-warns-senegal-debt-rework-likely-tantamount-to-default",
-      "published": "Fri, 06 Nov 2026 06:01:00 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     }
   ]
 }
