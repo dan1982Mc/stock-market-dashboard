@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-06 17:46 UTC",
-  "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-06 20:39 UTC",
+  "tone": "MIXED",
+  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,9 +9,9 @@
   ],
   "articles": [
     {
-      "title": "Oil Swings as Traders Assess Iran War De-Escalation Prospects",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-06/oil-declines-on-signs-of-moves-toward-gulf-war-de-escalation",
-      "published": "Fri, 06 Nov 2026 08:38:49 GMT",
+      "title": "Tech Rally Fuels Stock Gains, But AI Doubts Linger: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates",
+      "published": "Thu, 05 Nov 2026 22:17:59 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -25,23 +25,23 @@
     {
       "title": "US stocks rebound after tech rout",
       "link": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 15:45:52 GMT",
+      "published": "Fri, 06 Nov 2026 17:59:54 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "UK retail investors buy the dip after bruising tech sell-off",
-      "link": "https://www.ft.com/content/64c72979-1f97-4d25-8dc9-7c47c6089191?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 14:28:49 GMT",
+      "title": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
+      "link": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 17:20:21 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "The sell-off gets deep",
-      "link": "https://www.ft.com/content/4ea585dd-6532-4839-a042-c9d1ad2e23f7?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 06:30:04 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Anatomy of a Selloff: Sudden Chain Reaction Rattles Wall Street",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-06/anatomy-of-a-selloff-sudden-chain-reaction-rattles-wall-street",
+      "published": "Fri, 06 Nov 2026 16:10:57 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
