@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 21:15 UTC",
+  "updated_at": "2026-11-09 23:39 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,13 +16,6 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Oil Falls to August Lows on Signs of Iran War Peace Progress",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-09/oil-falls-on-unconfirmed-report-that-iran-eased-hormuz-demands",
-      "published": "Mon, 09 Nov 2026 11:34:07 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Bank of England raises rates for first time since 2023, warns more likely - Reuters",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEhfdUpzSlRCb2JiYmFYMjdxaEZySFE1cEJFcVlEWG1qajB4V2VGTXNmcGhRNHdBSF9Wa3FKcFpwMUpVVEc5NnQtaEhnQy0xUHpBc1lpZWp3TlZoUEhMQ1NHcFplMndKcmJJNEJrYlg2VnhoZlVJSkxnUDZzRzh2N0FuSlRHcl9JQTZ0LUhVMmxOaS1NWV9uWE15X19TN3pDMHFUeWNIdkRVQlYtemNsTQ?oc=5",
       "published": "Thu, 05 Nov 2026 17:11:41 GMT",
@@ -30,18 +23,25 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1NmeDl4ZndpQkllbEZoTmVYQzFUSXpCeFNTRnByV05HcVlaYXl0RkY4b0htT1dYTkhQZG9DNldqcmtna1gyNVhkdTZwWmR3NTBZb0gtUm9kWnlfQzVhMWJCTzVYSGhpLXkxS085ZGpwVUVEbWlTWmItbElUTzFqTEwydEJTSUVheFJsTGNjdnlfRW1RaURzWm5KOGs5Rmx1bUV4SUxpTWNaMlNhWGxPU2lnNkt0cXc?oc=5",
-      "published": "Thu, 05 Nov 2026 12:58:29 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "JPMorgan Weighs Big Discount to Lure Lenders for Software Debt",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-09/jpmorgan-weighs-big-discount-to-lure-lenders-for-software-debt",
+      "published": "Mon, 09 Nov 2026 21:46:26 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "EXCLUSIVE: Chinese banks boost dollar deposit rates, sources say, as Beijing seeks to smooth yuan rally - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTzF1MFhueDRWX1A3LWlGYWJuZ21hMjNBQkE5aG9JdElOT1pYeUNrMHUxS2lXaGQ4RDAxUUp1T256bjBXelZMZ3UyNDA1UEI5QlJ4SHgwX3QweWsyczBnRUhRTC1PZGtpRUVFNzVycWp3d1RQVE0zUm40SUNURVdES2EwZmpNUFNlMGV5S1lXajlza3A4OW1RSGFzWldtU1N1N0N1R0kxbTUxRGtXU29FX0x3M2J6SU5yVjBxWk1yZmN2WHdvR01UMGtqaw?oc=5",
-      "published": "Mon, 09 Nov 2026 05:36:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "US stocks rebound after AI rout",
+      "link": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
+      "published": "Mon, 09 Nov 2026 21:20:00 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Saudi Arabia’s vital East-West pipeline struck in attack",
+      "link": "https://www.ft.com/content/45dce79e-2758-43f2-a06c-3c56db392f39?syn-25a6b1a6=1",
+      "published": "Mon, 09 Nov 2026 18:19:20 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
