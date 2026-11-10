@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 23:39 UTC",
+  "updated_at": "2026-11-10 01:53 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,9 +23,16 @@
       "source_group": "Reuters"
     },
     {
-      "title": "JPMorgan Weighs Big Discount to Lure Lenders for Software Debt",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-09/jpmorgan-weighs-big-discount-to-lure-lenders-for-software-debt",
-      "published": "Mon, 09 Nov 2026 21:46:26 GMT",
+      "title": "Gold Holds Gain Above $4,100 as Lower Oil Eases Inflation Woes",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/gold-holds-gain-above-4-100-as-lower-oil-eases-inflation-woes",
+      "published": "Tue, 10 Nov 2026 00:04:12 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "ExxonMobil Signs Deal in Step Toward Re-Entering Venezuela",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/exxonmobil-signs-deal-in-step-toward-re-entering-venezuela",
+      "published": "Tue, 10 Nov 2026 00:01:34 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -33,13 +40,6 @@
       "title": "US stocks rebound after AI rout",
       "link": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
       "published": "Mon, 09 Nov 2026 21:20:00 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Saudi Arabia’s vital East-West pipeline struck in attack",
-      "link": "https://www.ft.com/content/45dce79e-2758-43f2-a06c-3c56db392f39?syn-25a6b1a6=1",
-      "published": "Mon, 09 Nov 2026 18:19:20 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
