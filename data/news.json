@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 01:53 UTC",
+  "updated_at": "2026-11-10 15:18 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,9 +9,9 @@
   ],
   "articles": [
     {
-      "title": "Oil prices hit 10-week low after Trump says strikes on Iran ‘highly unlikely’",
-      "link": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f?syn-25a6b1a6=1",
-      "published": "Mon, 09 Nov 2026 19:56:37 GMT",
+      "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+      "link": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
+      "published": "Tue, 10 Nov 2026 14:46:06 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
@@ -23,16 +23,16 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Gold Holds Gain Above $4,100 as Lower Oil Eases Inflation Woes",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/gold-holds-gain-above-4-100-as-lower-oil-eases-inflation-woes",
-      "published": "Tue, 10 Nov 2026 00:04:12 GMT",
+      "title": "Stocks Slide After Hot Inflation Boosts December Rate Hike Bets",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo",
+      "published": "Tue, 10 Nov 2026 12:55:52 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "ExxonMobil Signs Deal in Step Toward Re-Entering Venezuela",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/exxonmobil-signs-deal-in-step-toward-re-entering-venezuela",
-      "published": "Tue, 10 Nov 2026 00:01:34 GMT",
+      "title": "Treasury Yields Jump as Inflation Fuels Fed Wagers: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 09 Nov 2026 22:16:53 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
