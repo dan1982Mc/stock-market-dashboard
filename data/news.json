@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 15:18 UTC",
+  "updated_at": "2026-11-10 18:24 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
-      "link": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
-      "published": "Tue, 10 Nov 2026 14:46:06 GMT",
+      "title": "Higher-than-expected October inflation sparks Treasury sell-off",
+      "link": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
+      "published": "Tue, 10 Nov 2026 17:19:05 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Bank of England raises rates for first time since 2023, warns more likely - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEhfdUpzSlRCb2JiYmFYMjdxaEZySFE1cEJFcVlEWG1qajB4V2VGTXNmcGhRNHdBSF9Wa3FKcFpwMUpVVEc5NnQtaEhnQy0xUHpBc1lpZWp3TlZoUEhMQ1NHcFplMndKcmJJNEJrYlg2VnhoZlVJSkxnUDZzRzh2N0FuSlRHcl9JQTZ0LUhVMmxOaS1NWV9uWE15X19TN3pDMHFUeWNIdkRVQlYtemNsTQ?oc=5",
-      "published": "Thu, 05 Nov 2026 17:11:41 GMT",
+      "title": "Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/treasuries-slide-as-hot-us-inflation-cements-december-rate-bets",
+      "published": "Tue, 10 Nov 2026 13:41:23 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Brazil's central bank signals high bar for rate hikes despite inflation risks - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXp1eGp3MHJrZEdSVmZTQk9xRFBXcU9ac0haSUhRU3BHRGRGVE1uVlI2cnlwMzNMb3RMQmV6SzVtTE94ejE5WWNnSVdqUzdvNUpER2dFb3hmamlBYmUxZ19OZ0ZyM3VKZVhpWmdwR2lja09mckUxMHRNSmJ0TU1pVGxGTjk4bThPOWJMT09wVXBQQTdJRlh4WHZvRlNVRThzWXlyTzlJWkNvN0NJSnp5c1BiZVgtN2lpTS1SdURoMkVFcXFMclAw?oc=5",
+      "published": "Tue, 10 Nov 2026 16:39:20 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks Slide After Hot Inflation Boosts December Rate Hike Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo",
-      "published": "Tue, 10 Nov 2026 12:55:52 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNldnOF8ybWVHdkNyWXAxOG1mSFRERGpWNlpaM2N6R1ctTUk1MDZEWlR4aEtWZ1RlT092T1NtaVBfbDRtWmItVi01TWpzV3BIdTRDUDJUblRwSkFSZDl6S0J1NE42bzE4bEsxVGMyeURKR3lTbmlYNTRLQnM2TmFCQ1JUZkJ1aFppVURGQjkxSk1PVWtCcEF1Sy12SlB5a3UyaW5lVkhkMWZtTktaclE?oc=5",
+      "published": "Mon, 09 Nov 2026 10:35:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Treasury Yields Jump as Inflation Fuels Fed Wagers: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 09 Nov 2026 22:16:53 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "US stocks rebound after AI rout",
-      "link": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
-      "published": "Mon, 09 Nov 2026 21:20:00 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "EXCLUSIVE: Chinese banks boost dollar deposit rates, sources say, as Beijing seeks to smooth yuan rally - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTzF1MFhueDRWX1A3LWlGYWJuZ21hMjNBQkE5aG9JdElOT1pYeUNrMHUxS2lXaGQ4RDAxUUp1T256bjBXelZMZ3UyNDA1UEI5QlJ4SHgwX3QweWsyczBnRUhRTC1PZGtpRUVFNzVycWp3d1RQVE0zUm40SUNURVdES2EwZmpNUFNlMGV5S1lXajlza3A4OW1RSGFzWldtU1N1N0N1R0kxbTUxRGtXU29FX0x3M2J6SU5yVjBxWk1yZmN2WHdvR01UMGtqaw?oc=5",
+      "published": "Mon, 09 Nov 2026 05:36:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
