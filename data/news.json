@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 18:24 UTC",
+  "updated_at": "2026-11-10 21:07 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,14 +9,14 @@
   ],
   "articles": [
     {
-      "title": "Higher-than-expected October inflation sparks Treasury sell-off",
-      "link": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
-      "published": "Tue, 10 Nov 2026 17:19:05 GMT",
+      "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+      "link": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
+      "published": "Tue, 10 Nov 2026 20:19:24 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes",
+      "title": "Bond Yields Spike Most Since Tariff Meltdown on Rate-Hike Bets",
       "link": "https://www.bloomberg.com/news/articles/2026-11-10/treasuries-slide-as-hot-us-inflation-cements-december-rate-bets",
       "published": "Tue, 10 Nov 2026 13:41:23 GMT",
       "source": "Bloomberg",
