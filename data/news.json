@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 14:49 UTC",
+  "updated_at": "2026-11-11 18:16 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -8,6 +8,13 @@
     "Reuters"
   ],
   "articles": [
+    {
+      "title": "Iran War Leaves Europe Vulnerable To Harsh Winter",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-11/iran-war-leaves-europe-vulnerable-to-harsh-winter-video",
+      "published": "Wed, 11 Nov 2026 16:47:45 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
     {
       "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
       "link": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
@@ -23,23 +30,16 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Funds Warn Brazil $126 Billion Stock Market Rout Isn’t Over Yet",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/funds-warn-brazil-126-billion-stock-market-rout-isn-t-over-yet",
-      "published": "Wed, 11 Nov 2026 13:48:11 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Gold climbs more than 1% as inflation fears ease on lower crude prices - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbEdIVXlJc2RaUEw2RmFrR2FZcXYzYlBKUG9Cdl9WUVFfalVxT0hGcGFCdW1DS3JMT2daanhDYktBeXVGNGt5TGlsOGZJVWVSMFpnT3ZVa2RBUjZYakRlVlQ3SXd1ZkpTQVNXVkpoNUZoemdycWY0MG02dVk0cWRuWG4taG5VMm9kbEluSHctTVZVMXJwWXNWSWdVcmxQeWtRSW1EWDQ2dTJ6QVV2TzhoeQ?oc=5",
+      "published": "Mon, 09 Nov 2026 14:58:55 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Saudis Tell OPEC Output Surged 26% to Highest Since War Began",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/saudis-tell-opec-output-they-surged-26-to-new-war-time-high",
-      "published": "Wed, 11 Nov 2026 13:00:06 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "European shares near record high as lower oil prices boost sentiment - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObUhPanl6a2ZpNXhoQlpNRGdJWmFFcE5rY3U2YTFfYXhZOWRDc2FCZjFDckNFLWRrR3pzSDQycjMxaDNrQ2s5TzdmRXlRX0M3cGl3UWtobXppajFqS000Ymtrby1qbGsxZTBsVVB2ajhCZkVxN0VlM1lGVTJHZm1kWFA1cWtNcFlINWQ1VnVSSzRQNlQ5R3dFdE1wdmZIS09veGw5THp1Q0hxbW1HQV9hMmtUVXp1Mk0?oc=5",
-      "published": "Tue, 10 Nov 2026 17:46:25 GMT",
+      "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNldnOF8ybWVHdkNyWXAxOG1mSFRERGpWNlpaM2N6R1ctTUk1MDZEWlR4aEtWZ1RlT092T1NtaVBfbDRtWmItVi01TWpzV3BIdTRDUDJUblRwSkFSZDl6S0J1NE42bzE4bEsxVGMyeURKR3lTbmlYNTRLQnM2TmFCQ1JUZkJ1aFppVURGQjkxSk1PVWtCcEF1Sy12SlB5a3UyaW5lVkhkMWZtTktaclE?oc=5",
+      "published": "Mon, 09 Nov 2026 10:35:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
