@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 23:55 UTC",
+  "updated_at": "2026-11-11 14:49 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,25 +23,25 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Petrobras Earnings Disappoint Despite Oil, Refining Tailwinds",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/petrobras-earnings-disappoint-despite-oil-refining-tailwinds",
-      "published": "Tue, 10 Nov 2026 23:35:11 GMT",
+      "title": "Funds Warn Brazil $126 Billion Stock Market Rout Isn’t Over Yet",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/funds-warn-brazil-126-billion-stock-market-rout-isn-t-over-yet",
+      "published": "Wed, 11 Nov 2026 13:48:11 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/gold-holds-loss-near-4-000-on-hot-us-inflation-fed-remarks",
-      "published": "Tue, 10 Nov 2026 23:33:04 GMT",
+      "title": "Saudis Tell OPEC Output Surged 26% to Highest Since War Began",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/saudis-tell-opec-output-they-surged-26-to-new-war-time-high",
+      "published": "Wed, 11 Nov 2026 13:00:06 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Asian Stocks, Bonds to Drop as Fed Hike Bets Mount: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 10 Nov 2026 22:32:05 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "European shares near record high as lower oil prices boost sentiment - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObUhPanl6a2ZpNXhoQlpNRGdJWmFFcE5rY3U2YTFfYXhZOWRDc2FCZjFDckNFLWRrR3pzSDQycjMxaDNrQ2s5TzdmRXlRX0M3cGl3UWtobXppajFqS000Ymtrby1qbGsxZTBsVVB2ajhCZkVxN0VlM1lGVTJHZm1kWFA1cWtNcFlINWQ1VnVSSzRQNlQ5R3dFdE1wdmZIS09veGw5THp1Q0hxbW1HQV9hMmtUVXp1Mk0?oc=5",
+      "published": "Tue, 10 Nov 2026 17:46:25 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
