@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 21:39 UTC",
+  "updated_at": "2026-11-12 23:59 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,18 +9,18 @@
   ],
   "articles": [
     {
-      "title": "Oil Rises After Trump Declares US Doesn’t Need a Deal With Iran",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
-      "published": "Thu, 12 Nov 2026 13:14:35 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Brazil's central bank signals high bar for rate hikes despite inflation risks - Reuters",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXp1eGp3MHJrZEdSVmZTQk9xRFBXcU9ac0haSUhRU3BHRGRGVE1uVlI2cnlwMzNMb3RMQmV6SzVtTE94ejE5WWNnSVdqUzdvNUpER2dFb3hmamlBYmUxZ19OZ0ZyM3VKZVhpWmdwR2lja09mckUxMHRNSmJ0TU1pVGxGTjk4bThPOWJMT09wVXBQQTdJRlh4WHZvRlNVRThzWXlyTzlJWkNvN0NJSnp5c1BiZVgtN2lpTS1SdURoMkVFcXFMclAw?oc=5",
       "published": "Tue, 10 Nov 2026 20:03:43 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
+    },
+    {
+      "title": "Swiss Biotech Windward Raises $225 Million in US IPO, Placement",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/swiss-biotech-windward-raises-225-million-in-us-ipo-placement",
+      "published": "Thu, 12 Nov 2026 23:32:55 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
@@ -30,16 +30,16 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Trump’s fossil fuel drive comes as war prompts energy security worries",
-      "link": "https://www.ft.com/content/9b79e9f6-4805-4299-bf76-1743ac258054?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 01:00:02 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
       "title": "COMMENTARY: Bond storm of 2026 may be passing, but Fed gusts linger - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV0x0ak5pTlFSejJaTk96eW5PRW9paVN2d3NTaWRtdlJvZWZtTFJtbzVNR0hOR3ZZX1NkcnVRZExPYjhuMW52WTVlaUUtNkdtVWRvdEF3NXNoOXVrZF82RV9uN3NnenVTREpVQXBVSU1uSEZ4OHpOR2p4ZGpQUklBVVM3VFZMQmc5T2xUMS1rYkFnTG8wYTJreUZPU2d3YXpkaUpEajJnYVNYVkhiOV9UaFRSeU1udUE?oc=5",
       "published": "Wed, 11 Nov 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "Gold falls as hot inflation figures, higher dollar weigh - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkZNV2RySHI5TXJ4YTBhNlNpTllnVXUyRk9CNzBrLXBLWFc3OTlOM0Y1MUVDcGRhS1pQU1oxR3hveVE5VWRfVGF1aTR4Z0lhcWJjbGV4Ym93cDdqb09JQlpFdC10cW9FUkVBX0NPVFFyOTdxSV81Z0RWUEx4UkdITjNwUnRHUmdDbmg5a0F5QmZXRzdjWGZzeXJsdUNUbDRKM3NvU0VGVGQ?oc=5",
+      "published": "Wed, 11 Nov 2026 03:39:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
