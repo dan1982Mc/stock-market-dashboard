@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 18:39 UTC",
+  "updated_at": "2026-11-12 21:39 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,13 +23,6 @@
       "source_group": "Reuters"
     },
     {
-      "title": "US tech stocks rally as AI trade revives",
-      "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-      "published": "Wed, 11 Nov 2026 21:04:17 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
       "title": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
       "link": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1",
       "published": "Thu, 12 Nov 2026 05:00:21 GMT",
@@ -42,6 +35,13 @@
       "published": "Thu, 12 Nov 2026 01:00:02 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "COMMENTARY: Bond storm of 2026 may be passing, but Fed gusts linger - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV0x0ak5pTlFSejJaTk96eW5PRW9paVN2d3NTaWRtdlJvZWZtTFJtbzVNR0hOR3ZZX1NkcnVRZExPYjhuMW52WTVlaUUtNkdtVWRvdEF3NXNoOXVrZF82RV9uN3NnenVTREpVQXBVSU1uSEZ4OHpOR2p4ZGpQUklBVVM3VFZMQmc5T2xUMS1rYkFnTG8wYTJreUZPU2d3YXpkaUpEajJnYVNYVkhiOV9UaFRSeU1udUE?oc=5",
+      "published": "Wed, 11 Nov 2026 07:00:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
