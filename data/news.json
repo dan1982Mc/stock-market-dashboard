@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 15:41 UTC",
+  "updated_at": "2026-11-12 18:39 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,7 +9,7 @@
   ],
   "articles": [
     {
-      "title": "Oil Rises After Trump Says the US Doesn’t Need a Deal With Iran",
+      "title": "Oil Rises After Trump Declares US Doesn’t Need a Deal With Iran",
       "link": "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
       "published": "Thu, 12 Nov 2026 13:14:35 GMT",
       "source": "Bloomberg",
@@ -30,16 +30,16 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Citgo Reports Record Profits as Wartime Refining Margins Boom",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/citgo-reports-record-profits-as-wartime-refining-margins-boom",
-      "published": "Thu, 12 Nov 2026 14:11:10 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
       "link": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1",
       "published": "Thu, 12 Nov 2026 05:00:21 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Trump’s fossil fuel drive comes as war prompts energy security worries",
+      "link": "https://www.ft.com/content/9b79e9f6-4805-4299-bf76-1743ac258054?syn-25a6b1a6=1",
+      "published": "Thu, 12 Nov 2026 01:00:02 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
