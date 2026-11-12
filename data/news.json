@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-11 21:45 UTC",
-  "tone": "MIXED",
-  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-12 01:19 UTC",
+  "tone": "CAUTIOUS / RISK-OFF",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -23,16 +23,16 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Canadian Heavy Crude Rebounds Amid Cheaper Tanker Costs",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/canadian-heavy-crude-rebounds-amid-cheaper-tanker-costs",
-      "published": "Wed, 11 Nov 2026 19:04:05 GMT",
+      "title": "Indonesia Bonds Lure Global Funds as Yields Hit Six-Year High",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/indonesia-bonds-lure-global-funds-as-yields-hit-six-year-high",
+      "published": "Thu, 12 Nov 2026 00:05:36 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Funds Warn Brazil $126 Billion Stock Market Rout Isn’t Over",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/funds-warn-brazil-126-billion-stock-market-rout-isn-t-over-yet",
-      "published": "Wed, 11 Nov 2026 13:48:11 GMT",
+      "title": "Rare IPO Bets on End of War and Economic Crisis in Myanmar",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/rare-ipo-bets-on-end-of-war-and-economic-crisis-in-myanmar",
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
