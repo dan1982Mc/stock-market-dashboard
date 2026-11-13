@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 18:19 UTC",
+  "updated_at": "2026-11-13 21:06 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,9 +9,9 @@
   ],
   "articles": [
     {
-      "title": "Bonds, inflation and the Fed. Plus, Nvidia in turmoil",
-      "link": "https://www.ft.com/content/4abc107b-a0ba-45eb-9506-69657290bab2?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 21:00:00 GMT",
+      "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
+      "link": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8?syn-25a6b1a6=1",
+      "published": "Fri, 13 Nov 2026 09:07:28 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
@@ -23,25 +23,25 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Swiss Respiratory Biotech Windward Up 7.9% in US Trading Debut",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/swiss-respiratory-biotech-windward-up-7-9-in-us-trading-debut",
-      "published": "Fri, 13 Nov 2026 17:25:01 GMT",
+      "title": "Latest Oil Market News and Analysis for Nov. 13",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/latest-oil-market-news-and-analysis-for-nov-13",
+      "published": "Thu, 12 Nov 2026 23:02:09 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "European shares near record high as lower oil prices boost sentiment - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObUhPanl6a2ZpNXhoQlpNRGdJWmFFcE5rY3U2YTFfYXhZOWRDc2FCZjFDckNFLWRrR3pzSDQycjMxaDNrQ2s5TzdmRXlRX0M3cGl3UWtobXppajFqS000Ymtrby1qbGsxZTBsVVB2ajhCZkVxN0VlM1lGVTJHZm1kWFA1cWtNcFlINWQ1VnVSSzRQNlQ5R3dFdE1wdmZIS09veGw5THp1Q0hxbW1HQV9hMmtUVXp1Mk0?oc=5",
-      "published": "Tue, 10 Nov 2026 17:46:25 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "S&P 500 Falls as Chip Slump Offsets Inflation Data: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
+      "published": "Thu, 12 Nov 2026 22:17:13 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Fed's Logan calls for two more rate hikes, possibly rapidly - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0xfUlI5TmlGa3Z4Z0QtTF9FcVRjZ0hwNEFSOVNTX0otSERvdUdrZzBKazRheFd2Vlc3bWZhazZfY2haNFNKVi1WOWNnWWVfTmgyVk9iSXFqRTR3aHcwRV93UkF0ejRGVFdOdVR4N2NWalZkYkFhS3NTLWtsY1FjazJld1JBX0lBRmM4M1RhdHk3UDBjZFFWOUNQVm40bkU?oc=5",
-      "published": "Tue, 10 Nov 2026 15:55:43 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+      "link": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
+      "published": "Fri, 13 Nov 2026 19:45:14 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
