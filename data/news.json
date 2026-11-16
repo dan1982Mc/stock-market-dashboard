@@ -1,11 +1,10 @@
 {
-  "updated_at": "2026-11-16 16:37 UTC",
+  "updated_at": "2026-11-16 20:46 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 2 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
-    "Financial Times",
-    "Reuters"
+    "Financial Times"
   ],
   "articles": [
     {
@@ -16,13 +15,6 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc1hXaEpuRUhpTnBKTGNYQU9CNnJhRFBYNHdTb2VIOUVyU1VoNmNYcjhNRXdJVTZEQUR4Sm5neEFMOWhwRjF3UW9PLXJuRFNwNG5CSEF5d1hKUTNuQVM0ZXQ5cDBsR04tVDVaT2tGU0VVQWtsZmlNdjROS0ZNdXBUZWF1ZUFTbXZicUE4b0Z0RXo4M3Z6SzFsMXVfZV9QVGMxM1BuMFFZNXktTlloT2dvclB6MA?oc=5",
-      "published": "Thu, 12 Nov 2026 12:46:50 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
-    },
-    {
       "title": "Latest Oil Market News and Analysis for Nov. 16",
       "link": "https://www.bloomberg.com/news/articles/2026-11-15/latest-oil-market-news-and-analysis-for-nov-16",
       "published": "Sun, 15 Nov 2026 23:03:50 GMT",
@@ -30,18 +22,28 @@
       "source_group": "Bloomberg"
     },
     {
-      "title": "Canadian Natural to Buy Advantage Energy Amid Oil Price Boom",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/canadian-natural-buys-advantage-energy-to-boost-alberta-assets",
-      "published": "Mon, 16 Nov 2026 09:51:07 GMT",
+      "title": "The perfect sell-off",
+      "link": "https://www.ft.com/content/a61f1fe9-55d9-498e-9ecc-c3a66980d63a?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 06:30:01 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Active Delivering Alpha In Bond Fund: Vanguard's Righi",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-16/active-delivering-alpha-in-bond-fund-vanguard-s-righi-video",
+      "published": "Mon, 16 Nov 2026 20:07:16 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Brazilian Real Leads Losses, EM Stocks Sink on AI Uncertainty",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/emerging-market-stocks-currencies-ai-concerns",
-      "published": "Mon, 16 Nov 2026 06:14:58 GMT",
+      "title": "Robert Pattinson Is New James Bond in Amazon’s Reboot",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-16/robert-pattinson-is-new-james-bond-in-amazon-s-reboot-video",
+      "published": "Mon, 16 Nov 2026 19:53:54 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
+  ],
+  "source_warnings": [
+    "Reuters: HTTP Error 429: Too Many Requests"
   ]
 }
