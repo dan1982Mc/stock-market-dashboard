@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14 00:13 UTC",
-  "tone": "MIXED",
-  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-16 16:37 UTC",
+  "tone": "CAUTIOUS / RISK-OFF",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,37 +9,37 @@
   ],
   "articles": [
     {
-      "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
-      "link": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8?syn-25a6b1a6=1",
-      "published": "Fri, 13 Nov 2026 09:07:28 GMT",
+      "title": "Diamondback strikes $5bn deal to expand drilling in oil-rich Permian Basin",
+      "link": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
+      "published": "Mon, 16 Nov 2026 13:12:30 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Brazil's central bank signals high bar for rate hikes despite inflation risks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXp1eGp3MHJrZEdSVmZTQk9xRFBXcU9ac0haSUhRU3BHRGRGVE1uVlI2cnlwMzNMb3RMQmV6SzVtTE94ejE5WWNnSVdqUzdvNUpER2dFb3hmamlBYmUxZ19OZ0ZyM3VKZVhpWmdwR2lja09mckUxMHRNSmJ0TU1pVGxGTjk4bThPOWJMT09wVXBQQTdJRlh4WHZvRlNVRThzWXlyTzlJWkNvN0NJSnp5c1BiZVgtN2lpTS1SdURoMkVFcXFMclAw?oc=5",
-      "published": "Tue, 10 Nov 2026 20:03:43 GMT",
+      "title": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc1hXaEpuRUhpTnBKTGNYQU9CNnJhRFBYNHdTb2VIOUVyU1VoNmNYcjhNRXdJVTZEQUR4Sm5neEFMOWhwRjF3UW9PLXJuRFNwNG5CSEF5d1hKUTNuQVM0ZXQ5cDBsR04tVDVaT2tGU0VVQWtsZmlNdjROS0ZNdXBUZWF1ZUFTbXZicUE4b0Z0RXo4M3Z6SzFsMXVfZV9QVGMxM1BuMFFZNXktTlloT2dvclB6MA?oc=5",
+      "published": "Thu, 12 Nov 2026 12:46:50 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "US Flights Grounded Over Air Traffic Communication Issue",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-14/us-flights-grounded-over-air-traffic-communication-issue-video",
-      "published": "Sat, 14 Nov 2026 00:08:57 GMT",
+      "title": "Latest Oil Market News and Analysis for Nov. 16",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-15/latest-oil-market-news-and-analysis-for-nov-16",
+      "published": "Sun, 15 Nov 2026 23:03:50 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
-      "link": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1",
-      "published": "Fri, 13 Nov 2026 23:39:26 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Canadian Natural to Buy Advantage Energy Amid Oil Price Boom",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-16/canadian-natural-buys-advantage-energy-to-boost-alberta-assets",
+      "published": "Mon, 16 Nov 2026 09:51:07 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Troubled Sherritt Misses Payment as Liquidity Crisis Deepens",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/troubled-sherritt-misses-payment-as-liquidity-crisis-deepens",
-      "published": "Fri, 13 Nov 2026 23:39:03 GMT",
+      "title": "Brazilian Real Leads Losses, EM Stocks Sink on AI Uncertainty",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-16/emerging-market-stocks-currencies-ai-concerns",
+      "published": "Mon, 16 Nov 2026 06:14:58 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
