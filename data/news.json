@@ -1,12 +1,20 @@
 {
-  "updated_at": "2026-11-16 20:46 UTC",
+  "updated_at": "2026-11-16 23:35 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 2 source groups are used; market indicators remain the primary signal.",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
-    "Financial Times"
+    "Financial Times",
+    "Reuters"
   ],
   "articles": [
+    {
+      "title": "US-Iran deal uncertainty to weigh on rupee and bonds; Fed, RBI rate paths eyed - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNxZjdMUWpxX0k5UFljV1NLWVhkTW5lMnE0SVVsRjlVNml3N1BCWmt2NTgwV0RGZkNYam1yQ1N3MXRjUHJLME5jZmY0dERCNGo4Rl9rZjdKZldwajhnbmlTQ25PRzE4WndhUEFoS29fZmFDWVczMUZfRFRRa21MektCU0luRGJiNllsTnZiRmZHVUN1R0kwTlJsM2dCN2hlYzJyOXk0bUZRX29XajFHRkhubzk?oc=5",
+      "published": "Mon, 16 Nov 2026 01:32:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
     {
       "title": "Diamondback strikes $5bn deal to expand drilling in oil-rich Permian Basin",
       "link": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
@@ -15,9 +23,9 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Nov. 16",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-15/latest-oil-market-news-and-analysis-for-nov-16",
-      "published": "Sun, 15 Nov 2026 23:03:50 GMT",
+      "title": "Ex-Robinhood Software Engineer Pleads Guilty to Illegal Trading",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-16/ex-robinhood-software-engineer-pleads-guilty-to-illegal-trading",
+      "published": "Mon, 16 Nov 2026 22:53:33 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -29,21 +37,11 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Active Delivering Alpha In Bond Fund: Vanguard's Righi",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-16/active-delivering-alpha-in-bond-fund-vanguard-s-righi-video",
-      "published": "Mon, 16 Nov 2026 20:07:16 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Robert Pattinson Is New James Bond in Amazon’s Reboot",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-16/robert-pattinson-is-new-james-bond-in-amazon-s-reboot-video",
-      "published": "Mon, 16 Nov 2026 19:53:54 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Gold falls as hot inflation figures, higher dollar weigh - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkZNV2RySHI5TXJ4YTBhNlNpTllnVXUyRk9CNzBrLXBLWFc3OTlOM0Y1MUVDcGRhS1pQU1oxR3hveVE5VWRfVGF1aTR4Z0lhcWJjbGV4Ym93cDdqb09JQlpFdC10cW9FUkVBX0NPVFFyOTdxSV81Z0RWUEx4UkdITjNwUnRHUmdDbmg5a0F5QmZXRzdjWGZzeXJsdUNUbDRKM3NvU0VGVGQ?oc=5",
+      "published": "Thu, 12 Nov 2026 06:29:37 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
-  ],
-  "source_warnings": [
-    "Reuters: HTTP Error 429: Too Many Requests"
   ]
 }
