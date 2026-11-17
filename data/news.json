@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 23:35 UTC",
+  "updated_at": "2026-11-17 02:19 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,13 +9,6 @@
   ],
   "articles": [
     {
-      "title": "US-Iran deal uncertainty to weigh on rupee and bonds; Fed, RBI rate paths eyed - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNxZjdMUWpxX0k5UFljV1NLWVhkTW5lMnE0SVVsRjlVNml3N1BCWmt2NTgwV0RGZkNYam1yQ1N3MXRjUHJLME5jZmY0dERCNGo4Rl9rZjdKZldwajhnbmlTQ25PRzE4WndhUEFoS29fZmFDWVczMUZfRFRRa21MektCU0luRGJiNllsTnZiRmZHVUN1R0kwTlJsM2dCN2hlYzJyOXk0bUZRX29XajFHRkhubzk?oc=5",
-      "published": "Mon, 16 Nov 2026 01:32:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
-    },
-    {
       "title": "Diamondback strikes $5bn deal to expand drilling in oil-rich Permian Basin",
       "link": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
       "published": "Mon, 16 Nov 2026 13:12:30 GMT",
@@ -23,9 +16,16 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Ex-Robinhood Software Engineer Pleads Guilty to Illegal Trading",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/ex-robinhood-software-engineer-pleads-guilty-to-illegal-trading",
-      "published": "Mon, 16 Nov 2026 22:53:33 GMT",
+      "title": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc1hXaEpuRUhpTnBKTGNYQU9CNnJhRFBYNHdTb2VIOUVyU1VoNmNYcjhNRXdJVTZEQUR4Sm5neEFMOWhwRjF3UW9PLXJuRFNwNG5CSEF5d1hKUTNuQVM0ZXQ5cDBsR04tVDVaT2tGU0VVQWtsZmlNdjROS0ZNdXBUZWF1ZUFTbXZicUE4b0Z0RXo4M3Z6SzFsMXVfZV9QVGMxM1BuMFFZNXktTlloT2dvclB6MA?oc=5",
+      "published": "Thu, 12 Nov 2026 12:46:50 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "Tech Under Pressure Ahead of Anthropic IPO, Stock Selloff Continues",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-17/the-close-11-16-2026-video",
+      "published": "Tue, 17 Nov 2026 00:17:38 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -37,9 +37,9 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Gold falls as hot inflation figures, higher dollar weigh - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkZNV2RySHI5TXJ4YTBhNlNpTllnVXUyRk9CNzBrLXBLWFc3OTlOM0Y1MUVDcGRhS1pQU1oxR3hveVE5VWRfVGF1aTR4Z0lhcWJjbGV4Ym93cDdqb09JQlpFdC10cW9FUkVBX0NPVFFyOTdxSV81Z0RWUEx4UkdITjNwUnRHUmdDbmg5a0F5QmZXRzdjWGZzeXJsdUNUbDRKM3NvU0VGVGQ?oc=5",
-      "published": "Thu, 12 Nov 2026 06:29:37 GMT",
+      "title": "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
+      "published": "Thu, 12 Nov 2026 09:37:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
