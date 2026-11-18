@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 16:03 UTC",
+  "updated_at": "2026-11-18 19:12 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,25 +16,25 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Credit Chiefs Warn of ‘Fear Factor’ as Debt Reprices All at Once",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/credit-chiefs-warn-of-fear-factor-as-debt-reprices-all-at-once",
-      "published": "Wed, 18 Nov 2026 11:11:49 GMT",
+      "title": "Credit Chiefs Warn of ‘Fear Factor’ With Debt Repricing",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-18/credit-chiefs-warn-of-fear-factor-with-debt-repricing-video",
+      "published": "Wed, 18 Nov 2026 17:30:05 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Russian petrol imports hit record as Ukraine strikes refineries",
-      "link": "https://www.ft.com/content/6ae074cc-bc09-4159-b59e-72d25ac2ac50?syn-25a6b1a6=1",
-      "published": "Wed, 18 Nov 2026 09:46:03 GMT",
+      "title": "JPMorgan seeks to revive stalled software debt sale with steep price cuts",
+      "link": "https://www.ft.com/content/16a99ff4-6060-4c81-8c4f-7e43503e4a11?syn-25a6b1a6=1",
+      "published": "Wed, 18 Nov 2026 16:30:02 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 17 Nov 2026 22:07:08 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Russia imports record volumes of petrol as Ukraine strikes refineries",
+      "link": "https://www.ft.com/content/6ae074cc-bc09-4159-b59e-72d25ac2ac50?syn-25a6b1a6=1",
+      "published": "Wed, 18 Nov 2026 09:46:03 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
       "title": "Mexico cenbank's Borja says length of rate pause unclear, flags inflation risks - Reuters",
