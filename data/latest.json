@@ -1,8 +1,8 @@
 {
   "version": "2.0.6",
   "mode": "LIVE",
-  "updated_at": "2026-11-17 02:21 UTC",
-  "data_through": "2026-11-16",
+  "updated_at": "2026-11-18 01:31 UTC",
+  "data_through": "2026-11-17",
   "brief": {
     "status": "WARNING",
     "label": "WARNING / MIXED",
@@ -11,11 +11,11 @@
   "equities": [
     {
       "name": "ACWI",
-      "current": 1.9,
-      "display": "+1.9% vs 200DMA",
-      "detail": "50DMA 158.8 \u00b7 200DMA 153.1",
-      "percentile": 27.0,
-      "percentile_label": "P27",
+      "current": -0.1,
+      "display": "-0.1% vs 200DMA",
+      "detail": "50DMA 158.6 \u00b7 200DMA 153.2",
+      "percentile": 19.0,
+      "percentile_label": "P19",
       "band": {
         "p05": -9.5,
         "p25": 1.66,
@@ -28,14 +28,14 @@
     },
     {
       "name": "US equities",
-      "current": 1.0,
-      "display": "+1.0% vs 200DMA",
-      "detail": "50DMA 7661.4 \u00b7 200DMA 7342.7",
-      "percentile": 21.0,
-      "percentile_label": "P21",
+      "current": -0.1,
+      "display": "-0.1% vs 200DMA",
+      "detail": "50DMA 7654.8 \u00b7 200DMA 7344.5",
+      "percentile": 19.0,
+      "percentile_label": "P19",
       "band": {
         "p05": -8.25,
-        "p25": 1.99,
+        "p25": 1.98,
         "p50": 6.32,
         "p75": 9.68,
         "p95": 13.33,
@@ -45,16 +45,16 @@
     },
     {
       "name": "Europe",
-      "current": 2.2,
-      "display": "+2.2% vs 200DMA",
-      "detail": "50DMA 87.9 \u00b7 200DMA 87.2",
-      "percentile": 36.0,
-      "percentile_label": "P36",
+      "current": 1.0,
+      "display": "+1.0% vs 200DMA",
+      "detail": "50DMA 87.8 \u00b7 200DMA 87.2",
+      "percentile": 31.0,
+      "percentile_label": "P31",
       "band": {
         "p05": -12.96,
         "p25": -0.4,
-        "p50": 4.99,
-        "p75": 9.14,
+        "p50": 4.98,
+        "p75": 9.12,
         "p95": 14.63,
         "p05_label": -12.96,
         "p95_label": 14.63
@@ -62,16 +62,16 @@
     },
     {
       "name": "Emerging markets",
-      "current": -4.5,
-      "display": "-4.5% vs 200DMA",
-      "detail": "50DMA 64.8 \u00b7 200DMA 63.8",
-      "percentile": 21.0,
-      "percentile_label": "P21",
+      "current": -7.7,
+      "display": "-7.7% vs 200DMA",
+      "detail": "50DMA 64.6 \u00b7 200DMA 63.8",
+      "percentile": 13.0,
+      "percentile_label": "P13",
       "band": {
         "p05": -12.95,
-        "p25": -2.96,
+        "p25": -2.97,
         "p50": 3.36,
-        "p75": 9.28,
+        "p75": 9.26,
         "p95": 17.99,
         "p05_label": -12.95,
         "p95_label": 17.99
@@ -81,11 +81,11 @@
   "risk": [
     {
       "name": "US volatility (VIX)",
-      "current": 22.9,
-      "display": "22.9",
+      "current": 25.5,
+      "display": "25.5",
       "detail": "30-day option-implied volatility index.",
-      "percentile": 80.0,
-      "percentile_label": "P80",
+      "percentile": 86.0,
+      "percentile_label": "P86",
       "band": {
         "p05": 10.71,
         "p25": 13.88,
@@ -98,11 +98,11 @@
     },
     {
       "name": "Europe volatility (VSTOXX)",
-      "current": 18.3,
-      "display": "18.3",
+      "current": 21.9,
+      "display": "21.9",
       "detail": "30-day option-implied volatility index.",
-      "percentile": 34.0,
-      "percentile_label": "P34",
+      "percentile": 55.0,
+      "percentile_label": "P55",
       "band": {
         "p05": 13.29,
         "p25": 16.87,
@@ -115,8 +115,8 @@
     },
     {
       "name": "Emerging-market volatility (VXEEM)",
-      "current": 35.1,
-      "display": "35.1",
+      "current": 35.7,
+      "display": "35.7",
       "detail": "30-day option-implied volatility index.",
       "percentile": 94.0,
       "percentile_label": "P94",
@@ -132,11 +132,11 @@
     },
     {
       "name": "ACWI drawdown",
-      "current": -3.9,
-      "display": "-3.9%",
+      "current": -5.8,
+      "display": "-5.8%",
       "detail": "Distance from the running ACWI high.",
-      "percentile": 41.0,
-      "percentile_label": "P41",
+      "percentile": 30.0,
+      "percentile_label": "P30",
       "band": {
         "p05": -17.94,
         "p25": -7.13,
@@ -170,8 +170,8 @@
   "cross_asset": [
     {
       "name": "US 10Y yield",
-      "current": 5.12,
-      "display": "5.12%",
+      "current": 5.1,
+      "display": "5.10%",
       "detail": "Treasury market yield proxy.",
       "percentile": 99.0,
       "percentile_label": "P99",
@@ -179,24 +179,24 @@
         "p05": 0.74,
         "p25": 1.9,
         "p50": 2.88,
-        "p75": 4.15,
-        "p95": 4.62,
+        "p75": 4.16,
+        "p95": 4.63,
         "p05_label": 0.74,
-        "p95_label": 4.62
+        "p95_label": 4.63
       }
     },
     {
       "name": "Gold",
-      "current": 3869.0,
-      "display": "$3,869",
+      "current": 3824.0,
+      "display": "$3,824",
       "detail": "Gold futures price proxy.",
       "percentile": 89.0,
       "percentile_label": "P89",
       "band": {
         "p05": 1218.85,
-        "p25": 1342.7,
-        "p50": 1821.8,
-        "p75": 2344.9,
+        "p25": 1343.8,
+        "p50": 1822.2,
+        "p75": 2345.9,
         "p95": 4419.91,
         "p05_label": 1218.85,
         "p95_label": 4419.91
@@ -206,7 +206,7 @@
   "priced_in": [
     {
       "name": "Equity volatility already priced",
-      "display": "US 22.9 VIX",
+      "display": "US 25.5 VIX",
       "explanation": "Option prices embed near-term volatility; European and emerging-market volatility are shown alongside it."
     },
     {
