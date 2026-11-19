@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 22:26 UTC",
+  "updated_at": "2026-11-19 00:58 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,9 +16,9 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Citi CEO Looks Forward to Working With Sen. Warren",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-18/citi-ceo-looks-forward-to-working-with-sen-warren-video",
-      "published": "Wed, 18 Nov 2026 22:15:28 GMT",
+      "title": "Bain Pushes Back LNG Glut Outlook to 2030 as War Tightens Market",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/bain-pushes-back-lng-glut-outlook-to-2030-as-war-tightens-market",
+      "published": "Wed, 18 Nov 2026 23:02:30 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -37,11 +37,11 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Bitcoin Erases Bessent Rally as Leverage and Liquidity Fade",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/bitcoin-erases-bessent-rally-as-leverage-and-liquidity-fade",
-      "published": "Wed, 18 Nov 2026 09:45:09 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Mexico cenbank's Borja says length of rate pause unclear, flags inflation risks - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2lqcnBURXdzNmo1TUpMVExGQ09qcy1fX2VCdlJLUFFuekZXRVR1OVk3aTlUT2J5N09HcGdXbGxLWFg5bjNPVFFzeEo5bzlzQTc5WjNIRE1wNVZ0QUdBbnFtUDBvSW9sMEc3dGpHbDF0R1VuVkhjR1lVeUZBemI0UXF4R2ctZTMwNFNHQUJZTGl5N1M2cW5Nc0c3dEUyTkhtRHJzWjc2ZjE4T2Ria0N1a2h3V3BNdHNqUS1UaWJJbmxrQ0k?oc=5",
+      "published": "Tue, 17 Nov 2026 18:48:07 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
