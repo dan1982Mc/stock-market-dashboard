@@ -1,20 +1,12 @@
 {
-  "updated_at": "2026-11-19 19:18 UTC",
+  "updated_at": "2026-11-19 22:31 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 2 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
-    "Financial Times",
-    "Reuters"
+    "Financial Times"
   ],
   "articles": [
-    {
-      "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
-      "published": "Thu, 19 Nov 2026 02:47:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
-    },
     {
       "title": "Nscale warns of its exposure to suppliers facing US blacklist",
       "link": "https://www.ft.com/content/97912585-2412-496c-a224-78e69328bcdb?syn-25a6b1a6=1",
@@ -23,25 +15,35 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Alphabet Set to Raise $4.2 Billion From Latest Canada Bond Sale",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/alphabet-to-raise-at-least-3-5-billion-with-canadian-debt-sale",
-      "published": "Thu, 19 Nov 2026 16:16:50 GMT",
+      "title": "Gold Set for Longest Losing Streak Since May on AI, Fed Fears",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
+      "published": "Wed, 18 Nov 2026 23:24:06 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Fed policymakers concerned about financial system risks, minutes show - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdERuLW1GQUMxakZSZkp2YlBxTE1GT2U1WUFuTEhuYXE0Mm5uR0tfR0Nwb3JZZ2NmQ3kzbFRuMjU4bXZIMDdBVm85Q3lNWlRfaXZ2V18xaFJsSENTbDgxdXJiTm5yYjVIYXh4ekQyTWtOU2hkNUpCbWVJQXp5aEkxckx1S0I4Q3JRTldjM2NfSmNNaUg5WXVuTzZpcVZYRUs4RXJRNUxMT2dPTVFEZWJ5ZXZDMThITHNZY2M5NlhDN3hoQQ?oc=5",
-      "published": "Wed, 18 Nov 2026 21:02:09 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Kenya awards prized rare earth deposit to US group",
+      "link": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab?syn-25a6b1a6=1",
+      "published": "Thu, 19 Nov 2026 13:53:19 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "EXCLUSIVE: ECB to discuss raising reserve requirement next week, sources say - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNlY3ckxpdlVSS1dCVmhacndwQnBDTFBtRTVhVjJGOEJwdlVkUlVPRjJ5MUZTdE51WDRXNXNjQ25Zd3M4WEd5N2pvdjNxZzIyUU9wLW1uakxQN1E1YWhCX0JtN2dpZk5jUl9RX2s5SnI3RThHbnRXTlBoMnBfdVF4dlVQQW5RTUhwU25vNlFQbVplUWI5SjBRdUt2Y28xc0M1WmZSNmhNUm5qU2Y5a0tJc0lYLTg?oc=5",
-      "published": "Wed, 18 Nov 2026 13:26:41 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Latest Oil Market News and Analysis for Nov. 19",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/latest-oil-market-news-and-analysis-for-nov-19",
+      "published": "Wed, 18 Nov 2026 23:03:35 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Alphabet Raises $4.2 Billion From Latest Canada Bond Sale",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/alphabet-to-raise-at-least-3-5-billion-with-canadian-debt-sale",
+      "published": "Thu, 19 Nov 2026 16:16:50 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
+  ],
+  "source_warnings": [
+    "Reuters: HTTP Error 429: Too Many Requests"
   ]
 }
