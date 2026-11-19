@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 16:10 UTC",
+  "updated_at": "2026-11-19 19:18 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,18 +9,11 @@
   ],
   "articles": [
     {
-      "title": "US-Iran deal uncertainty to weigh on rupee and bonds; Fed, RBI rate paths eyed - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNxZjdMUWpxX0k5UFljV1NLWVhkTW5lMnE0SVVsRjlVNml3N1BCWmt2NTgwV0RGZkNYam1yQ1N3MXRjUHJLME5jZmY0dERCNGo4Rl9rZjdKZldwajhnbmlTQ25PRzE4WndhUEFoS29fZmFDWVczMUZfRFRRa21MektCU0luRGJiNllsTnZiRmZHVUN1R0kwTlJsM2dCN2hlYzJyOXk0bUZRX29XajFHRkhubzk?oc=5",
-      "published": "Mon, 16 Nov 2026 01:32:00 GMT",
+      "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
+      "published": "Thu, 19 Nov 2026 02:47:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
-    },
-    {
-      "title": "Putin Basks in Spotlight With Trump, Xi as War in Ukraine Grinds On",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-19/putin-basks-in-spotlight-as-war-in-ukraine-grinds-on-video",
-      "published": "Thu, 19 Nov 2026 16:05:18 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     },
     {
       "title": "Nscale warns of its exposure to suppliers facing US blacklist",
@@ -30,16 +23,23 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Kenya awards prized rare earth deposit to US group",
-      "link": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab?syn-25a6b1a6=1",
-      "published": "Thu, 19 Nov 2026 13:53:19 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Alphabet Set to Raise $4.2 Billion From Latest Canada Bond Sale",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/alphabet-to-raise-at-least-3-5-billion-with-canadian-debt-sale",
+      "published": "Thu, 19 Nov 2026 16:16:50 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Mexico cenbank's Borja says length of rate pause unclear, flags inflation risks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2lqcnBURXdzNmo1TUpMVExGQ09qcy1fX2VCdlJLUFFuekZXRVR1OVk3aTlUT2J5N09HcGdXbGxLWFg5bjNPVFFzeEo5bzlzQTc5WjNIRE1wNVZ0QUdBbnFtUDBvSW9sMEc3dGpHbDF0R1VuVkhjR1lVeUZBemI0UXF4R2ctZTMwNFNHQUJZTGl5N1M2cW5Nc0c3dEUyTkhtRHJzWjc2ZjE4T2Ria0N1a2h3V3BNdHNqUS1UaWJJbmxrQ0k?oc=5",
-      "published": "Tue, 17 Nov 2026 18:48:07 GMT",
+      "title": "Fed policymakers concerned about financial system risks, minutes show - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdERuLW1GQUMxakZSZkp2YlBxTE1GT2U1WUFuTEhuYXE0Mm5uR0tfR0Nwb3JZZ2NmQ3kzbFRuMjU4bXZIMDdBVm85Q3lNWlRfaXZ2V18xaFJsSENTbDgxdXJiTm5yYjVIYXh4ekQyTWtOU2hkNUpCbWVJQXp5aEkxckx1S0I4Q3JRTldjM2NfSmNNaUg5WXVuTzZpcVZYRUs4RXJRNUxMT2dPTVFEZWJ5ZXZDMThITHNZY2M5NlhDN3hoQQ?oc=5",
+      "published": "Wed, 18 Nov 2026 21:02:09 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "EXCLUSIVE: ECB to discuss raising reserve requirement next week, sources say - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNlY3ckxpdlVSS1dCVmhacndwQnBDTFBtRTVhVjJGOEJwdlVkUlVPRjJ5MUZTdE51WDRXNXNjQ25Zd3M4WEd5N2pvdjNxZzIyUU9wLW1uakxQN1E1YWhCX0JtN2dpZk5jUl9RX2s5SnI3RThHbnRXTlBoMnBfdVF4dlVQQW5RTUhwU25vNlFQbVplUWI5SjBRdUt2Y28xc0M1WmZSNmhNUm5qU2Y5a0tJc0lYLTg?oc=5",
+      "published": "Wed, 18 Nov 2026 13:26:41 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
