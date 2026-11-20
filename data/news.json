@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 15:50 UTC",
+  "updated_at": "2026-11-20 18:56 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -8,6 +8,13 @@
     "Reuters"
   ],
   "articles": [
+    {
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+      "published": "Thu, 19 Nov 2026 23:56:03 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
     {
       "title": "Oil loses grip on bond markets as inflation ‘virus’ spreads",
       "link": "https://www.ft.com/content/562e278e-1e12-49d2-b7f7-91a289ffd660?syn-25a6b1a6=1",
@@ -23,25 +30,18 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Turkey’s First Jet-Powered War Drone Expands Combat Capability",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-20/turkey-s-first-jet-powered-war-drone-expands-combat-capability",
-      "published": "Fri, 20 Nov 2026 14:27:49 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "UK inflation rises to one-year high but markets trim rate hike bets - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5",
+      "published": "Wed, 18 Nov 2026 10:13:31 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "Anthropic shares tumble as AI giant swept up in tech sell-off",
-      "link": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 14:01:58 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Trump to host memecoin dinner as Democrats take aim at ‘conflicts of interest’",
-      "link": "https://www.ft.com/content/0cb87e56-2b97-4c91-bfa7-a7ab616fd58e?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 05:00:27 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Japan's core inflation accelerates in October, cementing rate hike expectations - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWFVlZ2VrLUVHQkxQZUFqNjM2LXUwZXVvLWM0bTJYbkdILVhXZUduWlo2SXF5dExsVkl5Z0Y0SFlud3ExT0JiN0Vrb0FYLWVMRnNoR2Z1a25tdmNIQ1diVU10cTYwNXZRaVFXblN5cHpXazNtVkdXbW5QdTljdDZDVzBoNWh0Q2p3QkRwMjI1cC1pcXN0QkhCXzY5N0VkV2xGWkNodTR3eTA3LTlCWXBnNFdibk9xRTVWa280?oc=5",
+      "published": "Thu, 19 Nov 2026 23:43:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
