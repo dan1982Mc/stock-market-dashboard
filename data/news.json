@@ -1,25 +1,33 @@
 {
-  "updated_at": "2026-11-19 22:31 UTC",
+  "updated_at": "2026-11-20 01:03 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 2 source groups are used; market indicators remain the primary signal.",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
-    "Financial Times"
+    "Financial Times",
+    "Reuters"
   ],
   "articles": [
+    {
+      "title": "US-Iran deal uncertainty to weigh on rupee and bonds; Fed, RBI rate paths eyed - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNxZjdMUWpxX0k5UFljV1NLWVhkTW5lMnE0SVVsRjlVNml3N1BCWmt2NTgwV0RGZkNYam1yQ1N3MXRjUHJLME5jZmY0dERCNGo4Rl9rZjdKZldwajhnbmlTQ25PRzE4WndhUEFoS29fZmFDWVczMUZfRFRRa21MektCU0luRGJiNllsTnZiRmZHVUN1R0kwTlJsM2dCN2hlYzJyOXk0bUZRX29XajFHRkhubzk?oc=5",
+      "published": "Mon, 16 Nov 2026 01:32:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+      "published": "Thu, 19 Nov 2026 23:56:03 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
     {
       "title": "Nscale warns of its exposure to suppliers facing US blacklist",
       "link": "https://www.ft.com/content/97912585-2412-496c-a224-78e69328bcdb?syn-25a6b1a6=1",
       "published": "Thu, 19 Nov 2026 14:39:18 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "Gold Set for Longest Losing Streak Since May on AI, Fed Fears",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
-      "published": "Wed, 18 Nov 2026 23:24:06 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     },
     {
       "title": "Kenya awards prized rare earth deposit to US group",
@@ -29,21 +37,11 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Nov. 19",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/latest-oil-market-news-and-analysis-for-nov-19",
-      "published": "Wed, 18 Nov 2026 23:03:35 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Alphabet Raises $4.2 Billion From Latest Canada Bond Sale",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/alphabet-to-raise-at-least-3-5-billion-with-canadian-debt-sale",
-      "published": "Thu, 19 Nov 2026 16:16:50 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "South Africa's inflation picks up but most economists still see rate hold - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeUg5U0txc2x5emNaT2JweDllbjhjWmlxTkt2TS11RDNIaHl1UDBjdE9tc2xMY1VQQlZhV3ZEOXMyc1J2czdxSUp4SE5xaThjemx1MXo4b2tINnZFdERpaS1pQUFyUC1GTHBvdF9zaVR0M0R5NXdkNkd4dHBqamg4RG4tcjZoTk5nZzRRTE5qQ1g1Ry1WaWxUWHAxWld4QUgtLUNtUXgyTTBvZw?oc=5",
+      "published": "Wed, 18 Nov 2026 09:48:35 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
-  ],
-  "source_warnings": [
-    "Reuters: HTTP Error 429: Too Many Requests"
   ]
 }
