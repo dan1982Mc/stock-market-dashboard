@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 01:03 UTC",
+  "updated_at": "2026-11-20 15:50 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "US-Iran deal uncertainty to weigh on rupee and bonds; Fed, RBI rate paths eyed - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNxZjdMUWpxX0k5UFljV1NLWVhkTW5lMnE0SVVsRjlVNml3N1BCWmt2NTgwV0RGZkNYam1yQ1N3MXRjUHJLME5jZmY0dERCNGo4Rl9rZjdKZldwajhnbmlTQ25PRzE4WndhUEFoS29fZmFDWVczMUZfRFRRa21MektCU0luRGJiNllsTnZiRmZHVUN1R0kwTlJsM2dCN2hlYzJyOXk0bUZRX29XajFHRkhubzk?oc=5",
-      "published": "Mon, 16 Nov 2026 01:32:00 GMT",
+      "title": "Oil loses grip on bond markets as inflation ‘virus’ spreads",
+      "link": "https://www.ft.com/content/562e278e-1e12-49d2-b7f7-91a289ffd660?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 05:00:26 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQWp0U1B6TG9KQU5oY25mQTRtbk5hTUZxNnI3azdIZDNNcU9iN1hzSndVckt3eU5ReUZockwxa1JOMVYyNTQ5d281c3NnU1pEU3pKaEZMSUZEdFQ3bG9DaXk4Umx1NG5WQ3ZvMko2VzBYdlgwYUI0Rm9ud1kzU1VMeWdZNXlkd3FJWTBvc25qV1ROWDZubGV4SF9QUk1EcG9BWGprZzRxcU9xa2g5TmRiUDRqR0FoYmNreUNicmFiWQ?oc=5",
+      "published": "Wed, 18 Nov 2026 19:03:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
-      "published": "Thu, 19 Nov 2026 23:56:03 GMT",
+      "title": "Turkey’s First Jet-Powered War Drone Expands Combat Capability",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-20/turkey-s-first-jet-powered-war-drone-expands-combat-capability",
+      "published": "Fri, 20 Nov 2026 14:27:49 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Nscale warns of its exposure to suppliers facing US blacklist",
-      "link": "https://www.ft.com/content/97912585-2412-496c-a224-78e69328bcdb?syn-25a6b1a6=1",
-      "published": "Thu, 19 Nov 2026 14:39:18 GMT",
+      "title": "Anthropic shares tumble as AI giant swept up in tech sell-off",
+      "link": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 14:01:58 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Kenya awards prized rare earth deposit to US group",
-      "link": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab?syn-25a6b1a6=1",
-      "published": "Thu, 19 Nov 2026 13:53:19 GMT",
+      "title": "Trump to host memecoin dinner as Democrats take aim at ‘conflicts of interest’",
+      "link": "https://www.ft.com/content/0cb87e56-2b97-4c91-bfa7-a7ab616fd58e?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 05:00:27 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "South Africa's inflation picks up but most economists still see rate hold - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeUg5U0txc2x5emNaT2JweDllbjhjWmlxTkt2TS11RDNIaHl1UDBjdE9tc2xMY1VQQlZhV3ZEOXMyc1J2czdxSUp4SE5xaThjemx1MXo4b2tINnZFdERpaS1pQUFyUC1GTHBvdF9zaVR0M0R5NXdkNkd4dHBqamg4RG4tcjZoTk5nZzRRTE5qQ1g1Ry1WaWxUWHAxWld4QUgtLUNtUXgyTTBvZw?oc=5",
-      "published": "Wed, 18 Nov 2026 09:48:35 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
     }
   ]
 }
