@@ -1,8 +1,8 @@
 {
   "version": "2.0.6",
   "mode": "LIVE",
-  "updated_at": "2026-11-19 00:59 UTC",
-  "data_through": "2026-11-18",
+  "updated_at": "2026-11-20 01:04 UTC",
+  "data_through": "2026-11-19",
   "brief": {
     "status": "WARNING",
     "label": "WARNING / MIXED",
@@ -28,14 +28,14 @@
     },
     {
       "name": "US equities",
-      "current": -0.3,
-      "display": "-0.3% vs 200DMA",
-      "detail": "50DMA 7648.5 \u00b7 200DMA 7346.6",
-      "percentile": 18.0,
-      "percentile_label": "P18",
+      "current": -2.3,
+      "display": "-2.3% vs 200DMA",
+      "detail": "50DMA 7640.2 \u00b7 200DMA 7348.0",
+      "percentile": 13.0,
+      "percentile_label": "P13",
       "band": {
         "p05": -8.25,
-        "p25": 1.97,
+        "p25": 1.95,
         "p50": 6.32,
         "p75": 9.68,
         "p95": 13.33,
@@ -81,16 +81,16 @@
   "risk": [
     {
       "name": "US volatility (VIX)",
-      "current": 24.6,
-      "display": "24.6",
+      "current": 28.4,
+      "display": "28.4",
       "detail": "30-day option-implied volatility index.",
-      "percentile": 84.0,
-      "percentile_label": "P84",
+      "percentile": 92.0,
+      "percentile_label": "P92",
       "band": {
         "p05": 10.71,
-        "p25": 13.88,
+        "p25": 13.89,
         "p50": 17.01,
-        "p75": 21.51,
+        "p75": 21.52,
         "p95": 30.98,
         "p05_label": 10.71,
         "p95_label": 30.98
@@ -98,11 +98,11 @@
     },
     {
       "name": "Europe volatility (VSTOXX)",
-      "current": 22.2,
-      "display": "22.2",
+      "current": 22.5,
+      "display": "22.5",
       "detail": "30-day option-implied volatility index.",
-      "percentile": 56.0,
-      "percentile_label": "P56",
+      "percentile": 58.0,
+      "percentile_label": "P58",
       "band": {
         "p05": 13.29,
         "p25": 16.87,
@@ -115,19 +115,19 @@
     },
     {
       "name": "Emerging-market volatility (VXEEM)",
-      "current": 35.2,
-      "display": "35.2",
+      "current": 37.5,
+      "display": "37.5",
       "detail": "30-day option-implied volatility index.",
-      "percentile": 94.0,
-      "percentile_label": "P94",
+      "percentile": 95.0,
+      "percentile_label": "P95",
       "band": {
         "p05": 15.6,
         "p25": 18.23,
-        "p50": 21.52,
-        "p75": 25.74,
-        "p95": 36.87,
+        "p50": 21.53,
+        "p75": 25.76,
+        "p95": 36.89,
         "p05_label": 15.6,
-        "p95_label": 36.87
+        "p95_label": 36.89
       }
     },
     {
@@ -170,8 +170,8 @@
   "cross_asset": [
     {
       "name": "US 10Y yield",
-      "current": 5.07,
-      "display": "5.07%",
+      "current": 5.05,
+      "display": "5.05%",
       "detail": "Treasury market yield proxy.",
       "percentile": 99.0,
       "percentile_label": "P99",
@@ -187,18 +187,18 @@
     },
     {
       "name": "Gold",
-      "current": 3756.0,
-      "display": "$3,756",
+      "current": 3587.0,
+      "display": "$3,587",
       "detail": "Gold futures price proxy.",
       "percentile": 88.0,
       "percentile_label": "P88",
       "band": {
-        "p05": 1219.84,
-        "p25": 1344.45,
-        "p50": 1822.8,
-        "p75": 2346.65,
+        "p05": 1220.2,
+        "p25": 1344.7,
+        "p50": 1823.1,
+        "p75": 2347.05,
         "p95": 4419.91,
-        "p05_label": 1219.84,
+        "p05_label": 1220.2,
         "p95_label": 4419.91
       }
     }
@@ -206,7 +206,7 @@
   "priced_in": [
     {
       "name": "Equity volatility already priced",
-      "display": "US 24.6 VIX",
+      "display": "US 28.4 VIX",
       "explanation": "Option prices embed near-term volatility; European and emerging-market volatility are shown alongside it."
     },
     {
