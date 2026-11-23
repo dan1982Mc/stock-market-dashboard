@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21 00:38 UTC",
-  "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-23 18:52 UTC",
+  "tone": "MIXED",
+  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Gold Logs Worst Week Since March on Hawkish Fed, AI Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
-      "published": "Thu, 19 Nov 2026 23:56:03 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Oil loses grip on bond markets as inflation ‘virus’ spreads",
-      "link": "https://www.ft.com/content/562e278e-1e12-49d2-b7f7-91a289ffd660?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 05:00:26 GMT",
+      "title": "Traders start to move US copper to China as Trump tariff fears ease",
+      "link": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757?syn-25a6b1a6=1",
+      "published": "Mon, 23 Nov 2026 12:21:55 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQWp0U1B6TG9KQU5oY25mQTRtbk5hTUZxNnI3azdIZDNNcU9iN1hzSndVckt3eU5ReUZockwxa1JOMVYyNTQ5d281c3NnU1pEU3pKaEZMSUZEdFQ3bG9DaXk4Umx1NG5WQ3ZvMko2VzBYdlgwYUI0Rm9ud1kzU1VMeWdZNXlkd3FJWTBvc25qV1ROWDZubGV4SF9QUk1EcG9BWGprZzRxcU9xa2g5TmRiUDRqR0FoYmNreUNicmFiWQ?oc=5",
-      "published": "Wed, 18 Nov 2026 19:03:00 GMT",
+      "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkZwc3MzeGxPMldOWGxwZnk4UFBSWGtfVC1pTnBnQXVRZzBrNTBzdGxCc05WSU5KNjVoTk1XSm82Q2UxSms1WnhkT05tTG5xU3JULWRtUTVOSlpmeXgyNTFWRVVOX1BTS3ZNaDZEendqbkJJNXlMSndLb0JiQjJ0dEhnMWs3bm5RX0hDNTZ4SVlaamJTU2ZDZVJ1VG8ycVpNdXR3NFdKMHhDVjdlUWMyWmhwVQ?oc=5",
+      "published": "Thu, 19 Nov 2026 18:53:15 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Japan's core inflation accelerates in October, cementing rate hike expectations - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWFVlZ2VrLUVHQkxQZUFqNjM2LXUwZXVvLWM0bTJYbkdILVhXZUduWlo2SXF5dExsVkl5Z0Y0SFlud3ExT0JiN0Vrb0FYLWVMRnNoR2Z1a25tdmNIQ1diVU10cTYwNXZRaVFXblN5cHpXazNtVkdXbW5QdTljdDZDVzBoNWh0Q2p3QkRwMjI1cC1pcXN0QkhCXzY5N0VkV2xGWkNodTR3eTA3LTlCWXBnNFdibk9xRTVWa280?oc=5",
-      "published": "Thu, 19 Nov 2026 23:43:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Jeff Currie Sees a Liquidity Crisis Behind Copper Selloff",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-23/jeff-currie-sees-liquidity-crisis-behind-copper-selloff-video",
+      "published": "Mon, 23 Nov 2026 17:45:30 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "UK stocks sink as global selloff weighs on banks and miners - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZVVTRHZ4Q0NxLThIeDI5d09DVVhMY3hGQm9QSlo1V3dGLWJMbFBNaFZoZjV5WlhSaU55NVdDb096SWp6cFUzUUYteW9kTnlMUzdXVmZBUS1fbGpUM1FfNzlHRXdMeFYxWWV0NGlmVk9IbDdBdlNNN0E5d2VuUnF4SlA2RjVqRWd3VHR5NDVPVW9EV2FsQWJKSlVEVWJrekt1TDA4WFVVU2U?oc=5",
-      "published": "Fri, 20 Nov 2026 18:03:24 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Credit Heads ‘Swivel’ as Huang Return Ignites Tech Debt Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-23/credit-heads-swivel-as-huang-return-ignites-tech-debt-rally",
+      "published": "Mon, 23 Nov 2026 15:56:17 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Gold Rebounds as Huang’s Return to Nvidia Revives Risk Appetite",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes",
+      "published": "Mon, 23 Nov 2026 00:28:03 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
