@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 20:58 UTC",
+  "updated_at": "2026-11-24 23:41 UTC",
   "tone": "MIXED",
   "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -16,14 +16,21 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Anthropic falls below IPO price as tech rally fades",
+      "title": "US Readies Tariff Hike on China, EU Goods",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video",
+      "published": "Tue, 24 Nov 2026 21:58:15 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "Anthropic closes below IPO price as tech rally fades",
       "link": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 20:07:51 GMT",
+      "published": "Tue, 24 Nov 2026 21:11:37 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     },
     {
-      "title": "Canadian Dollar Gains Most Since August on BOC Inflation Warning",
+      "title": "Canadian Dollar Gains Most Since August on Inflation Warning",
       "link": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
       "published": "Tue, 24 Nov 2026 19:31:25 GMT",
       "source": "Bloomberg",
@@ -33,13 +40,6 @@
       "title": "Banks regain some ground in the private credit tug of war",
       "link": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1",
       "published": "Tue, 24 Nov 2026 14:46:28 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "CrowdStrike bucks Silicon Valley’s invincible-founder trend",
-      "link": "https://www.ft.com/content/fda29491-ca21-4172-9889-52ffc6d4a25d?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 12:49:55 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
