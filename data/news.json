@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24 04:12 UTC",
-  "tone": "CAUTIOUS / RISK-ON",
-  "summary": "Multiple independent sources are highlighting improving growth, inflation or market conditions. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-24 18:28 UTC",
+  "tone": "CAUTIOUS / RISK-OFF",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,39 +9,39 @@
   ],
   "articles": [
     {
-      "title": "Traders start to move US copper to China as Trump tariff fears ease",
-      "link": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757?syn-25a6b1a6=1",
-      "published": "Mon, 23 Nov 2026 12:21:55 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Bank of Canada Warns of Oil Passthrough, Sticky Inflation",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-canada-chief-warns-of-oil-passthrough-sticky-inflation",
+      "published": "Tue, 24 Nov 2026 17:25:00 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "UK midcaps outperform as Nvidia sparks global risk-on rally - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYkg5VjM0X2g3WGZudDlGM1N4OWFrRW5PZEw4SXVMMjBFb3JtaG1uS3NFQUJzOVFWNzFOaWJYNkNuX3NkV1hnMzByejBPcFA1ZUttNm93XzU2OHFaRE1ZMWpBOE1Bd05JR0Vab1VQaXJJdUM3YlJkcmNPVEJNcGZqYUNnX3Z0aTBLTFVad1BXQWJVTGFfdUJ3Uko2OF9Xdw?oc=5",
-      "published": "Mon, 23 Nov 2026 17:32:45 GMT",
+      "title": "Gold ticks lower on hawkish Fed bets, US inflation data in focus - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2lLRXdXdmpCM0FsdHVpNkdYTWttMDRZd294U3VSZGtqczloSEN5N1VfTzBpbjJLZGYwWm55RDlXSmY0b2tod0tBUl9lbkl4TW13VDBuWEVDYjgxamc4anBNdGhtWTdvUUNiYUp5MDlJVU81Sl9qa283bUIzTUNCU0lZZ1VBdXo2UW5hQmoyT191dFpWODY2aldnOVJmRzVaaV9tZDF2U0hKbmRubUg0TllIendaRzg?oc=5",
+      "published": "Tue, 24 Nov 2026 00:57:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "Gold Extends Gain After Nvidia’s Rehiring of Huang Sparks Rally",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
-      "published": "Tue, 24 Nov 2026 00:06:57 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Anthropic falls below IPO price as tech rally fades",
+      "link": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 17:52:14 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "AI Trade Rebound Drives Limit Up Moves in Nvidia Supplier Stocks",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade",
-      "published": "Mon, 23 Nov 2026 23:45:20 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Banks regain some ground in the private credit tug of war",
+      "link": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 14:46:28 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "Margin Calls Rose in Taiwan Before Huang Return Fueled Rally",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-23/margin-calls-soared-200-fold-in-taiwan-as-traders-fled-ai-bets",
-      "published": "Mon, 23 Nov 2026 10:11:28 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "CrowdStrike bucks Silicon Valley’s invincible-founder trend",
+      "link": "https://www.ft.com/content/fda29491-ca21-4172-9889-52ffc6d4a25d?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 12:49:55 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
