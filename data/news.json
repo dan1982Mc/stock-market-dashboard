@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24 01:57 UTC",
-  "tone": "MIXED",
-  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-24 04:12 UTC",
+  "tone": "CAUTIOUS / RISK-ON",
+  "summary": "Multiple independent sources are highlighting improving growth, inflation or market conditions. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -16,9 +16,9 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "UK inflation rises to one-year high but markets trim rate hike bets - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5",
-      "published": "Wed, 18 Nov 2026 10:13:31 GMT",
+      "title": "UK midcaps outperform as Nvidia sparks global risk-on rally - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYkg5VjM0X2g3WGZudDlGM1N4OWFrRW5PZEw4SXVMMjBFb3JtaG1uS3NFQUJzOVFWNzFOaWJYNkNuX3NkV1hnMzByejBPcFA1ZUttNm93XzU2OHFaRE1ZMWpBOE1Bd05JR0Vab1VQaXJJdUM3YlJkcmNPVEJNcGZqYUNnX3Z0aTBLTFVad1BXQWJVTGFfdUJ3Uko2OF9Xdw?oc=5",
+      "published": "Mon, 23 Nov 2026 17:32:45 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
@@ -30,16 +30,16 @@
       "source_group": "Bloomberg"
     },
     {
-      "title": "Strong Earnings No Match for the Crumbling AI Trade",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-22/strong-earnings-prove-no-match-for-the-crumbling-ai-trade",
-      "published": "Sun, 22 Nov 2026 13:30:00 GMT",
+      "title": "AI Trade Rebound Drives Limit Up Moves in Nvidia Supplier Stocks",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade",
+      "published": "Mon, 23 Nov 2026 23:45:20 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "AI Trade Resurgence Drives 9% Rally in Taiwanese Stock Index",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade",
-      "published": "Mon, 23 Nov 2026 23:45:20 GMT",
+      "title": "Margin Calls Rose in Taiwan Before Huang Return Fueled Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-23/margin-calls-soared-200-fold-in-taiwan-as-traders-fled-ai-bets",
+      "published": "Mon, 23 Nov 2026 10:11:28 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
