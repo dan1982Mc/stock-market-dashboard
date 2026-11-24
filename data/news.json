@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23 22:23 UTC",
+  "updated_at": "2026-11-24 01:57 UTC",
   "tone": "MIXED",
   "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -23,23 +23,23 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Wall Street Storms Back as AI Trade Rebounds With Huang’s Return",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
-      "published": "Mon, 23 Nov 2026 21:42:36 GMT",
+      "title": "Gold Extends Gain After Nvidia’s Rehiring of Huang Sparks Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
+      "published": "Tue, 24 Nov 2026 00:06:57 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Nvidia Soars 31% as Jensen Huang Returns, Sparking $3 Trillion Rally | Closing Bell",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-23/nvidia-soars-on-jensen-huang-return-closing-bell-video",
-      "published": "Mon, 23 Nov 2026 21:22:15 GMT",
+      "title": "Strong Earnings No Match for the Crumbling AI Trade",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-22/strong-earnings-prove-no-match-for-the-crumbling-ai-trade",
+      "published": "Sun, 22 Nov 2026 13:30:00 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Anthropic Shares Sink, Defying AI Trade Rally on Huang’s Return",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-23/anthropic-shares-churn-defying-ai-trade-rally-on-huang-s-return",
-      "published": "Mon, 23 Nov 2026 14:51:48 GMT",
+      "title": "AI Trade Resurgence Drives 9% Rally in Taiwanese Stock Index",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade",
+      "published": "Mon, 23 Nov 2026 23:45:20 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     }
