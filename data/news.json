@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24 18:28 UTC",
-  "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-24 20:58 UTC",
+  "tone": "MIXED",
+  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,25 +9,25 @@
   ],
   "articles": [
     {
-      "title": "Bank of Canada Warns of Oil Passthrough, Sticky Inflation",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-canada-chief-warns-of-oil-passthrough-sticky-inflation",
-      "published": "Tue, 24 Nov 2026 17:25:00 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "Gold ticks lower on hawkish Fed bets, US inflation data in focus - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2lLRXdXdmpCM0FsdHVpNkdYTWttMDRZd294U3VSZGtqczloSEN5N1VfTzBpbjJLZGYwWm55RDlXSmY0b2tod0tBUl9lbkl4TW13VDBuWEVDYjgxamc4anBNdGhtWTdvUUNiYUp5MDlJVU81Sl9qa283bUIzTUNCU0lZZ1VBdXo2UW5hQmoyT191dFpWODY2aldnOVJmRzVaaV9tZDF2U0hKbmRubUg0TllIendaRzg?oc=5",
-      "published": "Tue, 24 Nov 2026 00:57:00 GMT",
+      "title": "US stocks slide as Nvidia rally fizzles out, dollar falls - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
+      "published": "Tue, 24 Nov 2026 01:29:00 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
       "title": "Anthropic falls below IPO price as tech rally fades",
       "link": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 17:52:14 GMT",
+      "published": "Tue, 24 Nov 2026 20:07:51 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Canadian Dollar Gains Most Since August on BOC Inflation Warning",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
+      "published": "Tue, 24 Nov 2026 19:31:25 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "Banks regain some ground in the private credit tug of war",
