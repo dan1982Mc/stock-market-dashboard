@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 02:56 UTC",
+  "updated_at": "2026-11-25 17:42 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,16 +9,30 @@
   ],
   "articles": [
     {
-      "title": "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTmhnZXlybDNHMVBsX1dUbjhwOVdoaXpPVElUQ0tnOUU3MjJ4X1cwUTlkZFloalpNcE5DMXZxZ19adTNrcW1QbjV0YWpWSTRmVWExZ1l4czRkdE1fY2VDV2d4VWxETklGSGJpalBSMGRkOVpXZUNXQjJHenZKbWR6TUlRWlItU2hGZmhtTmd4XzBfYXlEZlp6TjFxX3dUSWRfOFFsWmFPRTFSX3dVbkNCRDZ0dVEzd0w5b3V4bnlIaFVPOVE?oc=5",
-      "published": "Tue, 24 Nov 2026 14:31:44 GMT",
+      "title": "Gold Slumps on Rate Hike Outlook, AI Stocks Selloff",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-25/gold-slumps-on-rate-hike-outlook-ai-stocks-selloff-video",
+      "published": "Wed, 25 Nov 2026 17:20:41 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "UK stocks fall as banks, miners track Wall Street selloff - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW1VcFBpakVFWW8xQ3dPdGNtZFRQRGJuX2tmOTVZOHBsa2hvQ3hkNHMwVmJvNmo1eHlxd0xkV2xDSFpuSGZqX2hUMWxQUV9xdVl5WTNfOXFRYnRYRGlKcF9xajludy1FQjY3R1dFT2pjYkEyXzRnYkd5amRiSDA4QkZyeFR3N0NKUGZsbDV2SW0xS085Qzl4bHdFSW1HNEVrX0hvbE5HUmo1QQ?oc=5",
+      "published": "Wed, 25 Nov 2026 17:20:52 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "India’s Anti-AI Stock Trade Confronts Rich Valuations, Global Tariff Risks",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks",
-      "published": "Wed, 25 Nov 2026 02:30:28 GMT",
+      "title": "US stocks sell-off deepens as AI trade cracks",
+      "link": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+      "published": "Wed, 25 Nov 2026 16:23:34 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Embraer Shares Sink as US Threatens Brazil Aircraft Tariff",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/embraer-sinks-most-since-may-as-us-proposes-brazil-aircraft-levy",
+      "published": "Wed, 25 Nov 2026 14:02:53 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
@@ -26,20 +40,6 @@
       "title": "Nscale says it has option to stay private as tech sell-off threatens $35bn IPO",
       "link": "https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1",
       "published": "Tue, 24 Nov 2026 22:50:57 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Anthropic closes below IPO price as tech rally fades",
-      "link": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 21:11:37 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Banks regain some ground in the private credit tug of war",
-      "link": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 14:46:28 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
     }
