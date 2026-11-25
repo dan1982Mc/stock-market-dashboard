@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 20:20 UTC",
+  "updated_at": "2026-11-25 23:25 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,18 @@
   ],
   "articles": [
     {
-      "title": "Billionaire financier Todd Boehly strikes deal for Lukoil assets",
+      "title": "Financier Todd Boehly strikes deal for Lukoil assets",
       "link": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 18:03:33 GMT",
+      "published": "Wed, 25 Nov 2026 23:18:32 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Asian Stocks Set for Gains After Late US Rebound: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 25 Nov 2026 22:10:42 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "UK stocks fall as banks, miners track Wall Street selloff - Reuters",
@@ -23,23 +30,16 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Stocks Continue Fall as Nvidia Reinstatement Rally Fades",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-25/stocks-continue-fall-as-nvidia-reinstatement-rally-fades",
-      "published": "Wed, 25 Nov 2026 19:49:18 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Gold falls 2% on hawkish Fed bets, US inflation data in focus - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2lLRXdXdmpCM0FsdHVpNkdYTWttMDRZd294U3VSZGtqczloSEN5N1VfTzBpbjJLZGYwWm55RDlXSmY0b2tod0tBUl9lbkl4TW13VDBuWEVDYjgxamc4anBNdGhtWTdvUUNiYUp5MDlJVU81Sl9qa283bUIzTUNCU0lZZ1VBdXo2UW5hQmoyT191dFpWODY2aldnOVJmRzVaaV9tZDF2U0hKbmRubUg0TllIendaRzg?oc=5",
+      "published": "Tue, 24 Nov 2026 00:57:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     },
     {
-      "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
-      "link": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 17:45:30 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Nasdaq, S&P 500 ease, but off lows of the day as investors seek bargains - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
-      "published": "Wed, 25 Nov 2026 20:04:52 GMT",
+      "title": "Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa3lvbHFTMGFKUm9paUJYVzFoQzd1QnQtSzAtTlZmSlFyRW5Sc1hic3p2MVV0VWVrYjFkNDdQZlFTUWMzZGFueG5yMTVMcGhLWUxwQi16Ujk5b2ppMVRWTGowaHlMZDQ4Z19xbWpCQTRFVzFHSHhxeW9kbG80OTVtSEZsb3REX29FRFFPR0xzTnFjYXh6?oc=5",
+      "published": "Mon, 23 Nov 2026 23:38:48 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
