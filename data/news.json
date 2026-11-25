@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 17:42 UTC",
+  "updated_at": "2026-11-25 20:20 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,11 @@
   ],
   "articles": [
     {
-      "title": "Gold Slumps on Rate Hike Outlook, AI Stocks Selloff",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-25/gold-slumps-on-rate-hike-outlook-ai-stocks-selloff-video",
-      "published": "Wed, 25 Nov 2026 17:20:41 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Billionaire financier Todd Boehly strikes deal for Lukoil assets",
+      "link": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7?syn-25a6b1a6=1",
+      "published": "Wed, 25 Nov 2026 18:03:33 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
       "title": "UK stocks fall as banks, miners track Wall Street selloff - Reuters",
@@ -23,25 +23,25 @@
       "source_group": "Reuters"
     },
     {
-      "title": "US stocks sell-off deepens as AI trade cracks",
-      "link": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 16:23:34 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Embraer Shares Sink as US Threatens Brazil Aircraft Tariff",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-25/embraer-sinks-most-since-may-as-us-proposes-brazil-aircraft-levy",
-      "published": "Wed, 25 Nov 2026 14:02:53 GMT",
+      "title": "Stocks Continue Fall as Nvidia Reinstatement Rally Fades",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-25/stocks-continue-fall-as-nvidia-reinstatement-rally-fades",
+      "published": "Wed, 25 Nov 2026 19:49:18 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "Nscale says it has option to stay private as tech sell-off threatens $35bn IPO",
-      "link": "https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 22:50:57 GMT",
+      "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
+      "link": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
+      "published": "Wed, 25 Nov 2026 17:45:30 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Nasdaq, S&P 500 ease, but off lows of the day as investors seek bargains - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+      "published": "Wed, 25 Nov 2026 20:04:52 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
