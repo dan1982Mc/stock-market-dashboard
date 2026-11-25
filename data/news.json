@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24 23:41 UTC",
-  "tone": "MIXED",
-  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-25 02:56 UTC",
+  "tone": "CAUTIOUS / RISK-OFF",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -9,18 +9,25 @@
   ],
   "articles": [
     {
-      "title": "US stocks slide as Nvidia rally fizzles out, dollar falls - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
-      "published": "Tue, 24 Nov 2026 01:29:00 GMT",
+      "title": "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTmhnZXlybDNHMVBsX1dUbjhwOVdoaXpPVElUQ0tnOUU3MjJ4X1cwUTlkZFloalpNcE5DMXZxZ19adTNrcW1QbjV0YWpWSTRmVWExZ1l4czRkdE1fY2VDV2d4VWxETklGSGJpalBSMGRkOVpXZUNXQjJHenZKbWR6TUlRWlItU2hGZmhtTmd4XzBfYXlEZlp6TjFxX3dUSWRfOFFsWmFPRTFSX3dVbkNCRDZ0dVEzd0w5b3V4bnlIaFVPOVE?oc=5",
+      "published": "Tue, 24 Nov 2026 14:31:44 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     },
     {
-      "title": "US Readies Tariff Hike on China, EU Goods",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video",
-      "published": "Tue, 24 Nov 2026 21:58:15 GMT",
+      "title": "India’s Anti-AI Stock Trade Confronts Rich Valuations, Global Tariff Risks",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks",
+      "published": "Wed, 25 Nov 2026 02:30:28 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
+    },
+    {
+      "title": "Nscale says it has option to stay private as tech sell-off threatens $35bn IPO",
+      "link": "https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 22:50:57 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
       "title": "Anthropic closes below IPO price as tech rally fades",
@@ -28,13 +35,6 @@
       "published": "Tue, 24 Nov 2026 21:11:37 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
-    },
-    {
-      "title": "Canadian Dollar Gains Most Since August on Inflation Warning",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
-      "published": "Tue, 24 Nov 2026 19:31:25 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
     },
     {
       "title": "Banks regain some ground in the private credit tug of war",
