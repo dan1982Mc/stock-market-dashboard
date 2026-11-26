@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 17:26 UTC",
+  "updated_at": "2026-11-26 19:57 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -8,13 +8,6 @@
     "Reuters"
   ],
   "articles": [
-    {
-      "title": "Oil prices rise after mine strikes on ships revive supply concerns - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHpfX3p2RFoxU2l0SGZVbVdSejdGYkc0NFpERWlxVEtab0pQbGd1NUtqQ3c0cXprdWItUF9fRmVVVElET3BNbklnbElwaC1UZ0xoNnd4dE9Wb2dFVDFGN2JyQ3YyUVhfTWxsNGFWNFNURG5kX1pMdVBtb2QyLXFMaXZPM0ZPdGdud1hWdHFuTEpNQXBtdUh6RmpWcW1jelhTU0JHdmp3dWphb0hB?oc=5",
-      "published": "Thu, 26 Nov 2026 03:08:00 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
-    },
     {
       "title": "Financier Todd Boehly strikes deal for Lukoil assets",
       "link": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7?syn-25a6b1a6=1",
@@ -40,6 +33,13 @@
       "title": "Gold falls 2% on hawkish Fed bets, US inflation data in focus - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2lLRXdXdmpCM0FsdHVpNkdYTWttMDRZd294U3VSZGtqczloSEN5N1VfTzBpbjJLZGYwWm55RDlXSmY0b2tod0tBUl9lbkl4TW13VDBuWEVDYjgxamc4anBNdGhtWTdvUUNiYUp5MDlJVU81Sl9qa283bUIzTUNCU0lZZ1VBdXo2UW5hQmoyT191dFpWODY2aldnOVJmRzVaaV9tZDF2U0hKbmRubUg0TllIendaRzg?oc=5",
       "published": "Tue, 24 Nov 2026 18:53:59 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
+      "title": "Stocks rally, Europe sizes up next ECB chief - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWRTQ2N0czgwTVhPdVhvZDUzeDNDRUJ6cFd0MWx1N05aSTJHaUlOdTQ5X2xieEVueHJ3VTRrb0ppNEtzbFVBRm1fU3VvV0xpMWVlUWg3c0NvWXJxS2ZabkwwejhwenhCVmhYRUdweUwwdHhTTWd1bTh2QlR1dFpvVDFHVQ?oc=5",
+      "published": "Thu, 26 Nov 2026 15:51:24 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
