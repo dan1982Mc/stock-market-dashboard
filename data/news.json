@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 02:03 UTC",
+  "updated_at": "2026-11-26 17:26 UTC",
   "tone": "CAUTIOUS / RISK-OFF",
   "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -9,11 +9,25 @@
   ],
   "articles": [
     {
+      "title": "Oil prices rise after mine strikes on ships revive supply concerns - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHpfX3p2RFoxU2l0SGZVbVdSejdGYkc0NFpERWlxVEtab0pQbGd1NUtqQ3c0cXprdWItUF9fRmVVVElET3BNbklnbElwaC1UZ0xoNnd4dE9Wb2dFVDFGN2JyQ3YyUVhfTWxsNGFWNFNURG5kX1pMdVBtb2QyLXFMaXZPM0ZPdGdud1hWdHFuTEpNQXBtdUh6RmpWcW1jelhTU0JHdmp3dWphb0hB?oc=5",
+      "published": "Thu, 26 Nov 2026 03:08:00 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
+    },
+    {
       "title": "Financier Todd Boehly strikes deal for Lukoil assets",
       "link": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7?syn-25a6b1a6=1",
       "published": "Wed, 25 Nov 2026 23:18:32 GMT",
       "source": "Financial Times",
       "source_group": "Financial Times"
+    },
+    {
+      "title": "Trans-Oil Warns of Going-Concern Risk Pending Debt Waiver",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-26/trans-oil-warns-of-going-concern-risk-pending-debt-waiver",
+      "published": "Thu, 26 Nov 2026 16:39:29 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
       "title": "UK stocks fall as banks, miners track Wall Street selloff - Reuters",
@@ -23,25 +37,11 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Venus Williams on WeWard Deal and Her Investing Mindset",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-25/venus-williams-on-weward-deal-and-her-investing-mindset-video",
-      "published": "Wed, 25 Nov 2026 22:58:49 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
-      "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
-      "link": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 22:24:37 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
-    {
-      "title": "Situational Awareness Lost 65% in Wild Third Quarter, WSJ Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-26/situational-awareness-ai-65-hedge-fund-third-quarter-wsj-says",
-      "published": "Thu, 26 Nov 2026 01:11:41 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "Gold falls 2% on hawkish Fed bets, US inflation data in focus - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2lLRXdXdmpCM0FsdHVpNkdYTWttMDRZd294U3VSZGtqczloSEN5N1VfTzBpbjJLZGYwWm55RDlXSmY0b2tod0tBUl9lbkl4TW13VDBuWEVDYjgxamc4anBNdGhtWTdvUUNiYUp5MDlJVU81Sl9qa283bUIzTUNCU0lZZ1VBdXo2UW5hQmoyT191dFpWODY2aldnOVJmRzVaaV9tZDF2U0hKbmRubUg0TllIendaRzg?oc=5",
+      "published": "Tue, 24 Nov 2026 18:53:59 GMT",
+      "source": "Reuters",
+      "source_group": "Reuters"
     }
   ]
 }
