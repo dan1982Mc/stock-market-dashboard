@@ -1,20 +1,13 @@
 {
-  "updated_at": "2026-11-27 02:02 UTC",
-  "tone": "CAUTIOUS / RISK-OFF",
-  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-27 17:04 UTC",
+  "tone": "MIXED",
+  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
     "Reuters"
   ],
   "articles": [
-    {
-      "title": "Financier Todd Boehly strikes deal for Lukoil assets",
-      "link": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 23:18:32 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
-    },
     {
       "title": "UK stocks fall as banks, miners track Wall Street selloff - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW1VcFBpakVFWW8xQ3dPdGNtZFRQRGJuX2tmOTVZOHBsa2hvQ3hkNHMwVmJvNmo1eHlxd0xkV2xDSFpuSGZqX2hUMWxQUV9xdVl5WTNfOXFRYnRYRGlKcF9xajludy1FQjY3R1dFT2pjYkEyXzRnYkd5amRiSDA4QkZyeFR3N0NKUGZsbDV2SW0xS085Qzl4bHdFSW1HNEVrX0hvbE5HUmo1QQ?oc=5",
@@ -23,25 +16,32 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Brazil Assets Rally After Lula Names Banker as Finance Minister",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
-      "published": "Fri, 27 Nov 2026 01:08:00 GMT",
+      "title": "Gold Rises as Rebound in Tech Stocks Helps Revive Risk Appetite",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-26/gold-steadies-as-fed-rate-path-and-ai-stocks-frame-volatile-week",
+      "published": "Thu, 26 Nov 2026 23:53:35 GMT",
       "source": "Bloomberg",
       "source_group": "Bloomberg"
     },
     {
-      "title": "US Plans for Tariffs Face Pushback",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-27/us-plans-for-tariffs-face-pushback-video",
-      "published": "Fri, 27 Nov 2026 00:15:56 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
+      "title": "92 Labour MPs call for Rosebank oilfield to be rejected",
+      "link": "https://www.ft.com/content/76befc28-cba3-4c9b-bdc3-cced4b304ab1?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 10:21:13 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     },
     {
-      "title": "India's RBI sees broad food inflation pressures; was net dollar buyer in Sept, bulletin shows - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0hxckhBM1hYZ2wzV2hyRFZ2cF9Ud3Nja0VJcjRMbWJibVZfWDM0OHQwcFpTVWE4TWxwV2swbExTeHRab3hzZHJGc1p6ZnEyLVFJLTdSWVU2RWNmSHFHeXBzTEpDQzBUUktOTk5FZXhpa3NHaEZXS2pMTk41T0ktaUxLLVR1RDZieTBYZWl4a21ITm9oS0VyZWQ0c2xTYkZhbllfV2YxLUpZckRWZ1NUdHlaOWJ6NEZYc1d0N1h2SzNjZGdEaGVV?oc=5",
-      "published": "Wed, 25 Nov 2026 13:58:44 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Venezuelan oil magnate defends contentious deal with Trump",
+      "link": "https://www.ft.com/content/2586bde3-a1e1-463c-b5fc-0775e8512d28?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 05:01:01 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
+    },
+    {
+      "title": "Roughnecks lose out to AI as automation in the oil industry gathers pace",
+      "link": "https://www.ft.com/content/da45883c-6612-4071-b363-a826c6edb085?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 05:00:04 GMT",
+      "source": "Financial Times",
+      "source_group": "Financial Times"
     }
   ]
 }
