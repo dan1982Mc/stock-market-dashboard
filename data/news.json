@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26 23:25 UTC",
-  "tone": "MIXED",
-  "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
+  "updated_at": "2026-11-27 02:02 UTC",
+  "tone": "CAUTIOUS / RISK-OFF",
+  "summary": "Multiple independent sources are highlighting meaningful macro or geopolitical risks. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
     "Bloomberg",
     "Financial Times",
@@ -16,13 +16,6 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Copper Rebounds as Tech Rally Lifts Battered Industrial Metals",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
-      "published": "Thu, 26 Nov 2026 02:01:10 GMT",
-      "source": "Bloomberg",
-      "source_group": "Bloomberg"
-    },
-    {
       "title": "UK stocks fall as banks, miners track Wall Street selloff - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW1VcFBpakVFWW8xQ3dPdGNtZFRQRGJuX2tmOTVZOHBsa2hvQ3hkNHMwVmJvNmo1eHlxd0xkV2xDSFpuSGZqX2hUMWxQUV9xdVl5WTNfOXFRYnRYRGlKcF9xajludy1FQjY3R1dFT2pjYkEyXzRnYkd5amRiSDA4QkZyeFR3N0NKUGZsbDV2SW0xS085Qzl4bHdFSW1HNEVrX0hvbE5HUmo1QQ?oc=5",
       "published": "Wed, 25 Nov 2026 17:20:52 GMT",
@@ -30,16 +23,23 @@
       "source_group": "Reuters"
     },
     {
-      "title": "Gold falls 2% on hawkish Fed bets, US inflation data in focus - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2lLRXdXdmpCM0FsdHVpNkdYTWttMDRZd294U3VSZGtqczloSEN5N1VfTzBpbjJLZGYwWm55RDlXSmY0b2tod0tBUl9lbkl4TW13VDBuWEVDYjgxamc4anBNdGhtWTdvUUNiYUp5MDlJVU81Sl9qa283bUIzTUNCU0lZZ1VBdXo2UW5hQmoyT191dFpWODY2aldnOVJmRzVaaV9tZDF2U0hKbmRubUg0TllIendaRzg?oc=5",
-      "published": "Tue, 24 Nov 2026 18:53:59 GMT",
-      "source": "Reuters",
-      "source_group": "Reuters"
+      "title": "Brazil Assets Rally After Lula Names Banker as Finance Minister",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
+      "published": "Fri, 27 Nov 2026 01:08:00 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     },
     {
-      "title": "Stocks rally, Europe sizes up next ECB chief - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWRTQ2N0czgwTVhPdVhvZDUzeDNDRUJ6cFd0MWx1N05aSTJHaUlOdTQ5X2xieEVueHJ3VTRrb0ppNEtzbFVBRm1fU3VvV0xpMWVlUWg3c0NvWXJxS2ZabkwwejhwenhCVmhYRUdweUwwdHhTTWd1bTh2QlR1dFpvVDFHVQ?oc=5",
-      "published": "Thu, 26 Nov 2026 01:35:00 GMT",
+      "title": "US Plans for Tariffs Face Pushback",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-27/us-plans-for-tariffs-face-pushback-video",
+      "published": "Fri, 27 Nov 2026 00:15:56 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
+    },
+    {
+      "title": "India's RBI sees broad food inflation pressures; was net dollar buyer in Sept, bulletin shows - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0hxckhBM1hYZ2wzV2hyRFZ2cF9Ud3Nja0VJcjRMbWJibVZfWDM0OHQwcFpTVWE4TWxwV2swbExTeHRab3hzZHJGc1p6ZnEyLVFJLTdSWVU2RWNmSHFHeXBzTEpDQzBUUktOTk5FZXhpa3NHaEZXS2pMTk41T0ktaUxLLVR1RDZieTBYZWl4a21ITm9oS0VyZWQ0c2xTYkZhbllfV2YxLUpZckRWZ1NUdHlaOWJ6NEZYc1d0N1h2SzNjZGdEaGVV?oc=5",
+      "published": "Wed, 25 Nov 2026 13:58:44 GMT",
       "source": "Reuters",
       "source_group": "Reuters"
     }
