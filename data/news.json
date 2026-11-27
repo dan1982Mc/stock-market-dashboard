@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 17:04 UTC",
+  "updated_at": "2026-11-27 19:45 UTC",
   "tone": "MIXED",
   "summary": "News is mixed across the main market and macro themes. 5 distinct headlines from 3 source groups are used; market indicators remain the primary signal.",
   "sources": [
@@ -37,11 +37,11 @@
       "source_group": "Financial Times"
     },
     {
-      "title": "Roughnecks lose out to AI as automation in the oil industry gathers pace",
-      "link": "https://www.ft.com/content/da45883c-6612-4071-b363-a826c6edb085?syn-25a6b1a6=1",
-      "published": "Fri, 27 Nov 2026 05:00:04 GMT",
-      "source": "Financial Times",
-      "source_group": "Financial Times"
+      "title": "Treasuries Drop as Stock Rise Saps Demand for Haven Bonds",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
+      "published": "Fri, 27 Nov 2026 02:43:08 GMT",
+      "source": "Bloomberg",
+      "source_group": "Bloomberg"
     }
   ]
 }
